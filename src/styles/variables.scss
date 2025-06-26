@@ -1,15 +1,12 @@
 :root {
-    --black: #000000;
-    --darkgrey: #1e1f22;
-    --grey: #454545;
-    --blackgrey: #111111;
-    --lighgrey: #444444;
-    --textgrey: #8e8e8e;
-    --grey: #808080;
-    --lightgrey: #efefef;
-    --lightgrey2: #5C5C5C;
-    --white: #fefefe;
-    --whitepure: #fff;
-    --transparent: #ffffff00;
-    --primary-font: "Zoom Pro Extended Regular", sans-serif;
-  }
+  --white: #fff;
+  --black: #000000;
+  --grey: #636363;
+  --transparent: #ffffff00;
+  --primary-font: "Helvetica Now Display";
+}
+
+[data-theme="light"] {
+  // --white: #000000;
+  --black: #fff;
+}

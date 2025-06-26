@@ -1,13 +1,45 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Grdscrollingsection from '../../components/grdscrollingsection'
 import "./header.scss"
+import { NavLink } from 'react-router-dom'
 
 export default function Header() {
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
   return (
     <>
       <Grdscrollingsection />
       <header>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae dicta facere! Cum quae beatae culpa enim nulla ea sapiente magni? Dolorum earum nobis eius. Nesciunt consectetur quaerat incidunt est.
+        <div className='container'>
+          <div className='header-flx'>
+            <div className='header-logo'>
+              <div className='header-logo-flx'>
+                <span className='header-home-text'>home</span>
+                <span className='logo-box'></span>
+              </div>
+            </div>
+            <div className='header-links-main'>
+              <NavLink to="/">projects,</NavLink>
+              <NavLink to="/">studio,</NavLink>
+              <NavLink to="/">journal</NavLink>
+            </div>
+            <div className='header-right-content'>
+              <div className='header-theme-button-flx'>
+                <span className={theme === "dark" ? 'active' : ''} onClick={() => setTheme('dark')}>dark</span>
+                <span className={theme === "light" ? 'active' : ''}>/</span>
+                <span className={theme === "light" ? 'active' : ''} onClick={() => setTheme('light')}>light</span>
+              </div>
+              <div className='menu-icon'>
+                <span>menu</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
     </>
   )
