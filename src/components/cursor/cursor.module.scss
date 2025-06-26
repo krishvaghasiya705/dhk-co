@@ -1,0 +1,29 @@
+.customcursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999 !important;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  will-change: transform;
+  border-radius: 50%;
+  transition: background-color 0.3s cubic-bezier(0.52, 0.02, 0, 0.99),
+    width 0.3s cubic-bezier(0.52, 0.02, 0, 0.99),
+    height 0.3s cubic-bezier(0.52, 0.02, 0, 0.99);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .customcursor {
+    width: 4vw;
+    height: 4vw;
+    border: 2px solid var(--white);
+    background-color: transparent;
+  }
+
+  .change {
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: var(--white);
+    border: none;
+  }
+}
