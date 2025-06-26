@@ -1,0 +1,200 @@
+.sidebar-main {
+  background-color: var(--black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .sidebar-top-main {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .sidebar-links-main {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+
+      a {
+        padding-right: 12px;
+        display: block;
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 100px;
+        font-family: var(--primary-font);
+        color: var(--white);
+        letter-spacing: 2px;
+      }
+    }
+
+    .sidebar-close-main {
+      margin-top: 16px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 16px;
+
+      .close-text {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        color: var(--white);
+        font-family: var(--primary-font);
+      }
+
+      .close-box {
+        width: 5px;
+        height: 5px;
+        background-color: var(--white);
+      }
+    }
+  }
+
+  .sidebar-mid-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 130px 16px 0 20px;
+
+    .sidebar-mid-left {
+      display: flex;
+      flex-direction: column;
+      align-items: self-start;
+      width: 100%;
+      max-width: 621px;
+
+      .newsletter-text {
+        label {
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: var(--primary-font);
+          color: var(--white);
+          display: block;
+        }
+      }
+
+      .input-flx-main {
+        display: flex;
+        align-items: center;
+
+        .input-clear-button {
+          margin-right: 4px;
+          width: 22px;
+          height: 20px;
+
+          span {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: var(--primary-font);
+            color: var(--white);
+            white-space: nowrap;
+          }
+        }
+
+        input {
+          width: 256px;
+          border: none;
+          outline: none;
+          background-color: var(--transparent);
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: var(--primary-font);
+          color: var(--white);
+        }
+
+        input::placeholder {
+          font-weight: 700;
+        }
+
+        input::-webkit-input-placeholder {
+          font-weight: 700;
+        }
+      }
+
+      .submit-button {
+        background-color: var(--transparent);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: var(--white);
+        font-family: var(--primary-font);
+        opacity: 0.3;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    .sidebar-mid-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+      max-width: 621px;
+
+      a {
+        padding-right: 8px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-family: var(--primary-font);
+        color: var(--white);
+        opacity: 0.3;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .sidebar-bottom-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+
+    .sidebar-bottom-left {
+      max-width: 1115px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .sidebar-bottom-viddeo {
+        height: 240px;
+      }
+
+      video {
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+      }
+    }
+
+    .sidebar-bottom-right {
+      width: 240px;
+      height: 240px;
+    }
+  }
+}

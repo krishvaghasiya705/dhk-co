@@ -1,0 +1,27 @@
+.common-button-main {
+  padding: 0 2px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--transparent);
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  span,
+  .button-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--white);
+    font-family: var(--primary-font);
+  }
+
+  &:hover {
+    background-color: var(--white);
+
+    .button-text {
+      color: var(--black);
+    }
+  }
+}
