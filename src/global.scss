@@ -51,10 +51,9 @@ p {
   padding: 0;
 }
 
-.container {
-  max-width: 1806px;
+.container-full {
+  max-width: 1920px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 ::-moz-selection {
@@ -71,8 +70,3 @@ p {
   width: 0;
   height: 0;
 }
-
-// a,
-// button {
-//   cursor: none;
-// }
