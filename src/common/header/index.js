@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Grdscrollingsection from '../../components/grdscrollingsection'
 import "./header.scss"
 import { NavLink } from 'react-router-dom'
+import Sidebar from '../sidebar';
 
 export default function Header() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
@@ -14,8 +15,8 @@ export default function Header() {
   return (
     <>
       <Grdscrollingsection />
-      <header>
-        <div className='container'>
+      <header className='blend-mode'>
+        <div className='container-full'>
           <div className='header-flx'>
             <div className='header-logo'>
               <div className='header-logo-flx'>
@@ -41,6 +42,7 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <Sidebar />
     </>
   )
 }

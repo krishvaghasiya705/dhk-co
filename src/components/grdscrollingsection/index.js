@@ -9,6 +9,12 @@ import grdimage3 from "../../assets/images/grdimage3.webp"
 import grdimage4 from "../../assets/images/grdimage4.webp"
 import grdimage5 from "../../assets/images/grdimage5.webp"
 
+const imagePairs = [
+  { image1: Dhklogo, alt1: "Dhklogo", image2: grdimage3, alt2: "grdimage3" },
+  { image1: grdimage1, alt1: "grdimage1", image2: grdimage4, alt2: "grdimage4" },
+  { image1: grdimage2, alt1: "grdimage2", image2: grdimage5, alt2: "grdimage5" },
+]
+
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Grdscrollingsection() {
@@ -58,30 +64,16 @@ export default function Grdscrollingsection() {
     <div className='grd-scrolling-section-main' ref={sectionRef}>
       <div className="container-full">
         <div className='grd-scrolling-section'>
-            <div className='grid-scroll-box-main' ref={el => boxRefs.current[0] = el}>
-                <div className='grid-scroll-box-image1' ref={el => image1Refs.current[0] = el}>
-                    <img src={Dhklogo} alt="Dhklogo" />
-                </div>
-                <div className='grid-scroll-box-image2'>
-                    <img src={grdimage3} alt="grdimage3" />
-                </div>
+          {imagePairs.map((pair, i) => (
+            <div className='grid-scroll-box-main' ref={el => boxRefs.current[i] = el} key={i}>
+              <div className='grid-scroll-box-image1' ref={el => image1Refs.current[i] = el}>
+                <img src={pair.image1} alt={pair.alt1} />
+              </div>
+              <div className='grid-scroll-box-image2'>
+                <img src={pair.image2} alt={pair.alt2} />
+              </div>
             </div>
-            <div className='grid-scroll-box-main' ref={el => boxRefs.current[1] = el}>
-                <div className='grid-scroll-box-image1' ref={el => image1Refs.current[1] = el}>
-                    <img src={grdimage1} alt="grdimage1" />
-                </div>
-                <div className='grid-scroll-box-image2'>
-                    <img src={grdimage4} alt="grdimage4" />
-                </div>
-            </div>
-            <div className='grid-scroll-box-main' ref={el => boxRefs.current[2] = el}>
-                <div className='grid-scroll-box-image1' ref={el => image1Refs.current[2] = el}>
-                    <img src={grdimage2} alt="grdimage2" />
-                </div>
-                <div className='grid-scroll-box-image2'>
-                    <img src={grdimage5} alt="grdimage5" />
-                </div>
-            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -56,6 +56,12 @@ p {
   margin: 0 auto;
 }
 
+.container2 {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 ::-moz-selection {
   mix-blend-mode: difference;
   background: rgb(89, 89, 89);
@@ -71,12 +77,16 @@ p {
   height: 0;
 }
 
-@font-face {
-  font-family: "Helvetica Now Display";
-  src: url(font/HelveticaNowDisplay-Black.woff);
+.blend-mode {
+  mix-blend-mode: difference;
 }
 
 @font-face {
   font-family: "Helvetica Now Display";
-  src: url(font/HelveticaNowDisplay-Black.woff2);
+  src: url(font/HelveticaNowDisplay-Regular.woff);
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url(font/HelveticaNowDisplay-Regular.woff2);
 }
