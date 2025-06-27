@@ -1,0 +1,194 @@
+footer {
+  .footer-spacing {
+    padding: 256px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .footer-left {
+      width: 100%;
+      max-width: 465px;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+
+      span,
+      a {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        font-family: var(--primary-font);
+        color: var(--white);
+        mix-blend-mode: difference;
+        transition: 0.3s ease-in-out;
+      }
+
+      a {
+        &:hover {
+          opacity: 0.3;
+        }
+      }
+    }
+
+    .footer-right {
+      width: 100%;
+      max-width: 940px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      .footer-content {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        max-width: 735px;
+
+        .footer-links {
+          width: 100%;
+          max-width: 233px;
+          display: flex;
+          flex-direction: column;
+          a {
+            display: grid;
+            grid-template-columns: 5px 1fr;
+            align-items: center;
+            gap: 8px;
+            transition: 0.3s ease-in-out;
+
+            &.active {
+              .link-active-box {
+                visibility: visible;
+              }
+            }
+
+            .link-active-box {
+              width: 5px;
+              height: 5px;
+              background-color: var(--white);
+              visibility: hidden;
+            }
+
+            .link-text {
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 700;
+              letter-spacing: 1px;
+              font-family: var(--primary-font);
+              color: var(--white);
+            }
+
+            &:hover {
+              opacity: 0.3;
+            }
+          }
+        }
+
+        .footer-social-link {
+          width: 100%;
+          max-width: 233px;
+          display: flex;
+          flex-direction: column;
+
+          a {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: var(--primary-font);
+            color: var(--white);
+            opacity: 0.3;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+
+        .newsletter-form {
+          display: flex;
+          flex-direction: column;
+          align-items: self-start;
+          width: 100%;
+          max-width: 267px;
+
+          .newsletter-text {
+            label {
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 700;
+              letter-spacing: 1px;
+              font-family: var(--primary-font);
+              color: var(--white);
+              display: block;
+            }
+          }
+
+          .input-flx-main {
+            display: flex;
+            align-items: center;
+
+            .input-clear-button {
+              margin-right: 4px;
+              width: 26px;
+              height: 20px;
+
+              span {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                font-family: var(--primary-font);
+                color: var(--white);
+                white-space: nowrap;
+              }
+            }
+
+            input {
+              width: 256px;
+              border: none;
+              outline: none;
+              background-color: var(--transparent);
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 700;
+              letter-spacing: 1px;
+              font-family: var(--primary-font);
+              color: var(--white);
+            }
+
+            input::placeholder {
+              font-weight: 700;
+            }
+
+            input::-webkit-input-placeholder {
+              font-weight: 700;
+            }
+          }
+
+          .common-button-sc-main {
+            background-color: var(--transparent);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--white);
+            font-family: var(--primary-font);
+            opacity: 0.3;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .footer-contact-button {
+        max-width: 160px;
+        width: 100%;
+      }
+    }
+  }
+}

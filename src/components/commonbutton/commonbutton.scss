@@ -1,3 +1,6 @@
+.common-button-link {
+  display: block;
+}
 .common-button-main {
   padding: 0 2px;
   display: flex;
@@ -15,13 +18,14 @@
     font-weight: 700;
     color: var(--white);
     font-family: var(--primary-font);
+    mix-blend-mode: difference;
   }
 
   &:hover {
     background-color: var(--white);
-
-    .button-text {
-      color: var(--black);
-    }
   }
+}
+
+.butonspacefourty {
+  gap: 40px;
 }

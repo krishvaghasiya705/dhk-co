@@ -7,15 +7,29 @@
     gap: 6px;
 
     .home-hero-section-left {
-      font-size: 64px;
-      line-height: 71px;
-      font-weight: 500;
-      color: var(--white);
-      font-family: var(--primary-font);
-      text-align: right;
-      position: sticky;
-      top: 50%;
-      right: 0;
+      
+      h1 {
+        position: sticky;
+        top: 50%;
+        right: 0;
+        font-size: 64px;
+        line-height: 71px;
+        font-weight: 500;
+        color: var(--white);
+        font-family: var(--primary-font);
+        text-align: right;
+      }
+    }
+
+    .home-hero-section-left {
+      span {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        font-family: var(--primary-font);
+        color: var(--white);
+        display: block;
+      }
     }
 
     .home-hero-section-right {
@@ -25,6 +39,16 @@
         font-weight: 500;
         color: var(--white);
         font-family: var(--primary-font);
+      }
+
+      p {
+        padding-top: 48px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        font-family: var(--primary-font);
+        color: var(--white);
+        max-width: 656px;
       }
     }
   }

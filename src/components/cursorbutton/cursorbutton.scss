@@ -1,0 +1,21 @@
+.cursor-button-main {
+  position: fixed;
+  z-index: 999999 !important;
+  padding: 6px 14px 8px;
+  color: var(--white2);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.52, 0.02, 0, 0.99);
+
+  &.visible {
+    opacity: 1;
+  }
+
+  span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    color: var(--white);
+  }
+}

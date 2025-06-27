@@ -7,6 +7,7 @@ import siderbarleftvid2 from "../../assets/video/siderbarleftvid2.mp4"
 import siderbarleftvid3 from "../../assets/video/siderbarleftvid3.mp4"
 import siderbarleftvid4 from "../../assets/video/siderbarleftvid4.mp4"
 import Commonbutton from '../../components/commonbutton'
+import useScrollLock from '../../components/scrolllock'
 import gsap from 'gsap'
 
 export default function Sidebar({ isOpen, onClose }) {
@@ -14,6 +15,8 @@ export default function Sidebar({ isOpen, onClose }) {
     const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
     const sidebarRef = useRef(null);
+
+    useScrollLock();
 
     useEffect(() => {
         if (isOpen) {
@@ -23,24 +26,24 @@ export default function Sidebar({ isOpen, onClose }) {
                 { y: '100%', opacity: 0 },
                 { y: '0%', opacity: 1, stagger: 0.1, duration: 0.6, ease: 'power3.out' }
             )
-            .fromTo(
-                sidebarRef.current.querySelector('.sidebar-close-main'),
-                { opacity: 0 },
-                { opacity: 1, duration: 0.3 },
-                '-=0.3'
-            )
-            .fromTo(
-                sidebarRef.current.querySelector('.sidebar-mid-main'),
-                { opacity: 0 },
-                { opacity: 1, duration: 0.3 },
-                '-=0.2'
-            )
-            .fromTo(
-                sidebarRef.current.querySelector('.sidebar-bottom-main'),
-                { opacity: 0 },
-                { opacity: 1, duration: 0.3 },
-                '-=0.2'
-            );
+                .fromTo(
+                    sidebarRef.current.querySelector('.sidebar-close-main'),
+                    { opacity: 0 },
+                    { opacity: 1, duration: 0.3 },
+                    '-=0.3'
+                )
+                .fromTo(
+                    sidebarRef.current.querySelector('.sidebar-mid-main'),
+                    { opacity: 0 },
+                    { opacity: 1, duration: 0.3 },
+                    '-=0.2'
+                )
+                .fromTo(
+                    sidebarRef.current.querySelector('.sidebar-bottom-main'),
+                    { opacity: 0 },
+                    { opacity: 1, duration: 0.3 },
+                    '-=0.2'
+                );
         }
     }, [isOpen]);
 
@@ -65,7 +68,7 @@ export default function Sidebar({ isOpen, onClose }) {
                         onMouseLeave={() => setHoveredLink(null)}
                     >journal</NavLink>
                 </div>
-                <div className='sidebar-close-main' onClick={onClose} style={{cursor: 'pointer'}}>
+                <div className='sidebar-close-main' onClick={onClose} style={{ cursor: 'pointer' }}>
                     <span className='close-text'>close</span>
                     <span className='close-box'></span>
                 </div>
@@ -87,15 +90,15 @@ export default function Sidebar({ isOpen, onClose }) {
                         )}
                         <input type="email" placeholder='email address' value={email} onChange={e => setEmail(e.target.value)} />
                     </div>
-                    <button type='button' className='submit-button'>{`[ submit ]`}</button>
+                    <button type='button' className='common-button-sc-main'>{`[ submit ]`}</button>
                 </form>
                 <Commonbutton ButtonLink="/" Buttontext="contact us" />
                 <div className='sidebar-mid-right'>
-                    <a href='https://www.instagram.com/dhkarchitects/'>instagram</a>
-                    <a href='https://www.linkedin.com/company/dhk-architects/'>linkedIn</a>
+                    <a href='https://www.instagram.com/dhkarchitects/' target='__blank'>instagram</a>
+                    <a href='https://www.linkedin.com/company/dhk-architects/' target='__blank'>linkedIn</a>
                     <a href='https://www.facebook.com/dhkarchitecture'>facebook</a>
-                    <a href='https://za.pinterest.com/dhkarchitects/'>pinterest</a>
-                    <a href='https://vimeo.com/dhkarchitects'>vimeo</a>
+                    <a href='https://za.pinterest.com/dhkarchitects/' target='__blank'>pinterest</a>
+                    <a href='https://vimeo.com/dhkarchitects' target='__blank'>vimeo</a>
                 </div>
             </div>
             <div className='sidebar-bottom-main blend-mode'>

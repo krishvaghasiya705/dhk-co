@@ -1,0 +1,117 @@
+.journal-section-main {
+  .journal-section {
+    padding: 160px 20px 0;
+
+    .journal-section-title {
+      padding-bottom: 40px;
+
+      h3 {
+        font-size: 64px;
+        line-height: 76px;
+        font-weight: 700;
+        color: var(--white);
+        font-family: var(--primary-font);
+      }
+    }
+
+    .featured-projects-grd {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .featured-box-main {
+        aspect-ratio: 4.6 / 6;
+      }
+
+      .featured-box {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+
+        .featured-box-img {
+          height: 100%;
+          width: 100%;
+        }
+
+        &:hover {
+          .featured-box-content {
+            .featured-box-content-right {
+              .featured-box-content-description {
+                opacity: 1;
+                max-height: 500px;
+              }
+            }
+          }
+        }
+
+        .featured-box-content {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          padding: 10px 10px 24px;
+          background-color: var(--black);
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          transition: 0.3s ease-in-out;
+
+          .featured-box-content-button {
+            border: none;
+            outline: none;
+            padding: 0 6px;
+            background-color: var(--white);
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 500;
+            font-family: var(--primary-font);
+            color: var(--black);
+          }
+
+          .featured-box-content-right {
+            max-width: 454px;
+            transition: 0.3s ease-in-out;
+
+            .featured-box-content-title {
+              font-size: 16px;
+              line-height: 22px;
+              font-weight: 600;
+              font-family: var(--primary-font);
+              color: var(--white);
+              mix-blend-mode: difference;
+              height: 64px;
+            }
+
+            .featured-box-content-description {
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 600;
+              font-family: var(--primary-font);
+              color: var(--white);
+              mix-blend-mode: difference;
+              opacity: 0;
+              max-height: 0;
+              padding-right: 40px;
+              overflow: hidden;
+              transition: max-height 0.5s ease, opacity 0.3s ease;
+            }
+          }
+        }
+      }
+
+      .featured-image-full {
+        aspect-ratio: 14 / 6;
+        grid-column: 3 span;
+      }
+
+      .view-projects-box-main {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
