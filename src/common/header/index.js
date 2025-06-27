@@ -1,28 +1,49 @@
 import React, { useEffect, useState } from 'react'
 import Grdscrollingsection from '../../components/grdscrollingsection'
 import "./header.scss"
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import Sidebar from '../sidebar';
+import dhklogo from "../../assets/images/dhk-logo.webp"
 
 export default function Header() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
   }, [theme]);
 
+  useEffect(() => {
+    if (location.pathname !== '/') {
+      setScrolled(true);
+      return;
+    }
+    const handleScroll = () => {
+      setScrolled(window.scrollY >= 1300);
+    };
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [location.pathname]);
+
   return (
     <>
-      <Grdscrollingsection />
+      {location.pathname === '/' && <Grdscrollingsection />}
       <header className='blend-mode'>
         <div className='container-full'>
           <div className='header-flx'>
-            <div className='header-logo'>
-              <div className='header-logo-flx'>
+            <div className={`header-logo${scrolled ? ' logo-hover-enabled' : ''}`}>
+              <NavLink to={"/"} className='header-logo-flx'>
                 <span className='header-home-text'>home</span>
                 <span className='logo-box'></span>
+              </NavLink>
+              <div className='header-logo-img'>
+                <NavLink to={"/"}>
+                  <img src={dhklogo} alt="dhklogo" />
+                </NavLink>
               </div>
             </div>
             <div className='header-links-main'>

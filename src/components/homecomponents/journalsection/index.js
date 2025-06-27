@@ -72,7 +72,7 @@ export default function Journalsection() {
                 <div className="container-full">
                     <div className='journal-section'>
                         <div className='journal-section-title blend-mode'>
-                            <h3>journal</h3>
+                            <h4>journal</h4>
                         </div>
                         <div className='featured-projects-grd'>
                             {featuredProjectsData.map((item, index) => {

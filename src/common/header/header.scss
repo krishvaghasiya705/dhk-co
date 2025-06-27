@@ -12,6 +12,7 @@ header {
 
     .header-logo {
       width: 160px;
+      position: relative;
 
       .header-logo-flx {
         width: 41px;
@@ -20,6 +21,12 @@ header {
         align-items: center;
         flex-direction: column;
         gap: 16px;
+
+        &.active {
+          .logo-box {
+            display: block;
+          }
+        }
 
         .header-home-text {
           font-size: 16px;
@@ -32,8 +39,22 @@ header {
         .logo-box {
           width: 5px;
           height: 5px;
+          display: none;
           background-color: var(--white);
         }
+      }
+
+
+      .header-logo-img {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        top: -16px;
+        left: -20px;
+        display: none;
+      }
+      &.logo-hover-enabled:hover .header-logo-img {
+        display: block;
       }
     }
 
@@ -75,9 +96,9 @@ header {
           font-family: var(--primary-font);
           cursor: pointer;
           transition: 0.2s ease-in-out;
-          
+
           &.active {
-              cursor: default;  
+            cursor: default;
             color: var(--white);
           }
         }
