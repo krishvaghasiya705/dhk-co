@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useLayoutEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import "./grdscrollingsection.scss"
@@ -22,11 +22,15 @@ export default function Grdscrollingsection() {
   const boxRefs = useRef([]);
   const image1Refs = useRef([]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const section = sectionRef.current;
     if (!section) return;
 
-    ScrollTrigger.create({
+    // Store triggers for cleanup
+    let pinTrigger = null;
+    let animTriggers = [];
+
+    pinTrigger = ScrollTrigger.create({
       trigger: section,
       start: 'top top',
       end: () => `+=${section.offsetHeight}`,
@@ -36,9 +40,9 @@ export default function Grdscrollingsection() {
       scrub: true,
     });
 
-    boxRefs.current.forEach((box, i) => {
-      if (!image1Refs.current[i]) return;
-      gsap.fromTo(
+    animTriggers = boxRefs.current.map((box, i) => {
+      if (!image1Refs.current[i]) return null;
+      return gsap.fromTo(
         image1Refs.current[i],
         { height: '100%' },
         {
@@ -49,33 +53,37 @@ export default function Grdscrollingsection() {
             start: `top+=${100 + i * 100} top`,
             end: `bottom top`,
             scrub: true,
-            containerAnimation: ScrollTrigger.getById('sectionPin'),
           },
         }
-      );
-    });
+      ).scrollTrigger;
+    }).filter(Boolean);
 
     return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      if (pinTrigger) pinTrigger.kill();
+      animTriggers.forEach(trigger => trigger && trigger.kill());
+      boxRefs.current = [];
+      image1Refs.current = [];
     };
   }, []);
 
   return (
-    <div className='grd-scrolling-section-main' ref={sectionRef}>
-      <div className="container-full">
-        <div className='grd-scrolling-section'>
-          {imagePairs.map((pair, i) => (
-            <div className='grid-scroll-box-main' ref={el => boxRefs.current[i] = el} key={i}>
-              <div className='grid-scroll-box-image1' ref={el => image1Refs.current[i] = el}>
-                <img src={pair.image1} alt={pair.alt1} />
+    <>
+      <div className='grd-scrolling-section-main' ref={sectionRef}>
+        <div className="container-full">
+          <div className='grd-scrolling-section'>
+            {imagePairs.map((pair, i) => (
+              <div className='grid-scroll-box-main' ref={el => boxRefs.current[i] = el} key={i}>
+                <div className='grid-scroll-box-image1' ref={el => image1Refs.current[i] = el}>
+                  <img src={pair.image1} alt={pair.alt1} />
+                </div>
+                <div className='grid-scroll-box-image2'>
+                  <img src={pair.image2} alt={pair.alt2} />
+                </div>
               </div>
-              <div className='grid-scroll-box-image2'>
-                <img src={pair.image2} alt={pair.alt2} />
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }

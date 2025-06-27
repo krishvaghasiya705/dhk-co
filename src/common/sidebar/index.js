@@ -54,18 +54,22 @@ export default function Sidebar({ isOpen, onClose }) {
                     <NavLink to={"/"}
                         onMouseEnter={() => setHoveredLink('home')}
                         onMouseLeave={() => setHoveredLink(null)}
+                        onClick={onClose}
                     >home,</NavLink>
-                    <NavLink to={"/"}
+                    <NavLink to={"/projects"}
                         onMouseEnter={() => setHoveredLink('projects')}
                         onMouseLeave={() => setHoveredLink(null)}
+                        onClick={onClose}
                     >projects,</NavLink>
                     <NavLink to={"/"}
                         onMouseEnter={() => setHoveredLink('studio')}
                         onMouseLeave={() => setHoveredLink(null)}
+                        onClick={onClose}
                     >studio,</NavLink>
                     <NavLink to={"/"}
                         onMouseEnter={() => setHoveredLink('journal')}
                         onMouseLeave={() => setHoveredLink(null)}
+                        onClick={onClose}
                     >journal</NavLink>
                 </div>
                 <div className='sidebar-close-main' onClick={onClose} style={{ cursor: 'pointer' }}>
@@ -92,7 +96,9 @@ export default function Sidebar({ isOpen, onClose }) {
                     </div>
                     <button type='button' className='common-button-sc-main'>{`[ submit ]`}</button>
                 </form>
-                <Commonbutton ButtonLink="/" Buttontext="contact us" />
+                <div onClick={onClose}>
+                    <Commonbutton ButtonLink="/" Buttontext="contact us" />
+                </div>
                 <div className='sidebar-mid-right'>
                     <a href='https://www.instagram.com/dhkarchitects/' target='__blank'>instagram</a>
                     <a href='https://www.linkedin.com/company/dhk-architects/' target='__blank'>linkedIn</a>

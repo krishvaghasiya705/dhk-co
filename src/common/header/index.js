@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Grdscrollingsection from '../../components/grdscrollingsection'
 import "./header.scss"
 import { NavLink, useLocation } from 'react-router-dom'
 import Sidebar from '../sidebar';
@@ -12,30 +11,26 @@ export default function Header() {
   const location = useLocation();
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
-  useEffect(() => {
-    if (location.pathname !== '/') {
+    if (location.pathname === "/") {
+      const handleScroll = () => {
+        setScrolled(window.scrollY >= 1200);
+      };
+      window.addEventListener('scroll', handleScroll);
+      handleScroll();
+      return () => window.removeEventListener('scroll', handleScroll);
+    } else {
       setScrolled(true);
-      return;
     }
-    const handleScroll = () => {
-      setScrolled(window.scrollY >= 1300);
-    };
-    window.addEventListener('scroll', handleScroll);
-    handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
   }, [location.pathname]);
 
+  const logoHoverEnabled = location.pathname === "/" ? scrolled : true;
+
   return (
-    <>
-      {location.pathname === '/' && <Grdscrollingsection />}
+    <> 
       <header className='blend-mode'>
         <div className='container-full'>
           <div className='header-flx'>
-            <div className={`header-logo${scrolled ? ' logo-hover-enabled' : ''}`}>
+            <div className={`header-logo${logoHoverEnabled ? ' logo-hover-enabled' : ''}`}>
               <NavLink to={"/"} className='header-logo-flx'>
                 <span className='header-home-text'>home</span>
                 <span className='logo-box'></span>
@@ -47,7 +42,7 @@ export default function Header() {
               </div>
             </div>
             <div className='header-links-main'>
-              <NavLink to={"/"}>projects,</NavLink>
+              <NavLink to={"/projects"}>projects,</NavLink>
               <NavLink to={"/"}>studio,</NavLink>
               <NavLink to={"/"}>journal</NavLink>
             </div>

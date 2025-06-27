@@ -1,5 +1,4 @@
 import React from 'react'
-import "./home.scss"
 import HomeHerosection from '../../components/homecomponents/herosection'
 import Ourstorysection from '../../components/homecomponents/ourstorysection'
 import Featuredprojects from '../../components/homecomponents/feturedprojects'
