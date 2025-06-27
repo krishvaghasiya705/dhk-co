@@ -26,7 +26,7 @@ export default function Header() {
   const logoHoverEnabled = location.pathname === "/" ? scrolled : true;
 
   return (
-    <> 
+    <>
       <header className='blend-mode'>
         <div className='container-full'>
           <div className='header-flx'>
@@ -42,9 +42,9 @@ export default function Header() {
               </div>
             </div>
             <div className='header-links-main'>
-              <NavLink to={"/projects"}>projects,</NavLink>
-              <NavLink to={"/"}>studio,</NavLink>
-              <NavLink to={"/"}>journal</NavLink>
+              <NavLink to={"/projects"}>projects, <span></span></NavLink>
+              <NavLink to={"/"}>studio, <span></span></NavLink>
+              <NavLink to={"/"}>journal <span></span></NavLink>
             </div>
             <div className='header-right-content'>
               <div className='header-theme-button-flx'>
