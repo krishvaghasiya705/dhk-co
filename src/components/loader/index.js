@@ -30,23 +30,20 @@ export default function Loader() {
         if (currentIndex < images.length - 1) {
             const timer = setTimeout(() => {
                 setCurrentIndex(currentIndex + 1);
-            }, 200); // 0.2s per image (faster)
+            }, 200);
             return () => clearTimeout(timer);
         } else {
-            // Last image: stay 0.5s longer (0.7s total)
             const timer = setTimeout(() => {
                 setHide(true);
-            }, 700); // 0.7s for last image
+            }, 700);
             return () => clearTimeout(timer);
         }
     }, [currentIndex, show]);
-
-    // After hide animation, unmount loader
     useEffect(() => {
         if (hide) {
             const timer = setTimeout(() => {
                 setShow(false);
-            }, 700); // match CSS transition duration
+            }, 700);
             return () => clearTimeout(timer);
         }
     }, [hide]);
