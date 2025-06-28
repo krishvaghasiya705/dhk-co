@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@barba/core": "^2.10.3",
+    "@barba/css": "^2.1.16",
     "@studio-freight/lenis": "^1.0.42",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

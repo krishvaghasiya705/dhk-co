@@ -2,12 +2,13 @@ import React from 'react'
 import "./commonbutton.scss"
 import { NavLink } from 'react-router-dom';
 
-export default function Commonbutton({ ButtonLink, Buttontext, Buttonclass }) {
+export default function Commonbutton({ ButtonLink, Buttontext, Buttonclass, Buttonicon, ButtonHover }) {
     const isLink = ButtonLink && ButtonLink !== 'none';
     const buttonContent = (
-        <button type='button' className={`${Buttonclass} common-button-main blend-mode`}>
+        <button type='button' className={`${Buttonclass} common-button-main blend-mode ${ButtonHover === 'none' ? 'no-hover' : ''}`}>
             <span>{"["}</span>
-            <span className='button-text'>{Buttontext}</span>
+            {Buttontext && <span className='button-text'>{Buttontext}</span>}
+            {Buttonicon}
             <span>{"]"}</span>
         </button>
     );

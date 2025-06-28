@@ -3,11 +3,16 @@ import "./header.scss"
 import { NavLink, useLocation } from 'react-router-dom'
 import Sidebar from '../sidebar';
 import dhklogo from "../../assets/images/dhk-logo.webp"
+import Commonbutton from '../../components/commonbutton';
+import Dropdownicon from '../../assets/icons/dropdownicon';
+import { useTheme } from '../../contexts/ThemeContext';
 
 export default function Header() {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+  const { theme, toggleTheme } = useTheme();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState('all projects');
   const location = useLocation();
 
   useEffect(() => {
@@ -24,6 +29,35 @@ export default function Header() {
   }, [location.pathname]);
 
   const logoHoverEnabled = location.pathname === "/" ? scrolled : true;
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  const handleDropdownItemClick = (itemText, displayText) => {
+    // If the display text is "all projects", it means this item was previously selected
+    // and now shows "all projects", so clicking it should reset to default
+    if (displayText === 'all projects') {
+      setSelectedItem('all projects');
+    } else {
+      // Swap the selected item with the clicked item
+      setSelectedItem(itemText);
+    }
+
+    // Close dropdown after selection
+    setDropdownOpen(false);
+  };
+
+  const dropdownItems = [
+    'urban design',
+    'sustainable',
+    'retail',
+    'residential',
+    'public + education',
+    'office',
+    'mixed-use',
+    'hospitality'
+  ];
 
   return (
     <>
@@ -42,15 +76,44 @@ export default function Header() {
               </div>
             </div>
             <div className='header-links-main'>
-              <NavLink to={"/projects"}>projects, <span></span></NavLink>
-              <NavLink to={"/studio"}>studio, <span></span></NavLink>
-              <NavLink to={"/journal"}>journal <span></span></NavLink>
+              <div>
+                {location.pathname === '/projects' &&
+                  <div className='header-dropdown-main'>
+                    <div className={`header-dropdown${dropdownOpen ? ' active' : ''}`} onClick={toggleDropdown}>
+                      <Commonbutton ButtonLink="none" Buttonclass="butonspacefour" ButtonHover="none" Buttonicon={<Dropdownicon />} />
+                      <p className='blend-mode'>{selectedItem}</p>
+                    </div>
+                    {dropdownOpen && (
+                      <div className='header-dropdown-body blend-mode'>
+                        {dropdownItems.map((item, index) => {
+                          const displayText = item === selectedItem ? 'all projects' : item;
+                          return (
+                            <p
+                              key={index}
+                              onClick={() => handleDropdownItemClick(item, displayText)}
+                              className={item === selectedItem ? 'selected' : ''}
+                            >
+                              {displayText}
+                            </p>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                }
+              </div>
+              <div className='header-links-flx'>
+                <NavLink to={"/projects"}>projects, <span></span></NavLink>
+                <NavLink to={"/studio"}>studio, <span></span></NavLink>
+                <NavLink to={"/journal"}>journal <span></span></NavLink>
+              </div>
             </div>
+
             <div className='header-right-content'>
               <div className='header-theme-button-flx'>
-                <span className={theme === "dark" ? 'active' : ''} onClick={() => setTheme('dark')}>dark</span>
+                <span className={theme === "dark" ? 'active' : ''} onClick={() => toggleTheme('dark')}>dark</span>
                 <span className={theme === "light" ? 'active' : ''}>/</span>
-                <span className={theme === "light" ? 'active' : ''} onClick={() => setTheme('light')}>light</span>
+                <span className={theme === "light" ? 'active' : ''} onClick={() => toggleTheme('light')}>light</span>
               </div>
               <div className='menu-icon' onClick={() => setSidebarOpen(true)}>
                 <span>menu</span>

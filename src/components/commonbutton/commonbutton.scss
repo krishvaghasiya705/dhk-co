@@ -21,6 +21,16 @@
     mix-blend-mode: difference;
   }
 
+  svg {
+    width: 12px;
+    height: 8px;
+    mix-blend-mode: difference;
+
+    path {
+      color: var(--white);
+    }
+  }
+
   &:hover {
     background-color: var(--white);
   }
@@ -28,4 +38,14 @@
 
 .butonspacefourty {
   gap: 40px;
+}
+
+.butonspacefour {
+  gap: 4px;
+}
+
+.no-hover {
+  &:hover {
+    background-color: var(--transparent) !important;
+  }
 }

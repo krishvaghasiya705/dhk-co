@@ -7,7 +7,7 @@ header {
   .header-flx {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     padding: 16px 20px;
 
     .header-logo {
@@ -59,46 +59,98 @@ header {
 
     .header-links-main {
       display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-left: 350px;
+      justify-content: space-between;
+      align-items: start;
+      padding-right: 200px;
+      max-width: 850px;
+      width: 100%;
 
-      a {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 700;
-        color: var(--white);
-        font-family: var(--primary-font);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
-        transition: 0.2s ease-in-out;
+      .header-dropdown-main {
+        position: relative;
+        .header-dropdown {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          cursor: pointer;
 
-        &:hover {
-          color: var(--grey);
-        }
-
-        &.active {
-          &:hover {
-            span {
-              background-color: var(--grey);
+          &.active {
+            svg {
+              rotate: 180deg;
             }
           }
-          span {
-            visibility: visible;
-            opacity: 1;
+          p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+            color: var(--white);
+            font-family: var(--primary-font);
           }
         }
 
-        span {
-          width: 5px;
-          height: 5px;
-          background-color: var(--white);
-          visibility: hidden;
-          opacity: 0;
+        .header-dropdown-body {
+          position: absolute;
+          top: 25px;
+          left: 45px;
+          display: flex;
+          flex-direction: column;
+          width: max-content;
+          padding: 16px;
+          border-radius: 4px;
+
+          p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+            color: var(--white);
+            font-family: var(--primary-font);
+            cursor: pointer;
+          }
+        }
+      }
+
+      .header-links-flx {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 12px;
+
+        a {
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 700;
+          color: var(--white);
+          font-family: var(--primary-font);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 16px;
           transition: 0.2s ease-in-out;
+
+          &:hover {
+            color: var(--grey);
+          }
+
+          &.active {
+            &:hover {
+              span {
+                background-color: var(--grey);
+              }
+            }
+            span {
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+
+          span {
+            width: 5px;
+            height: 5px;
+            background-color: var(--white);
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.2s ease-in-out;
+          }
         }
       }
     }
