@@ -29,7 +29,7 @@ export default function Loader() {
         if (!show) return;
         if (currentIndex < images.length - 1) {
             const timer = setTimeout(() => {
-                setCurrentIndex(currentIndex + 1);
+                setCurrentIndex(prev => prev + 1);
             }, 200);
             return () => clearTimeout(timer);
         } else {
