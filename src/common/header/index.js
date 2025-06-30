@@ -111,9 +111,11 @@ export default function Header() {
 
             <div className='header-right-content'>
               <div className='header-theme-button-flx'>
-                <span className={theme === "dark" ? 'active' : ''} onClick={() => toggleTheme('dark')}>dark</span>
-                <span className={theme === "light" ? 'active' : ''}>/</span>
-                <span className={theme === "light" ? 'active' : ''} onClick={() => toggleTheme('light')}>light</span>
+                {location.pathname === '/' && <>
+                  <span className={theme === "dark" ? 'active' : ''} onClick={() => toggleTheme('dark')}>dark</span>
+                  <span className={theme === "light" ? 'active' : ''}>/</span>
+                  <span className={theme === "light" ? 'active' : ''} onClick={() => toggleTheme('light')}>light</span>
+                </>}
               </div>
               <div className='menu-icon' onClick={() => setSidebarOpen(true)}>
                 <span>menu</span>
