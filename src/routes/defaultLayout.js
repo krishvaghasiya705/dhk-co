@@ -11,7 +11,7 @@ export default function DefaultLayout() {
     const location = useLocation();
     return (
         <>
-            {/* <Loader /> */}
+            <Loader />
             <LenisScroll />
             <Cursor />
             {location.pathname === '/' && <Grdscrollingsection />}
