@@ -8,11 +8,19 @@
   .projects-top {
     display: grid;
     grid-template-columns: 475px 1fr;
-    padding-left: 20px;
-    align-items: flex-end;
+    padding: 0 20px;
+    align-items: start;
 
     .projects-top-left {
       height: 170px;
+      margin-top: 64px;
+
+      &.active {
+        margin-top: 0;
+        position: sticky;
+        top: 50%;
+      }
+
       .projects-top-left-flx {
         display: flex;
         align-items: center;
@@ -46,6 +54,118 @@
           letter-spacing: 2px;
         }
       }
+
+      .projects-top-right-list {
+        display: flex;
+        flex-direction: column;
+
+        .projects-top-right-list-box-main {
+          cursor: pointer;
+
+          &:hover {
+            .projects-top-right-list-box-content {
+              .projects-top-right-list-box-content-number {
+                .content-number {
+                  color: var(--white);
+                  display: none;
+                }
+
+                .projects-view-button {
+                  display: block;
+                }
+              }
+
+              .projects-top-right-list-box-content-title-line {
+                p,
+                span {
+                  color: var(--white);
+                }
+              }
+
+              .projects-top-right-list-box-content-year {
+                span {
+                  color: var(--white);
+                }
+              }
+            }
+
+            .projects-top-right-list-box-image {
+              display: flex;
+            }
+          }
+
+          .projects-top-right-list-box-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 4px;
+            padding: 6px 0;
+
+            .projects-top-right-list-box-content-number {
+              width: 100%;
+              max-width: 156px;
+              display: flex;
+              justify-content: flex-start;
+
+              .content-number {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                color: var(--grey);
+                font-family: var(--primary-font);
+              }
+
+              .projects-view-button {
+                display: none;
+              }
+            }
+
+            .projects-top-right-list-box-content-title-line {
+              width: calc(100% - 156px - 156px);
+              display: flex;
+              justify-content: space-between;
+              align-self: flex-start;
+
+              p,
+              span {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                color: var(--grey);
+                font-family: var(--primary-font);
+              }
+            }
+
+            .projects-top-right-list-box-content-year {
+              width: 100%;
+              max-width: 156px;
+              display: flex;
+              justify-content: flex-end;
+
+              span {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                color: var(--grey);
+                font-family: var(--primary-font);
+              }
+            }
+          }
+
+          .projects-top-right-list-box-image {
+            display: none;
+            width: 100%;
+            flex-wrap: wrap;
+
+            img {
+              height: 88px;
+              width: auto;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -57,6 +177,7 @@
       padding-left: 20px;
       cursor: pointer;
       overflow: hidden;
+      background-color: var(--black);
 
       &:hover {
         .projects-left-main {
@@ -84,7 +205,6 @@
         justify-content: space-between;
         width: 100%;
         max-width: 475px;
-        background-color: var(--black);
 
         .projects-left-content {
           display: flex;
