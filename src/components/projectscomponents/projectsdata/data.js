@@ -172,7 +172,6 @@ import cityliftimage2 from "../../../assets/images/cityliftimage2.webp"
 import cityliftimage3 from "../../../assets/images/cityliftimage3.webp"
 import cityliftimage4 from "../../../assets/images/cityliftimage4.webp"
 
-
 const projects = [
     {
         number: '01',
