@@ -70,6 +70,7 @@ export default function Projectscomponent() {
                                 <span
                                     className={viewMode === 'grid' ? 'active' : ''}
                                     onClick={() => setViewMode('grid')}
+                                    data-cursor-hover
                                 >
                                     grid
                                 </span>
@@ -77,6 +78,7 @@ export default function Projectscomponent() {
                                 <span
                                     className={viewMode === 'list' ? 'active' : ''}
                                     onClick={() => setViewMode('list')}
+                                    data-cursor-hover
                                 >
                                     list
                                 </span>
@@ -111,7 +113,7 @@ export default function Projectscomponent() {
                                                 <div className='projects-top-right-list-box-image'>
                                                     {Array.isArray(project.data) && project.data.length > 0 ? (
                                                         project.data.map((img, i) => (
-                                                            <img key={i} src={img} alt={project.title + ' image ' + (i+1)} />
+                                                            <img key={i} src={img} alt={project.title + ' image ' + (i + 1)} />
                                                         ))
                                                     ) : (
                                                         <img src={project.image} alt={project.title} />
