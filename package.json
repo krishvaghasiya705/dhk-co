@@ -5,6 +5,7 @@
   "dependencies": {
     "@barba/core": "^2.10.3",
     "@barba/css": "^2.1.16",
+    "@gsap/react": "^2.1.2",
     "@studio-freight/lenis": "^1.0.42",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

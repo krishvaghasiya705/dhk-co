@@ -34,24 +34,25 @@
       }
     }
 
-    .projects-top-right {
-      height: 234px;
-      h1 {
-        font-size: 84px;
-        font-weight: 700;
-        line-height: 100px;
-        font-family: var(--primary-font);
-        color: var(--white);
-        letter-spacing: 2px;
+    .projects-top-right-main {
+      .projects-top-right {
+        height: 234px;
+        h1 {
+          font-size: 84px;
+          font-weight: 700;
+          line-height: 100px;
+          font-family: var(--primary-font);
+          color: var(--white);
+          letter-spacing: 2px;
+        }
       }
     }
   }
 
   .projects-bottom-flx {
-    overflow: visible !important;
     .projects-bottom {
       display: flex;
-
+      height: 17%;
       align-items: flex-start;
       padding-left: 20px;
       cursor: pointer;
@@ -83,6 +84,7 @@
         justify-content: space-between;
         width: 100%;
         max-width: 475px;
+        background-color: var(--black);
 
         .projects-left-content {
           display: flex;
@@ -125,16 +127,10 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        position: relative;
         aspect-ratio: 21.38 / 12;
-
-        img {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          transform-origin: 50% 100%;
-        }
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
       }
     }
   }
