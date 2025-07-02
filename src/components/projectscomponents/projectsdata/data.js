@@ -61,8 +61,6 @@ import projectsimage60 from "../../../assets/images/projectsimage60.webp"
 import projectsimage61 from "../../../assets/images/projectsimage61.webp"
 import projectsimage62 from "../../../assets/images/projectsimage62.webp"
 
-
-
 import almarjanimage1 from "../../../assets/images/almarjanimage1.webp"
 import almarjanimage2 from "../../../assets/images/almarjanimage2.webp"
 import almarjanimage3 from "../../../assets/images/almarjanimage3.webp"
@@ -471,6 +469,8 @@ import springfieldestatesliderimage12 from "../../../assets/images/springfieldes
 
 import bishopsacademicsliderimage1 from "../../../assets/images/bishopsacademicsliderimage1.jpg"
 
+
+// pending from => bishops-academic-learning-centre
 const projects = [
     {
         number: '01',
@@ -1581,29 +1581,29 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Bishops Academic Learning Centre",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The new multimedia academic learning centre at Bishops Diocesan College in Rondebosch, Cape Town, was completed in 2024. The design combines the expertise of our architecture team and interior design team at dhk Interior Design. The project comprises the transformation of a cluster of existing different rooms and functions which previously adjoined the library into a multimedia-based learning hub in the heart of the academic precinct. The existing facility had become outdated and needed to be better connected to surrounding buildings, movement routes and the landscape. The key requirement was to expand the learning environment, with built-in flexibility to configure the spaces as needs arise.",
+                    "The result is a contemporary insertion, as a hub surrounded by a mix of building styles, some historical and others more modern. Extensive glazing at the ground floor creates a virtual wall that enables a sense of openness and connection to the surrounding gardens and buildings despite the tightness of the location. It also allows for a direct relationship to a terraced outdoor space which can be used as a spill out area for gatherings or outdoor learning. Both existing walls which have been preserved and those that are new feature deep, angled reveals and chamfered, shaped windowsills. Long narrow windows create an effective, playful aesthetic impact, while also helping to control light hitting the east and west façades.",
+                    "Internally, the space can be sub-divided to accommodate flexible learning configurations. The accommodation is arranged around a spindle, with staffrooms on the upper levels that upgrade staff facilities to a more multi-functional environment. These rooms feature easily accessible booths, meeting pods and breakaway rooms. A new Information and Communications Technology (ICT) centre is accessed from this area too, providing a permanent, dedicated ICT centre to staff and learners alike. This crucial hub provides services to teachers and administrators, and also learners, so ease of access and security were of equal importance.",
+                    "The interiors by dhk Interior Design are configured as a calm backdrop against to stimulate learning and development. The interiors are designed deliberately to not mimic design trends or use design gimmicks; rather, the aesthetic treatment reflects the ethos and longevity of the campus, by honouring the Bishops brand identity with a complementary colour palette. The interior design follows a visual thread expressing all elements of the building’s architecture. Materials are robust and durable, but natural timbers make the space warm and inviting, while concrete and steel reflect the exterior language. The furniture selection prioritises flexibility, with pull-out ottomans, multipurpose and multifunctional furniture and shelving that can be configured to respond to learning needs.",
+                    "The Bishops Learning Centre represents an example of how existing buildings can be reused, preserving their historical personality while facilitating 21st Century learning."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
+                method: "",
+                client: "Bishops Diocesan College",
+                status: "built",
+                year: "2024",
                 services: "architecture, urban design",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "public + education"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/vWZ5gaUFEGZzaRBC6",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
+                        image: bishopsacademicsliderimage1,
+                        title: "Bishops Academic Learning Centre",
+                        number: ""
                     }
                 ]
             }

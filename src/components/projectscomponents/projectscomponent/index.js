@@ -1,10 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useLayoutEffect } from 'react';
 import "./projectscomponent.scss"
 import Commonbutton from './../../commonbutton/index';
 import Projects from '../projectsdata/data';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { NavLink } from 'react-router-dom';
+import { useProjectFilter } from '../../../contexts/ProjectFilterContext';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,6 +13,7 @@ export default function Projectscomponent() {
     const projectsRef = useRef([]);
     const imagesRef = useRef([]);
     const [viewMode, setViewMode] = useState('grid');
+    const { filter } = useProjectFilter();
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -20,11 +22,30 @@ export default function Projectscomponent() {
         })
     }
 
+    const filteredProjects = filter === 'all projects'
+        ? Projects
+        : Projects.filter(project =>
+            project.pagedata &&
+            project.pagedata[0] &&
+            Array.isArray(project.pagedata[0].tags) &&
+            project.pagedata[0].tags.includes(filter)
+        );
+
+    // Clear refs when filteredProjects changes
     useEffect(() => {
-        // Clean up any existing ScrollTriggers
+        projectsRef.current = [];
+        imagesRef.current = [];
+    }, [filteredProjects]);
+
+    useLayoutEffect(() => {
+        // Clean up any existing ScrollTriggers before setting up new ones
         ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
         if (viewMode === 'grid') {
+            // Sync refs with filteredProjects length
+            projectsRef.current = projectsRef.current.slice(0, filteredProjects.length);
+            imagesRef.current = imagesRef.current.slice(0, filteredProjects.length);
+
             projectsRef.current.forEach((el, i) => {
                 if (!el) return;
                 ScrollTrigger.create({
@@ -57,7 +78,7 @@ export default function Projectscomponent() {
         return () => {
             ScrollTrigger.getAll().forEach(trigger => trigger.kill());
         };
-    }, [viewMode]);
+    }, [viewMode, filteredProjects]);
 
     return (
         <>
@@ -92,8 +113,8 @@ export default function Projectscomponent() {
                             )}
                             <div>
                                 {viewMode === 'list' && (
-                                    <div className='projects-top-right-list'>
-                                        {Projects.map((project, idx) => (
+                                    <div className='projects-top-right-list' key={filter}>
+                                        {filteredProjects.map((project, idx) => (
                                             <NavLink to={`/projects/${project.title.replace(/\s+/g, '-').toLowerCase()}`} className='projects-top-right-list-box-main' key={idx}>
                                                 <div className='projects-top-right-list-box-content'>
                                                     <div className='projects-top-right-list-box-content-number blend-mode'>
@@ -127,8 +148,8 @@ export default function Projectscomponent() {
                         </div>
                     </div>
                     {viewMode === 'grid' && (
-                        <div className='projects-bottom-flx'>
-                            {Projects.map((project, idx) => (
+                        <div className='projects-bottom-flx' key={filter}>
+                            {filteredProjects.map((project, idx) => (
                                 <NavLink
                                     to={`/projects/${project.title.replace(/\s+/g, '-').toLowerCase()}`}
                                     className='projects-bottom'

@@ -6,13 +6,14 @@ import dhklogo from "../../assets/images/dhk-logo.webp"
 import Commonbutton from '../../components/commonbutton';
 import Dropdownicon from '../../assets/icons/dropdownicon';
 import { useTheme } from '../../contexts/ThemeContext';
+import { useProjectFilter } from '../../contexts/ProjectFilterContext';
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedItem, setSelectedItem] = useState('all projects');
+  const { filter: selectedItem, setFilter: setSelectedItem } = useProjectFilter();
   const location = useLocation();
 
   useEffect(() => {
@@ -35,16 +36,11 @@ export default function Header() {
   };
 
   const handleDropdownItemClick = (itemText, displayText) => {
-    // If the display text is "all projects", it means this item was previously selected
-    // and now shows "all projects", so clicking it should reset to default
     if (displayText === 'all projects') {
       setSelectedItem('all projects');
     } else {
-      // Swap the selected item with the clicked item
       setSelectedItem(itemText);
     }
-
-    // Close dropdown after selection
     setDropdownOpen(false);
   };
 
