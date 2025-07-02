@@ -172,6 +172,179 @@ import cityliftimage2 from "../../../assets/images/cityliftimage2.webp"
 import cityliftimage3 from "../../../assets/images/cityliftimage3.webp"
 import cityliftimage4 from "../../../assets/images/cityliftimage4.webp"
 
+import delairegraffimage1 from "../../../assets/images/delairegraffimage1.webp"
+import delairegraffimage2 from "../../../assets/images/delairegraffimage2.webp"
+import delairegraffimage3 from "../../../assets/images/delairegraffimage3.webp"
+import delairegraffimage4 from "../../../assets/images/delairegraffimage4.webp"
+import delairegraffimage5 from "../../../assets/images/delairegraffimage5.webp"
+
+import parklandsimage1 from "../../../assets/images/parklandsimage1.webp"
+import parklandsimage2 from "../../../assets/images/parklandsimage2.webp"
+import parklandsimage3 from "../../../assets/images/parklandsimage3.webp"
+import parklandsimage4 from "../../../assets/images/parklandsimage4.webp"
+import parklandsimage5 from "../../../assets/images/parklandsimage5.webp"
+
+import quadrantimage1 from "../../../assets/images/quadrantimage1.webp"
+import quadrantimage2 from "../../../assets/images/quadrantimage2.webp"
+import quadrantimage3 from "../../../assets/images/quadrantimage3.webp"
+
+import areapiliimage1 from "../../../assets/images/areapiliimage1.webp"
+import areapiliimage2 from "../../../assets/images/areapiliimage2.webp"
+import areapiliimage3 from "../../../assets/images/areapiliimage3.webp"
+import areapiliimage4 from "../../../assets/images/areapiliimage4.webp"
+
+import axisimage1 from "../../../assets/images/axisimage1.webp"
+import axisimage2 from "../../../assets/images/axisimage2.webp"
+import axisimage3 from "../../../assets/images/axisimage3.webp"
+import axisimage4 from "../../../assets/images/axisimage4.webp"
+
+import conradieparkimage1 from "../../../assets/images/conradieparkimage1.webp"
+import conradieparkimage2 from "../../../assets/images/conradieparkimage2.webp"
+import conradieparkimage3 from "../../../assets/images/conradieparkimage3.webp"
+import conradieparkimage4 from "../../../assets/images/conradieparkimage4.webp"
+import conradieparkimage5 from "../../../assets/images/conradieparkimage5.webp"
+
+import norvalimage1 from "../../../assets/images/norvalimage1.webp"
+import norvalimage2 from "../../../assets/images/norvalimage2.webp"
+import norvalimage3 from "../../../assets/images/norvalimage3.webp"
+import norvalimage4 from "../../../assets/images/norvalimage4.webp"
+import norvalimage5 from "../../../assets/images/norvalimage5.webp"
+
+import sableparkimage1 from "../../../assets/images/sableparkimage1.webp"
+import sableparkimage2 from "../../../assets/images/sableparkimage2.webp"
+import sableparkimage3 from "../../../assets/images/sableparkimage3.webp"
+import sableparkimage4 from "../../../assets/images/sableparkimage4.webp"
+import sableparkimage5 from "../../../assets/images/sableparkimage5.webp"
+
+import waterwayhouseimage1 from "../../../assets/images/waterwayhouseimage1.webp"
+import waterwayhouseimage2 from "../../../assets/images/waterwayhouseimage2.webp"
+import waterwayhouseimage3 from "../../../assets/images/waterwayhouseimage3.webp"
+import waterwayhouseimage4 from "../../../assets/images/waterwayhouseimage4.webp"
+
+import baywestmallimage1 from "../../../assets/images/baywestmallimage1.webp"
+import baywestmallimage2 from "../../../assets/images/baywestmallimage2.webp"
+import baywestmallimage3 from "../../../assets/images/baywestmallimage3.webp"
+import baywestmallimage4 from "../../../assets/images/baywestmallimage4.webp"
+
+import bridgeparkimage1 from "../../../assets/images/bridgeparkimage1.webp"
+import bridgeparkimage2 from "../../../assets/images/bridgeparkimage2.jpg"
+import bridgeparkimage3 from "../../../assets/images/bridgeparkimage3.webp"
+import bridgeparkimage4 from "../../../assets/images/bridgeparkimage4.webp"
+
+import dainfernimage1 from "../../../assets/images/dainfernimage1.webp"
+import dainfernimage2 from "../../../assets/images/dainfernimage2.webp"
+import dainfernimage3 from "../../../assets/images/dainfernimage3.webp"
+
+import newtownimage1 from "../../../assets/images/newtownimage1.webp"
+import newtownimage2 from "../../../assets/images/newtownimage2.webp"
+import newtownimage3 from "../../../assets/images/newtownimage3.webp"
+import newtownimage4 from "../../../assets/images/newtownimage4.webp"
+import newtownimage5 from "../../../assets/images/newtownimage5.jpg"
+
+import oxfordparksimage1 from "../../../assets/images/oxfordparksimage1.webp"
+import oxfordparksimage2 from "../../../assets/images/oxfordparksimage2.webp"
+import oxfordparksimage3 from "../../../assets/images/oxfordparksimage3.webp"
+import oxfordparksimage4 from "../../../assets/images/oxfordparksimage4.webp"
+import oxfordparksimage5 from "../../../assets/images/oxfordparksimage5.webp"
+
+import portsideimage1 from "../../../assets/images/portsideimage1.webp"
+import portsideimage2 from "../../../assets/images/portsideimage2.webp"
+import portsideimage3 from "../../../assets/images/portsideimage3.webp"
+import portsideimage4 from "../../../assets/images/portsideimage4.webp"
+import portsideimage5 from "../../../assets/images/portsideimage5.webp"
+
+import drostdyhotelimage1 from "../../../assets/images/drostdyhotelimage1.webp"
+import drostdyhotelimage2 from "../../../assets/images/drostdyhotelimage2.jpg"
+import drostdyhotelimage3 from "../../../assets/images/drostdyhotelimage3.jpg"
+
+import fabrikmasterplanimage1 from "../../../assets/images/fabrikmasterplanimage1.webp"
+import fabrikmasterplanimage2 from "../../../assets/images/fabrikmasterplanimage2.webp"
+import fabrikmasterplanimage3 from "../../../assets/images/fabrikmasterplanimage3.webp"
+import fabrikmasterplanimage4 from "../../../assets/images/fabrikmasterplanimage4.webp"
+
+import nieuwesteenbergimage1 from "../../../assets/images/nieuwesteenbergimage1.webp"
+import nieuwesteenbergimage2 from "../../../assets/images/nieuwesteenbergimage2.webp"
+import nieuwesteenbergimage3 from "../../../assets/images/nieuwesteenbergimage3.webp"
+
+import theshedsimage1 from "../../../assets/images/theshedsimage1.webp"
+import theshedsimage2 from "../../../assets/images/theshedsimage2.webp"
+import theshedsimage3 from "../../../assets/images/theshedsimage3.webp"
+import theshedsimage4 from "../../../assets/images/theshedsimage4.webp"
+
+import thefringeimage1 from "../../../assets/images/thefringeimage1.webp"
+import thefringeimage2 from "../../../assets/images/thefringeimage2.webp"
+import thefringeimage3 from "../../../assets/images/thefringeimage3.webp"
+
+import doubletreeimage1 from "../../../assets/images/doubletreeimage1.webp"
+import doubletreeimage2 from "../../../assets/images/doubletreeimage2.webp"
+import doubletreeimage3 from "../../../assets/images/doubletreeimage3.webp"
+import doubletreeimage4 from "../../../assets/images/doubletreeimage4.webp"
+
+import eikestadmallimage1 from "../../../assets/images/eikestadmallimage1.jpg"
+import eikestadmallimage2 from "../../../assets/images/eikestadmallimage2.jpg"
+
+import kempsinkiimage1 from "../../../assets/images/kempsinkiimage1.jpg"
+import kempsinkiimage2 from "../../../assets/images/kempsinkiimage2.webp"
+
+import melrosearchimage1 from "../../../assets/images/melrosearchimage1.webp"
+import melrosearchimage2 from "../../../assets/images/melrosearchimage2.webp"
+import melrosearchimage3 from "../../../assets/images/melrosearchimage3.webp"
+import melrosearchimage4 from "../../../assets/images/melrosearchimage4.webp"
+import melrosearchimage5 from "../../../assets/images/melrosearchimage5.webp"
+
+import tajpalacehotelimage1 from "../../../assets/images/tajpalacehotelimage1.jpg"
+import tajpalacehotelimage2 from "../../../assets/images/tajpalacehotelimage2.webp"
+import tajpalacehotelimage3 from "../../../assets/images/tajpalacehotelimage3.jpg"
+import tajpalacehotelimage4 from "../../../assets/images/tajpalacehotelimage4.webp"
+
+import uwclifeimage1 from "../../../assets/images/uwclifeimage1.webp"
+import uwclifeimage2 from "../../../assets/images/uwclifeimage2.webp"
+import uwclifeimage3 from "../../../assets/images/uwclifeimage3.webp"
+
+import wangarimathaiimage1 from "../../../assets/images/wangarimathaiimage1.webp"
+import wangarimathaiimage2 from "../../../assets/images/wangarimathaiimage2.webp"
+import wangarimathaiimage3 from "../../../assets/images/wangarimathaiimage3.webp"
+
+import ahmedbabaimage1 from "../../../assets/images/ahmedbabaimage1.webp"
+import ahmedbabaimage2 from "../../../assets/images/ahmedbabaimage2.webp"
+import ahmedbabaimage3 from "../../../assets/images/ahmedbabaimage3.webp"
+import ahmedbabaimage4 from "../../../assets/images/ahmedbabaimage4.webp"
+import ahmedbabaimage5 from "../../../assets/images/ahmedbabaimage5.webp"
+
+import delairegraffwineryimage1 from "../../../assets/images/delairegraffwineryimage1.webp"
+import delairegraffwineryimage2 from "../../../assets/images/delairegraffwineryimage2.webp"
+import delairegraffwineryimage3 from "../../../assets/images/delairegraffwineryimage3.webp"
+import delairegraffwineryimage4 from "../../../assets/images/delairegraffwineryimage4.webp"
+
+import theboulevardimage1 from "../../../assets/images/theboulevardimage1.webp"
+import theboulevardimage2 from "../../../assets/images/theboulevardimage2.webp"
+import theboulevardimage3 from "../../../assets/images/theboulevardimage3.webp"
+
+import thecrystalimage1 from "../../../assets/images/thecrystalimage1.webp"
+import thecrystalimage2 from "../../../assets/images/thecrystalimage2.webp"
+import thecrystalimage3 from "../../../assets/images/thecrystalimage3.webp"
+
+import mandelarhodesplaceimage1 from "../../../assets/images/mandelarhodesplaceimage1.webp"
+import mandelarhodesplaceimage2 from "../../../assets/images/mandelarhodesplaceimage2.webp"
+import mandelarhodesplaceimage3 from "../../../assets/images/mandelarhodesplaceimage3.webp"
+import mandelarhodesplaceimage4 from "../../../assets/images/mandelarhodesplaceimage4.webp"
+
+import uctchemicalimage1 from "../../../assets/images/uctchemicalimage1.jpg"
+import uctchemicalimage2 from "../../../assets/images/uctchemicalimage2.webp"
+import uctchemicalimage3 from "../../../assets/images/uctchemicalimage3.webp"
+import uctchemicalimage4 from "../../../assets/images/uctchemicalimage4.webp"
+import uctchemicalimage5 from "../../../assets/images/uctchemicalimage5.webp"
+
+import lavelaimage1 from "../../../assets/images/lavelaimage1.webp"
+import lavelaimage2 from "../../../assets/images/lavelaimage2.webp"
+import lavelaimage3 from "../../../assets/images/lavelaimage3.webp"
+import lavelaimage4 from "../../../assets/images/lavelaimage4.webp"
+
+import lagunapalacehotelimage1 from "../../../assets/images/lagunapalacehotelimage1.webp"
+import lagunapalacehotelimage2 from "../../../assets/images/lagunapalacehotelimage2.webp"
+import lagunapalacehotelimage3 from "../../../assets/images/lagunapalacehotelimage3.webp"
+import lagunapalacehotelimage4 from "../../../assets/images/lagunapalacehotelimage4.webp"
+
 const projects = [
     {
         number: '01',
@@ -210,7 +383,7 @@ const projects = [
                     {
                         image: almarjanimage1,
                         title: "red vertex - render",
-                        number: "01"
+                        number: "1"
                     }
                 ]
             }
@@ -1214,11 +1387,11 @@ const projects = [
         year: '2019',
         image: projectsimage26,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            delairegraffimage1,
+            delairegraffimage2,
+            delairegraffimage3,
+            delairegraffimage4,
+            delairegraffimage5
         ],
         pagedata: [
             {
@@ -1257,11 +1430,11 @@ const projects = [
         year: '2019',
         image: projectsimage27,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            parklandsimage1,
+            parklandsimage2,
+            parklandsimage3,
+            parklandsimage4,
+            parklandsimage5
         ],
         pagedata: [
             {
@@ -1300,11 +1473,9 @@ const projects = [
         year: '2019',
         image: projectsimage28,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            quadrantimage1,
+            quadrantimage2,
+            quadrantimage3
         ],
         pagedata: [
             {
@@ -1343,11 +1514,10 @@ const projects = [
         year: '2018',
         image: projectsimage29,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            areapiliimage1,
+            areapiliimage2,
+            areapiliimage3,
+            areapiliimage4
         ],
         pagedata: [
             {
@@ -1386,11 +1556,10 @@ const projects = [
         year: '2018',
         image: projectsimage30,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            axisimage1,
+            axisimage2,
+            axisimage3,
+            axisimage4
         ],
         pagedata: [
             {
@@ -1428,13 +1597,7 @@ const projects = [
         location: 'Cape Town, South Africa',
         year: '2018',
         image: projectsimage31,
-        data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
-        ],
+        data: [],
         pagedata: [
             {
                 Pagetitle: "Al Marjan",
@@ -1472,11 +1635,11 @@ const projects = [
         year: '2018',
         image: projectsimage32,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            conradieparkimage1,
+            conradieparkimage2,
+            conradieparkimage3,
+            conradieparkimage4,
+            conradieparkimage5
         ],
         pagedata: [
             {
@@ -1515,11 +1678,11 @@ const projects = [
         year: '2018',
         image: projectsimage33,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            norvalimage1,
+            norvalimage2,
+            norvalimage3,
+            norvalimage4,
+            norvalimage5
         ],
         pagedata: [
             {
@@ -1558,11 +1721,11 @@ const projects = [
         year: '2018',
         image: projectsimage34,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            sableparkimage1,
+            sableparkimage2,
+            sableparkimage3,
+            sableparkimage4,
+            sableparkimage5
         ],
         pagedata: [
             {
@@ -1601,11 +1764,10 @@ const projects = [
         year: '2017',
         image: projectsimage35,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            waterwayhouseimage1,
+            waterwayhouseimage2,
+            waterwayhouseimage3,
+            waterwayhouseimage4
         ],
         pagedata: [
             {
@@ -1644,11 +1806,10 @@ const projects = [
         year: '2015',
         image: projectsimage36,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            baywestmallimage1,
+            baywestmallimage2,
+            baywestmallimage3,
+            baywestmallimage4
         ],
         pagedata: [
             {
@@ -1687,11 +1848,10 @@ const projects = [
         year: '2015',
         image: projectsimage37,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            bridgeparkimage1,
+            bridgeparkimage2,
+            bridgeparkimage3,
+            bridgeparkimage4
         ],
         pagedata: [
             {
@@ -1730,11 +1890,9 @@ const projects = [
         year: '2015',
         image: projectsimage38,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            dainfernimage1,
+            dainfernimage2,
+            dainfernimage3
         ],
         pagedata: [
             {
@@ -1773,11 +1931,11 @@ const projects = [
         year: '2015',
         image: projectsimage39,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            newtownimage1,
+            newtownimage2,
+            newtownimage3,
+            newtownimage4,
+            newtownimage5
         ],
         pagedata: [
             {
@@ -1816,11 +1974,11 @@ const projects = [
         year: '2015',
         image: projectsimage40,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            oxfordparksimage1,
+            oxfordparksimage2,
+            oxfordparksimage3,
+            oxfordparksimage4,
+            oxfordparksimage5
         ],
         pagedata: [
             {
@@ -1859,11 +2017,11 @@ const projects = [
         year: '2015',
         image: projectsimage41,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            portsideimage1,
+            portsideimage2,
+            portsideimage3,
+            portsideimage4,
+            portsideimage5
         ],
         pagedata: [
             {
@@ -1902,11 +2060,9 @@ const projects = [
         year: '2014',
         image: projectsimage42,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            drostdyhotelimage1,
+            drostdyhotelimage2,
+            drostdyhotelimage3
         ],
         pagedata: [
             {
@@ -1945,11 +2101,10 @@ const projects = [
         year: '2014',
         image: projectsimage43,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            fabrikmasterplanimage1,
+            fabrikmasterplanimage2,
+            fabrikmasterplanimage3,
+            fabrikmasterplanimage4
         ],
         pagedata: [
             {
@@ -1988,11 +2143,9 @@ const projects = [
         year: '2014',
         image: projectsimage44,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            nieuwesteenbergimage1,
+            nieuwesteenbergimage2,
+            nieuwesteenbergimage3
         ],
         pagedata: [
             {
@@ -2031,11 +2184,10 @@ const projects = [
         year: '2014',
         image: projectsimage45,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            theshedsimage1,
+            theshedsimage2,
+            theshedsimage3,
+            theshedsimage4
         ],
         pagedata: [
             {
@@ -2074,11 +2226,9 @@ const projects = [
         year: '2012',
         image: projectsimage46,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            thefringeimage1,
+            thefringeimage2,
+            thefringeimage3
         ],
         pagedata: [
             {
@@ -2117,11 +2267,10 @@ const projects = [
         year: '2011',
         image: projectsimage47,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            doubletreeimage1,
+            doubletreeimage2,
+            doubletreeimage3,
+            doubletreeimage4
         ],
         pagedata: [
             {
@@ -2160,11 +2309,8 @@ const projects = [
         year: '2011',
         image: projectsimage48,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            eikestadmallimage1,
+            eikestadmallimage2
         ],
         pagedata: [
             {
@@ -2203,11 +2349,8 @@ const projects = [
         year: '2011',
         image: projectsimage49,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            kempsinkiimage1,
+            kempsinkiimage2
         ],
         pagedata: [
             {
@@ -2246,11 +2389,11 @@ const projects = [
         year: '2010',
         image: projectsimage50,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            melrosearchimage1,
+            melrosearchimage2,
+            melrosearchimage3,
+            melrosearchimage4,
+            melrosearchimage5
         ],
         pagedata: [
             {
@@ -2289,11 +2432,10 @@ const projects = [
         year: '2010',
         image: projectsimage51,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            tajpalacehotelimage1,
+            tajpalacehotelimage2,
+            tajpalacehotelimage3,
+            tajpalacehotelimage4
         ],
         pagedata: [
             {
@@ -2332,11 +2474,9 @@ const projects = [
         year: '2010',
         image: projectsimage52,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            uwclifeimage1,
+            uwclifeimage2,
+            uwclifeimage3
         ],
         pagedata: [
             {
@@ -2375,11 +2515,9 @@ const projects = [
         year: '2010',
         image: projectsimage53,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            wangarimathaiimage1,
+            wangarimathaiimage2,
+            wangarimathaiimage3
         ],
         pagedata: [
             {
@@ -2418,11 +2556,11 @@ const projects = [
         year: '2009',
         image: projectsimage54,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            ahmedbabaimage1,
+            ahmedbabaimage2,
+            ahmedbabaimage3,
+            ahmedbabaimage4,
+            ahmedbabaimage5
         ],
         pagedata: [
             {
@@ -2461,11 +2599,10 @@ const projects = [
         year: '2009',
         image: projectsimage55,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            delairegraffwineryimage1,
+            delairegraffwineryimage2,
+            delairegraffwineryimage3,
+            delairegraffwineryimage4
         ],
         pagedata: [
             {
@@ -2504,11 +2641,9 @@ const projects = [
         year: '2009',
         image: projectsimage56,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            theboulevardimage1,
+            theboulevardimage2,
+            theboulevardimage3
         ],
         pagedata: [
             {
@@ -2547,11 +2682,9 @@ const projects = [
         year: '2009',
         image: projectsimage57,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            thecrystalimage1,
+            thecrystalimage2,
+            thecrystalimage3
         ],
         pagedata: [
             {
@@ -2590,11 +2723,9 @@ const projects = [
         year: '2009',
         image: projectsimage58,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            thecrystalimage1,
+            thecrystalimage2,
+            thecrystalimage3
         ],
         pagedata: [
             {
@@ -2633,11 +2764,10 @@ const projects = [
         year: '2008',
         image: projectsimage59,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            mandelarhodesplaceimage1,
+            mandelarhodesplaceimage2,
+            mandelarhodesplaceimage3,
+            mandelarhodesplaceimage4
         ],
         pagedata: [
             {
@@ -2676,11 +2806,11 @@ const projects = [
         year: '2005',
         image: projectsimage60,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            uctchemicalimage1,
+            uctchemicalimage2,
+            uctchemicalimage3,
+            uctchemicalimage4,
+            uctchemicalimage5
         ],
         pagedata: [
             {
@@ -2719,11 +2849,10 @@ const projects = [
         year: '2004',
         image: projectsimage61,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            lavelaimage1,
+            lavelaimage2,
+            lavelaimage3,
+            lavelaimage4
         ],
         pagedata: [
             {
@@ -2762,11 +2891,10 @@ const projects = [
         year: '2004',
         image: projectsimage62,
         data: [
-            almarjanimage1,
-            almarjanimage2,
-            almarjanimage3,
-            almarjanimage4,
-            almarjanimage5,
+            lagunapalacehotelimage1,
+            lagunapalacehotelimage2,
+            lagunapalacehotelimage3,
+            lagunapalacehotelimage4
         ],
         pagedata: [
             {

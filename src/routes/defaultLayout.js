@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, useLocation } from 'react-router-dom'
+import { Outlet, useLocation, matchPath } from 'react-router-dom'
 import Footer from '../common/footer'
 import Header from '../common/header'
 import LenisScroll from '../components/scroll/lenisscroll'
@@ -17,7 +17,7 @@ export default function DefaultLayout() {
             {location.pathname === '/' && <Grdscrollingsection />}
             <Header />
             <Outlet />
-            <Footer />
+            {!(matchPath('/projects/:title', location.pathname)) && <Footer />}
         </>
     )
 }

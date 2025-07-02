@@ -1,12 +1,12 @@
 import React from 'react'
 import Projectscomponent from '../../components/projectscomponents/projectscomponent'
 import { useParams } from 'react-router-dom'
-import ProjectDetail from './ProjectDetail'
+import Projectdetail from '../../components/projectscomponents/projectdetails';
 
 export default function Projects() {
   const params = useParams();
   if (params.title) {
-    return <ProjectDetail title={params.title} />;
+    return <Projectdetail title={params.title} />;
   }
   return (
     <>
