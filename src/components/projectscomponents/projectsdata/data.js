@@ -345,6 +345,19 @@ import lagunapalacehotelimage2 from "../../../assets/images/lagunapalacehotelima
 import lagunapalacehotelimage3 from "../../../assets/images/lagunapalacehotelimage3.webp"
 import lagunapalacehotelimage4 from "../../../assets/images/lagunapalacehotelimage4.webp"
 
+
+import almarjansliderimage1 from "../../../assets/images/almarjansliderimage1.jpg"
+import almarjansliderimage2 from "../../../assets/images/almarjansliderimage2.webp"
+import almarjansliderimage3 from "../../../assets/images/almarjansliderimage3.webp"
+import almarjansliderimage4 from "../../../assets/images/almarjansliderimage4.jpg"
+import almarjansliderimage5 from "../../../assets/images/almarjansliderimage5.webp"
+import almarjansliderimage6 from "../../../assets/images/almarjansliderimage6.webp"
+import almarjansliderimage7 from "../../../assets/images/almarjansliderimage7.jpg"
+import almarjansliderimage8 from "../../../assets/images/almarjansliderimage8.webp"
+import almarjansliderimage9 from "../../../assets/images/almarjansliderimage9.webp"
+
+import canalplazasliderimage1 from "../../../assets/images/canalplazasliderimage1.webp"
+
 const projects = [
     {
         number: '01',
@@ -381,10 +394,55 @@ const projects = [
                 location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
+                        image: almarjansliderimage1,
                         title: "red vertex - render",
                         number: "1"
-                    }
+                    },
+                    {
+                        image: almarjansliderimage2,
+                        title: "binyan - renders",
+                        number: "2"
+                    },
+                    {
+                        image: almarjansliderimage3,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: almarjansliderimage4,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: almarjansliderimage5,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: almarjansliderimage6,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: almarjansliderimage7,
+                        title: "",
+                        number: "7"
+                    },
+                    {
+                        image: almarjansliderimage8,
+                        title: "red vertex - renders",
+                        number: "8"
+                    },
+                    {
+                        image: almarjansliderimage9,
+                        title: "",
+                        number: "9"
+                    },
+                    {
+                        image: canalplazasliderimage1,
+                        title: "Canal Plaza",
+                        number: ""
+                    },
                 ]
             }
         ]

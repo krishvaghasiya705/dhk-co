@@ -1,9 +1,10 @@
 .project-detail-main {
   .projects-details-slider-main {
     display: flex;
-    gap: 2px;
 
     .projects-details-slider {
+      display: flex;
+      gap: 2px;
       .projects-slider-item {
         height: calc(100vh - 77px);
         img {
@@ -31,7 +32,7 @@
             font-weight: 600;
             font-family: var(--primary-font);
             color: var(--white);
-            opacity: .5;
+            opacity: 0.5;
           }
         }
       }
