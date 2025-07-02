@@ -357,6 +357,119 @@ import almarjansliderimage8 from "../../../assets/images/almarjansliderimage8.we
 import almarjansliderimage9 from "../../../assets/images/almarjansliderimage9.webp"
 
 import canalplazasliderimage1 from "../../../assets/images/canalplazasliderimage1.webp"
+import canalplazasliderimage2 from "../../../assets/images/canalplazasliderimage2.jpg"
+import canalplazasliderimage3 from "../../../assets/images/canalplazasliderimage3.jpg"
+import canalplazasliderimage4 from "../../../assets/images/canalplazasliderimage4.jpg"
+import canalplazasliderimage5 from "../../../assets/images/canalplazasliderimage5.jpg"
+
+import olympussliderimage1 from "../../../assets/images/olympussliderimage1.jpg"
+import olympussliderimage2 from "../../../assets/images/olympussliderimage2.webp"
+
+import theparadigmsliderimage1 from "../../../assets/images/theparadigmsliderimage1.jpg"
+import theparadigmsliderimage2 from "../../../assets/images/theparadigmsliderimage2.webp"
+import theparadigmsliderimage3 from "../../../assets/images/theparadigmsliderimage3.webp"
+import theparadigmsliderimage4 from "../../../assets/images/theparadigmsliderimage4.webp"
+import theparadigmsliderimage5 from "../../../assets/images/theparadigmsliderimage5.webp"
+import theparadigmsliderimage6 from "../../../assets/images/theparadigmsliderimage6.webp"
+import theparadigmsliderimage7 from "../../../assets/images/theparadigmsliderimage7.jpg"
+import theparadigmsliderimage8 from "../../../assets/images/theparadigmsliderimage8.jpg"
+import theparadigmsliderimage9 from "../../../assets/images/theparadigmsliderimage9.webp"
+import theparadigmsliderimage10 from "../../../assets/images/theparadigmsliderimage10.webp"
+import theparadigmsliderimage11 from "../../../assets/images/theparadigmsliderimage11.webp"
+import theparadigmsliderimage12 from "../../../assets/images/theparadigmsliderimage12.webp"
+import theparadigmsliderimage13 from "../../../assets/images/theparadigmsliderimage13.webp"
+import theparadigmsliderimage14 from "../../../assets/images/theparadigmsliderimage14.webp"
+import theparadigmsliderimage15 from "../../../assets/images/theparadigmsliderimage15.webp"
+
+import thesignaturesliderimage1 from "../../../assets/images/thesignaturesliderimage1.webp"
+import thesignaturesliderimage2 from "../../../assets/images/thesignaturesliderimage2.webp"
+import thesignaturesliderimage3 from "../../../assets/images/thesignaturesliderimage3.webp"
+import thesignaturesliderimage4 from "../../../assets/images/thesignaturesliderimage4.webp"
+import thesignaturesliderimage5 from "../../../assets/images/thesignaturesliderimage5.webp"
+import thesignaturesliderimage6 from "../../../assets/images/thesignaturesliderimage6.webp"
+import thesignaturesliderimage7 from "../../../assets/images/thesignaturesliderimage7.webp"
+import thesignaturesliderimage8 from "../../../assets/images/thesignaturesliderimage8.webp"
+import thesignaturesliderimage9 from "../../../assets/images/thesignaturesliderimage9.webp"
+
+import lionsheadsliderimage1 from "../../../assets/images/lionsheadsliderimage1.webp"
+import lionsheadsliderimage2 from "../../../assets/images/lionsheadsliderimage2.webp"
+import lionsheadsliderimage3 from "../../../assets/images/lionsheadsliderimage3.webp"
+import lionsheadsliderimage4 from "../../../assets/images/lionsheadsliderimage4.gif"
+import lionsheadsliderimage5 from "../../../assets/images/lionsheadsliderimage5.webp"
+
+import seafrontestatesliderimage1 from "../../../assets/images/seafrontestatesliderimage1.jpg"
+import seafrontestatesliderimage2 from "../../../assets/images/seafrontestatesliderimage2.jpg"
+import seafrontestatesliderimage3 from "../../../assets/images/seafrontestatesliderimage3.jpg"
+import seafrontestatesliderimage4 from "../../../assets/images/seafrontestatesliderimage4.jpg"
+import seafrontestatesliderimage5 from "../../../assets/images/seafrontestatesliderimage5.jpg"
+import seafrontestatesliderimage6 from "../../../assets/images/seafrontestatesliderimage6.jpg"
+import seafrontestatesliderimage7 from "../../../assets/images/seafrontestatesliderimage7.jpg"
+
+import brookfieldroyalsliderimage1 from "../../../assets/images/brookfieldroyalsliderimage1.webp"
+import brookfieldroyalsliderimage2 from "../../../assets/images/brookfieldroyalsliderimage2.jpg"
+import brookfieldroyalsliderimage3 from "../../../assets/images/brookfieldroyalsliderimage3.webp"
+import brookfieldroyalsliderimage4 from "../../../assets/images/brookfieldroyalsliderimage4.jpg"
+import brookfieldroyalsliderimage5 from "../../../assets/images/brookfieldroyalsliderimage5.webp"
+import brookfieldroyalsliderimage6 from "../../../assets/images/brookfieldroyalsliderimage6.webp"
+import brookfieldroyalsliderimage7 from "../../../assets/images/brookfieldroyalsliderimage7.jpg"
+import brookfieldroyalsliderimage8 from "../../../assets/images/brookfieldroyalsliderimage8.webp"
+import brookfieldroyalsliderimage9 from "../../../assets/images/brookfieldroyalsliderimage9.webp"
+import brookfieldroyalsliderimage10 from "../../../assets/images/brookfieldroyalsliderimage10.jpg"
+import brookfieldroyalsliderimage11 from "../../../assets/images/brookfieldroyalsliderimage11.webp"
+
+import hundredsliderimage1 from "../../../assets/images/hundredsliderimage1.webp"
+import hundredsliderimage2 from "../../../assets/images/hundredsliderimage2.webp"
+import hundredsliderimage3 from "../../../assets/images/hundredsliderimage3.webp"
+import hundredsliderimage4 from "../../../assets/images/hundredsliderimage4.webp"
+import hundredsliderimage5 from "../../../assets/images/hundredsliderimage5.webp"
+import hundredsliderimage6 from "../../../assets/images/hundredsliderimage6.webp"
+import hundredsliderimage7 from "../../../assets/images/hundredsliderimage7.webp"
+import hundredsliderimage8 from "../../../assets/images/hundredsliderimage8.jpg"
+import hundredsliderimage9 from "../../../assets/images/hundredsliderimage9.webp"
+
+import dockroadsliderimage1 from "../../../assets/images/dockroadsliderimage1.webp"
+import dockroadsliderimage2 from "../../../assets/images/dockroadsliderimage2.jpg"
+import dockroadsliderimage3 from "../../../assets/images/dockroadsliderimage3.jpg"
+import dockroadsliderimage4 from "../../../assets/images/dockroadsliderimage4.webp"
+import dockroadsliderimage5 from "../../../assets/images/dockroadsliderimage5.webp"
+import dockroadsliderimage6 from "../../../assets/images/dockroadsliderimage6.webp"
+import dockroadsliderimage7 from "../../../assets/images/dockroadsliderimage7.webp"
+
+import ellipsewaterfallsliderimage1 from "../../../assets/images/ellipsewaterfallsliderimage1.jpg"
+import ellipsewaterfallsliderimage2 from "../../../assets/images/ellipsewaterfallsliderimage2.jpg"
+import ellipsewaterfallsliderimage3 from "../../../assets/images/ellipsewaterfallsliderimage3.webp"
+import ellipsewaterfallsliderimage4 from "../../../assets/images/ellipsewaterfallsliderimage4.webp"
+import ellipsewaterfallsliderimage5 from "../../../assets/images/ellipsewaterfallsliderimage5.webp"
+import ellipsewaterfallsliderimage6 from "../../../assets/images/ellipsewaterfallsliderimage6.jpg"
+import ellipsewaterfallsliderimage7 from "../../../assets/images/ellipsewaterfallsliderimage7.webp"
+import ellipsewaterfallsliderimage8 from "../../../assets/images/ellipsewaterfallsliderimage8.webp"
+import ellipsewaterfallsliderimage9 from "../../../assets/images/ellipsewaterfallsliderimage9.webp"
+import ellipsewaterfallsliderimage10 from "../../../assets/images/ellipsewaterfallsliderimage10.webp"
+
+import onerosebanksliderimage1 from "../../../assets/images/onerosebanksliderimage1.jpg"
+import onerosebanksliderimage2 from "../../../assets/images/onerosebanksliderimage2.webp"
+import onerosebanksliderimage3 from "../../../assets/images/onerosebanksliderimage3.webp"
+import onerosebanksliderimage4 from "../../../assets/images/onerosebanksliderimage4.webp"
+import onerosebanksliderimage5 from "../../../assets/images/onerosebanksliderimage5.webp"
+import onerosebanksliderimage6 from "../../../assets/images/onerosebanksliderimage6.webp"
+import onerosebanksliderimage7 from "../../../assets/images/onerosebanksliderimage7.webp"
+import onerosebanksliderimage8 from "../../../assets/images/onerosebanksliderimage8.webp"
+import onerosebanksliderimage9 from "../../../assets/images/onerosebanksliderimage9.webp"
+
+import springfieldestatesliderimage1 from "../../../assets/images/springfieldestatesliderimage1.jpg"
+import springfieldestatesliderimage2 from "../../../assets/images/springfieldestatesliderimage2.jpg"
+import springfieldestatesliderimage3 from "../../../assets/images/springfieldestatesliderimage3.webp"
+import springfieldestatesliderimage4 from "../../../assets/images/springfieldestatesliderimage4.jpg"
+import springfieldestatesliderimage5 from "../../../assets/images/springfieldestatesliderimage5.webp"
+import springfieldestatesliderimage6 from "../../../assets/images/springfieldestatesliderimage6.webp"
+import springfieldestatesliderimage7 from "../../../assets/images/springfieldestatesliderimage7.jpg"
+import springfieldestatesliderimage8 from "../../../assets/images/springfieldestatesliderimage8.jpg"
+import springfieldestatesliderimage9 from "../../../assets/images/springfieldestatesliderimage9.jpg"
+import springfieldestatesliderimage10 from "../../../assets/images/springfieldestatesliderimage10.webp"
+import springfieldestatesliderimage11 from "../../../assets/images/springfieldestatesliderimage11.webp"
+import springfieldestatesliderimage12 from "../../../assets/images/springfieldestatesliderimage12.webp"
+
+import bishopsacademicsliderimage1 from "../../../assets/images/bishopsacademicsliderimage1.jpg"
 
 const projects = [
     {
@@ -456,30 +569,56 @@ const projects = [
         data: [],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Canal Plaza",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The brief for Canal Plaza was to design a commercially viable office building on a green field site, located at the northern end of Heron Close, Century City, a vibrant urban centre just outside Cape Town. The development is the latest of several we have previously delivered in the area. Designed for Abland Property Developers, it is a 10,816m² commercial office development. The five-storey structure comprises offices and retail units, with basement and podium car parking.",
+                    "The development overlooks the serene Intaka Island, an award-winning 16-hectare wetland and bird sanctuary that hosts 177 species of indigenous fynbos plants and 120 bird species. The position adjacent to the wetland reserve of Intaka Island makes the location an attractive one for commercial tenants.",
+                    "The accommodation in the five-storey structure is arranged in an H-shaped plan with a central core. The wings of the “H” splay to the south to reflect the geometry of the site and to receive visitors from Heron Close. The western wing is partially elevated from the ground to form an understorey for visitor parking and to allow for visual and pedestrian permeability. Here, a small retail component has been integrated to service office workers and pedestrians passing on the north-south route along the canal edge.",
+                    "The planning and servicing of the commercial office space has been strategically designed to be adaptable and versatile. This means its floorplates can accommodate several tenants of various sizes. This flexibility will support the development’s long-term economic sustainability, as the space can respond to the dynamic workplace needs of future tenants. Accessible external terraces have been provided on the west and eastern edges of the site. Provision has been made on the roof for access to amenities and photovoltaic panels.",
+                    "The building is designed to minimise energy use and enhance thermal comfort with the goal of achieving a Green Building Council South Africa (GBCSA) 4-star rating as a minimum. It is a welcome addition to the Century City precinct, which has in recent years been transformed into a sophisticated hub, attracting a cross-section of local and international investors, global corporates, residents and visitors. It’s one of several buildings we’ve designed in Century City. Visit the others at Sable Park, Bridge Park, Axis, Sable Corner and Canal Walk."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "",
+                client: "Abland Property Developers",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2027",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "office",
+                    "retail"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/7pRD5yys2mbrwEK97",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: canalplazasliderimage1,
+                        title: "iniitial illustrations - Heron Close",
+                        number: "1"
+                    },
+                    {
+                        image: canalplazasliderimage2,
+                        title: "view from canal",
+                        number: "2"
+                    },
+                    {
+                        image: canalplazasliderimage3,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: canalplazasliderimage4,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: canalplazasliderimage5,
+                        title: "early aerial view",
+                        number: "5"
+                    },
+                    {
+                        image: olympussliderimage1,
+                        title: "Olympus Sandton",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -496,30 +635,41 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Olympus Sandton",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Olympus Sandton stands proud on the corner of Empire Place and Rivonia Road in Johannesburg. The design was developed from an initial concept created by ClarkeHopkinsClarke Architects for co-developers Tricolt and Growthpoint Properties. The clients sought to create a development that emphasises high comfort standards, expressing the pinnacle of luxury living while contributing to Sandton’s urban landscape.",
+                    "The scheme was conceived as an elevated experience. The development features alternating curved geometric floorplates, resulting in a visually dynamic silhouette on the city’s skyline. It is a true gateway development, with its unique sculptural form and striking staggered wraparound façade. The mix of executive suites, in one-, two- and three-bedroom apartment configurations, along with penthouses and duplex apartments on upper levels, enable smaller lock-up-and-go living, or full-time immersion in an executive environment to suit individual needs. Apartment layouts can be adapted to the diverse needs of buyers, and the location offers easy access to public transport and a vibrant neighbourhood.",
+                    "Beyond introducing a distinctive lifestyle, Olympus promotes the growth of mixed-use development in Africa's most affluent square mile. A grand sculptural staircase connects the building with high-end retail amenities at the street-level entrance. The lush green podium, with leisure facilities and high-end signature restaurant is the jewel in the Olympus crown. A luxurious sky bar presents panoramic views of the city’s expansive green canopy below.",
+                    "The design features two striking towers named Athena and Apollo, inspired by the giants of ancient Greek mythology. Its architectural language represents contemporary sophistication, designed to resonate with the aspirations of an exceptionally discerning clientele."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "",
+                client: "Tricolt and Growthpoint Properties",
+                status: "design development",
+                year: "2027",
+                services: "architecture",
                 tags: [
                     "mixed-use",
                     "residential",
-                    "hospitality"
+                    "retail"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/1nKCAFY5WpLJkTHJ6",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: olympussliderimage1,
+                        title: "initial illustrations",
+                        number: "1"
+                    },
+                    {
+                        image: olympussliderimage2,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: theparadigmsliderimage1,
+                        title: "The Paradigm",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -537,30 +687,109 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "The Paradigm",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The Paradigm is a premium mixed-use residential development in the heart of the Cape Town CBD.  Vantage Property and Tiber Construction appointed dhk as project architects to take the project forward, based on the original massing concept approval by Fabian Architects. dhk Interior Design created the interior designs throughout the commercial and residential spaces in the building including interior design packages for buyers to select with their purchase.",
+                    "The client acquired two adjacent sites along Shortmarket Street, with a view to developing a combined scheme incorporating reworked retail level design and façades, revised façades of the residential levels and an amended SDP to accommodate design improvements. The clients also needed a compelling vision for the interiors of The Paradigm.",
+                    "Due to the site’s gradient, the street-level frontages are activated on all three levels with retail units and restaurants, creating a human-scale sense of place for passers-by. The building’s distinctive façades on Buitengracht, Longmarket, Shortmarket and Rose Streets each have a unique character that respond to the facing context. On Buitengracht, the building reflects the tall buildings along Buitengracht and the CBD skyline to the east, while the building steps down in response to the lower-scale of Rose Street.",
+                    "Each apartment benefits from panoramic views of the City Bowl, Cape Town harbour, Signal Hilland Table Mountain. The Paradigm also comprises business and luxury lifestyle offerings, including retail, restaurants, shared co-working spaces and 233apartments ranging from studio units, and one-, two-, and three-bedroom configurations, and large penthouse units.",
+                    "The Paradigm also features a new publicly accessible courtyard facing Shortmarket Street and up to Rose Street, which enables a connection through the site to Longmarket Street. New retail stores and restaurants line this new space, offering moments of connection, a chance to linger and a place for visitors and residents to meet and greet. Secure parking, swimming pool, and rooftop lounge offers residents a chance to live, work and play in inner-city Cape Town style.",
+                    "The interior design introduces a neutral palette and light spaces in a calm, elegant combination, contrasted with the building’s complex geometric architecture and the busy city outside. The curated furniture pack offers buyers a range of bespoke furniture to complement the sophisticated atmosphere of The Paradigm’s interior spaces, making it easy to curate their own spaces from the moment they move in."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Visoo - Renders",
+                client: "Vantage Property + Tiber Construction",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2202728",
+                services: "architecture",
                 tags: [
                     "mixed-use",
                     "residential",
-                    "hospitality"
+                    "retail",
+                    "office",
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/XhLPffDwZgc4dQ3J8",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: theparadigmsliderimage1,
+                        title: "The Paradigm",
+                        number: "1"
+                    },
+                    {
+                        image: theparadigmsliderimage2,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: theparadigmsliderimage3,
+                        title: "view from buitengracht street",
+                        number: "3"
+                    },
+                    {
+                        image: theparadigmsliderimage4,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: theparadigmsliderimage5,
+                        title: "view from rose street",
+                        number: "5"
+                    },
+                    {
+                        image: theparadigmsliderimage6,
+                        title: "dhki - first floor bar + reastaurant",
+                        number: "6"
+                    },
+                    {
+                        image: theparadigmsliderimage7,
+                        title: "dhki - ground floor restaurant + retail space",
+                        number: "7"
+                    },
+                    {
+                        image: theparadigmsliderimage8,
+                        title: "dhki - offices",
+                        number: "8"
+                    },
+                    {
+                        image: theparadigmsliderimage9,
+                        title: "dhki - three bedroom apartment",
+                        number: "9"
+                    },
+                    {
+                        image: theparadigmsliderimage10,
+                        title: "",
+                        number: "10"
+                    },
+                    {
+                        image: theparadigmsliderimage11,
+                        title: "dhki - one bedroom apartment",
+                        number: "11"
+                    },
+                    {
+                        image: theparadigmsliderimage12,
+                        title: "dhki - studio apartment",
+                        number: "12"
+                    },
+                    {
+                        image: theparadigmsliderimage13,
+                        title: "dhki - penthouse",
+                        number: "13"
+                    },
+                    {
+                        image: theparadigmsliderimage14,
+                        title: "",
+                        number: "14"
+                    },
+                    {
+                        image: theparadigmsliderimage15,
+                        title: "visoo - renders",
+                        number: "15"
+                    },
+                    {
+                        image: thesignaturesliderimage1,
+                        title: "The Signature",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -580,30 +809,75 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "The Signature",
+                pagelocation: "Mont Choisy, Mauritius",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The Signature is a 24 000m² mixed-use development in Grand Baie, Mauritius, set within the Mont Choisy smart city. The challenge was to design a building of dramatic presence in a prominent position without detracting from future neighbouring developments, while also balancing the need to acknowledge Mont Choisy’s layered heritage.",
+                    "Designed for the Mont Choisy Group, the scheme comprises 95 apartments, retail space, offices and basement parking. The public realm approach supports a lively, pedestrian-friendly environment with permeable routes and a central courtyard filled with greenery.",
+                    "The building's architecture features slender edges, soft curves and distinctive rose-pink accents that add warmth to its tropical aesthetic. Cantilevered apartment overhangs provide shade over the ground-floor retail, while sliding shutters and fixed screens improve energy efficiency. Interiors designed by dhk Interior Design combine luxury with lifestyle, marking a sophisticated contribution to Mont Choisy's vision."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Renderby - Renders",
+                client: "Mont Choisy Group",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2027",
+                services: "architecture, urban design, interior design",
                 tags: [
                     "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "hospitality",
+                    "office"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/eo32rrd9MQpdURux8",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: thesignaturesliderimage1,
+                        title: "dhki - bedroom option",
+                        number: "1"
+                    },
+                    {
+                        image: thesignaturesliderimage2,
+                        title: "dhki - penthouse view",
+                        number: "2"
+                    },
+                    {
+                        image: thesignaturesliderimage3,
+                        title: "dhki - bedroom option",
+                        number: "3"
+                    },
+                    {
+                        image: thesignaturesliderimage4,
+                        title: "dhki penthouse views",
+                        number: "4"
+                    },
+                    {
+                        image: thesignaturesliderimage5,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: thesignaturesliderimage6,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: thesignaturesliderimage7,
+                        title: "street facing commercial",
+                        number: "7"
+                    },
+                    {
+                        image: thesignaturesliderimage8,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: thesignaturesliderimage9,
+                        title: "renderby - renders",
+                        number: "9"
+                    },
+                    {
+                        image: lionsheadsliderimage1,
+                        title: "Lions Head at Conradie Park",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -622,30 +896,54 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Lions Head at Conradie Park",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Designed in association with Jakupa Architects and Urban Designers, for developers Concor, Lions Head is a new addition to the award-winning Conradie Park mixed-use development near Pinelands, Cape Town.",
+                    "The new building is one of four mixed-tenure residential buildings and will feature a mix of residential accommodation over a neighbourhood convenience shopping centre, alongside office space and a gym. The ground floor retail complex will be anchored by a major supermarket, with other stores surrounding to cater to the daily needs of residents and the wider neighbourhood. The building is due for completion during 2026."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "",
+                client: "Concor",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2026",
+                services: "urban design, architecture",
                 tags: [
+                    "retail",
                     "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "residential"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/uUQ46gm3xy4TsgC7A",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: lionsheadsliderimage1,
+                        title: "Lions Head at Conradie Park",
+                        number: "1"
+                    },
+                    {
+                        image: lionsheadsliderimage2,
+                        title: "view towards devil's peak",
+                        number: "2"
+                    },
+                    {
+                        image: lionsheadsliderimage3,
+                        title: "urban scheme",
+                        number: "3"
+                    },
+                    {
+                        image: lionsheadsliderimage4,
+                        title: "apartment types",
+                        number: "4"
+                    },
+                    {
+                        image: lionsheadsliderimage5,
+                        title: "urban scheme",
+                        number: "5"
+                    },
+                    {
+                        image: seafrontestatesliderimage1,
+                        title: "Seafront Estate",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -663,30 +961,65 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Seafront Estate",
+                pagelocation: "Roche Caiman, Seychelles",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Designed for Seafront Development, Seafront Estate brings together multiple uses that offer various facilities forresidents. This mixed-use approach is a first on the island of the Seychelles,where hospitality is the predominant development form. The scheme includes a120-room hotel, 68residential apartments, a sea-facing pavilion, retail and office spaces and conference facilities, as well as the first private hospital in the country.",
+                    "The marine and seafront setting strongly influenced the design, which comprises two distinct typologies of a rectilinear form on the land side and a more curvilinear style on the ocean- and marina-facing side. However, a common materials palette connects and unifies the two."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Liaison - Renders",
+                client: "Seafront Development",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2026",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
+                    "hospitality",
                     "residential",
-                    "hospitality"
+                    "retail",
+                    "office"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/g7KsBBkgjuu9htvo6",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: seafrontestatesliderimage1,
+                        title: "Seafront Estate",
+                        number: "1"
+                    },
+                    {
+                        image: seafrontestatesliderimage2,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: seafrontestatesliderimage3,
+                        title: "view from terrace",
+                        number: "3"
+                    },
+                    {
+                        image: seafrontestatesliderimage4,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: seafrontestatesliderimage5,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: seafrontestatesliderimage6,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: seafrontestatesliderimage7,
+                        title: "liason - renders",
+                        number: "7"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage1,
+                        title: "Brookfield at Royal",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -704,30 +1037,86 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Brookfield at Royal",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The brief by Tricolt for Brookfield at Royal was to conceptualise a luxurious residential experience that bridges the gap between the past and present. The result is a high-end estate that represents the true value of sophisticated design in urban housing. When complete by the end of 2025, the development will feature around 290 units estate in one-, two-and three-bedroom configurations, starting from 38m2 up to 154m2penthouses.",
+                    "Brookfield at Royal in Johannesburg is the first luxury apartment development to be situated within the precinct of the Royal Johannesburg and Kensington Golf Club. The development is set out on a long, narrow, sloping site alongside the golf course, arranged in a linear form that follows the contours of the land. Each block consists of three-storey walk-up structures, typically arranged in clusters of six to eight units. Each cluster features a symmetrical layout with two-bedroom apartments on the ground and first floors, and loft units on the top floor with bedrooms and living spaces split between two levels.",
+                    "The design is characterised by a central pitched frame flanked by flat-roofed sections. This combination creates an undulating rhythm along the length of the development. The pitched roofs are clad in slate-grey standing-seam steel roof sheets, while the flanking sections feature red brick and white-painted plaster. These vertical roof elements play a key role in the terraced design form.",
+                    "Open gables on one side house entrances and vertical circulation, with balconies facing on to landscaped parking. Gables on the other side feature expansive glazing and steel-and-glass balconies overlooking the golf course, with vertical brick barbecue columns forming privacy dividers between units. Each unit is crowned by twin steel chimney pipes, forming an iconic leitmotif throughout the scheme.",
+                    "The combination of traditional materials of red brick and plaster and modern elements of steel and glass creates a harmonious blend of solidity and lightness that references the treed landscape between the buildings, private gardens, a dam and golf course. The dark steel and slate-grey tones reference the original black slate roof of the Royal Johannesburg clubhouse. The overall effect is a carefully articulated contemporary interpretation of a traditional terraced row-house development.",
+                    "The Royal Johannesburg and Kensington Golf Club was established in 1890. It is recognised as one of the premium golf courses in Africa. The long-established club is regarded as the “home of golf” in South Africa. It hosts the Gauteng Senior Golfer’s Society, the PGA of South Africa and the Club Managers Association of South Africa. Brookfield at Royal is one of several developments we designed for Tricolt. Click to see more details about Olympus Sandton, One Rosebank, Ellipse Waterfall and Tree Tops, Houghton."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Sean Gibson - Photographer",
+                client: "Tricolt",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2025",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "residential"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/zejFSzQYFP5iMJ44A",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: brookfieldroyalsliderimage1,
+                        title: "Brookfield at Royal",
+                        number: ""
+                    },
+                    {
+                        image: brookfieldroyalsliderimage2,
+                        title: "aerial view over the golf course",
+                        number: "1"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage4,
+                        title: "unit entrance access",
+                        number: "3"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage7,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage8,
+                        title: "",
+                        number: "7"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage10,
+                        title: "site visit - 2021",
+                        number: "9"
+                    },
+                    {
+                        image: brookfieldroyalsliderimage11,
+                        title: "",
+                        number: "10"
+                    },
+                    {
+                        image: hundredsliderimage1,
+                        title: "1 Hundred on M",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -747,30 +1136,74 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "1 Hundred on M",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "One Hundred on M on Sea Point Main Road is an example of old meeting new to achieve a sensitive transformation of a heritage building into a striking piece of contemporary architecture.",
+                    "We designed this seven-storey, mixed-use development for blok, to reimagine a Victorian-era building and repurpose it for modern living. Set in a vibrant location with natural beauty, One Hundred on M features retail and commercial spaces on the ground floor level and residential accommodation on upper levels. We’ll share more details about this coastal development as construction progresses."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "",
+                client: "Blok",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2025",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
                     "residential",
-                    "hospitality"
+                    "mixed-use",
+                    "retail"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/nimNqWimPML9H6BR9",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: hundredsliderimage1,
+                        title: "1 Hundred on M",
+                        number: ""
+                    },
+                    {
+                        image: hundredsliderimage2,
+                        title: "view from main road",
+                        number: "1"
+                    },
+                    {
+                        image: hundredsliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: hundredsliderimage4,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: hundredsliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: hundredsliderimage6,
+                        title: "micro-apartment",
+                        number: "5"
+                    },
+                    {
+                        image: hundredsliderimage7,
+                        title: "model of the original building",
+                        number: "6"
+                    },
+                    {
+                        image: hundredsliderimage8,
+                        title: "site visit - 2024",
+                        number: "7"
+                    },
+                    {
+                        image: hundredsliderimage9,
+                        title: "original façade",
+                        number: "8"
+                    },
+                    {
+                        image: dockroadsliderimage1,
+                        title: "5 Dock Road",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -788,30 +1221,64 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "5 Dock Road",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The brief for the luxury apartments at 5 Dock Road was to take advantage of its unique position at the gateway connection between the V&A Waterfront to De Waterkant on the west and CBD to the south. The building overlooks Battery Park, a 12 000m² urban park we developed in 2018 as the nucleus of a larger urban vision for the district. The building is located on the northern portion of the park, which extends down to the reception lobby and porte cochere at street level. This residential project kickstarts the second phase of the masterplan designed to enliven the Canal Precinct into a mixed-use environment where retail outlets, offices and a hotel already exist.",
+                    "The design is articulated into distinct massings on each of the four façades, to break down the scale of the overall building on all outward facing edges. This is achieved by stepping back the building footprint in certain areas and through the façade articulation. Recessed balconies featuring frameless glazed balustrades are fronted by a large shaped brise-soleil outer façade to provide solar shading. This also avoids the building becoming an overbearing mass.",
+                    "The building rises to six storeys above the park. The central southern portion facing the park has been lowered by two floors to accommodate the rooftop pool and amenity areas. The balconies are orientated to create a faceted, angular, serrated edge, adding interest to the façade.",
+                    "The development offers one-, two- and three-bedroom configurations spread over six floors, with exclusive penthouses on the top floor. The interior layouts have been finely designed complemented by superior interior finishes designed by Paragon Interface. Depending on where they’re located in the building, units offer spectacular views of the V&A Waterfront, Cape Town harbour, CBD, Table Mountain and Signal Hill."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "",
+                client: "V&A Waterfront",
                 status: "on site",
-                year: "2028",
+                year: "2025",
                 services: "architecture, urban design",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "residential"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/HdzaemtXUUhzxE5q6",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: dockroadsliderimage1,
+                        title: "5 Dock Road",
+                        number: ""
+                    },
+                    {
+                        image: dockroadsliderimage2,
+                        title: "aerial view of precinct - urban design",
+                        number: "1"
+                    },
+                    {
+                        image: dockroadsliderimage3,
+                        title: "view from dock road",
+                        number: "2"
+                    },
+                    {
+                        image: dockroadsliderimage4,
+                        title: "view from waterway house",
+                        number: "3"
+                    },
+                    {
+                        image: dockroadsliderimage5,
+                        title: "view from penthouse bedroom",
+                        number: "4"
+                    },
+                    {
+                        image: dockroadsliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: dockroadsliderimage7,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage1,
+                        title: "Ellipse Waterfall",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -829,30 +1296,84 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Ellipse Waterfall",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Designed for Tricolt and Attacq, Ellipse Waterfall is located in the heart of Waterfall City, in Gauteng. The client brief was to create a unique residential complex of striking architectural impact to mark its status as the first high-rise luxury apartment development in the area",
+                    "In response, we moved away from the traditional rectangular apartment block design in favour of a more unconventional form. We proposed four separate elliptical towers to make the most of the site’s elevated location and unobstructed views. The buildings' shape takes inspiration from an ellipse, a mathematical term for a curved plane surrounding two focal points, which is highly efficient in terms of ratio of surface area to internal volume. The lack of corners reduces the visual profile of the buildings to offer the most suitable form when considering multiple towers in proximity to one another.",
+                    "The 45 000 m² precinct features 620 apartments, including executive one-bedroom, one-bedroom, two-bedroom and three-bedroom units and multiple penthouse suites. Other amenities include The Luna Club, an exclusive multi-concept lifestyle destination.",
+                    "The towers sit on a raised podium, creating an elevated ground floor with a parking garage and services infrastructure underneath. The podium level is extensively landscaped and includes a central piazza, running track, active and passive parks, lap and leisure pools, verdant gardens and The Luna Club. These spaces offer moments of connection between residents and encourage community activity. At street level, an elevated forecourt addresses the most prominent corner where retail spaces spill out onto the activated street edges to create a relationship with other users from the broader Waterfall City community.",
+                    "The four towers have an identical footprint, though each is a different height. Newton has 10 storeys, Kepler has 11 storeys, Cassini has 13 and Galileo 15. The curvilinear façade of the towers is complemented by a mix of moveable and fixed screens which serve to animate the elevations. This produces an ever-changing collage responding to the movement of the sun and the moods of its occupants.",
+                    "The interiors have a clean and contemporary aesthetic, complete with ultra-modern finishes, high ceilings and large windows that provide panoramic views of the Gauteng skyline. Designed with user experience in mind, everything has been considered to optimise internal functionality and flow. Ellipse’s design prioritises sustainable living. It incorporates green design practices and building features that contribute to a reduced environmental footprint.",
+                    "Inspired by their mathematical origins, each tower is named after some of the world’s most celebrated scientists, namely Newton, Kepler, Cassini and Galileo. This is one of multiple projects we have delivered for Tricolt. Visit One Rosebank, Brookfield at Royal and Olympus Sandton for more details."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Tricolt - Aerial",
+                method2: "Sean Gibson - Photographer",
+                client: "Attacq and Tricolt",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2025",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
                     "residential",
-                    "hospitality"
+                    "sustainable"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/99jdyTUhHWwL4VLf6",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: ellipsewaterfallsliderimage1,
+                        title: "Ellipse Waterfall",
+                        number: ""
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage2,
+                        title: "newton, kepler + cassini towers",
+                        number: "1"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage4,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage6,
+                        title: "site visit - 2023",
+                        number: "5"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage7,
+                        title: "early elevations",
+                        number: "6"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage8,
+                        title: "penthouse bedroom",
+                        number: "7"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage9,
+                        title: "penthouse view",
+                        number: "8"
+                    },
+                    {
+                        image: ellipsewaterfallsliderimage10,
+                        title: "on site - 2019",
+                        number: "9"
+                    },
+                    {
+                        image: onerosebanksliderimage1,
+                        title: "One Rosebank",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -871,30 +1392,78 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "One Rosebank",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "One Rosebank is a high-quality mixed-use development in one of the Johannesburg’s most sought-after commercial, cultural and residential hubs. The client, Tricolt, envisaged a luxury residential development located close to the vibrant commercial hub of Rosebank, located north of the Johannesburg CBD.",
+                    "We responded with a design that contributes to the urban design language of the adjacent Oxford Parks precinct. The 1.2-hectare site is bordered by large commercial office buildings to the south and single residential homes on large, tree-lined plots to the north.",
+                    "The design responds to the site’s sloping topography, resulting in a seven-storey block to one side of the site and a lower, four-storey construction opposite, respecting the zoning requirements and acknowledging the scale of the surrounding urban fabric. These buildings encompass around 600 units in studio, one-bedroom and two-bedroom configurations, designed around a large landscaped courtyard that creates an active social environment containing a gym, swimming pool and ball court. Mixed-used elements include co-working spaces, a coffee shop with meeting rooms and a spectacular rooftop restaurant and a bar",
+                    "The architecture is simple and fresh, comprising a strong, two-storey tiled and colonnaded lower base, with upper levels of white-painted, raked, jointed brickwork. An alternating rhythm of inset balconies and windows are offset with projecting concrete framed bays. This forms a carefully modulated and taut composition, creating varying depths of light and shadow. Simple vertical steel balustrades further animate and enliven the façades. Walkway bridges and strong vertical breaks between blocks define entrances, the position of lobbies and vertical circulation. The retail components, gym and clubhouse are expressed as lightweight flat-roofed, steel and glass pavilions, with a publicly accessible terrace stitching the building sat the corner. The rooftop restaurant follows the same transparent architectural formula, with its angled shopfronts and corner tilted roof capturing the panoramic views above the dense tree canopy of the urban forest below.",
+                    "One Rosebank is one of a series of projects we have worked on in Rosebank. In 2016, we designed the masterplan for Oxford Parks, drawing from the concepts laid out in the Dunkeld Design Manual which we developed in 2015. We also designed several other buildings in the precinct including 203 Oxford, 6 Parks Boulevard for Arup and Radisson Red hotel, which have both been recognized in local awards series."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Visoo - Renders",
+                client: "Tricolt",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2025",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
                     "residential",
-                    "hospitality"
+                    "mixed-use",
+                    "office",
+                    "retail"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/D24pRYXgr53tXGq97",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: onerosebanksliderimage1,
+                        title: "One Rosebank",
+                        number: ""
+                    },
+                    {
+                        image: onerosebanksliderimage2,
+                        title: "mixed-use facilities",
+                        number: "1"
+                    },
+                    {
+                        image: onerosebanksliderimage3,
+                        title: "rooftop restaurant",
+                        number: "2"
+                    },
+                    {
+                        image: onerosebanksliderimage4,
+                        title: "view from cradock avenue",
+                        number: "3"
+                    },
+                    {
+                        image: onerosebanksliderimage5,
+                        title: "site visit - august 2024",
+                        number: "4"
+                    },
+                    {
+                        image: onerosebanksliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: onerosebanksliderimage7,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: onerosebanksliderimage8,
+                        title: "one bedroom unit",
+                        number: "7"
+                    },
+                    {
+                        image: onerosebanksliderimage9,
+                        title: "interior renders - visoo",
+                        number: "8"
+                    },
+                    {
+                        image: springfieldestatesliderimage1,
+                        title: "Springfield Estate",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -911,30 +1480,89 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Springfield Estate",
+                pagelocation: "George, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Springfield Estate is a new premium residential development located in George in the Western Cape, at the heart of South Africa's beautiful Garden Route. Our client, Vantage Property, wanted a concept masterplan and design for a 16-hectare lifestyle estate offering a selection of two- and three-bedroom modern homes offering a range of resort-level amenities, including a heated swimming pool and a spacious, welcoming clubhouse.",
+                    "Our response, which brought together the skills and expertise of our architectural and urban design teams, was a thoughtfully designed lifestyle estate in a contemporary Cape Vernacular style. At the heart of the concept isa masterplan that creates three distinct neighbourhoods, interconnected by a green spine that runs through the entire development. This central feature not only provides a unifying element but also serves as a green corridor for leisure and recreation.",
+                    "The layout of the estate has been crafted to create a sense of place and facilitate easy navigation. A hierarchy of streets and spaces defines the community, with a primary circular route at its core. Secondary roads branch off from this main artery, creating intimate residential pockets and fostering a village-like atmosphere. Phase 1 of the project commenced in February 2024."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
+                method: "Visoo - Renders",
+                client: "Vantage Property",
                 status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                year: "2025",
+                services: "urban design, architecture",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "urban design",
+                    "residential"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/Gn2bXyrfd87jf2sT9",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: springfieldestatesliderimage1,
+                        title: "Springfield Estate",
+                        number: ""
+                    },
+                    {
+                        image: springfieldestatesliderimage2,
+                        title: "",
+                        number: "1"
+                    },
+                    {
+                        image: springfieldestatesliderimage3,
+                        title: "dhki - kitchen option",
+                        number: "2"
+                    },
+                    {
+                        image: springfieldestatesliderimage4,
+                        title: "dhki - lounge option",
+                        number: "3"
+                    },
+                    {
+                        image: springfieldestatesliderimage5,
+                        title: "dhki - bedroom option",
+                        number: "4"
+                    },
+                    {
+                        image: springfieldestatesliderimage6,
+                        title: "dhki - bathroom option",
+                        number: "5"
+                    },
+                    {
+                        image: springfieldestatesliderimage7,
+                        title: "public spaces",
+                        number: "6"
+                    },
+                    {
+                        image: springfieldestatesliderimage8,
+                        title: "",
+                        number: "7"
+                    },
+                    {
+                        image: springfieldestatesliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: springfieldestatesliderimage10,
+                        title: "",
+                        number: "9"
+                    },
+                    {
+                        image: springfieldestatesliderimage11,
+                        title: "masterplan - urban design",
+                        number: "10"
+                    },
+                    {
+                        image: springfieldestatesliderimage12,
+                        title: "streetscape section - urban design",
+                        number: "11"
+                    },
+                    {
+                        image: bishopsacademicsliderimage1,
+                        title: "Bishops Academic Learning Centre",
+                        number: ""
+                    },
                 ]
             }
         ]

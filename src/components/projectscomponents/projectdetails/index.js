@@ -46,7 +46,7 @@ export default function Projectdetail({ title }) {
                         scrub: 1,
                         anticipatePin: 1,
                         invalidateOnRefresh: true,
-                        markers: true,
+                        markers: false,
                     },
                 });
             }, sliderMain);

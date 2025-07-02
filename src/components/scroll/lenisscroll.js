@@ -13,6 +13,9 @@ export default function LenisScroll() {
       syncTouch: true,
     });
 
+    // Expose lenis globally for scroll control
+    window.lenis = lenis;
+
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
