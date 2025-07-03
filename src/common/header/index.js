@@ -31,6 +31,8 @@ export default function Header() {
 
   const logoHoverEnabled = location.pathname === "/" ? scrolled : true;
 
+  const isProjectDetail = /^\/projects\/[^/]+$/.test(location.pathname);
+
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
@@ -98,11 +100,13 @@ export default function Header() {
                   </div>
                 }
               </div>
-              <div className='header-links-flx'>
-                <NavLink to={"/projects"}>projects, <span></span></NavLink>
-                <NavLink to={"/studio"}>studio, <span></span></NavLink>
-                <NavLink to={"/journal"}>journal <span></span></NavLink>
-              </div>
+              {!isProjectDetail && (
+                <div className='header-links-flx'>
+                  <NavLink to={"/projects"}>projects, <span></span></NavLink>
+                  <NavLink to={"/studio"}>studio, <span></span></NavLink>
+                  <NavLink to={"/journal"}>journal <span></span></NavLink>
+                </div>
+              )}
             </div>
 
             <div className='header-right-content'>

@@ -5,6 +5,26 @@
     .projects-details-slider {
       display: flex;
       gap: 2px;
+
+      a {
+        &:hover {
+          img {
+            opacity: 0.8;
+          }
+          .projects-slider-content {
+            p {
+              opacity: 0.5 !important;
+            }
+          }
+        }
+
+        .projects-slider-content {
+          p {
+            opacity: 1 !important;
+          }
+        }
+      }
+
       .projects-slider-item {
         height: calc(100vh - 77px);
         img {

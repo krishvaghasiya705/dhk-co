@@ -468,9 +468,120 @@ import springfieldestatesliderimage11 from "../../../assets/images/springfieldes
 import springfieldestatesliderimage12 from "../../../assets/images/springfieldestatesliderimage12.webp"
 
 import bishopsacademicsliderimage1 from "../../../assets/images/bishopsacademicsliderimage1.jpg"
+import bishopsacademicsliderimage2 from "../../../assets/images/bishopsacademicsliderimage2.webp"
+import bishopsacademicsliderimage3 from "../../../assets/images/bishopsacademicsliderimage3.webp"
+import bishopsacademicsliderimage4 from "../../../assets/images/bishopsacademicsliderimage4.webp"
+import bishopsacademicsliderimage5 from "../../../assets/images/bishopsacademicsliderimage5.webp"
+import bishopsacademicsliderimage6 from "../../../assets/images/bishopsacademicsliderimage6.jpg"
+import bishopsacademicsliderimage7 from "../../../assets/images/bishopsacademicsliderimage7.webp"
+import bishopsacademicsliderimage8 from "../../../assets/images/bishopsacademicsliderimage8.webp"
+import bishopsacademicsliderimage9 from "../../../assets/images/bishopsacademicsliderimage9.webp"
 
+import longkloofsliderimage1 from "../../../assets/images/longkloofsliderimage1.jpg"
+import longkloofsliderimage2 from "../../../assets/images/longkloofsliderimage2.jpg"
+import longkloofsliderimage3 from "../../../assets/images/longkloofsliderimage3.jpg"
+import longkloofsliderimage4 from "../../../assets/images/longkloofsliderimage4.jpg"
+import longkloofsliderimage5 from "../../../assets/images/longkloofsliderimage5.jpg"
+import longkloofsliderimage6 from "../../../assets/images/longkloofsliderimage6.jpg"
+import longkloofsliderimage7 from "../../../assets/images/longkloofsliderimage7.jpg"
+import longkloofsliderimage8 from "../../../assets/images/longkloofsliderimage8.webp"
+import longkloofsliderimage9 from "../../../assets/images/longkloofsliderimage9.jpg"
+import longkloofsliderimage10 from "../../../assets/images/longkloofsliderimage10.jpg"
+import longkloofsliderimage11 from "../../../assets/images/longkloofsliderimage11.jpg"
+import longkloofsliderimage12 from "../../../assets/images/longkloofsliderimage12.jpg"
+import longkloofsliderimage13 from "../../../assets/images/longkloofsliderimage13.jpg"
+import longkloofsliderimage14 from "../../../assets/images/longkloofsliderimage14.jpg"
+import longkloofsliderimage15 from "../../../assets/images/longkloofsliderimage15.jpg"
+import longkloofsliderimage16 from "../../../assets/images/longkloofsliderimage16.jpg"
+import longkloofsliderimage17 from "../../../assets/images/longkloofsliderimage17.jpg"
 
-// pending from => bishops-academic-learning-centre
+import therubiksliderimage1 from "../../../assets/images/therubiksliderimage1.jpg"
+import therubiksliderimage2 from "../../../assets/images/therubiksliderimage2.webp"
+import therubiksliderimage3 from "../../../assets/images/therubiksliderimage3.webp"
+import therubiksliderimage4 from "../../../assets/images/therubiksliderimage4.webp"
+import therubiksliderimage5 from "../../../assets/images/therubiksliderimage5.webp"
+import therubiksliderimage6 from "../../../assets/images/therubiksliderimage6.webp"
+import therubiksliderimage7 from "../../../assets/images/therubiksliderimage7.webp"
+import therubiksliderimage8 from "../../../assets/images/therubiksliderimage8.jpg"
+import therubiksliderimage9 from "../../../assets/images/therubiksliderimage9.webp"
+
+import lowerlongsliderimage1 from "../../../assets/images/lowerlongsliderimage1.jpg"
+import lowerlongsliderimage2 from "../../../assets/images/lowerlongsliderimage2.webp"
+import lowerlongsliderimage3 from "../../../assets/images/lowerlongsliderimage3.webp"
+import lowerlongsliderimage4 from "../../../assets/images/lowerlongsliderimage4.webp"
+import lowerlongsliderimage5 from "../../../assets/images/lowerlongsliderimage5.jpg"
+import lowerlongsliderimage6 from "../../../assets/images/lowerlongsliderimage6.webp"
+import lowerlongsliderimage7 from "../../../assets/images/lowerlongsliderimage7.webp"
+
+import radissonredsliderimage1 from "../../../assets/images/radissonredsliderimage1.webp"
+import radissonredsliderimage2 from "../../../assets/images/radissonredsliderimage2.webp"
+import radissonredsliderimage3 from "../../../assets/images/radissonredsliderimage3.jpg"
+import radissonredsliderimage4 from "../../../assets/images/radissonredsliderimage4.webp"
+import radissonredsliderimage5 from "../../../assets/images/radissonredsliderimage5.webp"
+import radissonredsliderimage6 from "../../../assets/images/radissonredsliderimage6.webp"
+import radissonredsliderimage7 from "../../../assets/images/radissonredsliderimage7.webp"
+import radissonredsliderimage8 from "../../../assets/images/radissonredsliderimage8.webp"
+import radissonredsliderimage9 from "../../../assets/images/radissonredsliderimage9.webp"
+import radissonredsliderimage10 from "../../../assets/images/radissonredsliderimage10.webp"
+
+import oldcapesliderimage1 from "../../../assets/images/oldcapesliderimage1.webp"
+import oldcapesliderimage2 from "../../../assets/images/oldcapesliderimage2.webp"
+import oldcapesliderimage3 from "../../../assets/images/oldcapesliderimage3.webp"
+import oldcapesliderimage4 from "../../../assets/images/oldcapesliderimage4.webp"
+import oldcapesliderimage5 from "../../../assets/images/oldcapesliderimage5.webp"
+import oldcapesliderimage6 from "../../../assets/images/oldcapesliderimage6.webp"
+import oldcapesliderimage7 from "../../../assets/images/oldcapesliderimage7.jpg"
+import oldcapesliderimage8 from "../../../assets/images/oldcapesliderimage8.webp"
+import oldcapesliderimage9 from "../../../assets/images/oldcapesliderimage9.webp"
+import oldcapesliderimage10 from "../../../assets/images/oldcapesliderimage10.webp"
+import oldcapesliderimage11 from "../../../assets/images/oldcapesliderimage11.jpg"
+import oldcapesliderimage12 from "../../../assets/images/oldcapesliderimage12.jpg"
+import oldcapesliderimage13 from "../../../assets/images/oldcapesliderimage13.webp"
+import oldcapesliderimage14 from "../../../assets/images/oldcapesliderimage14.webp"
+import oldcapesliderimage15 from "../../../assets/images/oldcapesliderimage15.webp"
+
+import oxfordsliderimage1 from "../../../assets/images/oxfordsliderimage1.webp"
+import oxfordsliderimage2 from "../../../assets/images/oxfordsliderimage2.webp"
+import oxfordsliderimage3 from "../../../assets/images/oxfordsliderimage3.webp"
+import oxfordsliderimage4 from "../../../assets/images/oxfordsliderimage4.webp"
+import oxfordsliderimage5 from "../../../assets/images/oxfordsliderimage5.webp"
+import oxfordsliderimage6 from "../../../assets/images/oxfordsliderimage6.jpg"
+import oxfordsliderimage7 from "../../../assets/images/oxfordsliderimage7.webp"
+import oxfordsliderimage8 from "../../../assets/images/oxfordsliderimage8.webp"
+import oxfordsliderimage9 from "../../../assets/images/oxfordsliderimage9.jpg"
+import oxfordsliderimage10 from "../../../assets/images/oxfordsliderimage10.jpg"
+import oxfordsliderimage11 from "../../../assets/images/oxfordsliderimage11.webp"
+import oxfordsliderimage12 from "../../../assets/images/oxfordsliderimage12.webp"
+import oxfordsliderimage13 from "../../../assets/images/oxfordsliderimage13.webp"
+
+import parkssliderimage1 from "../../../assets/images/parkssliderimage1.jpg"
+import parkssliderimage2 from "../../../assets/images/parkssliderimage2.webp"
+import parkssliderimage3 from "../../../assets/images/parkssliderimage3.webp"
+import parkssliderimage4 from "../../../assets/images/parkssliderimage4.webp"
+import parkssliderimage5 from "../../../assets/images/parkssliderimage5.webp"
+import parkssliderimage6 from "../../../assets/images/parkssliderimage6.webp"
+import parkssliderimage7 from "../../../assets/images/parkssliderimage7.webp"
+import parkssliderimage8 from "../../../assets/images/parkssliderimage8.webp"
+import parkssliderimage9 from "../../../assets/images/parkssliderimage9.webp"
+import parkssliderimage10 from "../../../assets/images/parkssliderimage10.webp"
+
+import capitecbanksliderimage1 from "../../../assets/images/capitecbanksliderimage1.jpg"
+import capitecbanksliderimage2 from "../../../assets/images/capitecbanksliderimage2.webp"
+import capitecbanksliderimage3 from "../../../assets/images/capitecbanksliderimage3.webp"
+import capitecbanksliderimage4 from "../../../assets/images/capitecbanksliderimage4.webp"
+import capitecbanksliderimage5 from "../../../assets/images/capitecbanksliderimage5.webp"
+import capitecbanksliderimage6 from "../../../assets/images/capitecbanksliderimage6.webp"
+import capitecbanksliderimage7 from "../../../assets/images/capitecbanksliderimage7.webp"
+import capitecbanksliderimage8 from "../../../assets/images/capitecbanksliderimage8.webp"
+import capitecbanksliderimage9 from "../../../assets/images/capitecbanksliderimage9.webp"
+import capitecbanksliderimage10 from "../../../assets/images/capitecbanksliderimage10.webp"
+import capitecbanksliderimage11 from "../../../assets/images/capitecbanksliderimage11.jpg"
+import capitecbanksliderimage12 from "../../../assets/images/capitecbanksliderimage12.jpg"
+import capitecbanksliderimage13 from "../../../assets/images/capitecbanksliderimage13.jpg"
+
+import paardevleisliderimage1 from "../../../assets/images/paardevleisliderimage1.webp"
+
+// pending from => Paardevlei ||  Somerset West, South Africa
 const projects = [
     {
         number: '01',
@@ -1604,7 +1715,52 @@ const projects = [
                         image: bishopsacademicsliderimage1,
                         title: "Bishops Academic Learning Centre",
                         number: ""
-                    }
+                    },
+                    {
+                        image: bishopsacademicsliderimage2,
+                        title: "primary entrance + courtyard",
+                        number: "1"
+                    },
+                    {
+                        image: bishopsacademicsliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: bishopsacademicsliderimage4,
+                        title: "dhki - teachers lounge",
+                        number: "3"
+                    },
+                    {
+                        image: bishopsacademicsliderimage5,
+                        title: "dhki - collab room",
+                        number: "4"
+                    },
+                    {
+                        image: bishopsacademicsliderimage6,
+                        title: "dhki - chill area in the molteno library",
+                        number: "5"
+                    },
+                    {
+                        image: bishopsacademicsliderimage7,
+                        title: "dhki - first floor of the molteno library",
+                        number: "6"
+                    },
+                    {
+                        image: bishopsacademicsliderimage8,
+                        title: "dhki - ground level of the molteno library",
+                        number: "7"
+                    },
+                    {
+                        image: bishopsacademicsliderimage9,
+                        title: "molteno library entrance - back of building",
+                        number: "8"
+                    },
+                    {
+                        image: longkloofsliderimage1,
+                        title: "Longkloof Precinct",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1618,30 +1774,124 @@ const projects = [
         data: [],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Longkloof Precinct",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The Longkloof Precinct project was a complex multidisciplinary adaptive reuse design challenge that creates a meaningful dialogue between heritage and contemporary elements in a sensitive and respectful combination. The 15-year long project comprises the sensitive restoration of five historic buildings and the construction of a new five-star hotel, set within an interconnected landscaped public realm with new street frontage and a new secured yet publicly accessible external space at the heart of the precinct.",
+                    "The site comprises six separate erven owned by a single owner, with an accumulated site area of 16,500m2, in a transitional location off the edge of the Cape Town CBD. Five original historic buildings of various scales were subject to heritage protections in terms of height, building mass, protected view corridors, façade articulation and materiality. The precinct was landlocked with minimal street frontages and restricted public access to commercial buildings; it had become fragmented, lacking spatial cohesion and connectivity.",
+                    "The project commenced in 2010, with the original architectural brief to design an office, retail and basement parking proposal on the larger site which included existing surface parking. While this site contained one of the historical buildings, only one wall of that building was deemed worthy of retention. The brief later expanded to individual redevelopment proposals for the other heritage buildings in the precinct. It became clear that there was a need, and an opportunity, to fully integrate all the erven into one cohesive precinct. The precinct-wide urban design approach creates a vibrant publicly accessible environment while respecting heritage indicators and the surrounding context.",
+                    "The scheme revitalises the existing heritage buildings, upgrading them to premium grade co-working and office spaces. Contemporary additions included additions and partial demolition to existing buildings, excavations to activate existing basement floors and to create activated courtyard spaces, reconfiguring internal spaces into open-plan offices and reinstating ground floor connections between existing buildings and the public realm. The new-build five-star hotel was initially designed and approved as two separate office buildings. This approved scheme was later adapted to hotel use, which required above-ground connection between the two buildings with glass-clad bridges at all four levels. Façades are stepped back away from the street to reduce their scale and to better respond to the surrounding streetscape and the public square. New ground floor retail, restaurants and cafes enliven street edges, pedestrian walkways and new urban square.",
+                    "The design introduces new pedestrian links into and through the precinct to connect the surrounding public realm into the heart of the new Longkloof precinct. This enhances the quality of the public realm and emphasises pedestrian permeability. Street edges and pedestrian routes are well defined, with canopies or pergolas offering protection in appropriate areas. Access to three levels of basement parking ensures a car-free pedestrian-friendly environment. On site vehicular movement is limited to hotel drop off and intermittent servicing along Jamieson Lane."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Sean Gibson - Photographer",
+                methoddetails: [
+                    "Longkloof is one of the studio’s flagship projects. It is an outstanding demonstration of how precinct-led urban design and considered architectural design can be combined to add value to neglected urban environments. We are absolutely delighted with the results.",
+                    "Derick Henstra, Executive Chairman and co-founder of"
+                ],
+                dhkArchitects: "Architects",
+                client: "Growthpoint Properties",
+                status: "built",
+                year: "2024",
+                services: "urban design, architecture",
                 tags: [
                     "mixed-use",
-                    "residential",
+                    "retail",
+                    "urban design",
+                    "office",
                     "hospitality"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/366g7qX1JpRjDQDG9",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: longkloofsliderimage1,
+                        title: "Longkloof Precinct",
+                        number: ""
+                    },
+                    {
+                        image: longkloofsliderimage2,
+                        title: "",
+                        number: "1"
+                    },
+                    {
+                        image: longkloofsliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: longkloofsliderimage4,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: longkloofsliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: longkloofsliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: longkloofsliderimage7,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: longkloofsliderimage8,
+                        title: "",
+                        number: "7"
+                    },
+                    {
+                        image: longkloofsliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: longkloofsliderimage10,
+                        title: "",
+                        number: "9"
+                    },
+                    {
+                        image: longkloofsliderimage11,
+                        title: "",
+                        number: "10"
+                    },
+                    {
+                        image: longkloofsliderimage12,
+                        title: "",
+                        number: "11"
+                    },
+                    {
+                        image: longkloofsliderimage13,
+                        title: "",
+                        number: "12"
+                    },
+                    {
+                        image: longkloofsliderimage14,
+                        title: "",
+                        number: "13"
+                    },
+                    {
+                        image: longkloofsliderimage15,
+                        title: "",
+                        number: "14"
+                    },
+                    {
+                        image: longkloofsliderimage16,
+                        title: "",
+                        number: "15"
+                    },
+                    {
+                        image: longkloofsliderimage17,
+                        title: "",
+                        number: "16"
+                    },
+                    {
+                        image: therubiksliderimage1,
+                        title: "The Rubik",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1659,30 +1909,78 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "The Rubik",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The Rubik is a 27-storey mixed-use tower designed for Abland Property Developers. The developers wanted a viable yet unique design for a modern mixed-use building on an 821m2 site that straddles the historical inner-city district and the more recently developed city blocks north of Riebeek Street in Cape Town’s CBD. The design needed to address the challenge of its location in a Heritage Overlay Zone and required approval from heritage authorities. The result is a distinctive form that rises to 91 meters. While exceeding initial height restrictions, the resulting approval led to a building that enhances the city skyline with its dynamic sculptural elegance.",
+                    "Retail spaces activate the streetscape from ground to first floor and the parking podium rises ten floors above. The upper levels, from floors 11 to 26, are divided into three stacked,orthogonal twisting cubes rotated around a central axis. These levels contain commercial offices and residential apartments, including one- and two-bedroom units, duplex and triplex penthouses. The fragmentation creates visual interest and captures varied reflections of the surrounding cityscape. Small recessed terraces punctuate the facade, adding to the building’s aesthetic.",
+                    "The façade design is thoughtful and contextual. The parking podium’s exterior references the scale and rhythm of nearby heritage buildings, using a combination of pre-cast concrete, extruded aluminium, and glazed panels. The office and residential levels feature flush glazing co structural elements and incorporates discreet balconies.",
+                    "Despite the tight site constraints, the internal layout maximises efficiency. The centralised lift core and scissor stair accommodate parking circulation below while providing flexibility for office and residential layouts above. Terraces to the residential units are stepped back, providing protection from the weather. A common roof terrace with a pool and indigenous planting crowns the building.",
+                    "The Rubik incorporates several sustainable features including high-performance glazing, energy-efficient systems and environmentally-friendly materials. Its mixed-use nature and central location promote urban density and walkability, aligning with sustainable urban development principles. Overall, The Rubik stands as a significant contemporary addition to Cape Town’s skyline, balancing modern design with sensitivity to its historic context while promoting a vibrant, mixed-use urban environment."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Sean Gibson - Photographer",
+                client: "Abland Property Developers",
+                status: "built",
+                year: "2024",
+                services: "architecture",
                 tags: [
                     "mixed-use",
+                    "office",
                     "residential",
-                    "hospitality"
+                    "retail"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/PwwgBNZdRK6bHwVa8",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: therubiksliderimage1,
+                        title: "The Rubik",
+                        number: ""
+                    },
+                    {
+                        image: therubiksliderimage2,
+                        title: "view up loop street",
+                        number: "1"
+                    },
+                    {
+                        image: therubiksliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: therubiksliderimage4,
+                        title: "view from bree street",
+                        number: "3"
+                    },
+                    {
+                        image: therubiksliderimage5,
+                        title: "parking podium façade",
+                        number: "4"
+                    },
+                    {
+                        image: therubiksliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: therubiksliderimage7,
+                        title: "façade detail informed by the surrounding heritage buildings",
+                        number: "6"
+                    },
+                    {
+                        image: therubiksliderimage8,
+                        title: "view from buitengracht street",
+                        number: "7"
+                    },
+                    {
+                        image: therubiksliderimage9,
+                        title: "sean gibson - photographer",
+                        number: "8"
+                    },
+                    {
+                        image: lowerlongsliderimage1,
+                        title: "35 Lower Long",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1699,30 +1997,67 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "35 Lower Long",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "35 Lower Long is an elegant and dynamic tower designed for Abland Property Developers and Ellerine Brothers in Cape Town’s Foreshore precinct. It features14 floors of office space, flexible co-working spaces, a luxurious top-floor business suite, ground-floor retail space and 280 parking bays.",
+                    "The site contained an existing, unremarkable 1980s building. The initial brief was to remodel and extend that building. However, this proposition was deemed impractical due to the limitations of adding floors, the need to replace an outdated façade and challenges with long-term viability. The scheme was subsequently revised to create a significantly taller, more inspirational structure that would enhance Cape Town’s skyline and offer developers greater medium- to long-term viability. That said, the challenge remained to maximise the quality of multi-tenant commercial space while accommodating core components such as lifts, stairs and structured basement parking, all within a relatively small floor plate.",
+                    "The result is a building characterised by a singular sculpted massing with dynamic glazed façades that extend seamlessly over the office’s floors and parking levels. The façade terminates above ground level to emphasise and activate the street edge, particularly along entire length of the street frontage along Lower Long and Jetty Streets. This is enlivened by retail units at ground level, multiple entry points to the office building and a prominent double-volume main entrance.",
+                    "The two main corners of the building are chamfered towards the roof line, breaking the solidity of the building. The glazing on these corners soars upwards past the roofline, further articulating the façade and extending past the building’s chamfered corners, giving the effect of a crystalline screen rather than solid building mass. The sculptural form of the building provides dynamic views from across the city, both at street level and from nearby buildings. 35 Lower Long was designed according to best practice green principles and holds a 4-Star Green Star rating by the Green Building Council of South Africa.",
+                    "Visit The Rubik for more details of another project we completed in 2024 for Abland Property Developers."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Adam Letch - Photographer",
+                client: "Abland Property Developers and Ellerine Brothers",
+                status: "built",
+                year: "2022",
+                services: "architecture",
                 tags: [
+                    "office",
                     "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "sustainable"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/qG9sRuB2UW3ejWY37",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: lowerlongsliderimage1,
+                        title: "35 Lower Long",
+                        number: ""
+                    },
+                    {
+                        image: lowerlongsliderimage2,
+                        title: "",
+                        number: "1"
+                    },
+                    {
+                        image: lowerlongsliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: lowerlongsliderimage4,
+                        title: "view from hans strijdom avenue",
+                        number: "3"
+                    },
+                    {
+                        image: lowerlongsliderimage5,
+                        title: "skyline profile",
+                        number: "4"
+                    },
+                    {
+                        image: lowerlongsliderimage6,
+                        title: "view from lower loop street",
+                        number: "5"
+                    },
+                    {
+                        image: lowerlongsliderimage7,
+                        title: "adam letch - photographer",
+                        number: "6"
+                    },
+                    {
+                        image: radissonredsliderimage1,
+                        title: "Radisson Red",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1741,30 +2076,81 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Radisson Red",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Radisson RED Rosebank holds pride of place in the Oxford Parks precinct in Rosebank, Johannesburg. The brief from Intaprop for Radisson RED Rosebank was to create an architecturally sophisticated hotel with a playful tone. Oxford Parks emerged from the Dunkeld Design Manual, an urban masterplan which we developed to harness the strengths of Rosebank’s walkable urban realm and to connect the centre with others beyond. Key characteristics of the masterplan are human-scale architecture with striking façades and active street frontages. Radisson RED delivers on both points.",
+                    "The hotel comprises 222 keys, a restaurant, bar and rooftop terrace and a generous reception area accessible from the pedestrian hub of Oxford Parks. The grand full-height entrance canopy creates a striking sense of place, highlighted with public artworks and halo pendant lights. Ground-floor volumes are visually transparent to increase internal/external interaction, reinforced by interior spaces that spill over into undercover outdoor seating areas. Illumination at night magnifies the visual impact",
+                    "Art is a key feature. Bold red accents and sculptural red artworks reference the RED brand. A commissioned angel-wing sculpture by local artist Usha Seejarim forms a prominent landmark. Corridors, rooms and suites feature custom-designed wallpaper inspired by local people, art, music and fashion. Street-style art displays change regularly. An interactive digi-wall and Chromecast televisions offer high-tech visuals. The building adheres to ASHRAE standards for high thermal comfort. Its energy-efficient fittings also surpass SANS 10400 standards."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Tristan Mclaren + Sean Gibson - Photographers",
+                method2: "Source IBA - Interior Design",
+                client: "Intaprop",
+                status: "built",
+                year: "2022",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "hospitality",
+                    "retail",
+                    "sustainable"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/1fV3dRhVoqvyKkrz5",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: radissonredsliderimage1,
+                        title: "Radisson Red",
+                        number: ""
+                    },
+                    {
+                        image: radissonredsliderimage2,
+                        title: "",
+                        number: "1"
+                    },
+                    {
+                        image: radissonredsliderimage3,
+                        title: "source iba - interior design",
+                        number: "2"
+                    },
+                    {
+                        image: radissonredsliderimage4,
+                        title: "jake michael singer - sculpture",
+                        number: "3"
+                    },
+                    {
+                        image: radissonredsliderimage5,
+                        title: "hotel rooftop bar",
+                        number: "4"
+                    },
+                    {
+                        image: radissonredsliderimage6,
+                        title: "position within oxford parks",
+                        number: "5"
+                    },
+                    {
+                        image: radissonredsliderimage7,
+                        title: "view from the corner of oxford road",
+                        number: "6"
+                    },
+                    {
+                        image: radissonredsliderimage8,
+                        title: "view of the drop off spot on oxford road",
+                        number: "7"
+                    },
+                    {
+                        image: radissonredsliderimage9,
+                        title: "an early elevation",
+                        number: "8"
+                    },
+                    {
+                        image: radissonredsliderimage10,
+                        title: "initial sketch",
+                        number: "9"
+                    },
+                    {
+                        image: oldcapesliderimage1,
+                        title: "Old Cape Quarter",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1784,30 +2170,109 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Old Cape Quarter",
+                pagelocation: "Cape Town, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "Nestled in the heart of Cape Town’s vibrant De Waterkant neighbourhood, Old Cape Quarter is an exemplar of thoughtful urban renewal and adaptive reuse design principles. The brief by Tower Property Fund was to revitalise the complex into a mixed-use hub including new retail and office spaces as well as 55 luxury apartments and penthouses. At the core of the development lies the protected Old Cape Quarter Piazza, a significant historical landmark that anchors the development in Cape Town’s rich past.",
+                    "Our approach was to weave contemporary elements into the original structure, preserving its heritage and reviving the area with a high quality contemporary architectural insertion. The key objective for this approach was to design buildings that were efficient while making an architectural statement that could reflect and embody the existing heritage context.",
+                    "The development prioritises occupant well-being through optimised living and workspaces, improved indoor air quality and the use of non-toxic materials throughout. This focus on health and comfort contributes to an enhanced quality of life for residents and workers throughout the development. A timber brise-soleil creates an elegant screen that enhances privacy for the apartments on the upper floors.",
+                    "The central courtyard at the heart of the development is one of its most striking features. Cobblestones and cascading planted terraces provide a tranquil retreat from urban life, beyond the surrounding busy streets. Ground floor retail and commercial units open directly into the courtyard, enhancing it as an active public space. Secure underground parking, access control and separate entrances to the residential units contribute to the sense of privacy for residents. Overall, our design response has resulted in a development that seamlessly blends historical charm with modern sophistication, offering a unique living and working experience.",
+                    "We were also very proud to secure the ground floor space to locate our Cape Town office, providing us with a prominent street presence and a direct connection with the urban environment. In February 2025, Old Cape Quarter was awarded a Four Star Greenstar As-Built Rating by the Green Building Council of South Africa, recognising its sustainable design principles."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Sean Gibson - Photographer",
+                client: "Tower Property Fund",
+                status: "built",
+                year: "2021",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
+                    "retail",
                     "residential",
-                    "hospitality"
+                    "mixed-use",
+                    "office",
+                    "sustainable"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/LmRWmL7UziV6T5K18",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: oldcapesliderimage1,
+                        title: "Old Cape Quarter",
+                        number: ""
+                    },
+                    {
+                        image: oldcapesliderimage2,
+                        title: "view from the corner of hudson street",
+                        number: "1"
+                    },
+                    {
+                        image: oldcapesliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: oldcapesliderimage4,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: oldcapesliderimage5,
+                        title: "first floor - timber screen detail",
+                        number: "4"
+                    },
+                    {
+                        image: oldcapesliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: oldcapesliderimage7,
+                        title: "view of the courtyard + residential",
+                        number: "6"
+                    },
+                    {
+                        image: oldcapesliderimage8,
+                        title: "",
+                        number: "7"
+                    },
+                    {
+                        image: oldcapesliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: oldcapesliderimage10,
+                        title: "view from the corner of dixon street",
+                        number: "9"
+                    },
+                    {
+                        image: oldcapesliderimage11,
+                        title: "view from the corner of dixon street",
+                        number: "10"
+                    },
+                    {
+                        image: oldcapesliderimage12,
+                        title: "dixon street retail",
+                        number: "11"
+                    },
+                    {
+                        image: oldcapesliderimage13,
+                        title: "boyd + ogier - model based on our initial sketches of the courtyard",
+                        number: "12"
+                    },
+                    {
+                        image: oldcapesliderimage14,
+                        title: "early in-house illustrations",
+                        number: "13"
+                    },
+                    {
+                        image: oldcapesliderimage15,
+                        title: "",
+                        number: "14"
+                    },
+                    {
+                        image: oxfordsliderimage1,
+                        title: "203 Oxford, Oxford Parks",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1827,8 +2292,8 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "203 Oxford, Oxford Parks",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
                     "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
                     "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
@@ -1847,10 +2312,75 @@ const projects = [
                 location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: oxfordsliderimage1,
+                        title: "203 Oxford, Oxford Parks",
+                        number: ""
+                    },
+                    {
+                        image: oxfordsliderimage2,
+                        title: "view from oxford road",
+                        number: "1"
+                    },
+                    {
+                        image: oxfordsliderimage3,
+                        title: "context within the oxford parks precinct",
+                        number: "2"
+                    },
+                    {
+                        image: oxfordsliderimage4,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: oxfordsliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: oxfordsliderimage6,
+                        title: "pedestrian access into oxford parks",
+                        number: "5"
+                    },
+                    {
+                        image: oxfordsliderimage7,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: oxfordsliderimage8,
+                        title: "site visit - 2019",
+                        number: "7"
+                    },
+                    {
+                        image: oxfordsliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: oxfordsliderimage10,
+                        title: "",
+                        number: "9"
+                    },
+                    {
+                        image: oxfordsliderimage11,
+                        title: "initial illustrations",
+                        number: "10"
+                    },
+                    {
+                        image: oxfordsliderimage12,
+                        title: "",
+                        number: "11"
+                    },
+                    {
+                        image: oxfordsliderimage13,
+                        title: "",
+                        number: "12"
+                    },
+                    {
+                        image: parkssliderimage1,
+                        title: "6 Parks Boulevard, Oxford Parks",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1870,30 +2400,82 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "6 Parks Boulevard, Oxford Parks",
+                pagelocation: "Johannesburg, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "6 Parks Boulevard, for Intaprop, formed part of the first phase of the new Oxford Parks precinct in Johannesburg. Our brief was to design a striking headquarters building within the new commercial development. At just three storeys, and with only a portion of the façade facing Oxford Road, the design needed to be unique and eye-catching to make an impression on passing foot and vehicle traffic. Arup, a multidisciplinary planning, design and advisory consultancy, was the primary tenant at completion, occupying the 1 300m² office space.",
+                    "Our solution was to establish a distinctive façade of fritted glass featuring a pattern of trees inspired by Johannesburg’s urban forest, reflecting Arup’s focus on sustainable development. We applied a specific focus on the contrast between light and dark frames surrounding the glazed area, creating interest and maintaining focus and energy on the façade.",
+                    "The Oxford Parks urban design framework emerged from our 2015 project to develop the Dunkeld Design Manual. This was conceived to extend the vibrant, pedestrian environment of Rosebank along the Oxford Road corridor and link it to the emerging retail and office node of Illovo. We have also completed two other buildings in the precinct – Radisson RED and 203 Oxford, and another, One Rosebank, will be completed in 2025. We also created the entire basement and podium to prioritise a pedestrian friendly precinct environment at Oxford Parks."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Sean Gibson - Photographer",
+                client: "Intaprop",
+                status: "built",
+                year: "2020",
+                services: "architecture",
                 tags: [
+                    "office",
+                    "retail",
                     "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "urban design",
+                    "sustainable"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/vFHyuHrtAJHQyBBd7",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: parkssliderimage1,
+                        title: "6 Parks Boulevard, Oxford Parks",
+                        number: ""
+                    },
+                    {
+                        image: parkssliderimage2,
+                        title: "glazing detail",
+                        number: "1"
+                    },
+                    {
+                        image: parkssliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: parkssliderimage4,
+                        title: "",
+                        number: "3"
+                    },
+                    {
+                        image: parkssliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: parkssliderimage6,
+                        title: "position within the oxford parks precinct",
+                        number: "5"
+                    },
+                    {
+                        image: parkssliderimage7,
+                        title: "site visit - 2019",
+                        number: "6"
+                    },
+                    {
+                        image: parkssliderimage8,
+                        title: "initial illustrations",
+                        number: "7"
+                    },
+                    {
+                        image: parkssliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: parkssliderimage10,
+                        title: "dunkeld precinct design manual overlay - urban design",
+                        number: "9"
+                    },
+                    {
+                        image: capitecbanksliderimage1,
+                        title: "Capitec Bank HQ",
+                        number: ""
+                    },
                 ]
             }
         ]
@@ -1913,30 +2495,96 @@ const projects = [
         ],
         pagedata: [
             {
-                Pagetitle: "Al Marjan",
-                pagelocation: "Al Marjan Island, UAE",
+                Pagetitle: "Capitec Bank HQ",
+                pagelocation: "Stellenbosch, South Africa",
                 paragraphs: [
-                    "Collaboration is at the heart of our work. We're proud to be working in association with U+A on a luxury residential development currently underway in the United Arab Emirates, located on Al Marjan Island in Ras Al Khaimah. Our team worked closely with U+A on the design philosophy, coordination and building information modelling (BIM) to create a luxurious yet functional living environment that harmonises with its beachfront location.",
-                    "The Al Marjan Beach Club is a prestigious residential development nestled on Al Marjan Island in Ras Al Khaimah. Conveniently located just a 45-minute drive away from both Dubai and Sharjah International Airports, this exclusive enclave offers a luxurious lifestyle, featuring a total of 2000 residential and branded apartments.",
-                    "With the breathtaking Arabian Peninsula as its backdrop, the development places a strong emphasis on family-oriented waterfront leisure, complemented by a robust wellness theme. Along the charming promenade, a delightful array of food and beverage options adds to the island's unique allure, solidifying its position as the ultimate destination for those seeking an upscale lifestyle by the water's edge."
+                    "The head office of Capitec Bank is one of the jewels in our portfolio. This building is a great example of how innovative commercial office design can drive operational efficiencies and can also be cost effective. Located in Stellenbosch in the Western Cape, the building is named iKhaya, meaning ‘home’ in isiXhosa. Capitec is one of the largest and most progressive banks in Africa.",
+                    "The brief emerged from Capitec’s strategic business decision to move into custom-designed, owned buildings that would better serve its business requirements. One of the key priorities in the brief was creating a head office that would be true to the brand and facilitate high interaction between business units and the executive team.",
+                    "Our response was to create a striking, almost other-worldly building that uses effective exterior and interior design to optimise internal flow, foster inter-departmental interactions, manage corporate expenditure and enhance sustainability. The three-storey curvilinear building is defined by its dynamic interior architecture, which embodies the company’s progressive outlook and facilitates agile working",
+                    "Completed in 2020, the three-storey superstructure wraps around itself, into a unique ‘doughnut’ shape. A central triple volume atrium acts as an internal social spine at the heart of the building. Internally, wide open-plan floorplates loop around the atrium’s periphery. This is an intentional design element to better connect the various departments, creating opportunities for chance collaborative encounters and personal interactions.",
+                    "Our clients championed environmental sustainability and employee well-being throughout the building. To future-proof the design of the building, a flexible and agile approach was taken. Various breakaway areas offer spaces to fuel creativity, spark innovation, enjoy moments of solitude, conduct a private meeting or brainstorm ideas in small groups, with the effect of boosting productivity and enhancing efficiency."
                 ],
-                method: "Binyan + Red Vertex - Renders",
-                client: "Aldar Properties",
-                status: "on site",
-                year: "2028",
-                services: "architecture, urban design",
+                method: "Wieland Gliech - Photographer",
+                client: "Capitec Bank",
+                status: "built",
+                year: "2020",
+                services: "architecture",
                 tags: [
-                    "mixed-use",
-                    "residential",
-                    "hospitality"
+                    "office",
+                    "sustainable"
                 ],
-                location: "https://maps.app.goo.gl/HLjRCMfL1BDo9k1KA",
+                location: "https://maps.app.goo.gl/nbGJxqnn8hwuTCbv6",
                 sliderdata: [
                     {
-                        image: almarjanimage1,
-                        title: "red vertex - render",
-                        number: "01"
-                    }
+                        image: capitecbanksliderimage1,
+                        title: "Capitec Bank HQ",
+                        number: ""
+                    },
+                    {
+                        image: capitecbanksliderimage2,
+                        title: "techno park campus exterior",
+                        number: "1"
+                    },
+                    {
+                        image: capitecbanksliderimage3,
+                        title: "",
+                        number: "2"
+                    },
+                    {
+                        image: capitecbanksliderimage4,
+                        title: "interior details",
+                        number: "3"
+                    },
+                    {
+                        image: capitecbanksliderimage5,
+                        title: "",
+                        number: "4"
+                    },
+                    {
+                        image: capitecbanksliderimage6,
+                        title: "",
+                        number: "5"
+                    },
+                    {
+                        image: capitecbanksliderimage7,
+                        title: "",
+                        number: "6"
+                    },
+                    {
+                        image: capitecbanksliderimage8,
+                        title: "",
+                        number: "7"
+                    },
+                    {
+                        image: capitecbanksliderimage9,
+                        title: "",
+                        number: "8"
+                    },
+                    {
+                        image: capitecbanksliderimage10,
+                        title: "",
+                        number: "9"
+                    },
+                    {
+                        image: capitecbanksliderimage11,
+                        title: "wieland gliech - photographer",
+                        number: "10"
+                    },
+                    {
+                        image: capitecbanksliderimage12,
+                        title: "initial illustrations",
+                        number: "11"
+                    },
+                    {
+                        image: capitecbanksliderimage13,
+                        title: "",
+                        number: "12"
+                    },
+                    {
+                        image: paardevleisliderimage1,
+                        title: "Paardevlei",
+                        number: ""
+                    },
                 ]
             }
         ]

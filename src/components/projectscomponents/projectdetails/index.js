@@ -54,6 +54,12 @@ export default function Projectdetail({ title }) {
         }
     }, [title, project, imagesLoaded, totalImages]);
 
+    useEffect(() => {
+        return () => {
+            setCursorBtn(prev => ({ ...prev, visible: false }));
+        };
+    }, [title]);
+
     if (!project) {
         return <div>Project not found</div>;
     }
@@ -82,15 +88,18 @@ export default function Projectdetail({ title }) {
                                 const isLast = idx === project.pagedata[0].sliderdata.length - 1;
                                 const content = (
                                     <>
-                                        <img
+                                        {slide.image && <img
                                             src={slide.image}
                                             alt={slide.title || `slide-${idx + 1}`}
                                             onLoad={() => setImagesLoaded(count => count + 1)}
                                         />
-                                        <div className='projects-slider-content'>
-                                            {slide.number && <span>{slide.number}</span>}
-                                            {slide.title && <p>{slide.title}</p>}
-                                        </div>
+                                        }
+                                        {(slide.number || slide.title) && (
+                                            <div className='projects-slider-content'>
+                                                {slide.number && <span>{slide.number}</span>}
+                                                {slide.title && <p>{slide.title}</p>}
+                                            </div>
+                                        )}
                                     </>
                                 );
                                 if (isLast) {
