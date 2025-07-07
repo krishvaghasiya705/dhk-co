@@ -12,18 +12,37 @@ export default function LenisScroll() {
       wheelMultiplier: 0.8,
       syncTouch: true,
     });
-
-    // Expose lenis globally for scroll control
     window.lenis = lenis;
 
+    // Intercept wheel events for Shift+Wheel (horizontal scroll)
+    function onWheel(e) {
+      if (e.shiftKey) {
+        // Let browser handle horizontal scroll, prevent Lenis
+        lenis.stop();
+      } else {
+        lenis.start();
+      }
+    }
+    window.addEventListener("wheel", onWheel, { passive: true });
+
     function raf(time) {
-      lenis.raf(time);
+      // Pause Lenis if body is overflow hidden
+      const bodyOverflow = document.body.style.overflow;
+      if (bodyOverflow === "hidden") {
+        lenis.stop();
+      } else {
+        lenis.start();
+        lenis.raf(time);
+      }
       requestAnimationFrame(raf);
     }
 
     requestAnimationFrame(raf);
 
-    return () => lenis.destroy();
+    return () => {
+      lenis.destroy();
+      window.removeEventListener("wheel", onWheel);
+    };
   }, []);
 
   return null;

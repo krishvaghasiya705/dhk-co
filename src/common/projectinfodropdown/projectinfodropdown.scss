@@ -7,8 +7,23 @@
   transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
   &.open {
-    max-height: 1000px; /* Large enough to show all content */
+    max-height: 1000px;
     transition: max-height 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--black);
   }
 
   .project-info-dropdown-flx {
@@ -42,12 +57,12 @@
 
     .project-info-dropdown-flx-mid-main {
       max-width: 800px;
-      max-height: 510px;
-      overflow-y: auto;
       width: 100%;
       padding: 120px 0;
-
+      
       .project-info-dropdown-flx-mid {
+        overflow-y: auto;
+        height: 510px;
         max-width: 640px;
         margin-right: auto;
 
@@ -91,9 +106,9 @@
         }
 
         .project-info-dropdown-hr-line {
-            margin-top: 50px;
-            border-bottom: 1px solid var(--white);
-            opacity: 0.3;
+          margin-top: 50px;
+          border-bottom: 1px solid var(--white);
+          opacity: 0.3;
         }
       }
     }

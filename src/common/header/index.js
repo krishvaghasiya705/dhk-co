@@ -158,7 +158,7 @@ export default function Header() {
         </div>
       </header>
       {sidebarOpen && <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />}
-      {isProjectDetail && projectData && (
+      {isProjectDetail && projectData && projectInfoOpen && (
         <Projectinfodropdown open={projectInfoOpen} data={projectData.pagedata[0]} />
       )}
     </>

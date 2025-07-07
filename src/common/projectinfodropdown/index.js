@@ -1,9 +1,12 @@
 import React from 'react'
 import "./projectinfodropdown.scss"
 import Arrrowrightop from '../../assets/icons/arrrowrightop'
+import useScrollLock from '../../components/scrolllock';
 
 export default function Projectinfodropdown({ data, open }) {
+    useScrollLock();
     if (!data) return null;
+
     return (
         <div className={`project-info-dropdown-main${open ? ' open' : ''}`}>
             <div className="container">
