@@ -37,13 +37,14 @@
           align-items: center;
           gap: 12px;
           padding: 18px 20px;
-
+          background-color: var(--black);
+          
           span {
             font-size: 14px;
             line-height: 20px;
             font-weight: 600;
-            font-family: var(--primary-font);
             color: var(--white);
+            font-family: var(--primary-font);
           }
 
           p {

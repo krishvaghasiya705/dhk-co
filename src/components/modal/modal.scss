@@ -1,0 +1,13 @@
+.modal-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);z-index: 999;
+
+  .modal {
+    width: 800px;
+    height: 500px;
+    overflow-y: auto;
+    background-color: var(--white);
+  }
+}

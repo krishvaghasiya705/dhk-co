@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import "./projectinfodropdown.scss"
 import Arrrowrightop from '../../assets/icons/arrrowrightop'
 import useScrollLock from '../../components/scrolllock';
 
 export default function Projectinfodropdown({ data, open }) {
     useScrollLock();
+    const modalRef = useRef();
+    useEffect(() => {
+        const modal = modalRef.current;
+        if (!modal) return;
+        function stopPropagation(e) {
+            const atTop = modal.scrollTop === 0;
+            const atBottom = modal.scrollTop + modal.clientHeight >= modal.scrollHeight;
+            if ((e.deltaY < 0 && !atTop) || (e.deltaY > 0 && !atBottom)) {
+                e.stopPropagation();
+            }
+        }
+        modal.addEventListener('wheel', stopPropagation, { passive: false });
+        return () => {
+            modal.removeEventListener('wheel', stopPropagation);
+        };
+    }, []);
     if (!data) return null;
+
+
 
     return (
         <div className={`project-info-dropdown-main${open ? ' open' : ''}`}>
@@ -18,7 +36,7 @@ export default function Projectinfodropdown({ data, open }) {
                         </div>
                     </div>
                     <div className='project-info-dropdown-flx-mid-main'>
-                        <div className="project-info-dropdown-flx-mid">
+                        <div className="project-info-dropdown-flx-mid" ref={modalRef}>
                             <div className='project-info-dropdown-paragraph'>
                                 {data.paragraphs && data.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
                             </div>

@@ -262,6 +262,10 @@
   padding-left: 20px;
   margin-top: 900px;
 
+  &.active {
+    margin-top: 0;
+  }
+
   .back-to-top-button {
     width: fit-content;
   }

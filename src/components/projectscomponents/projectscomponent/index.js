@@ -176,8 +176,8 @@ export default function Projectscomponent() {
                     )}
                 </div>
             </div>
-            <div className='container-full'>
-                <div className='project-redirect-main'>
+            <div className="container-full">
+                <div className={`project-redirect-main ${viewMode === 'list' ? ' active' : ''}`}>
                     <div></div>
                     <div className='back-to-top-button'>
                         <Commonbutton Buttonclass="butonspacefourty" ButtonLink="none" Buttontext="back to top" onClick={scrollToTop} />

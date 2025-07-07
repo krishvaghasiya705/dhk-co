@@ -1,0 +1,105 @@
+.studio-herobanner-main {
+  background-image: url("../../../assets/images/studiobannerimage.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  // background-attachment: fixed;
+  height: 150vh;
+  position: relative;
+
+  .studio-herobanner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+
+    .studio-herobanner-col-flx-main {
+      height: calc(100vh - 77px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .studio-herobanner-col-flx-top {
+        width: 100%;
+        height: 20vh;
+      }
+
+      .studio-herobanner-col-flx-mid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 6px;
+
+        .studio-cape-town-left {
+          grid-column: auto / span 4;
+
+          p {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: var(--primary-font);
+            color: var(--white);
+          }
+        }
+
+        .studio-cape-town-left-one {
+          grid-column: 7 / span 2;
+
+          p {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: var(--primary-font);
+            color: var(--white);
+          }
+        }
+
+        .studio-architect-right-one {
+          grid-column: 9 / span 1;
+
+          p {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: var(--primary-font);
+            color: var(--white);
+          }
+        }
+
+        .studio-architect-right {
+          grid-column: 11 / span 2;
+
+          p {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: var(--primary-font);
+            color: var(--white);
+          }
+        }
+      }
+
+      .studio-herobanner-col-flx-bottom {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        h1 {
+          font-size: 84px;
+          font-weight: 600;
+          line-height: 75px;
+          color: var(--white);
+          font-family: var(--primary-font);
+          letter-spacing: 2px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}

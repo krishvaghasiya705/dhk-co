@@ -13,11 +13,14 @@ export default function LenisScroll() {
       syncTouch: true,
     });
     window.lenis = lenis;
-
-    // Intercept wheel events for Shift+Wheel (horizontal scroll)
     function onWheel(e) {
+      if (
+        e.target.closest('.modal') ||
+        e.target.closest('.project-info-dropdown-flx-mid')
+      ) {
+        return;
+      }
       if (e.shiftKey) {
-        // Let browser handle horizontal scroll, prevent Lenis
         lenis.stop();
       } else {
         lenis.start();
@@ -26,7 +29,6 @@ export default function LenisScroll() {
     window.addEventListener("wheel", onWheel, { passive: true });
 
     function raf(time) {
-      // Pause Lenis if body is overflow hidden
       const bodyOverflow = document.body.style.overflow;
       if (bodyOverflow === "hidden") {
         lenis.stop();

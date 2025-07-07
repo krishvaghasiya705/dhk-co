@@ -96,9 +96,9 @@ export default function Projectdetail({ title }) {
                                             />
                                             }
                                             {(slide.number || slide.title) && (
-                                                <div className='projects-slider-content'>
-                                                    {slide.number && <span>{slide.number}</span>}
-                                                    {slide.title && <p>{slide.title}</p>}
+                                                <div className='projects-slider-content blend-mode'>
+                                                    {slide.number && <span className='blend-mode'>{slide.number}</span>}
+                                                    {slide.title && <p className='blend-mode'>{slide.title}</p>}
                                                 </div>
                                             )}
                                         </>
