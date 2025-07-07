@@ -1,0 +1,27 @@
+.studio-architect-main {
+  padding: 10px 0 672px 0;
+
+  .studio-architect {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 6px;
+
+    .studio-architect-left {
+        grid-column: auto / span 4;
+    }
+
+    .studio-architect-right {
+        grid-column: 8 / span 5;
+
+        h2 {
+            font-size: 38px;
+            font-weight: 600;
+            line-height: 42px;
+            color: var(--white);
+            font-family: var(--primary-font);
+            max-width: 635px;
+        }
+    }
+  }
+}

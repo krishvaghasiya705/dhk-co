@@ -1,0 +1,26 @@
+.dhk-animate-icon-main {
+
+    &:hover {
+        .dhk-line-opacity {
+            opacity: 0;
+        }
+        .dhk-tr-line-opacity {
+            opacity: 0;
+        }
+        .dhk-text-fill {
+            fill: var(--white);
+        }
+    }
+
+    .dhk-line-opacity {
+        opacity: 0.5;
+    }
+
+    .dhk-tr-line-opacity {
+        opacity: 1;
+    }
+
+    .dhk-text-fill {
+        fill: none;
+    }
+}
