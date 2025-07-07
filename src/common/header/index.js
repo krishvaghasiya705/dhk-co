@@ -147,7 +147,10 @@ export default function Header() {
                   <span className={theme === "light" ? 'active' : ''} onClick={() => toggleTheme('light')}>light</span>
                 </>}
               </div>
-              <div className='menu-icon' onClick={() => setSidebarOpen(true)}>
+              <div className='menu-icon' onClick={() => {
+                setSidebarOpen(true);
+                setProjectInfoOpen(false);
+              }}>
                 <span>menu</span>
               </div>
             </div>
