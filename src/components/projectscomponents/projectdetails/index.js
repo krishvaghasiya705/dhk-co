@@ -81,50 +81,52 @@ export default function Projectdetail({ title }) {
         <>
             {/* <button onClick={() => navigate(-1)} style={{ marginBottom: '2rem' }}>Back</button> */}
             <div className="project-detail-main">
-                <div className='projects-details-slider-main' ref={sliderMainRef}>
-                    <div className='projects-details-slider' ref={sliderRef}>
-                        {project.pagedata && project.pagedata[0] && project.pagedata[0].sliderdata && project.pagedata[0].sliderdata.length > 0 ? (
-                            project.pagedata[0].sliderdata.map((slide, idx) => {
-                                const isLast = idx === project.pagedata[0].sliderdata.length - 1;
-                                const content = (
-                                    <>
-                                        {slide.image && <img
-                                            src={slide.image}
-                                            alt={slide.title || `slide-${idx + 1}`}
-                                            onLoad={() => setImagesLoaded(count => count + 1)}
-                                        />
-                                        }
-                                        {(slide.number || slide.title) && (
-                                            <div className='projects-slider-content'>
-                                                {slide.number && <span>{slide.number}</span>}
-                                                {slide.title && <p>{slide.title}</p>}
+                <div className="container">
+                    <div className='projects-details-slider-main' ref={sliderMainRef}>
+                        <div className='projects-details-slider' ref={sliderRef}>
+                            {project.pagedata && project.pagedata[0] && project.pagedata[0].sliderdata && project.pagedata[0].sliderdata.length > 0 ? (
+                                project.pagedata[0].sliderdata.map((slide, idx) => {
+                                    const isLast = idx === project.pagedata[0].sliderdata.length - 1;
+                                    const content = (
+                                        <>
+                                            {slide.image && <img
+                                                src={slide.image}
+                                                alt={slide.title || `slide-${idx + 1}`}
+                                                onLoad={() => setImagesLoaded(count => count + 1)}
+                                            />
+                                            }
+                                            {(slide.number || slide.title) && (
+                                                <div className='projects-slider-content'>
+                                                    {slide.number && <span>{slide.number}</span>}
+                                                    {slide.title && <p>{slide.title}</p>}
+                                                </div>
+                                            )}
+                                        </>
+                                    );
+                                    if (isLast) {
+                                        return (
+                                            <NavLink
+                                                key={idx}
+                                                className="projects-slider-item"
+                                                onMouseMove={handleMouseMove}
+                                                onMouseLeave={handleMouseLeave}
+                                                to={`/projects/${nextProjectTitle}`}
+                                            >
+                                                {content}
+                                            </NavLink>
+                                        );
+                                    } else {
+                                        return (
+                                            <div key={idx} className="projects-slider-item">
+                                                {content}
                                             </div>
-                                        )}
-                                    </>
-                                );
-                                if (isLast) {
-                                    return (
-                                        <NavLink
-                                            key={idx}
-                                            className="projects-slider-item"
-                                            onMouseMove={handleMouseMove}
-                                            onMouseLeave={handleMouseLeave}
-                                            to={`/projects/${nextProjectTitle}`}
-                                        >
-                                            {content}
-                                        </NavLink>
-                                    );
-                                } else {
-                                    return (
-                                        <div key={idx} className="projects-slider-item">
-                                            {content}
-                                        </div>
-                                    );
-                                }
-                            })
-                        ) : (
-                            <div>No slider data available.</div>
-                        )}
+                                        );
+                                    }
+                                })
+                            ) : (
+                                <div>No slider data available.</div>
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>

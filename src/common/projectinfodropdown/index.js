@@ -22,9 +22,11 @@ export default function Projectinfodropdown({ data, open }) {
                             <div className='projects-blank-line'>
                                 <span></span>
                             </div>
-                            {data.method && (
+                            {(data.method || data.method2 || data.method3) && (
                                 <div className='project-info-dropdown-methods'>
-                                    <span>{data.method}</span>
+                                    {data.method && <span>{data.method}</span>}
+                                    {data.method2 && <span>{data.method2}</span>}
+                                    {data.method3 && <span>{data.method3}</span>}
                                 </div>
                             )}
                             <div className='project-info-dropdown-hr-line'></div>
