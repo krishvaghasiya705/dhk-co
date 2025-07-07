@@ -107,7 +107,7 @@ export default function Sidebar({ isOpen, onClose }) {
                     <a href='https://vimeo.com/dhkarchitects' target='__blank'>vimeo</a>
                 </div>
             </div>
-            <div className='sidebar-bottom-main blend-mode'>
+            <div className='sidebar-bottom-main'>
                 <div className='sidebar-bottom-left'>
                     <div className='sidebar-bottom-viddeo'>
                         {hoveredLink === 'home' && (
