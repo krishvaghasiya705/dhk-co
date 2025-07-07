@@ -44,6 +44,13 @@
   gap: 4px;
 }
 
+.buttontextsixty {
+  span,
+  .button-text {
+    font-size: 16px;
+  }
+}
+
 .no-hover {
   &:hover {
     background-color: var(--transparent) !important;

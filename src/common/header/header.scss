@@ -57,6 +57,29 @@ header {
       }
     }
 
+    .projects-title {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: var(--white);
+        font-family: var(--primary-font);
+      }
+
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: var(--white);
+        font-family: var(--primary-font);
+        opacity: .3;
+      }
+    }
+
     .header-links-main {
       display: flex;
       justify-content: space-between;
@@ -153,6 +176,12 @@ header {
           }
         }
       }
+    }
+
+    .projects-info-and-close-main {
+      display: flex;
+      align-items: center;
+      gap: 16px;
     }
 
     .header-right-content {

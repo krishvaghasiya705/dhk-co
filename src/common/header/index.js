@@ -7,12 +7,15 @@ import Commonbutton from '../../components/commonbutton';
 import Dropdownicon from '../../assets/icons/dropdownicon';
 import { useTheme } from '../../contexts/ThemeContext';
 import { useProjectFilter } from '../../contexts/ProjectFilterContext';
+import Projectinfodropdown from '../projectinfodropdown';
+import projects from '../../components/projectscomponents/projectsdata/data';
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [projectInfoOpen, setProjectInfoOpen] = useState(false);
   const { filter: selectedItem, setFilter: setSelectedItem } = useProjectFilter();
   const location = useLocation();
 
@@ -31,7 +34,23 @@ export default function Header() {
 
   const logoHoverEnabled = location.pathname === "/" ? scrolled : true;
 
+  // Project detail route check
   const isProjectDetail = /^\/projects\/[^/]+$/.test(location.pathname);
+
+  // Get project title from URL and find project data
+  let projectData = null;
+  let projectTitle = '';
+  let projectLocation = '';
+  if (isProjectDetail) {
+    const urlTitle = location.pathname.split('/')[2];
+    projectData = projects.find(
+      p => p.title.replace(/\s+/g, '-').toLowerCase() === urlTitle?.toLowerCase()
+    );
+    if (projectData && projectData.pagedata && projectData.pagedata[0]) {
+      projectTitle = projectData.pagedata[0].Pagetitle;
+      projectLocation = projectData.pagedata[0].pagelocation;
+    }
+  }
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
@@ -73,6 +92,12 @@ export default function Header() {
                 </NavLink>
               </div>
             </div>
+            {isProjectDetail && (
+              <div className='projects-title'>
+                <p>{projectTitle}</p>
+                <span>{projectLocation}</span>
+              </div>
+            )}
             <div className='header-links-main'>
               <div>
                 {location.pathname === '/projects' &&
@@ -108,7 +133,12 @@ export default function Header() {
                 </div>
               )}
             </div>
-
+            {isProjectDetail && (
+              <div className='projects-info-and-close-main'>
+                <Commonbutton ButtonLink="none" Buttonclass="buttontextsixty" Buttontext="project info" onClick={() => setProjectInfoOpen(v => !v)} />
+                <Commonbutton ButtonLink="/projects" Buttontext="close" />
+              </div>
+            )}
             <div className='header-right-content'>
               <div className='header-theme-button-flx'>
                 {location.pathname === '/' && <>
@@ -125,6 +155,9 @@ export default function Header() {
         </div>
       </header>
       {sidebarOpen && <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />}
+      {isProjectDetail && projectData && (
+        <Projectinfodropdown open={projectInfoOpen} data={projectData.pagedata[0]} />
+      )}
     </>
   )
 }

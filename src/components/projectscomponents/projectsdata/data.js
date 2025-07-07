@@ -1092,7 +1092,10 @@ const projects = [
                 client: "Aldar Properties",
                 status: "on site",
                 year: "2028",
-                services: "architecture, urban design",
+                services: [
+                    "architecture",
+                    "urban design"
+                ],
                 tags: [
                     "mixed-use",
                     "residential",
@@ -1176,7 +1179,7 @@ const projects = [
                 client: "Abland Property Developers",
                 status: "on site",
                 year: "2027",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office",
                     "retail"
@@ -1241,7 +1244,7 @@ const projects = [
                 client: "Tricolt and Growthpoint Properties",
                 status: "design development",
                 year: "2027",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "mixed-use",
                     "residential",
@@ -1295,7 +1298,7 @@ const projects = [
                 client: "Vantage Property + Tiber Construction",
                 status: "on site",
                 year: "2202728",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "mixed-use",
                     "residential",
@@ -1414,7 +1417,11 @@ const projects = [
                 client: "Mont Choisy Group",
                 status: "on site",
                 year: "2027",
-                services: "architecture, urban design, interior design",
+                services: [
+                    "architecture",
+                    "urban design",
+                    "interior design"
+                ],
                 tags: [
                     "mixed-use",
                     "hospitality",
@@ -1500,7 +1507,10 @@ const projects = [
                 client: "Concor",
                 status: "on site",
                 year: "2026",
-                services: "urban design, architecture",
+                services: [
+                    "urban design",
+                    "architecture"
+                ],
                 tags: [
                     "retail",
                     "mixed-use",
@@ -1565,7 +1575,7 @@ const projects = [
                 client: "Seafront Development",
                 status: "on site",
                 year: "2026",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality",
                     "residential",
@@ -1645,7 +1655,7 @@ const projects = [
                 client: "Tricolt",
                 status: "on site",
                 year: "2025",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential"
                 ],
@@ -1827,7 +1837,7 @@ const projects = [
                 client: "V&A Waterfront",
                 status: "on site",
                 year: "2025",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "residential"
                 ],
@@ -1906,7 +1916,7 @@ const projects = [
                 client: "Attacq and Tricolt",
                 status: "on site",
                 year: "2025",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential",
                     "sustainable"
@@ -1999,7 +2009,7 @@ const projects = [
                 client: "Tricolt",
                 status: "on site",
                 year: "2025",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential",
                     "mixed-use",
@@ -2085,7 +2095,7 @@ const projects = [
                 client: "Vantage Property",
                 status: "on site",
                 year: "2025",
-                services: "urban design, architecture",
+                services: ["urban design", "architecture"],
                 tags: [
                     "urban design",
                     "residential"
@@ -2188,7 +2198,7 @@ const projects = [
                 client: "Bishops Diocesan College",
                 status: "built",
                 year: "2024",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "public + education"
                 ],
@@ -2275,7 +2285,7 @@ const projects = [
                 client: "Growthpoint Properties",
                 status: "built",
                 year: "2024",
-                services: "urban design, architecture",
+                services: ["urban design", "architecture"],
                 tags: [
                     "mixed-use",
                     "retail",
@@ -2493,7 +2503,7 @@ const projects = [
                 client: "Abland Property Developers and Ellerine Brothers",
                 status: "built",
                 year: "2022",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office",
                     "mixed-use",
@@ -2571,7 +2581,7 @@ const projects = [
                 client: "Intaprop",
                 status: "built",
                 year: "2022",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality",
                     "retail",
@@ -2666,7 +2676,7 @@ const projects = [
                 client: "Tower Property Fund",
                 status: "built",
                 year: "2021",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "retail",
                     "residential",
@@ -2786,7 +2796,7 @@ const projects = [
                 client: "Aldar Properties",
                 status: "on site",
                 year: "2028",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "mixed-use",
                     "residential",
@@ -2991,7 +3001,7 @@ const projects = [
                 client: "Capitec Bank",
                 status: "built",
                 year: "2020",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office",
                     "sustainable"
@@ -3098,7 +3108,7 @@ const projects = [
                 client: "Balwin Property Group",
                 status: "built",
                 year: "2020",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential",
                     "mixed-use"
@@ -3203,7 +3213,7 @@ const projects = [
                 client: "Aldar Properties",
                 status: "on site",
                 year: "2028",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "mixed-use",
                     "residential",
@@ -3394,7 +3404,7 @@ const projects = [
                 client: "Laurence Graff Wines",
                 status: "built",
                 year: "2019",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality"
                 ],
@@ -3840,7 +3850,7 @@ const projects = [
                 client: "Rabie Property Group",
                 status: "built",
                 year: "2018",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential"
                 ],
@@ -3932,7 +3942,7 @@ const projects = [
                 client: "V&A Waterfront",
                 status: "built",
                 year: "2018",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "public + education",
                     "urban design"
@@ -4032,7 +4042,7 @@ const projects = [
                 client: "Concor",
                 status: "on site",
                 year: "2018",
-                services: "urban design, architecture",
+                services: ["urban design", "architecture"],
                 tags: [
                     "urban design",
                     "residential",
@@ -4172,7 +4182,7 @@ const projects = [
                 client: "Village Trust",
                 status: "built",
                 year: "2018",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "public + education"
                 ],
@@ -4279,7 +4289,7 @@ const projects = [
                 client: "Rabie Property Group",
                 status: "built",
                 year: "2018",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office",
                     "sustainable"
@@ -4379,7 +4389,7 @@ const projects = [
                 client: "V&A Waterfront",
                 status: "built",
                 year: "2017",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "mixed-use",
                     "office",
@@ -4490,7 +4500,7 @@ const projects = [
                 client: "Abacus Asset Management + Billion Group",
                 status: "built",
                 year: "2015",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "retail"
                 ],
@@ -4560,7 +4570,7 @@ const projects = [
                 client: "Rabie Property Group + Growth Point Properties",
                 status: "built",
                 year: "2015",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office",
                     "sustainable"
@@ -4690,7 +4700,7 @@ const projects = [
                 client: "Abacus Asset Management",
                 status: "built",
                 year: "2015",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "retail",
                     "office"
@@ -4763,7 +4773,7 @@ const projects = [
                 client: "Atterbury Property Development Company",
                 status: "built",
                 year: "2015",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "mixed-use",
                     "office",
@@ -4886,7 +4896,7 @@ const projects = [
                 client: "Intaprop",
                 status: "completed",
                 year: "2015",
-                services: "urban design",
+                services: ["urban design"],
                 tags: [
                     "urban design",
                     "retail",
@@ -5000,7 +5010,7 @@ const projects = [
                 client: "First Rand Bank + Old Mutual",
                 status: "built",
                 year: "2015",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "mixed-use",
                     "office",
@@ -5104,7 +5114,7 @@ const projects = [
                 client: "De Oude Graaff Reinetse Drostdy",
                 status: "built",
                 year: "2014",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "hospitality",
                     "urban design"
@@ -5240,7 +5250,7 @@ const projects = [
                 client: "City Prop Administration",
                 status: "completed",
                 year: "2014",
-                services: "urban design",
+                services: ["urban design"],
                 tags: [
                     "urban design"
                 ],
@@ -5304,7 +5314,7 @@ const projects = [
                 client: "The Property Partnership",
                 status: "built",
                 year: "2014",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential"
                 ],
@@ -5382,7 +5392,7 @@ const projects = [
                 client: "City Property Administration",
                 status: "built",
                 year: "2014",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "mixed-use"
                 ],
@@ -5466,7 +5476,7 @@ const projects = [
                 client: "Aldar Properties",
                 status: "on site",
                 year: "2028",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "mixed-use",
                     "residential",
@@ -5590,7 +5600,7 @@ const projects = [
                 client: "FINPRO s.r.l.",
                 status: "built",
                 year: "2011",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality",
                     "mixed-use",
@@ -5674,7 +5684,7 @@ const projects = [
                 client: "Abacus Asset Management + Key Capital",
                 status: "built",
                 year: "2011",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "retail"
                 ],
@@ -5741,7 +5751,7 @@ const projects = [
                 client: "European Hotels & Resorts",
                 status: "built",
                 year: "2011",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality"
                 ],
@@ -5811,7 +5821,7 @@ const projects = [
                 client: "Melrose Investment Holdings",
                 status: "built",
                 year: "2010",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "retail",
                     "residential",
@@ -5913,7 +5923,7 @@ const projects = [
                 client: "Good Hope Palace Hotels",
                 status: "built",
                 year: "2010",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality"
                 ],
@@ -6018,7 +6028,7 @@ const projects = [
                 client: "University of the Western Cape",
                 status: "built",
                 year: "2010",
-                services: "architecture, urban design",
+                services: ["architecture", "urban design"],
                 tags: [
                     "public + education",
                     "sustainable"
@@ -6098,7 +6108,7 @@ const projects = [
                 client: "Wangari Maathai Foundation",
                 status: "proposed",
                 year: "2010",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "public + education"
                 ],
@@ -6203,7 +6213,7 @@ const projects = [
                 client: "COESSA Holdings",
                 status: "built",
                 year: "2009",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "public + education"
                 ],
@@ -6319,7 +6329,7 @@ const projects = [
                 client: "Laurence Graff Wines",
                 status: "built",
                 year: "2009",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality"
                 ],
@@ -6458,7 +6468,7 @@ const projects = [
                 client: "Faircape Property Developers + Trematon Capital Investments Ltd",
                 status: "built",
                 year: "2009",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office"
                 ],
@@ -6530,7 +6540,7 @@ const projects = [
                 client: "ALSO Projects Global",
                 status: "built",
                 year: "2009",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "residential"
                 ],
@@ -6586,7 +6596,7 @@ const projects = [
                 client: "",
                 status: "built",
                 year: "2009",
-                services: "architecture, urban design, interior design",
+                services: ["architecture", "urban design", "interior design"],
                 tags: [
                     "hospitality",
                     "residential",
@@ -6635,7 +6645,7 @@ const projects = [
                 client: "Eurocape Investments",
                 status: "built",
                 year: "2008",
-                services: "architecture, urban design, interior design",
+                services: ["architecture", "urban design", "interior design"],
                 tags: [
                     "hospitality",
                     "residential",
@@ -6714,7 +6724,7 @@ const projects = [
                 client: "University of Cape Town",
                 status: "built",
                 year: "2005",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "public + education"
                 ],
@@ -6808,7 +6818,7 @@ const projects = [
                 client: "Venezia Futura s.r.l.",
                 status: "built",
                 year: "2004",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "office",
                     "mixed-use"
@@ -6899,7 +6909,7 @@ const projects = [
                 client: "Alemagnauno",
                 status: "built",
                 year: "2004",
-                services: "architecture",
+                services: ["architecture"],
                 tags: [
                     "hospitality"
                 ],
