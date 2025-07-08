@@ -1,0 +1,117 @@
+.meet-the-team-stick {
+    overflow: hidden;
+  .meet-the-team-main {
+    position: sticky;
+    top: 77px;
+    height: 100vh;
+
+    .meet-the-team-relative {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: flex-start;
+
+      .meet-the-team-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        inset: 0%;
+        z-index: 0;
+        padding: 0 20px;
+
+        h1 {
+          font-size: 64px;
+          line-height: 76px;
+          font-weight: 700;
+          color: var(--white);
+          font-family: var(--primary-font);
+        }
+      }
+
+      .meet-the-team-sliding-section-main {
+        display: flex;
+        align-items: flex-start;
+        height: 92vh;
+        padding-left: 92vw;
+        position: relative;
+        z-index: 1;
+        transform: translate3d(0px, 0px, 0px);
+        transition: transform 0.1s linear;
+
+        .meet-the-team-sliding-section {
+          display: grid;
+          grid-template-rows: auto auto auto auto;
+          grid-auto-columns: auto;
+          grid-auto-flow: column;
+          background-color: var(--black);
+          gap: 10px;
+
+          .meet-the-team-box-main {
+            aspect-ratio: 1;
+            cursor: pointer;
+            width: 22vh;
+            position: relative;
+
+            &:hover {
+              .meet-the-team-box-img {
+                filter: grayscale(0);
+              }
+
+              .meet-the-team-box-content {
+                left: calc(-100% - 10px);
+                z-index: 6;
+                opacity: 1;
+              }
+            }
+
+            .meet-the-team-box-img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 5;
+              filter: grayscale(1);
+              pointer-events: auto;
+              inset: 0%;
+            }
+
+            .meet-the-team-box-content {
+              padding-top: 8px;
+              background-color: var(--black);
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 4;
+              opacity: 0;
+
+              p {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                color: var(--white);
+                font-family: var(--primary-font);
+              }
+
+              span {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                color: var(--white);
+                opacity: 0.3;
+                font-family: var(--primary-font);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
