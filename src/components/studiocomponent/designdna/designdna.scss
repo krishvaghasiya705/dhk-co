@@ -1,0 +1,64 @@
+.designdna-main {
+  .designdna-grd-main {
+    position: relative;
+    margin-bottom: 300px;
+
+    .designdna-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 6px;
+      padding: 0 20px;
+
+      .designdna-header-left {
+        grid-column: auto / span 2;
+
+        span {
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: var(--primary-font);
+          color: var(--white);
+        }
+      }
+
+      .designdna-header-mid {
+        grid-column: 5 / span 2;
+      }
+
+      .designdna-header-right {
+        grid-column: 8 / span 4;
+        p {
+          font-size: 12px;
+          line-height: 20px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: var(--primary-font);
+          color: var(--white);
+        }
+      }
+    }
+
+    .designdna-grd {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+
+      .designdna-left-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column: auto / span 4;
+      }
+
+      .designdna-right-image {
+        grid-column: auto / span 8;
+        margin-top: -15%;
+        height: calc(100% - 15%);
+      }
+    }
+  }
+}

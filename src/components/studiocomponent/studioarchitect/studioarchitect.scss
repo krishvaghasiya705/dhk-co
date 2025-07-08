@@ -8,20 +8,22 @@
     gap: 6px;
 
     .studio-architect-left {
-        grid-column: auto / span 4;
+      grid-column: auto / span 4;
     }
 
     .studio-architect-right {
-        grid-column: 8 / span 5;
+      grid-column: 8 / span 5;
 
-        h2 {
-            font-size: 38px;
-            font-weight: 600;
-            line-height: 42px;
-            color: var(--white);
-            font-family: var(--primary-font);
-            max-width: 635px;
-        }
+      h2 {
+        position: sticky;
+        top: 77px;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 42px;
+        color: var(--white);
+        font-family: var(--primary-font);
+        max-width: 635px;
+      }
     }
   }
 }
