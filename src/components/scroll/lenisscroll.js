@@ -15,7 +15,7 @@ export default function LenisScroll() {
     window.lenis = lenis;
     function onWheel(e) {
       if (
-        e.target.closest('.modal') ||
+        e.target.closest('.leaders-model-right') ||
         e.target.closest('.project-info-dropdown-flx-mid')
       ) {
         return;

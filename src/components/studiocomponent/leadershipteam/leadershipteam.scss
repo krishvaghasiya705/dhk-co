@@ -1,0 +1,111 @@
+.leader-ship-team-main {
+  padding: 192px 20px 0;
+
+  .leader-ship-team-title {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 6px;
+    padding-bottom: 152px;
+
+    h5 {
+      grid-column: 7 / span 6;
+      font-size: 64px;
+      line-height: 76px;
+      font-weight: 600;
+      color: var(--white);
+      font-family: var(--primary-font);
+    }
+  }
+
+  .leader-ship-team-list-flx {
+    display: flex;
+    flex-direction: column;
+
+    .leader-ship-team-list-grd {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 6px;
+      cursor: pointer;
+      min-height: 40px;
+
+      &:hover {
+        .leader-ship-team-list-img {
+          img {
+            width: 192px;
+            height: 192px;
+            z-index: 2;
+          }
+        }
+
+        .leader-ship-team-list-button {
+            button {
+                display: flex;
+            }
+        }
+
+        .leader-ship-team-list-title {
+          h6 {
+            opacity: 1;
+          }
+        }
+
+        .leader-ship-team-list-para {
+          p {
+            display: block;
+          }
+        }
+      }
+
+      .leader-ship-team-list-img {
+        grid-column: auto / span 2;
+        position: relative;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          width: 32px;
+          height: 32px;
+        }
+      }
+
+      .leader-ship-team-list-button {
+        grid-column: 4 / span 1;
+
+        button {
+            display: none;
+        }
+      }
+
+      .leader-ship-team-list-title {
+        grid-column: 7 / span 4;
+
+        h6 {
+          font-size: 25px;
+          line-height: 31px;
+          font-weight: 700;
+          letter-spacing: 2px;
+          color: var(--white);
+          font-family: var(--primary-font);
+          opacity: 0.3;
+        }
+      }
+
+      .leader-ship-team-list-para {
+        text-align: right;
+        grid-column: auto / span 2;
+
+        p {
+          display: none;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: var(--primary-font);
+          color: var(--white);
+        }
+      }
+    }
+  }
+}

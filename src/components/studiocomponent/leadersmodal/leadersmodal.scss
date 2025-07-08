@@ -1,0 +1,118 @@
+.leaders-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+  cursor: pointer;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.leaders-modal-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.leaders-modal-close-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9991;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.leaders-modal-close-button.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.leaders-modal-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.95);
+  aspect-ratio: 10.08 / 5.04;
+  width: 70%;
+  z-index: 9992;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+
+  .leaders-modal {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+
+    .leaders-model-left {
+      width: 100%;
+      height: 100%;
+    }
+
+    .leaders-model-right {
+      background-color: var(--white);
+      padding: 30px 104px 40px 30px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 160px;
+
+      .leaders-model-right-head {
+        h1 {
+          font-size: 24px;
+          line-height: 28px;
+          font-weight: 600;
+          letter-spacing: 2px;
+          color: var(--white);
+          font-family: var(--primary-font);
+          margin-bottom: 5px;
+        }
+
+        h2 {
+          font-size: 24px;
+          line-height: 28px;
+          font-weight: 600;
+          letter-spacing: 2px;
+          color: var(--white);
+          font-family: var(--primary-font);
+          opacity: 0.3;
+        }
+      }
+
+      .leaders-model-right-body {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        p {
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          letter-spacing: 0.4px;
+          color: var(--white);
+          font-family: var(--primary-font);
+        }
+
+        a {
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          letter-spacing: 0.4px;
+          color: var(--white);
+          font-family: var(--primary-font);
+          text-decoration-line: underline;
+        }
+      }
+    }
+  }
+}
+
+.leaders-modal-main.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
