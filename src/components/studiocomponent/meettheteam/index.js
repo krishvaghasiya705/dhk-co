@@ -45,11 +45,13 @@ export default function Meettheteam() {
 
     return (
         <div className='meet-the-team-stick'>
+            <div className='meet-the-team-title-main blend-mode'>
+                <div className='meet-the-team-title'>
+                    <h1 className='blend-mode'>meet the team</h1>
+                </div>
+            </div>
             <div className='meet-the-team-main' ref={containerRef}>
                 <div className='meet-the-team-relative'>
-                    <div className='meet-the-team-title'>
-                        <h1>meet the team</h1>
-                    </div>
                     <div className='meet-the-team-sliding-section-main' ref={slidingRef}>
                         <div className='meet-the-team-sliding-section'>
                             {Theteamdata.map((i, index) => (
@@ -58,8 +60,8 @@ export default function Meettheteam() {
                                         <img src={i.Theteamimage} alt={i.Theteamimage} onLoad={handleImageLoad} />
                                     </div>
                                     <div className='meet-the-team-box-content'>
-                                        <p>{i.Membername}</p>
-                                        <span >{i.Memberposition}</span>
+                                        <p className='blend-mode'>{i.Membername}</p>
+                                        <span className='blend-mode'>{i.Memberposition}</span>
                                     </div>
                                 </div>
                             ))}

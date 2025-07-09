@@ -83,7 +83,7 @@ export default function Whatwedo() {
                 <div className='whatwedo-header blend-mode'>
                     <h3>what we do</h3>
                 </div>
-                <div className='whatwedo-list-rel' style={{ position: 'relative' }}>
+                <div className='whatwedo-list-rel ' style={{ position: 'relative' }}>
                     {/* Dynamic header shown on hover */}
                     {hoveredIdx !== null && (
                         <div

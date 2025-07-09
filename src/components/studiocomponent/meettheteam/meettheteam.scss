@@ -1,37 +1,46 @@
 .meet-the-team-stick {
-    overflow: hidden;
+  overflow: hidden;
+  position: relative;
+
+  .meet-the-team-title-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: 100%;
+    z-index: 0;
+
+    .meet-the-team-title {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding-top: 77px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h1 {
+        padding: 0 20px;
+        font-size: 64px;
+        line-height: 76px;
+        font-weight: 700;
+        color: var(--white);
+        font-family: var(--primary-font);
+      }
+    }
+  }
+
   .meet-the-team-main {
     position: sticky;
     top: 77px;
     height: 100vh;
 
     .meet-the-team-relative {
-      position: relative;
       width: 100%;
       height: 100%;
       display: flex;
       align-items: flex-start;
-
-      .meet-the-team-title {
-        position: absolute;
-        top: 0;
-        left: 0;
-        align-items: center;
-        width: 100%;
-        display: flex;
-        position: absolute;
-        inset: 0%;
-        z-index: 0;
-        padding: 0 20px;
-
-        h1 {
-          font-size: 64px;
-          line-height: 76px;
-          font-weight: 700;
-          color: var(--white);
-          font-family: var(--primary-font);
-        }
-      }
 
       .meet-the-team-sliding-section-main {
         display: flex;

@@ -1,16 +1,28 @@
 .why-work-main {
   padding: 352px 0 0 0;
+  position: relative;
 
   .why-work-grd {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     .why-work-grd-left {
+      display: flex;
+      flex-direction: column;
+
       .why-work-img {
         aspect-ratio: 7.23 / 9.6;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
       }
 
       .why-work-box-main {
+        position: relative;
+        z-index: 1;
         aspect-ratio: 1;
         padding: 20px;
 
@@ -56,12 +68,18 @@
     }
 
     .why-work-grd-right {
+      display: flex;
+      flex-direction: column;
+
       .why-work-img {
         position: relative;
         aspect-ratio: 1;
 
         img {
           position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
       }
     }

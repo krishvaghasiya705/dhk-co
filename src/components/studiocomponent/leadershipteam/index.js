@@ -34,10 +34,10 @@ export default function Leadershipteam() {
                                 <div className='leader-ship-team-list-button'>
                                     <Commonbutton ButtonLink="none" Buttontext="info" />
                                 </div>
-                                <div className='leader-ship-team-list-title'>
+                                <div className='leader-ship-team-list-title blend-mode'>
                                     <h6>{i.Title}</h6>
                                 </div>
-                                <div className='leader-ship-team-list-para'>
+                                <div className='leader-ship-team-list-para blend-mode'>
                                     <p>{i.Leaderpara}</p>
                                 </div>
                             </div>
