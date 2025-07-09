@@ -21,10 +21,9 @@
       }
 
       .why-work-box-main {
-        position: relative;
-        z-index: 1;
         aspect-ratio: 1;
         padding: 20px;
+        background-color: var(--black);
 
         .why-work-box {
           padding: 40px 0 40px 56px;

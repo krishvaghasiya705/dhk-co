@@ -47,7 +47,7 @@ export default function Whywork() {
                         <div className='why-work-img'>
                             <img src={whyworkimage1} alt="whyworkimage1" onLoad={handleImageLoad} />
                         </div>
-                        <div className='why-work-box-main'>
+                        <div className='why-work-box-main blend-mode'>
                             <div className='why-work-box'>
                                 <div className='why-work-title'>
                                     <h4>why work at dhk?</h4>
