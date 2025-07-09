@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import "./meettheteam.scss"
@@ -9,31 +9,39 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Meettheteam() {
     const containerRef = useRef(null);
     const slidingRef = useRef(null);
+    const [imagesLoaded, setImagesLoaded] = useState(0);
+    const totalImages = Theteamdata.length;
 
     useEffect(() => {
-        const container = containerRef.current;
-        const sliding = slidingRef.current;
-        const scrollWidth = sliding.scrollWidth;
-        const containerWidth = container.offsetWidth;
-        const scrollDistance = scrollWidth - containerWidth;
-        let ctx = gsap.context(() => {
-            gsap.to(sliding, {
-                x: -scrollDistance,
-                ease: "none",
-                scrollTrigger: {
-                    trigger: container,
-                    start: "top 0",
-                    end: () => `+=${scrollDistance}`,
-                    pin: true,
-                    pinSpacing: true,
-                    scrub: true,
-                    anticipatePin: 1,
-                }
-            });
-        }, container);
+        if (imagesLoaded === totalImages && totalImages > 0) {
+            const container = containerRef.current;
+            const sliding = slidingRef.current;
+            const scrollWidth = sliding.scrollWidth;
+            const containerWidth = container.offsetWidth;
+            const scrollDistance = scrollWidth - containerWidth;
+            let ctx = gsap.context(() => {
+                gsap.to(sliding, {
+                    x: -scrollDistance,
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: container,
+                        start: "top 0",
+                        end: () => `+=${scrollDistance}`,
+                        pin: true,
+                        pinSpacing: true,
+                        scrub: true,
+                        anticipatePin: 1,
+                    }
+                });
+            }, container);
+            ScrollTrigger.refresh();
+            return () => ctx.revert();
+        }
+    }, [imagesLoaded, totalImages]);
 
-        return () => ctx.revert();
-    }, []);
+    const handleImageLoad = () => {
+        setImagesLoaded((prev) => prev + 1);
+    };
 
     return (
         <div className='meet-the-team-stick'>
@@ -47,7 +55,7 @@ export default function Meettheteam() {
                             {Theteamdata.map((i, index) => (
                                 <div className='meet-the-team-box-main' key={index}>
                                     <div className='meet-the-team-box-img'>
-                                        <img src={i.Theteamimage} alt={i.Theteamimage} />
+                                        <img src={i.Theteamimage} alt={i.Theteamimage} onLoad={handleImageLoad} />
                                     </div>
                                     <div className='meet-the-team-box-content'>
                                         <p>{i.Membername}</p>

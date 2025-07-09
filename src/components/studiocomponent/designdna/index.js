@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import "./designdna.scss"
@@ -10,42 +10,51 @@ import Commonbutton from './../../commonbutton/index';
 export default function Designdna() {
     const leftImageRef = useRef(null);
     const headerRef = useRef(null);
+    const [imagesLoaded, setImagesLoaded] = useState(0);
+    const totalImages = 3; // 2 left, 1 right
 
     useEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-        if (leftImageRef.current) {
-            gsap.fromTo(
-                leftImageRef.current,
-                { y: 0 },
-                {
-                    y: "-50%",
-                    force3D: false,
-                    scrollTrigger: {
-                        trigger: leftImageRef.current,
-                        start: 'top 30%',
-                        end: 'bottom top',
-                        scrub: true,
-                    },
-                }
-            );
+        if (imagesLoaded === totalImages) {
+            gsap.registerPlugin(ScrollTrigger);
+            if (leftImageRef.current) {
+                gsap.fromTo(
+                    leftImageRef.current,
+                    { y: 0 },
+                    {
+                        y: "-50%",
+                        force3D: false,
+                        scrollTrigger: {
+                            trigger: leftImageRef.current,
+                            start: 'top 30%',
+                            end: 'bottom top',
+                            scrub: true,
+                        },
+                    }
+                );
+            }
+            if (headerRef.current) {
+                gsap.fromTo(
+                    headerRef.current,
+                    { y: 0 },
+                    {
+                        y: 640,
+                        force3D: false,
+                        scrollTrigger: {
+                            trigger: headerRef.current,
+                            start: 'top 80%',
+                            end: 'bottom top',
+                            scrub: true,
+                        },
+                    }
+                );
+            }
+            ScrollTrigger.refresh();
         }
-        if (headerRef.current) {
-            gsap.fromTo(
-                headerRef.current,
-                { y: 0 },
-                {
-                    y: 640,
-                    force3D: false,
-                    scrollTrigger: {
-                        trigger: headerRef.current,
-                        start: 'top 80%',
-                        end: 'bottom top',
-                        scrub: true,
-                    },
-                }
-            );
-        }
-    }, []);
+    }, [imagesLoaded]);
+
+    const handleImageLoad = () => {
+        setImagesLoaded((prev) => prev + 1);
+    };
 
     return (
         <>
@@ -65,11 +74,11 @@ export default function Designdna() {
                         </div>
                         <div className='designdna-grd'>
                             <div className='designdna-left-image' ref={leftImageRef}>
-                                <img src={designdnaleftimage1} alt="designdnaleftimage1" />
-                                <img src={designdnaleftimage2} alt="designdnaleftimage2" />
+                                <img src={designdnaleftimage1} alt="designdnaleftimage1" onLoad={handleImageLoad} />
+                                <img src={designdnaleftimage2} alt="designdnaleftimage2" onLoad={handleImageLoad} />
                             </div>
                             <div className='designdna-right-image'>
-                                <img src={designdnarightimage} alt="designdnarightimage" />
+                                <img src={designdnarightimage} alt="designdnarightimage" onLoad={handleImageLoad} />
                             </div>
                         </div>
                     </div>
