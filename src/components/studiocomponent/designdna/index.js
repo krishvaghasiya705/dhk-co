@@ -11,7 +11,7 @@ export default function Designdna() {
     const leftImageRef = useRef(null);
     const headerRef = useRef(null);
     const [imagesLoaded, setImagesLoaded] = useState(0);
-    const totalImages = 3; // 2 left, 1 right
+    const totalImages = 3;
 
     useEffect(() => {
         if (imagesLoaded === totalImages) {

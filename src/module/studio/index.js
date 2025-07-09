@@ -7,6 +7,7 @@ import Leadershipteam from '../../components/studiocomponent/leadershipteam'
 import Awardssection from '../../components/homecomponents/awardssection'
 import Journalsection from '../../components/homecomponents/journalsection'
 import Meettheteam from '../../components/studiocomponent/meettheteam'
+import Whywork from '../../components/studiocomponent/whywork'
 
 export default function Studio() {
   return (
@@ -18,6 +19,7 @@ export default function Studio() {
       <Leadershipteam />
       <Meettheteam />
       <Awardssection />
+      <Whywork />
       <Journalsection />
     </>
   )
