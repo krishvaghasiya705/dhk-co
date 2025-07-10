@@ -6,9 +6,10 @@ import ArticledetailSection from '../../components/articlecomponents';
 export default function Articledetail() {
   const { title } = useParams();
   const decodedTitle = decodeURIComponent(title);
-  const article = Journaldata.find(
+  const articleIndex = Journaldata.findIndex(
     (item) => item.Title === decodedTitle
   );
+  const article = Journaldata[articleIndex];
 
   if (!article) {
     return <div>Article not found.</div>;
@@ -16,7 +17,7 @@ export default function Articledetail() {
 
   return (
     <>
-      <ArticledetailSection article={article} />
+      <ArticledetailSection article={article} articles={Journaldata} currentIndex={articleIndex} />
     </>
   );
 }

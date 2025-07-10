@@ -1,13 +1,24 @@
 import React from 'react'
 import "./articledetail.scss"
 import Arrowrighticon from '../../assets/icons/arrowrighticon';
+import { Link } from 'react-router-dom';
 
-export default function ArticledetailSection({ article }) {
+export default function ArticledetailSection({ article, articles, currentIndex }) {
   if (!article) return null;
 
   const handleShareClick = () => {
     navigator.clipboard.writeText(window.location.href);
   };
+
+  // Determine next article (wrap around)
+  let nextArticleLink = null;
+  if (articles && typeof currentIndex === 'number' && articles.length > 1) {
+    const nextIndex = (currentIndex + 1) % articles.length;
+    const nextArticle = articles[nextIndex];
+    nextArticleLink = (
+      <Link to={`/journal/${encodeURIComponent(nextArticle.Title)}`}>next</Link>
+    );
+  }
 
   return (
     <>
@@ -25,12 +36,42 @@ export default function ArticledetailSection({ article }) {
           </div>
         </div>
         <div className='article-detail-section-content-mid-main'>
-          <div className='article-detail-section-content-mid'></div>
+          <div className='article-detail-section-content-mid'>
+            <h1>{article.Title}</h1>
+            {article.Data.map((topic, idx) => (
+              <div key={idx}>
+                {topic.TopicTitle && <h2><strong>{topic.TopicTitle}</strong></h2>}
+                {topic.Topiccontent && topic.Topiccontent.map((content, cidx) => (
+                  <p key={cidx} dangerouslySetInnerHTML={{ __html: content }} />
+                ))}
+                {topic.OpeningsTitle && <h3>{topic.OpeningsTitle}</h3>}
+                {Array.isArray(topic.OpeningData) && topic.OpeningData.length > 0 && (
+                  <div className='article-detail-links'>
+                    {topic.OpeningData.map((opening, oidx) => (
+                      <div key={oidx}>
+                        <div dangerouslySetInnerHTML={{ __html: opening.OpeningLink }} />
+                        {opening.LinkLocation && (
+                          <span>{opening.LinkLocation}</span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
         <div className='article-detail-section-content-right-main'>
           <div className='article-detail-section-content-right'>
             <span>{article.Date}</span>
           </div>
+        </div>
+      </div>
+      <div className='article-detail-navigations-main blend-mode'>
+        <div></div>
+        <div className='article-detail-navigations'>
+          <Link to={'/journal'}>all articles</Link>
+          {nextArticleLink}
         </div>
       </div>
     </>
