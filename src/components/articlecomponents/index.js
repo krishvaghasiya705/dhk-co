@@ -4,6 +4,11 @@ import Arrowrighticon from '../../assets/icons/arrowrighticon';
 
 export default function ArticledetailSection({ article }) {
   if (!article) return null;
+
+  const handleShareClick = () => {
+    navigator.clipboard.writeText(window.location.href);
+  };
+
   return (
     <>
       <div className='article-detail-section-banner'>
@@ -13,7 +18,7 @@ export default function ArticledetailSection({ article }) {
         <div className='article-detail-section-content-left-main'>
           <div className='article-detail-section-content-left'>
             <button type='button' className='tag-button'>{article.Tag}</button>
-            <div className='share-article-button'>
+            <div className='share-article-button' onClick={handleShareClick}>
               <span className='blend-mode'>Share Article</span>
               <Arrowrighticon />
             </div>
