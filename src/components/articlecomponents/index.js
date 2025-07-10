@@ -57,6 +57,26 @@ export default function ArticledetailSection({ article, articles, currentIndex }
                     ))}
                   </div>
                 )}
+                {Array.isArray(topic.listData) && topic.listData.length > 0 && (
+                  <div className='article-list-main'>
+                    {topic.listData.map((list, lidx) => (
+                      <div key={lidx}>
+                        {list.listTitle && <h2><strong>{list.listTitle}</strong></h2>}
+                        {Array.isArray(list.listing) && list.listing.map((item, iidx) => (
+                          <p key={iidx}>
+                            {item.listingTitle && <span>{item.listingTitle}</span>}
+                            {item.listingPara}
+                          </p>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {topic.Note && topic.Notedata && (
+                  <div className='aticle-note'>
+                    <p><span>{topic.Note}</span> {topic.Notedata}</p>
+                  </div>
+                )}
               </div>
             ))}
           </div>

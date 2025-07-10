@@ -1,6 +1,8 @@
 import articleimage1 from "../../../assets/images/articleimage1.jpg"
 import articleimage2 from "../../../assets/images/articleimage2.jpg"
 import articleimage3 from "../../../assets/images/articleimage3.jpg"
+import articleimage4 from "../../../assets/images/articleimage4.jpg"
+import articleimage5 from "../../../assets/images/articleimage5.jpg"
 
 const Journaldata = [
     {
@@ -136,11 +138,114 @@ const Journaldata = [
                 ],
                 Note: "Note:",
                 Notedata: "Cape Town 2040, an innovative think-tank and research group dedicated to exploring the potential of Cape Town and the Western Cape as hosts for the 2036 or 2040 Summer Olympic and Paralympic Games. Guy and Our Future Cities CEO Rashiq Fataar have been spearheading CT2040 with a keen focus on how the event can catalyse sustainable development, enhance resilience and foster greater integration across the city and region."
-            },
+            }
+        ]
+    },
+    {
+        BannerImage: articleimage4,
+        Tag: "events",
+        Title: "dhk architects to participate in architecture.za ",
+        MainPara: "Presented since 2010, the AZA2025 urban festival returns to unite international and local architects, cultural producers, thought leaders, academics and students in the built environment to exchange and discover innovative, alternative and future approaches to design and development.",
+        Date: "May 29, 2025",
+        Data: [
             {
-                TopicTitle: "",
+                TopicTitle: "Presented since 2010, the AZA2025 urban festival returns to unite international and local architects, cultural producers, thought leaders, academics and students in the built environment to exchange and discover innovative, alternative and future approaches to design and development. ",
+                Topiccontent: [
+                    "Hosted by SAIA in collaboration with the Gauteng Institute for Architecture and the University of Johannesburg, the AZA returns for its sixth edition as the premier event for the South African architectural and built environment. Taking place at the main UJ Auckland Park Campus in Johannesburg from 29 -31 August 2025, Architecture.ZA (AZA) is presented under the themes “Where Architecture Meets Us/Planet/Future”, as an intersection of architecture, humanity, and future sustainability. The festival offers interactive presentations, debates, workshops, films, architectural and other exhibitions, tours, and fringe performance events.",
+                    "Since the first conference, which took place here in Newtown, Johannesburg in 2010, AZA has consistently promoted the fact that architecture is a powerful weapon for social enablement. That it plays a critical role in shaping the future of the city and that Architects have the potential to ignite social change and transformation. Architecture is not only a product of culture, but it is culture-forming. It translates and negotiates, in daily practice, the full gamut of politics, economics, social benefits and responsibilities as well as our unspoken hopes, our wildest dreams, and our most base fears.",
+                    "We know that architecture forms the frame for the ways in which people experience their lives, themselves, and their relationships with others. It is undoubtedly one of humankind’s most potent material manifestations. Architecture and the built environment are extremely revealing of the ways in which we view and construct ourselves as a society and as individuals within that society.",
+                    "Issued by: Daniel van der Merwe, azaprojects@gifa.co.za"
+                ],
+                Note: "Note:",
+                Notedata: "Various members of the dhk Architects team will be part of the conversations happening at AZA, including dhk Partner and Executive Director Guy Briggs who is among the speakers on the programme."
+            },
+        ]
+    },
+    {
+        BannerImage: articleimage5,
+        Tag: "career",
+        Title: "meet christiaan van aswegen, one of our newly promoted associates",
+        MainPara: "Between January and April this year, dhk announced ten promotions, strengthening the senior leadership team and reflecting our strategy of expansion within the studio. The promotions offer expanded roles for the new leaders, who will be driving the continued delivery of considered architectural, urban and interior design projects. Professional Architect Christiaan Van Aswegen is one of the newly promoted team members. He was appointed as an Associate in April 2025. Our Comms + Graphics team caught up with him to learn more about his background, expanded role and life at dhk.",
+        Date: "May 29, 2025",
+        Data: [
+            {
+                TopicTitle: "Between January and April this year, dhk announced ten promotions, strengthening the senior leadership team and reflecting our strategy of expansion within the studio. The promotions offer expanded roles for the new leaders, who will be driving the continued delivery of considered architectural, urban and interior design projects. Professional Architect Christiaan Van Aswegen is one of the newly promoted team members. He was appointed as an Associate in April 2025. Our Comms + Graphics team caught up with him to learn more about his background, expanded role and life at dhk.",
                 Topiccontent: [
                     ""
+                ],
+                listData: [
+                    {
+                        listTitle: "dhk Content Coordinator Simangele Mzizi (SM): Tell us a bit about your background?",
+                        listing: [
+                            {
+                                listingTitle: "dhk Associate Christiaan Van Aswegen (Christiaan):",
+                                listingPara: "I graduated with a Master of Architecture at the University of Pretoria in 2005. I worked for various firms in Cape Town and Johannesburg, starting out as a Candidate Architect and progressing to Project Architect and later Design Architect. Overall, I’ve been in the industry for 20years, and my experience encompasses high-end residential, medium- to high-density residential, commercial, leisure, sporting event design, heritage and restoration projects."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "I currently work in the architectural team led by [dhk Partner] Peter Stokes. This team is skilled in conceptualising the designs of large mixed-use developments, large residential schemes, retail and hospitality developments and transport-related projects in various locations throughout Africa."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "My own interests lie in the theory of practice, design education, artificial intelligence as a design tool and the history of art and architecture as an informant to contemporary practice."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: Please tell us about some of the projects you’ve worked on at dhk and what’s on your desk at the moment?",
+                        listing: [
+                            {
+                                listingTitle: "Christiaan:",
+                                listingPara: "Since joining the studio in November 2022, I’ve been involved in multiple projects, including office, retail, resort and public environment design. One of the exciting projects our team is involved in <a href='https://www.blok.co.za/onehundredonm' target='__blank'>ONEHUNDREDONM</a> on Sea Point Main Road in Cape Town. We’ve reimagined an existing, Victorian-era building and repurposed it into a seven-storey, mixed-use development, to give it a new contemporary lease on life. I believe the project is great example of dhk’s recognised skillset in terms of adaptive reuse which introduces contemporary additions to existing historical buildings. It’s wonderful to see the transformation. We’re excited about the building’s imminent roof wetting and completion in September this year."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: How do you feel about this new chapter as dhk Associate and what areyou looking forward to the most?",
+                        listing: [
+                            {
+                                listingTitle: "Christiaan:",
+                                listingPara: "I am very excited to join the management team, working with the nine partners, and the broader management team of directors, senior associates and associates. It means a great deal to me professionally to be included in the DNA of dhk and I look forward to helping to develop our design-focused approach to architecture. I’m also interested in honing our AI design tools to assist in the early stages of conceptual design."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: What do you enjoy about the work environment at dhk?",
+                        listing: [
+                            {
+                                listingTitle: "Christiaan Van Aswegen:",
+                                listingPara: "I enjoy the open collaborative studio atmosphere, the scale and variety of the projects we work on and ethos of excellence in design that is the hallmark of our studio."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: How would you describe your approach to design?",
+                        listing: [
+                            {
+                                listingTitle: "Christiaan:",
+                                listingPara: "I’m systematic in my approach and like to spend time researching precedents and developing conceptual frameworks which are spatially, architecturally and contextually appropriate. This approach helps to communicate design intent clearly and consistently. It’s also helpful in marshalling client requirements into design opportunities. I’m a proponent of the idea of the “universal subdivision of space”, a high modernist concept which allows the rapid, efficient development of plan forms related to economies of material and construction. I bring a thorough understanding of architectural history and an abiding interest in architectural theory and theory of practice. I have a specific interest in African Architecture and what key elements distinguish it from other regional approaches."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: Anything we haven’t covered that you’d like to touch on?",
+                        listing: [
+                            {
+                                listingTitle: "Christiaan:",
+                                listingPara: "Only that I believe that as architects and designers we need to bring home the idea to our clients and the public that beauty and design excellence are not “nice to haves” but rather integral considerations vital to the creation of recognisable, desirable and sustainable environments."
+                            }
+                        ],
+                    },
                 ]
             },
         ]
