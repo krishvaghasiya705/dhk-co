@@ -41,7 +41,7 @@ export default function Whywork() {
 
     return (
         <div className='why-work-main'>
-            <div className="container">
+            <div className="container-full">
                 <div className='why-work-grd'>
                     <div className='why-work-grd-left' ref={leftImageRef}>
                         <div className='why-work-img'>

@@ -3,6 +3,8 @@ import DefaultLayout from "./defaultLayout";
 import Home from "../module/home";
 import Projects from "../module/projects";
 import Studio from "../module/studio";
+import Journal from "../module/journal";
+import Articledetail from "../module/articledetail";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
             {
                 path: "/studio",
                 element: <Studio />
+            },
+            {
+                path: "/journal",
+                element: <Journal />
+            },
+            {
+                path: "/journal/:title",
+                element: <Articledetail />
             },
         ]
     }

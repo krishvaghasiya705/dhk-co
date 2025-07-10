@@ -27,7 +27,7 @@ export default function Projectinfodropdown({ data, open }) {
 
     return (
         <div className={`project-info-dropdown-main${open ? ' open' : ''}`}>
-            <div className="container">
+            <div className="container-full">
                 <div className='project-info-dropdown-flx'>
                     <div className='project-info-dropdown-flx-left'>
                         <div>

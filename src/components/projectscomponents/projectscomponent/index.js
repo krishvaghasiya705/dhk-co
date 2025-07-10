@@ -31,18 +31,15 @@ export default function Projectscomponent() {
             project.pagedata[0].tags.includes(filter)
         );
 
-    // Clear refs when filteredProjects changes
     useEffect(() => {
         projectsRef.current = [];
         imagesRef.current = [];
     }, [filteredProjects]);
 
     useLayoutEffect(() => {
-        // Clean up any existing ScrollTriggers before setting up new ones
         ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
         if (viewMode === 'grid') {
-            // Sync refs with filteredProjects length
             projectsRef.current = projectsRef.current.slice(0, filteredProjects.length);
             imagesRef.current = imagesRef.current.slice(0, filteredProjects.length);
 

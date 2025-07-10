@@ -21,7 +21,7 @@ export default function Leadershipteam() {
     return (
         <>
             <div className='leader-ship-team-main'>
-                <div className="container">
+                <div className="container-full">
                     <div className='leader-ship-team-title'>
                         <h5>leadership team</h5>
                     </div>

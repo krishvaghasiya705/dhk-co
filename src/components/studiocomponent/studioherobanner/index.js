@@ -31,7 +31,7 @@ export default function Studioherobanner() {
   return (
     <div className='studio-herobanner-main'>
       <div className='studio-herobanner' ref={bannerRef}>
-        <div className="container">
+        <div className="container-full">
           <div className='studio-herobanner-col-flx-main'>
             <div className='studio-herobanner-col-flx-top'></div>
             <div className='studio-herobanner-col-flx-mid'>

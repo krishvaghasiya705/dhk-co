@@ -59,7 +59,7 @@ export default function Designdna() {
     return (
         <>
             <div className='designdna-main'>
-                <div className="container">
+                <div className="container-full">
                     <div className='designdna-grd-main'>
                         <div className='designdna-header' ref={headerRef}>
                             <div className='designdna-header-left'>

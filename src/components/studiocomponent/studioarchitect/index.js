@@ -6,7 +6,7 @@ export default function Studioarchitect() {
     return (
         <>
             <div className='studio-architect-main'>
-                <div className="container">
+                <div className="container-full">
                     <div className='studio-architect'>
                         <div className='studio-architect-left'>
                             <Dhkanimate />

@@ -79,7 +79,7 @@ export default function Whatwedo() {
 
     return (
         <div className='whatwedo-main'>
-            <div className="container">
+            <div className="container-full">
                 <div className='whatwedo-header blend-mode'>
                     <h3>what we do</h3>
                 </div>

@@ -30,6 +30,14 @@ export default function DefaultLayout() {
             window.scrollTo(0, 0);
         }
     }, [location.pathname]);
+
+    useEffect(() => {
+        if (location.pathname === "/journal" || location.pathname.startsWith("/journal/")) {
+            document.body.style.backgroundColor = "#fff";
+        } else {
+            document.body.style.backgroundColor = "#000";
+        }
+    }, [location.pathname]);
     return (
         <>
             <Loader />
