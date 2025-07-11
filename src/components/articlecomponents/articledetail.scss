@@ -190,6 +190,19 @@
           font-style: italic;
         }
       }
+
+      .article-listing-listimgcontent {
+        img {
+          margin-bottom: 16px;
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .inline-text {
+        display: inline;
+        margin-left: 5px;
+      }
     }
   }
 
