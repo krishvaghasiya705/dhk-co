@@ -1664,10 +1664,10 @@ const Journaldata = [
                         ],
                     },
                     {
-                        listTitle: "",
+                        listTitle: "Fahiema Regal",
                         listing: [
                             {
-                                listingTitle: "",
+                                listingTitle: "Associate | Architect",
                                 listingPara: "",
                                 listingDate: "",
                                 listimgcontent: [
@@ -1675,7 +1675,102 @@ const Journaldata = [
                                         Listimg: "",
                                         Listimgtitle: "",
                                         Listimgcontent: [
-                                            ""
+                                            "Fahiema marked an impressive 20-year tenure with dhk in July 2024. Throughout her career, she has been responsible for detailing, documentation and coordination on various projects. Her experience covers all types of construction (structure, building methods, etc.) and building types, including residential, apartment blocks, hotels, office buildings and retail. One of her standout projects is <a href='https://dhk-co.netlify.app/projects/axis' target='__blank'>Axis in Century City</a>, Cape Town, an apartment block designed to capitalise on views of Table Mountain and the Atlantic Ocean. It comprises 85 luxury residential apartments and penthouses, supplemented with small-scale commercial and retail space at ground level. Axis earned a Bronze Design Award in the 2019 A’ Design Award & Competition in the Architecture, Building and Structure Design Award Category."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Hilary Alexander",
+                        listing: [
+                            {
+                                listingTitle: "Head of Communications",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Hilary has 30 years’ experience as a specialist in business-to-business communications for organisations in the built environment. She has worked in South Africa and the United Kingdom as a team lead and as an independent consultant for engineers, architects, property developers, urban regeneration agencies and city improvement districts, among other clients. She joined dhk in 2023 with a mandate to develop and implement the practice’s strategic communications programme. While her first love is writing, she’s also a strategic thinker and creative producer, with a proven track record in leading content development teams, developing communications programmes, conceptualising and producing strategic collateral and other components on the full spectrum of B2B communications."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Lisa Bridgeford",
+                        listing: [
+                            {
+                                listingTitle: "Interior Designer | Head of dhk Interior Design",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Lisa is one of the founding directors of <a href='https://dhki.co.za/portfolio/' target='__blank'>dhk Interior Design (dhki)</a>, a leading interior architecture and design firm working across the hospitality, commercial, education and residential sectors. dhki is a sister company of dhk Architects. She’s a seasoned professional who has delivered interiors for nearly 30 hotels across Africa throughout her career. Her talented team has completed various innovative projects in Mauritius, South Africa and Namibia for clients including Fairmont, Old Mutual, Rabie Properties, University of Stellenbosch, Abland Property Developers, Retail Capital, Sun International, Takealot, SPEAR Reit, Vantage Properties, Delaire Graff, Mont Choisy Mauritius, among others. dhki’s most recent projects include the MySpace student residences in Stellenbosch, the refurbishment of the Grand Hotel at GrandWest Entertainment World, and the multimedia learning centre at Bishops Diocesan School. The team has also recently completed an elegant and <a href='https://www.dhki.co.za/portfolio/canal-walk-desk/' target='__blank'>functional customer service desk</a> located at the centre of Canal Walk, Cape Town’s largest shopping centre."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Daphne Nederstigt",
+                        listing: [
+                            {
+                                listingTitle: "Associate | Architect",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Daphne has been with dhk since 2017. She works on various architectural, interior design, and construction projects, ranging from high-end residential to hospitality builds, including in the Seychelles and Mauritius. Her responsibilities cover all project stages, from concept plans to construction packages. As part of Renske’s team, she’s been involved in <a href='https://dhk-co.netlify.app/projects/the-signature' target='__blank'>The Signature (Mauritius)</a> and <a href='https://dhk-co.netlify.app/projects/seafront-estate' target='__blank'>Seafront Estate (Seychelles)</a> from inception and contributed to <a href='https://dhk-co.netlify.app/projects/delaire-graff-estate-villa-+-lodges' target='__blank'>Delaire Graff Estate’s Owner’s Villa and Superior Lodges</a>. Daphne also wears the sustainability hat as she leads dhk’s Sustainability Committee in collaboration with dhk Partner Peter Stokes. The forum aims to promote green building principles within the practice. Daphne believes that architects have the privilege of shaping the built environment, and the ethical responsibility to create healthier spaces that minimise environmental harm."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Michelle Coetzee",
+                        listing: [
+                            {
+                                listingTitle: "Associate | Architect",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Michelle describes herself as a ‘generalist’ architect. She loves working on a wide variety of projects of various scales, budgets and levels of complexity. She enjoys realising designs from conceiving concepts through to designing the information flow and documentation needed to make it a reality. At dhk, she’s also at the forefront of an internal platform that facilitates discussions about design-related topics. Michelle previously worked for a Cape Town practice in early 2004 where she remained for nine years working on a variety of projects. At the end of 2012 she relocated to Seattle where she worked for Olson Kundig, spending six years with the practice (two on returning to South Africa) before moving on to another Cape Town practice for four years."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Sarah Tarr",
+                        listing: [
+                            {
+                                listingTitle: "Associate | Architect",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Sarah joined dhk in 2015 and was promoted to Associate in June 2024. Over the course of her career at dhk, she has worked on large commercial developments, ranging from offices to hotels and large-scale residential projects, at all stages, from design to construction and completion. She was recently part of the architectural team behind the newly launched multimedia academic learning centre designed for Bishops Diocesan College in Rondebosch. Her other notable projects at dhk include the 2017 Triangle House office conversion to the Radisson Blu Hotel and Residence (now known as Pullman Cape Town City Centre), <a href='https://dhk-co.netlify.app/projects/sable-corner' target='__blank'>Sable Corner</a> at Century City, Grand Hotel at GrandWest and <a href='https://dhk-co.netlify.app/projects/conradie-park' target='__blank'>Conradie Park</a> in Thornton."
                                         ]
                                     }
                                 ]
