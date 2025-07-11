@@ -10,6 +10,13 @@ import articleimage9 from "../../../assets/images/articleimage9.webp"
 import articleimage10 from "../../../assets/images/articleimage10.webp"
 import articleimage11 from "../../../assets/images/articleimage11.jpg"
 import articleimage12 from "../../../assets/images/articleimage12.jpg"
+import articleimage13 from "../../../assets/images/articleimage13.webp"
+import articleimage14 from "../../../assets/images/articleimage14.webp"
+import articleimage15 from "../../../assets/images/articleimage15.webp"
+import articleimage16 from "../../../assets/images/articleimage16.webp"
+import articleimage17 from "../../../assets/images/articleimage17.webp"
+import articleimage18 from "../../../assets/images/articleimage18.webp"
+import articleimage19 from "../../../assets/images/articleimage19.jpg"
 
 import friendimg1 from "../../../assets/images/friendimg1.webp"
 import friendimg2 from "../../../assets/images/friendimg2.webp"
@@ -19,6 +26,11 @@ import friendimg5 from "../../../assets/images/friendimg5.webp"
 import friendimg6 from "../../../assets/images/friendimg6.webp"
 import friendimg7 from "../../../assets/images/friendimg7.webp"
 import friendimg8 from "../../../assets/images/friendimg8.jpg"
+
+import hospitalityimg1 from "../../../assets/images/hospitalityimg1.webp"
+import hospitalityimg2 from "../../../assets/images/hospitalityimg2.webp"
+import hospitalityimg3 from "../../../assets/images/hospitalityimg3.webp"
+import hospitalityimg4 from "../../../assets/images/hospitalityimg4.webp"
 
 const Journaldata = [
     {
@@ -828,10 +840,10 @@ const Journaldata = [
     },
     {
         BannerImage: articleimage12,
-        Tag: "people",
+        Tag: "studio",
         Title: "join a walking tour with dhk architects",
         MainPara: "dhk Architects has shaped the Cape Town skyline over the past 26 years.",
-        Date: "October 28, 2024",
+        Date: "October 4, 2024",
         Data: [
             {
                 TopicTitle: "join a walking tour with dhk architects",
@@ -872,6 +884,807 @@ const Journaldata = [
                 ]
             },
         ]
+    },
+    {
+        BannerImage: articleimage13,
+        Tag: "events",
+        Title: "dhk architects to participate in design week south africa",
+        MainPara: "This year’s event kicks off in Joburg from 10-13 October, followed by a Cape Town edition from 24-27 October.",
+        Date: "October 3, 2024",
+        Data: [
+            {
+                TopicTitle: "dhk architects to participate in design week south africa",
+                TopicPara: "We’re delighted to announce that we’re taking part in the first ever Design Week South Africa. This year’s event kicks off in Joburg from 10-13 October, followed by a Cape Town edition from 24-27 October. It also coincides with our birthday month, so we’re opening our doors to celebrate with you. Here’s what’s coming up.",
+                Topiccontent: [
+                    ""
+                ],
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "Walk and Talk at Oxford Parks: ‘South Africa’s Future Neighbourhood’",
+                Topiccontent: [
+                    "How can urban design and urban planning showcase the future of precincts and neighbourhoods without high walls and electric fences –yet still safe, vibrant, and diverse?",
+                    "Join us at Oxford Parks as part of Design Week South Africa to explore how innovative urban planning and design are shaping the future of mixed-use neighbourhoods. These areas are becoming safer, walkable and economically stimulating, fostering a sense of community and activity.",
+                    "Carollyn Mitchell from Intaprop will lead a talk and short walk, demonstrating how the private sector is designing safer streets and future neighbourhoods. The talk, moderated by Design Week curator (and Young Urbanists) Roland Postma, will feature insights from Guy Briggs, Partner and Executive Director at dhk Architects, who played a key role in developing Oxford Parks, and Andile Skosana, who will discuss mobility within the Rosebank precinct. Together, they will highlight the impact of pedestrian-friendly spaces, safer intersections, and how urban design, proper building codes, and slower streets can work in harmony. The walk will showcase the benefits of inviting places to sit, enhanced greenery, and fewer barriers, creating vibrant, accessible environments for all. An urban future without high walls isn’t just a vision –it’s already taking shape."
+                ],
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "",
+                Topiccontent: [],
+                listData: [
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Where:",
+                                listingPara: "Oxford Parks, 5 Parks Boulevard, Dunkeld"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Time:",
+                                listingPara: "14h00 – 16h00"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Cost:",
+                                listingPara: "The event is free and open to all, but numbers are limited. <a href='https://www.designweeksouthafrica.com/etn/walk-and-talk-at-oxford-parks/' target='__blank'>Register to secure your spot</a>."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Open Studio with dhk Architects",
+                                listingPara: ""
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "10 October 2024‍",
+                                listingPara: ""
+                            }
+                        ],
+                    },
+                ]
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "",
+                Topiccontent: [
+                    "Visit the dhk Architects studio to meet the team responsible for some of South Africa’s most iconic architectural and urban design projects, from expansive masterplans, to soaring skyscrapers to low-rise heritage refurbishments – and others located in places further afield.",
+                    "Find out what makes the design-led studio tick, learn what inspired the designs the team are currently working on, the ones they wish they’d built and the ones that got away. See models in the making, and take part in informal drawing sessions throughout the afternoon. If you’re a student, you’ll have a chance to submit your portfolio for possible work experience opportunities, dhk Architects are always looking for the best talent to join their leading team."
+                ],
+                listData: [
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Where:",
+                                listingPara: "dhk Architects, 2nd Floor, Cradock Heights, 21 Cradock Avenue, Rosebank"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Time:",
+                                listingPara: "15h30 – 19h00"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Cost:",
+                                listingPara: "The event is free and open to all, but numbers are limited. <a href='https://www.designweeksouthafrica.com/etn/open-studio-with-dhk-architects/' target='__blank'>Register to secure your spot</a>."
+                            }
+                        ],
+                    },
+                ]
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage14,
+        Tag: "projects",
+        Title: "talking hospitality design with dhk associate daniel hookins",
+        MainPara: "The hospitality industry is undergoing a seismic shift. Today’s travellers are no longer satisfied with cookie-cutter accommodation.",
+        Date: "September 27, 2024",
+        Data: [
+            {
+                TopicTitle: "talking hospitality design with dhk associate daniel hookins",
+                TopicPara: "The hospitality industry is undergoing a seismic shift. Today’s travellers are no longer satisfied with cookie-cutter accommodation. They crave unique, immersive experiences that enrich their journeys. This evolving landscape presents both challenges and opportunities for architects tasked with designing the hospitality spaces of today and tomorrow.",
+                Topiccontent: [
+                    "So how can architects create environments that not only meet, but anticipate the desires of future guests? We’ve been designing and building hospitality projects for decades. Our teams working on multiple hotel projects in South Africa, Mauritius, Seychelles and elsewhere across Africa are constantly finding architectural answers to this question. To unpack some of this thinking, we spoke to project design architect and Associate Daniel Hookins, who is leading two major hospitality projects in Cape Town and Abidjan."
+                ],
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "",
+                Topiccontent: [
+                    ""
+                ],
+                listData: [
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: hospitalityimg1,
+                                        Listimgtitle: "2023 model of City Park",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "dhk content coordinator Simangele Mzizi (SM): Tell us a bit about your background?",
+                        listing: [
+                            {
+                                listingTitle: "Daniel Hookins (Daniel):",
+                                listingPara: "After graduating with Masters in Architecture from Nelson Mandela University in 2011, I worked for various architecture firms in Cape Town before joining dhk in 2017 and was promoted to Associate in early 2022.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "I currently work in the architectural team led by dhk Partner and Executive Director Leigh Bishop. This team is skilled in conceptualising the designs of large mixed-use developments, large residential schemes and hotel developments in various locations throughout Africa.",
+                                            "I’m also a proud dad. I enjoy spending time with friends and family as well as outdoor activities such as hiking, road and trail running."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                ]
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "",
+                Topiccontent: [
+                    ""
+                ],
+                listData: [
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: hospitalityimg2,
+                                        Listimgtitle: "City Park, an innovative mixed-use development in Cape Town",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                ]
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "",
+                Topiccontent: [
+                    ""
+                ],
+                listData: [
+                    {
+                        listTitle: "SM: What’s on your desk at the moment?",
+                        listing: [
+                            {
+                                listingTitle: "Daniel:",
+                                listingPara: "Our team is working on a hotel in Abidjan, Ivory Coast, and a mixed-use building in Cape Town’s CBD, comprising a hotel, retail, offices and a branded apartment component.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: What do you enjoy about working on hospitality projects?",
+                        listing: [
+                            {
+                                listingTitle: "Daniel:",
+                                listingPara: "The design of a hotel consists of layers of systems and spaces that need to be arranged to meet the hotel’s brand standards. A hotel is a mixture of back-of-house spaces, which is the engine which houses the operations and management of the hotel, and front-of-house spaces, which are the spaces that hotel guests see and interact with. The relationship between these two needs careful design consideration to create an environment that’s vibrant but also tranquil for the guests, hiding the hotel’s operational busyness.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "A hotel must be designed efficiently to be viable, meaning that the hotel user has an efficiency ratio of space to generate revenue versus space to run the hotel. As architects, we must find that balance while designing the building to suit the site limitations and building regulations."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "SM: How do architects design for hospitality with the future in mind?",
+                        listing: [
+                            {
+                                listingTitle: "Daniel:",
+                                listingPara: "There are some key factors to consider when designing hotels for the future, such as sustainability, technology integration and flexible and adaptable spaces.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "These days, large hotel groups and developers have very clear brand standards to ensure that their buildings meet a required standard of sustainability, both in terms of the construction of the building and ensuring that the building operates efficiently in terms of energy use, water conservation and materials use. So, in terms of sustainability, there’s a strong emphasis on designing buildings that are energy-and water-efficient and use sustainable materials. There’s also a growing focus on refurbishing existing hotels rather than building from the ground up. The emphasis here is on adapting the building to current needs in a much more sustainable way, which is what we’re doing at City Park."
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                listingTitle: "Technology integration",
+                                listingPara: "is transforming hotels into smart buildings. Guest rooms are being equipped with devices that use AI and technology to adapt experiences and services to individual users.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "In terms of <bold>functional adaptability</bold>, meeting, conference and exhibition spaces have now become multi-use spaces that can be adapted for different types of functions. Remote workspaces are now a big part of hotel design, with an increasingly mobile business traveller and the ability to run meetings from a screen rather that face-to-face. This requirement is now a big part of hotel design, where, for example, large conference rooms need to accommodate smaller, more private meeting and working areas."
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: hospitalityimg3,
+                                        Listimgtitle: "<bold>Seafront Estate</bold>, our hospitality-focused development in the Seychelles. The project is on site and builds on our extensive experience in the region.",
+                                        Listimgcontent: [
+                                            "Finally, in a post-pandemic world, there’s a focus on health and wellness. Air quality is critical in a building where many people from all over the world live in close proximity. There’s also a focus on healthier eating and fitness centres. We’re also seeing this in the residential sector with one of our clients, Balwin Properties, which has lifestyle centres with a wide range of amenities including gyms and Padel courts."
+                                        ]
+                                    }
+                                ]
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "SM: The hospitality industry is changing rapidly as people seek unique and enriching experiences. For example, we’re seeing trends such as people blending work and leisure, a trend known as “bleisure”. We’re also seeing an increase in solo travel. What does this mean for hospitality design?",
+                        listing: [
+                            {
+                                listingTitle: "Daniel:",
+                                listingPara: "As I mentioned earlier, this trend is popular today because people can work from virtually anywhere, making it easier to combine business and leisure. Hotels need to incorporate both elements, by offering remote working and meeting spaces as well as recreational spaces. The combination of the two presents an exciting space planning challenge for the architect and interior designer.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: hospitalityimg4,
+                                        Listimgtitle: "Grand Hotel, a Cape Town hospitality project which brought together our skills as architects and our interior design expertise in collaboration with dhki.",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        listTitle: "SM: dhk’s interior design team at dhk Interior Design delivers interior designs for hospitality projects. In your view, how do interior trends influence architectural trends?",
+                        listing: [
+                            {
+                                listingTitle: "Daniel:",
+                                listingPara: "In hospitality design, there’s a dynamic relationship between the interior designer and the architect. A hotel has very public and open spaces as well as very private and enclosed spaces. Trends in hotel interiors are leaning towards open-plan living and less cluttered, minimalist spaces. It’s then up to the architect to ensure that the envelopes of these spaces accommodate this trend.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            },
+                        ]
+                    },
+                ]
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage15,
+        Tag: "projects",
+        Title: "bringing an old battery to life",
+        MainPara: "Contemporary design preserves a historical landmark at Battery Park",
+        Date: "September 22, 2024",
+        Data: [
+            {
+                TopicTitle: "bringing an old battery to life",
+                TopicPara: "Contemporary design preserves a historical landmark at Battery Park",
+                Topiccontent: [
+                    "The V&A Waterfront is one of the most visited tourist destinations in Africa. Located at the edge of the Cape Town CBD, it is a vibrant mixed-use environment characterised by contemporary architecture standing alongside remnants of the area’s industrial, marine and archaeological past. One of the city’s oldest coastal fortification structures, the Amsterdam Battery, is located in the gateway Canal District of the V&A Waterfront. The district connects the V&A Waterfront and the CBD. In 2015, an urban design framework was developed to reinvigorate the area.",
+                    "The challenge was to create a cohesive urban realm to preserve the historical landmark within a contemporary urban design solution. The historical battery stands eight metres above the canal below, and so Battery Park was the centrepoint of the framework – a 12 000m2 (1.2 hectare) publicly accessible urban park, designed to stitch the new district into the surrounding urban fabric.",
+                    "The elevated park features landscaped gardens, multiple new pedestrian routes, a skatepark and basketball court, all framed against the Cape Town cityscape. A grand concrete staircase leads to a piazza below, where retail units and water sports facilities encourage people to visit and linger. The elevated park tapers towards the piazza, and in turn, the piazza gradually steps down towards the canal, offering glimpses of both. Waterwise and indigenous fynbos plants soften the gabion walls. Stone excavated from the construction site was used throughout the design.",
+                    "An interpretation pavilion at park level features three historical cannons facing towards the canal, representing the battery’s historical function. An elevator is built into this pavilion, providing access to the piazza and underground parking.",
+                ],
+                listData: [
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "Photography:",
+                                listingPara: "Dave Southwood",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage16,
+        Tag: "people",
+        Title: "in conversation with dhk candidate architect ismaeel davids",
+        MainPara: "dhk Candidate Architect Ismaeel Davids is currently in Madrid pursuing a Master’s Degree programme at the Norman Foster Institute Programme on Sustainable Cities. We’ve been following his journey closely since he left eight months ago, despite the distance.",
+        Date: "September 5, 2024",
+        Data: [
+            {
+                TopicTitle: "in conversation with dhk candidate architect ismaeel davids",
+                TopicPara: "dhk Candidate Architect Ismaeel Davids is currently in Madrid pursuing a Master’s Degree programme at the Norman Foster Institute Programme on Sustainable Cities. We’ve been following his journey closely since he left eight months ago, despite the distance. Recently, dhk’s Head of Communications, Hilary Alexander, caught up with him to find out what he’s been up to.",
+                Topiccontent: [
+                    "The following is a snapshot of their discussion, which also addresses the challenges facing rapidly developing cities in Ismaeel’s part of the world that are grappling with conversations around the impact of short-term rentals on housing affordability. There is an interesting parallel with our own mother city, Cape Town, which is also faced with the need to strike a balance between the tourism economy and community interests."
+                ],
+                listData: [
+                    {
+                        listTitle: "Hilary Alexander (HA): We last heard from you in April when you were three months into your programme. What have you been up to?",
+                        listing: [
+                            {
+                                listingTitle: "Ismaeel Davids (ID):",
+                                listingPara: "I’ve just got back from a 10-day visit in Bilbao.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: I must say, I’m super envious of your trip. I’ve wanted to go to Bilbao for years. The Bilbao Guggenheim has been on my bucket list ever since it was built. I visited Valencia a few years later and absolutely loved the Calatrava complex there.",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "You must visit Bilbao if you can. Many famous architects have worked there, including Norman Foster, who did the subway system, and Frank Gehry, who did the Guggenheim.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: Tell me more about your 10-day visit in Bilbao. Previously, you mentioned that you’ve been exploring how to use qualitative research as a means to uncover the intricacies of people’s daily lives, their emotions, aspirations and struggles, which are often overlooked in traditional data-driven approaches. At the time, you were also pondering on the question of ‘how do we design with communities rather than simply for them?’.",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "Bilbao has faced numerous historical challenges and undergone a significant transformation from an industrial hub to a global tourist destination, showcasing its resilience. However, this resilience has come at a cost, a disparity between the city centre and the periphery areas. Our quantitative analysis revealed friction between three social groups: the local youth, the elderly and the immigrant community. These frictions stem from competition for jobs, housing, access to amenities, land use diversity and mobility.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "To gain a deeper understanding, we spent 10 days in the San Francisco neighbourhood, conducting qualitative research. We interviewed residents, met with various city council departments and held a workshop with district youth representatives. This workshop helped us map their daily routines and identify areas perceived as unsafe or underused. Our findings, which we corroborated through interviews and surveys, highlighted that Otxarkoaga and San Francisco are rarely visited due to a lack of amenities and safety concerns."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: Could you outline some of the concerns that residents expressed in a bit more detail. What do you mean by “lack of amenities.” What safety threats exist?",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "We designed the workshop in three stages. We began by asking them to identify their priorities in the city and whether they have a desire to stay in Bilbao. We then gave them three tasks. First, we asked them to map their daily routes on weekdays and weekends. In the second one, we asked them to identify areas of the city they had not visited or that they perceived as unsafe. Finally, we conducted interviews based on the questions in the survey.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Our research revealed that San Francisco is the area most frequently identified as unsafe due to muggings and other antisocial behaviour like drug dealing. It’s a neighbourhood with a large immigrant population in the city centre, while Otxarkoaga, a periphery area, was the least visited due to a lack of amenities and was essentially a mass housing neighbourhood. In the area, there are little to no stores, pharmacies and community facilities."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: How are the three groups [local youth, elderly and immigrant community] affected? Do they have different experiences?",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "What we found out is that the young would like to stay in Bilbao but are struggling with affordability of housing and job opportunities. The local youth and immigrant youth are in direct competition for jobs.  All three are in competition for housing.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "We proposed improving the integration of these areas by fostering social cohesion via meaningful interactions at three scales: bonding, bridging and linking. Bonding refers to interactions at the building and street level, bridging at the neighbourhood level and linking across different neighbourhoods. While social cohesion is challenging to measure directly, we can create conditions facilitating interaction and meaningful exchange through public spaces and activities. This approach aims to foster a sense of community, place and ultimately social cohesion."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: It seems that the issues Bilbao is facing are along the same lines as the protests we saw recently in Barcelona, with residents spraying water guns at tourists, to curb mass tourism. So, there’s a double-edged sword in the resurgence of the city as a tourism destination, at the expense of affordable housing and other resources for locals.",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "I agree, there are some similarities. Much like Barcelona, tourism is a major contributor to Bilbao’s GDP and a source of job creation. I am not too familiar with the strategies of the Barcelona city council, but in Bilbao, they have kept Airbnb to a minimum and want to drive it out of the city completely. The affordable and social housing department of Bilbao is also extremely “on top” of housing delivery with one of the best social housing ratios in Spain.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: Could you offer a little more insight on the three scales you mentioned.",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "It refers to the scale of intervention posed on underperforming public spaces incorporating activities and programmed events. The hypothesis is that interaction is the key ingredient in creating the best conditions for social cohesion to happen. A bonding intervention is the smallest scale, followed by bridging, which is an intervention for neighbourhood scale, and linking, which is a type of intervention to bring other neighbourhoods together.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: I realise that architecture is your focus, but would the three scales you mentioned be the only three responses, or are there other structural/administrative issues that need to be addressed, to support the architectural/urban design response?",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "We’re not doing three interventions, but rather giving the city a methodology to apply in their analysis to identify areas that have the potential for a bonding, bridging or linking opportunity. That’s all that’s in our scope given the time frame of the course. I would have liked to tackle the bigger issues like housing and residency administration, but it’s not possible in this time frame.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "HA: Thank you, Ismaeel. We look forward to catching up with you again.",
+                        listing: [
+                            {
+                                listingTitle: "ID:",
+                                listingPara: "Speak to you soon. Thank you.",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage17,
+        Tag: "career",
+        Title: "meet kaneasha hanning, go-for-gold alumni",
+        MainPara: " She’s been with dhk since 2018, having initially enrolled in a year-long internship through the Go for Gold learnership programme. Her journey exemplifies the programme’s value in providing committed students a pathway to realise their full potential.",
+        Date: "August 21, 2024",
+        Data: [
+            {
+                TopicTitle: "meet kaneasha hanning, go-for-gold alumni",
+                TopicPara: "Meet Kaneasha Hanning, a Candidate Architectural Technologist in our Cape Town office. She’s been with dhk since 2018, having initially enrolled in a year-long internship through the Go for Gold learnership programme. Her journey exemplifies the programme’s value in providing committed students a pathway to realise their full potential.",
+                Topiccontent: [
+                    "<a href='https://goforgold.org.za/' target='__blank'>Go for Gold</a> is an education-to-employment public-private initiative that connects participating companies with their future workforce. The award-winning initiative was founded in 1999 through collaboration between companies in the built environment, the Western Cape Department of Education and civil society. It offers students from underprivileged communities in Cape Town and Johannesburg an education development programme from Grade 10 through 12, followed by an internship year and tertiary education support. Once students graduate, they’re guaranteed employment with partner companies.",
+                    "Go for Gold assists around 150 high school learners annually through its Education Development Programme. The organisation also places 40 students in internships at partner companies and helps 300 students pursue higher education at various institutions. Additionally, the programme celebrates about 40 technical graduates each year, some of whom serve as mentors to younger Go for Gold students.",
+                    "Kaneasha describes her experience of the programme as an enriching one, and she’s already paying it forward. Go for Gold has enabled her to grow both in her personal capacity and as a professional. On 21 June 2024, the 25-year-old was part of a dhk team that attended the annual Go for Gold Career Jamboree held at Cape Town High School. She described the moment as heartwarming, remembering being in the same shoes as the students she met that day. She took time to share with them advice and insights about her career journey.",
+                    "Reflecting on her time in the programme, she said: “I know that some people say it’s a waste of time to do an internship before studying, but for me, I felt that if it wasn’t for this experience, I probably wouldn’t have been able to survive during my studies. It’s good to get a glimpse into what exactly you’ll be getting into for the rest of your life. For me, Go for Gold has been invaluable and has moulded me into the person I am.",
+                    "“I often remember how shy I was, but through the support and mentorship over the years, I have become much more confident in my abilities and as a person. I’m now in my third year of work at dhk. I feel like there are always people cheering me on, which is an amazing feeling.”",
+                    "At the Go for Gold Career Jamboree, Bridget-Ann Mullins, the National Director for Go for Gold, expressed similar sentiments, emphasising the importance of exposing students not only to the variety within the built environment but also to higher education institutions.",
+                    "“It’s fundamental that students from disadvantaged communities are allowed the opportunity to explore what the built environment actually means. Although we can tell them about it, being able to see it tangibly, speak to other people, see the models and link to those in the industry just creates an awareness and opens up a pathway for informed decision-making about their futures,” noted Bridget-Ann."
+                ],
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "Empowering the next generation of design leaders",
+                Topiccontent: [
+                    "Following her internship at dhk in 2018, we provided financial assistance for Kaneasha to pursue architecture at the <a href='https://www.cput.ac.za/' target='__blank'>Cape Peninsula University of Technology (CPUT)</a>. She obtained her National Diploma in Architectural Technology and Advanced Diploma in Architectural Technology between 2019-2023. She has grown immensely within the practice.",
+                    "Kaneasha’s currently involved with <a href='https://dhk-co.netlify.app/projects/seafront-estate' target='__blank'>Seafront Estate</a>, a hospitality-focused project in Seychelles. The development comprises a120-room hotel, 68 residential apartments, a sea-facing pavilion, retail and office spaces and conference facilities, as well as the first private hospital in the country. Her growing skills include providing architectural support for both technical and design deliverables. She’s also fast becoming proficient in various software packages and has developed the ability to independently engage with consultants.",
+                    "Commenting on her work experience and future goals, she noted: “I’m still junior but dream of one day taking on a role where I oversee a project from inception to construction stage. I would love to experience the full cycle of the building. I’m getting exposed to that now with Seafront under the supervision of senior members.”",
+                    "<a href='https://dhk-dev.webflow.io/team-members/renske-haller' target='__blank'>Renske Haller</a>, dhk Partner and Managing Director, has been a part of Kaneasha’s journey for the past six years. Renske values the importance of shaping the next generation of design leaders, which is one of dhk’s passions. With this support from senior practice leadership, the firm is privileged to be able to give back in a meaningful way.",
+                    "“We’re pleased to be part of a holistic programme that’s creating skilled graduate professionals with self-belief. It’s been a pleasure watching Kaneasha’s progression and that of our other interns over the years, including those who didn’t necessarily pursue architecture after their internships. We look forward to continuing to empower the next generation. With the partner companies, it helps us address our country’s development challenges,” said Renske.",
+                    "dhk joined Go for Gold seven years ago and has since assisted 10 students with bursaries and internships. Other Go for Gold rising stars currently working as architectural interns at dhk are Imaad Kamaldien, Tylo Barends and Aidan Schippers. Aidan has been nominated in the upcoming <a href='https://commonwealtharchitects.org/2024-caa-awards-programme-launched/' target='__blank'>2024 Commonwealth Association of Architects (CAA) Awards</a>. He’s up for the CAA Student Award, which will be announced in August 2024. The awards recognise the work of first, second- and third-year students who creatively address issues associated with social, economic and environmental well-being in the context of the current biodiversity crisis and climate emergency."
+                ],
+            },
+            {
+                TopicTitle: "",
+                TopicPara: "",
+                Topiccontent: [
+                    ""
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage18,
+        Tag: "people",
+        Title: "meet daphne nederstigt, associate + member of dhk's sustainability committee",
+        MainPara: " Shaping the built environment and advocating for sustainable practices",
+        Date: "August 13, 2024",
+        Data: [
+            {
+                TopicTitle: "meet daphne nederstigt, associate + member of dhk's sustainability committee",
+                TopicPara: "Meet Kaneasha Hanning, a Candidate Architectural Technologist in our Cape Town office. Shaping the built environment and advocating for sustainable practices",
+                Topiccontent: [
+                    "Project architect and dhk Associate Daphne Nederstigt straddles two roles at the practice. She works on various projects in island regions and spearheads dhk’s Sustainability Committee alongside one of the firm’s Partners, with the aim of establishing dhk as a leader in green building practices.",
+                    "As an outdoor enthusiast and environmentally conscious individual, Daphne leads by example in both her personal and professional life. She’s involved in numerous architectural, interior design and construction projects of varying complexity and scale. At dhk, her scope spans from high-end residential to hospitality work. Daphne is responsible for a broad range of tasks across all project stages such as concept plans and construction packages, design, coordination and documentation.",
+                    "Her experience includes working as a project manager in the Netherlands on large public buildings, where sustainable technologies were integral to all designs. She has a proven track record of successful green initiatives, including the Mont Choisy project in Mauritius, which incorporated passive design principles, and the Seafront Estate development in the Seychelles, currently undergoing EDGE certification. EDGE is a green building certification system focused on making buildings more resource efficient.",
+                    "Daphne’s ideal work involves designing and building sustainable, self-sufficient social projects. With strong problem-solving skills and a drive to support others’ growth, she’s committed to leveraging her expertise to create a more resilient and sustainable built environment.",
+                    "“Architects have the privilege of shaping the built environment, and the ethical responsibility to create healthier spaces that minimise environmental harm,” says Daphne. “As women, we design and live with empathy and a rounded understanding of our role and connectedness to the whole of society. This means we should be advocating for sustainable practices and educating clients on why sustainable design is non-negotiable. It must be a given feature in everything we do.”",
+                    "Daphne is part of dhk’s Sustainability Committee, which she leads in collaboration with dhk Partner Peter Stokes. The forum aims to raise awareness internally so environmentally friendly solutions become a part of people’s DNA. As a thought leader with a deeper understanding of green building principles and practice, she strives to lead by example and to influence others on the importance of sustainable design.",
+                    "“My focus is to increase our team’s understanding of sustainable and green building practices. I want to scale our practice knowledge, inspire young designers, educate technologists, and urge clients to adopt more sustainable practices with credibility and confidence,” she explains.",
+                    "Daphne, who is originally from the Netherlands, joined dhk in 2017. She was appointed as dhk Associate in late 2022. Her portfolio at dhk includes notable projects such as <a href='https://dhk-co.netlify.app/projects/the-signature' traget='__blank'>The Signature in Mauritius</a> and <a href='https://dhk-co.netlify.app/projects/seafront-estate' traget='__blank'>Seafront Estate in Seychelles</a>. She has also contributed to the design of <a href='https://dhk-dev.webflow.io/projects/delaire-graaf-estates-owners-villa-and-superior-lodges' traget='__blank'>Delaire Graff Estate’s Owner’s Villa and Superior Lodges</a>, an accommodation offering in Stellenbosch that provides an unrivalled Winelands experience.",
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage19,
+        Tag: "studio",
+        Title: "celebrating women leaders at dhk",
+        MainPara: "",
+        Date: "August 8, 2024",
+        Data: [
+            {
+                TopicTitle: "celebrating women leaders at dhk",
+                TopicPara: "dhk Architects celebrates women’s triumphs, sacrifices and contributions to society all year round.",
+                Topiccontent: [
+                    "Our entire team contributes to our success. Around half of our team are women. They are highly skilled, leading major architectural projects locally and abroad. These leaders are supported by an equally adept administrative staff that forms the backbone of the studio. Currently, women make up 45% of our 27-strong management team. Find out more about some of them below."
+                ],
+                listData: [
+                    {
+                        listTitle: "Renske Haller",
+                        listing: [
+                            {
+                                listingTitle: "I’ve just got back from a 10-day visit in Bilbao.",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Renske has worked in the United Kingdom and The Netherlands, growing her insights in urban design, and gaining experience in an international context. She returned to South Africa and joined dhk Architects in 2006. She was promoted to Partner in 2009 and appointed as Managing Director of the practice in 2014. Renske has experience in the design and execution of a wide range of projects at various scales and complexities, from spatial development frameworks and masterplanning, to individual public and private buildings, public spaces and detailed landscape treatments. She has specialised experience in designing leisure and hospitality projects around the world, including luxury resort hotel projects and mixed-use developments incorporating residential, retail, hospitality and commercial elements. As dhk MD, she leads the strategic direction of the practice and is involved in all aspects of its financial, operational and strategic growth and development. Renske has a particular focus on increasing the diversity of the practice and the profession, and in building a culture of high-performance led by clear shared values within the internal team."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Leigh Bishop",
+                        listing: [
+                            {
+                                listingTitle: "Partner | Executive Director",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Leigh has over 16 years’ experience in the industry. She joined dhk as a Partner and member of the board of directors in 2019. Prior to joining dhk, she led her own practice, Leigh Bishop Architects, in Durban. She has an immense enthusiasm for architecture, providing considered design solutions with speed and efficiency. She specialises in business development and guides teams working on various residential and hospitality projects, overseeing design delivery and implementation. Leigh’s currently leading the team behind <a href='https://dhk-dev.webflow.io/projects/city-park' target='__blank'>City Park</a>, an innovative mixed-use development in the Cape Town CBD. In April 2024, she was included on <a href='https://africanscolumn.com/50-influential-african-women-architects/' target='__blank'>Africans Column’s list of 50 Influential African Women Architects</a>. She was lauded for her commitment to inspiring inclusivity and gender equality in architecture, striving to motivate and create space for future female leaders in the industry."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Shantal Ruiters",
+                        listing: [
+                            {
+                                listingTitle: "Finance Director | Member of the Board of Directors",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Shantal is an experienced finance professional with a demonstrated history of managing various financial facets of a large organisation. She’s an indispensable part of maintaining the seamless daily and long-term functionality of dhk’s finances while monitoring annual expenditures and forecasting. She manages her team with proficiency in advanced accounting systems and a positive leadership style that encourages development and agility. Over the years, Shantal has worked in the events and marketing industries, including on large-scale projects such as The Ocean Race (Cape Town and Abu Dhabi) and the World Triathlon Championship Series. She joined dhk in 2019 and serves as a Finance Director and a member of the Board of Directors."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Natasha Geils",
+                        listing: [
+                            {
+                                listingTitle: "Office Manager | Personal Assistant",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "With over two decades of experience as a personal assistant and office manager, Natasha has worked with diverse teams and individuals across industries, honing a unique set of skills that allows her to excel in a demanding work environment. Natasha was bitten by the architecture bug in 2012. She started at dhk in early 2012 as a PA and in 2018 became dhk’s office manager, while still serving as PA to founder and executive chairman Derick Henstra. Her overarching goal is to empower the people she works with to more easily do their jobs. As an indispensable all-rounder, in addition to being a PA and Office Manager, she adeptly organises events, liaises with clients and manages the admin team."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Tanya Busschau",
+                        listing: [
+                            {
+                                listingTitle: "Senior Associate | Head of Urban Design",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Tanya has over a decade of experience in public and private sector projects. Since joining dhk in 2018, she has been involved in several urban design and architectural projects in Cape Town, Johannesburg, Italy, Romania and Mauritius. She was promoted to Head of Urban Design in 2023. In this role, she leads the architects and urban designers who make up the urban design team and actively considering the future of the team and urban design within dhk as a whole, together with the larger management team. Some of her notable projects are Springfield Estate, Hatfield Town Centre and <a href='https://dhk-co.netlify.app/projects/conradie-park' target='__blank'>Conradie Park</a> – designed as an urban village with a pedestrian-friendly environment, featuring wide sidewalks, cycling paths, and an integrated non-motorised transport plan."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Wardah Razak",
+                        listing: [
+                            {
+                                listingTitle: "Senior Associate | Head of Implementation and Training",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Wardah, an 18-year veteran at the practice, is involved in all stages of the architectural process, particularly the technical development and detailing across a wide range of building typologies. She’s part of Renske’s team, currently working on <a href='https://dhk-co.netlify.app/projects/the-signature' target='__blank'>The Signature</a> in Mauritius and <a href='https://dhk-co.netlify.app/projects/seafront-estate' target='__blank'>Seafront Estate</a> in Seychelles. She’s also contributed her expertise to developments such as <a href='https://dhk-co.netlify.app/projects/drostdy-hotel' target='__blank'>Drostdy Hotel</a>, <a href='https://dhk-co.netlify.app/projects/delaire-graff-estate-villa-+-lodges' target='__blank'>Delaire Graff Estate</a> and Waterway House, the first phase of the new mixed-use Canal District at Cape Town’s bustling V&A Waterfront. Wardah is extremely passionate about inspiring and mentoring the next generation of architects. She champions the Go for Gold initiative which provides students from disadvantaged communities the opportunity to enhance their architectural education and receive mentorship throughout their tertiary education."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Sarah Patterson",
+                        listing: [
+                            {
+                                listingTitle: "Senior Associate | Architect",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            "Sarah has close to 20 years of experience working on both urban design and architectural projects. She’s passionate about the need for well-considered, inspirational building projects that contribute to the creation of vibrant and equitable places. She also participates in mentoring activities and network events for women in architecture. In her nine-year tenure at dhk, she’s contributed extensively to projects in the education sector, particularly the spatial implications in designing for shifting pedagogies and the digital teaching environment. <a href='https://dhk-co.netlify.app/projects/parklands-college' target='__blank'>Parklands College</a> in Cape Town is one of her notable projects. It was expanded to include a new learning and innovation centre. She also contributed her expertise to the newly completed multimedia academic learning centre at Bishops Diocesan College in Rondebosch."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "",
+                                listingDate: "",
+                                listimgcontent: [
+                                    {
+                                        Listimg: "",
+                                        Listimgtitle: "",
+                                        Listimgcontent: [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                    },
+                ],
+            },
+        ],
     },
 ]
 

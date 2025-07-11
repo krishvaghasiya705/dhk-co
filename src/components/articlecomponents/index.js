@@ -78,7 +78,12 @@ export default function ArticledetailSection({ article, articles, currentIndex }
                                 {item.listimgcontent.map((imgContent, imgIdx) => (
                                   <div key={imgIdx}>
                                     {imgContent.Listimg && (
-                                      <img src={imgContent.Listimg} alt={imgContent.Listimg} />
+                                      <>
+                                        <img src={imgContent.Listimg} alt={imgContent.Listimg} />
+                                        {imgContent.Listimgtitle && (
+                                          <i className='blend-mode' dangerouslySetInnerHTML={{ __html: imgContent.Listimgtitle.replace(/<bold>(.*?)<\/bold>/g, '<strong>$1</strong>') }} />
+                                        )}
+                                      </>
                                     )}
                                     {Array.isArray(imgContent.Listimgcontent) && imgContent.Listimgcontent.map((content, contentIdx) => (
                                       <p className='blend-mode' key={contentIdx} dangerouslySetInnerHTML={{ __html: content }} />
