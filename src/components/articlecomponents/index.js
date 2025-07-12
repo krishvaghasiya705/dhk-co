@@ -65,7 +65,7 @@ export default function ArticledetailSection({ article, articles, currentIndex }
                         {Array.isArray(list.listing) && list.listing.map((item, iidx) => (
                           <div key={iidx}>
                             {(item.listingTitle || item.listingPara) && (
-                              <p className='blend-mode'>
+                              <p className='list-detail blend-mode'>
                                 {item.listingTitle && <span>{item.listingTitle}</span>}
                                 {item.listingPara && <div className='inline-text' dangerouslySetInnerHTML={{ __html: item.listingPara }} />}
                               </p>

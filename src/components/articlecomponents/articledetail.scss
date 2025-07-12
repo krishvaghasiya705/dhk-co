@@ -220,9 +220,13 @@
         }
       }
 
-      .inline-text {
-        display: inline;
-        margin-left: 5px;
+      .list-detail {
+        span {
+          padding-right: 5px;
+        }
+        .inline-text {
+          display: inline;
+        }
       }
     }
   }

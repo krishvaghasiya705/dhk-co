@@ -17,6 +17,28 @@ import articleimage16 from "../../../assets/images/articleimage16.webp"
 import articleimage17 from "../../../assets/images/articleimage17.webp"
 import articleimage18 from "../../../assets/images/articleimage18.webp"
 import articleimage19 from "../../../assets/images/articleimage19.jpg"
+import articleimage20 from "../../../assets/images/articleimage20.webp"
+import articleimage21 from "../../../assets/images/articleimage21.webp"
+import articleimage22 from "../../../assets/images/articleimage22.webp"
+import articleimage23 from "../../../assets/images/articleimage23.webp"
+import articleimage24 from "../../../assets/images/articleimage24.webp"
+import articleimage25 from "../../../assets/images/articleimage25.webp"
+import articleimage26 from "../../../assets/images/articleimage26.webp"
+import articleimage27 from "../../../assets/images/articleimage27.webp"
+import articleimage28 from "../../../assets/images/articleimage28.webp"
+import articleimage29 from "../../../assets/images/articleimage29.webp"
+import articleimage30 from "../../../assets/images/articleimage30.webp"
+import articleimage31 from "../../../assets/images/articleimage31.webp"
+import articleimage32 from "../../../assets/images/articleimage32.webp"
+import articleimage33 from "../../../assets/images/articleimage33.webp"
+import articleimage34 from "../../../assets/images/articleimage34.webp"
+import articleimage35 from "../../../assets/images/articleimage35.webp"
+import articleimage36 from "../../../assets/images/articleimage36.webp"
+import articleimage37 from "../../../assets/images/articleimage37.webp"
+import articleimage38 from "../../../assets/images/articleimage38.webp"
+import articleimage39 from "../../../assets/images/articleimage39.webp"
+import articleimage40 from "../../../assets/images/articleimage40.webp"
+import articleimage41 from "../../../assets/images/articleimage41.webp"
 
 import friendimg1 from "../../../assets/images/friendimg1.webp"
 import friendimg2 from "../../../assets/images/friendimg2.webp"
@@ -1777,6 +1799,859 @@ const Journaldata = [
                             }
                         ],
                     },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage20,
+        Tag: "insights",
+        Title: "in the mix",
+        MainPara: "What’s happening in mixed-use developments, according to the East Africa Property Investment Summit",
+        Date: "July 29, 2024",
+        Data: [
+            {
+                TopicTitle: "in the mix",
+                TopicPara: "The East Africa Property Investment Summit is the premier property networking event in the region. The two-day event reconnects investors, developers and industry leaders from Africa and globally. This year’s event welcomed over 443 attendees from 19 countries, in a dynamic event of open discussion and friendly networking. dhk Partners Peter Fehrsen and Peter Stokes attended the conference this year. In this article, they share their observations about notable discussions that took place, with a focus on mixed-use developments and public-private partnerships.",
+                Topiccontent: [
+                    "Mixed-use developments and public-private partnerships (PPPs) are familiar terrain in dhk’s projects, and these approaches form a strong backbone of our knowledge and experience. The conference discussions featured these as potential strategies for fostering development in the region.",
+                    "Peter Fehrsen reflects on the main thrust of the conversations: “The discussions covered public-private partnerships (PPPs), mixed-use development and adaptive reuse of existing buildings. There was a growing focus on sustainability, particularly in respect of brownfield redevelopment and urban regeneration, especially in post-colonial cities that have degraded over time.” While regeneration can be seen as gentrification – a practice that often draws criticism and highlights concerns that the traditional character of neighbourhoods could be lost in the process, done carefully and inclusively, densification, urban upgrades and mixed-use projects can be useful tools for revitalising cities.",
+                    "This is where partnerships come into play, as effective levers for sustainable regeneration. The entire conference was geared towards the East African development opportunity and its growing attractiveness as an investment destination. But, notes Fehrsen, successful ventures will depend on the strength of local partnerships.",
+                    "He explains: “One strategy is to leverage existing relationships with local architects and influential or locally connected players active in the region. It’s about collaborating humbly, navigating delicately, finding your niche and contributing without arrogance,” says Fehrsen.",
+                    "Peter Stokes agrees, adding, “Don’t underestimate the power and the need to have a local architect and to cultivate those relationships.”",
+                    "Cultivating this mindset offers a greater impetus towards achieving development goals.",
+                    "Fehrsen continues: “It’s more about improving the urban environment. Achieving alignment with municipalities, local and regional authorities, and tying in with their improved housing policies to finance projects that can accommodate communities in safe environments. So, if you can embark upon some form of public participation or partnership, it could be possible to increase the funds available, spreading the resources between public and private sources. A PPP also enables development of degraded inner-city areas, reinforcing local densification policies and stimulating greater interest in preserving heritage. All those things are becoming important.”",
+                    "An example of this approach is dhk’s project to develop a public realm strategy for Bellville, Cape Town, with the Greater Tygerberg Partnership – an entity created as a public-private partnership with the City of Cape Town. The plan prioritises pedestrians, non-motorised transport and public transport, as well as creating positive public spaces for formal and informal traders. This kind of public sector investment is vital as it democratises access to spaces and shows tangible government commitment, thereby driving private sector investment and ultimately leading to regeneration.",
+                    "Regarding mixed-use developments, Peter Stokes notes a trend towards incorporating retail components. He notes that mixed-use in denser urban environments is inevitable and is key to creating compact, vibrant and walkable neighbourhoods. He explains: “It is not uncommon to have a diversified urban development, anchored by commercial office, hospitality or residential tenants, to be integrated with appropriate retail space to activate the street. So there’s a kind of formula in which multiple uses or experiences can be brought to bear on how retail works.”",
+                    "dhk’s experience in various use types, as well as our urban-centric and placemaking mindset, assists with the integration of uses to create a coherent, secure, legible and economic proposition. This is a tried and tested formula that helps to create the necessary bustle to sustain urban living. Our project at <a href='https://dhk-co.netlify.app/projects/oxford-parks,-rosebank' target='__blank'>Oxford Parks</a> is a notable example of this. Arising from the Dunkeld Design Manual, a masterplan for the area which we developed in 2015, the Oxford Park precinct incorporates commercial buildings and hospitality uses, with retail uses, set in a well-designed walkable, pedestrian-friendly environment that activates the street level and stimulates activity day and night."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage21,
+        Tag: "press",
+        Title: "in conversation with founding partner peter fehrsen + dhk partner martin lardner-burke",
+        MainPara: "interviewed by tony korsten, publisher for asset magazine + written by ana lorton",
+        Date: "July 28, 2024",
+        Data: [
+            {
+                TopicTitle: "in conversation with founding partner peter fehrsen + dhk partner martin lardner-burke",
+                TopicPara: "When Martin Lardner-Burke, senior associate of dhk Architects in Johannesburg, was appointed as Partner at the multidisciplinary, design-led studio in April, Asset was invited to meet him together with dhk Founding Partner, Peter Fehrsen. The meeting got underway with an ‘imagine if….’ moment from two seasoned architects, both of whom are fascinated by Johannesburg.",
+                Topiccontent: [
+                    "For Peter, a born and bred Capetonian who studied architecture at UCT and was Principal Design Partner at KCvR Architects before co-founding dhk Architects with Derick Henstra in 1998, the fascination with the city developed over time. Martin, who grew up in Johannesburg, and has lived in both Cape Town and the UK, makes no bones about the fact that he is delighted to be back there.",
+                    "“I’m very passionate about it – the red earth, the people, the climate. Just imagine what could be achieved if the management of the city was what it should be,” he says, while Peter adds: “It’s a truly African city. It has a grittiness to it. The market is tough and demanding. It works at pace which you must respond to, and has an underbelly which I find absolutely fascinating. It also has the potential to act as a giant springboard for the most wonderful development if city governance and municipal services are taken in hand.”"
+                ],
+            },
+            {
+                TopicPara: "New studio leads",
+                Topiccontent: [
+                    "Peter was a founding Partner when Derick Henstra Architects and KCvR merged in 1998. He initially worked on a small number of Johannesburg projects “at a distance” while still based in Cape Town, until dhk won a competition in the early 2000s to design Phase 2 of Melrose Arch. The win prompted the decision to open an office in Johannesburg.",
+                    "New local clients soon came calling. Today dhk has a growing number of significant projects in its Johannesburg portfolio, including Newtown Junction, Oxford Parks Masterplan, 6 Parks Boulevard (for Arup), 203 Oxford (for Life Healthcare), Radisson Red in Oxford Parks, as well as residential work for Tricolt Group at Ellipse in Waterfall City, Brookfield at the Royal Golf Club, and Tree Tops in Houghton.",
+                    "The practice is also working with Attacq – who are JV partners with Tricolt on Ellipse – on the urban design masterplan and residential projects on site and in gestation at Waterfall City. Growthpoint and Hyprop are other local clients, for whom the practice is developing schemes for high-rise projects in Waterfall City and Sandton and retail opportunities respectively.",
+                    "“The calibre and quantity of work we have been appointed to do is an acknowledgement of the contribution we are making to the city’s built environment,” says Peter. He started to commute to the Johannesburg studio in early 2000, and, after he and management decided that the team needed a Partner in place, he relocated to be there full time in 2013. Martin made the same move in 2020, strategically strengthening the Johannesburg leadership team. “Martin brings a wealth of experience and quickly became an indispensable part of our team. Now, with his promotion to Partner, we have a great platform for strategic growth of the Joburg studio,” says Peter.",
+                    "Martin had joined dhk in Cape Town in 2017 after completing his Master’s Degree at Cambridge University and spending some time with another practice. In Cape Town he worked on Battery Park, a 12,000m² urban park situated at the V&A Waterfront, and 32 Napier Street which comprises 19 high-end residential apartments. He was also integrally involved in the development of the Old Cape Quarter in De Waterkant – a neighbourhood which dates back to the 18th century – where dhk’s Cape Town office is situated.",
+                    "During his time in the UK he deepened his knowledge of environmental and international design, winning several awards, including RIBA’s Best Educational Building and Best Environmental Sustainable University Building. On his return to South Africa he worked on No. 1 Silo at the V&A Waterfront, which was the first building in SA to achieve a level 6 Green Star rating for both design and as-built."
+                ],
+            },
+            {
+                TopicPara: "The Johannesburg market",
+                Topiccontent: [
+                    "When the Covid-19 lockdowns struck, Peter and Martin stayed with their families in Cape Town. They relocated to Johannesburg again, as soon as restrictions were lifted.",
+                    "“One of the positive outcomes of such a distressing time was that Covid forced us to work in the ether,” Martin comments, “and helped us to understand how to work as a team although we were not physically together. We learnt an enormous amount and realised that we have the flexibility to expand and contract on different projects. But we believe in building a studio environment, where collaboration and connection enhances the creative process.” The studio now hosts 20+ people.",
+                    "While the challenges of working in Johannesburg are well-known, the studio’s clients are generally adept at knowing how to get their projects over the line. In many cases it’s not red tape which causes delays, says Peter, but getting the financial models to work so that projects can get off the ground. The office market remains challenging, and while the residential rental market is strong, sales need to be driven by well-targeted marketing campaigns",
+                    "“Alongside hospitality, the residential market is driving a great deal of our business but we’re also looking further afield in order to keep a full pipeline.” The practice is now expanding into Africa, and Johannesburg is the perfect springboard for access to the continent. “We’re currently busy with a hotel in Abidjan in the Ivory Coast, we’ve secured a high-rise residential project in Accra, Ghana, and we’re exploring opportunities in Zimbabwe, Botswana, Kenya and Tanzania,” says Peter.",
+                    "Diversifying into new sector markets both locally and internationally lends flexibility as well as stability to the practice. “We’ve developed a very strong track-record in residential work, and will continue to be very active in the sector,” Martin tells Asset. “At the same time our areas of specialisation are extending and we have the ability to move fast on new projects. Our staff complement is growing on the back of a good flow of work here in Johannesburg, in Africa, and in the Middle East. We’re pitching actively in the healthcare and education sectors, and are developing our skills in procuring government work.”",
+                ],
+            },
+            {
+                TopicPara: "Two cities, one studio",
+                Topiccontent: [
+                    "dhk’s Cape Town studio works closely with its Johannesburg counterpart. “Despite the geographical separation, we operate as one studio,” says Peter. “There’s good cross-pollination, and the full staff complement of 130 people makes it easy to recruit additional skills, as we’ve needed to do on our work in the Middle East, for example. The other strength which our co-operation with Cape Town lends us is our ability to source widely when we’re bidding on a project.”",
+                    "Both studios have developed full BIM capabilities and have a research and development team assessing how best to make use of AI as a tool. “You avoid it at your peril, but can’t let it rule you,” Martin cautions. It delivers results fast but will have to be harnessed appropriately as a tool if it is to help rather than hinder.",
+                    "“One of the ways in which we’ve found it can be helpful is in allowing it to optioneer, rather than assuming it will think for you. If, for example, a client feels a façade we’ve designed is a bit hard, we instruct AI to give us ten options for softening it.",
+                    "“We’ll select a few of these to present to the client, indicating which ones we feel are a good direction to follow, and ask for input so that we can progress. If you can use it in ways like these, it can prove valuable. This is how we advise the tech-savvy young talent coming into the practice.”"
+                ],
+            },
+            {
+                TopicPara: "Studio culture",
+                Topiccontent: [
+                    "It’s in dhk’s DNA to impart knowledge and mentor architectural graduates who join the studio, in addition to helping them to manage their expectations of the profession. For Peter and Martin, welcoming them into the studio culture, encouraging them to sketch as much as possible – “drawing boards were our happy space when we started out in the profession” – and keeping model-building skills alive and well, are important elements in assimilating new members of the dhk team.",
+                    "“We believe in the studio culture, and we want our team to be here physically. You need to be part of the unique studio dynamic. It’s a powerful way and means of being exposed to interesting conversations; it provides situational awareness of solutions, fresh ideas, alternative ways of doing things. It’s an invaluable learning space,” Peter says.",
+                    "Retaining talent and managing expectactions go hand in hand in many instances. Although Peter and Martin have found the Johannesburg industry friendly and ready to collaborate, everyone wants to procure work, and salary levels need to be maintained if you don’t want to lose staff. “We want to be successful but not avaricious,” Martin says. “We’re trying to get clients to realise that if you don’t pay appropriately for what you’re getting, you’ll end up with a toothless industry.”",
+                    "“We have to hold ourselves to a bar of excellence, maintain high health and safety standards, put checks and balances in place, and that comes with a cost. Developers are slowly realising that there must be a balance between what we deliver and what we earn. Our purpose is to produce buildings that last, and which are safe. If we’re serious about our city and this country, we must be serious about the brick and mortar.”"
+                ],
+            },
+            {
+                TopicPara: "A vast urban canvas",
+                Topiccontent: [
+                    "As confirmed urbanists, the Johannesburg studio leads are always alert to precinct and urban design projects.",
+                    "Johannesburg presents a vast canvas for such work, with its space, old buildings and the untapped potential of mixed-use developments and adaptive re-use opportunities. “Urban design is a core element of dhk, and all our precinct work starts with an urban design master plan. We’d love to work downtown in the city, applying our ‘big thinking’ to the creation of liveable, walkable environments. If the city management provided support on the peripheries, so that we didn’t have to guard the ramparts, we could do something extraordinary,” Martin says.",
+                    "With a studio founded on a deep-rooted love of architecture, a commitment to the highest standards of work and a desire to produce great architecture wherever projects take them, dhk in Johannesburg is riding high. And so it should be. Apart from anything else, there’s an entire city on its doorstep, waiting to be brought to life.",
+                    "Interviewed by Tony Korsten, Publisher for Asset Magazine </br> Written by Ana Lorton"
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage22,
+        Tag: "insights",
+        Title: "EAPI summit takeaways: reusing what exists to preserve heritage with contemporary design",
+        MainPara: "What’s an architect’s responsibility in preserving heritage?",
+        Date: "June 28, 2024",
+        Data: [
+            {
+                TopicTitle: "EAPI summit takeaways: reusing what exists to preserve heritage with contemporary design",
+                TopicPara: "When Martin Lardner-Burke, senior associate of dhk Architects in Johannesburg, was appointed as Partner at the multidisciplinary, design-led studio in April, Asset was invited to meet him together with dhk Founding Partner, Peter Fehrsen. The meeting got underway with an ‘imagine if….’ moment from two seasoned architects, both of whom are fascinated by Johannesburg.",
+                Topiccontent: [
+                    "This year’s event was held between 17 and 18 April and attracted more than 443 attendees from 19 countries. The programme explored topics such as the growing role of Gulf investors and developers in East Africa, creating liveable spaces, strategies to minimise risk for developers and investors in the region, and leveraging tech to plan and execute faster across the value chain. Peter Fehrsen was invited to take part in a panel discussion titled Regenerating the City along with other thought leaders in the field.",
+                    "According to the African Development Bank Group, East Africa is projected to lead Africa’s growth at 5.1 % in 2024 and 5.7 % in 2025. This makes it a very attractive region for investment and development.",
+                    "Peter Stokes offered an insight into the discussions: “Africa in general is experiencing huge growth potential. I know that Dar es Salaam, for instance, has a massive growth plan determining how and where it would grow and what infrastructure networks might look like.” Peter also commented on a recurring theme which came up in discussions over the two days: “If these cities are going to grow, who is doing the developments, what are the needs for workplaces and student accommodation, where are people going to live and where are children going to be educated?” These and multiple other conversations focused on everything that comes with the growth of cities in developing regions.",
+                    "Both dhk partners highlighted the recognised skillset that South African practitioners bring to the region – including those on offer from dhk, particularly in terms of adaptive reuse which introduces contemporary additions to existing historical buildings.",
+                    "Peter Stokes noted: “It’s important to remember the origins of a city. In Dar es Salaam, for example, the earliest buildings date from the mid 19th century. There are going to be potential heritage resources that may be protected and worthy of keeping. The retention and reuse of existing structures has several benefits, including improving the ecological footprint, and improving proposals by retaining features of the streetscape that the local community have become familiar with.”",
+                    "dhk has various examples of this approach in our portfolio. “That’s something that we have at dhk and can bring to the party in every way,” says Peter.",
+                    "Peter Fehrsen shares Stokes’s sentiments, noting that preserving historical elements also offers an opportunity to build on that history as a form of redress; especially if the community has personal experiences associated with the sites in question. “Cultural heritage and memory can be just as important as the built form as a means to foster vibrant communities,” says Fehrsen.",
+                    "In South Africa, dhk has been engaged in several projects involving heritage sites. This includes <a href='https://dhk-co.netlify.app/projects/the-rubik' target='__blank'>The Rubik</a>, a newly launched contemporary tower in the Cape Town CBD on the corner of Loop and Riebeek Streets. The brief from Abland Property Developers was to produce a viable yet unique design for a modern mixed-use building that straddles the historical inner-city district and the more recently developed city blocks north of Riebeek Street.",
+                    "<a href='https://dhk-co.netlify.app/projects/1-hundred-on-m' target='__blank'>ONEHUNDREDONM</a>, on Sea Point Main Road in Cape Town, is another example of old meeting new to achieve a sensitive transformation of a heritage building into a striking piece of contemporary architecture. We designed the seven-storey, mixed-use development for Blok, to reimagine a Victorian-era building and repurpose it for modern living. Set in a vibrant location with natural beauty, ONEHUNDREDONM features retail and commercial spaces on the ground-floor level and residential accommodation on upper levels.",
+                    "In 2021, Tower Property Fund appointed us to reimagine and revitalise the <a href='https://dhk-co.netlify.app/projects/old-cape-quarter' target='__blank'>Old Cape Quarter</a> Development in De Waterkant. This was successfully achieved by highlighting the existing heritage architecture while including contemporary elements and dynamic social, retail and residential spaces.",
+                    "Another significant project is 32 on Kloof, a heritage building situated along popular Kloof Street in Cape Town. The client brief for this project was to establish additional premium rentable space by adding two floors to the existing building, maximising the floorplates and reinventing the windowless basement. In response, dhk respected the rich history of the site via a contemporary aesthetic that references, rather than replicates, its existing heritage.",
+                    "<a href='https://dhk-dev.webflow.io/projects/32-on-kloof' target='__blank'>32 on Kloof</a> was the catalyst for the redevelopment of the historical Longkloof Precinct, which is characterised by historic red and white masonry buildings with heritage conditions that needed to be protected and preserved.",
+                    "The primarily landlocked site is currently undergoing development for Growthpoint. When complete, it will invigorate the area with new commercial and retail spaces, a 150-key Canopy by Hilton hotel and a new urban realm offering secure pedestrian routes linking Kloof Street to Cape Town’s CBD."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage23,
+        Tag: "insights",
+        Title: "trends shaping the design of spaces people live in",
+        MainPara: "dhk partner and executive director Guy Briggs suggests that there are nine key social, spatial development and environmental trends influencing the design of spaces people live in.",
+        Date: "May 31, 2024",
+        Data: [
+            {
+                TopicTitle: "trends shaping the design of spaces people live in",
+                TopicPara: "dhk partner and executive director Guy Briggs suggests that there are nine key social, spatial development and environmental trends influencing the design of spaces people live in.",
+                Topiccontent: [
+                    "Guy is an expert in regeneration, social upliftment through environmental design, and the design of sustainable cities. He plays a key leadership role at dhk including strategic business development for the practice, as well as entrenching urban design as a pivotal discipline in dhk. Earlier this year he was invited to present an overview of architectural and property development trends in Cape Town for the property industry seminar series hosted by the University of Cape Town’s Urban Real Estate Research Unit (URERU). In contrast to the statistical approach favoured in many of these seminars, Guy promised to provide a subjective, anecdotal and non-statistical view of the way in which the Cape Town property market was shaping up post-Covid.",
+                    "A common thread in Guy’s view is that property development is no longer about simply providing space. Increasingly, it’s about place and placemaking, essentially providing high-quality environments that have a particular identity. It is this distinction that attracts people and drives value."
+                ],
+            },
+            {
+                TopicPara: "Here’s what Guy had to say",
+                Topiccontent: [
+                    "To the delight of industry professionals across the built environment spectrum, the Cape Town property market is experiencing a post-Covid recovery. The resulting mini boom is being driven by, and is in response to, three key social trends. At the same time, six spatial and environmental trends are shaping the form of development emerging in the city."
+                ],
+            },
+            {
+                TopicPara: "1. Semigration",
+                Topiccontent: [
+                    "Cape Town, for all its failings (and there are many), seems to be a beacon of hope and optimism stimulating migration from other parts of the country and fuelling demand for new homes. We’re seeing evidence of this demand from a number of our clients; it’s particular noteworthy that dhk client Balwin Properties, headquartered in Johannesburg and operating across the country, is selling more properties in the Western Cape than in any other region in the country. This trend is not only in Cape Town, it’s manifesting in towns like Stellenbosch and all along the Garden Route too.",
+                    "Stellenbosch is experiencing a big surge in demand across a wide range of housing types. Demand in this university town is driven by a combination of the general semigration trend coupled with the mini boom in demand for student accommodation that is happening nationwide. Supply in Stellenbosch is frustrated by a shortage of space and stringent development control, which is driving property value to extraordinary levels in this winelands town.",
+                    "Similarly in George, where we are currently busy with the development of an estate for 300 new family homes, the opportunity to live and work (remotely) in this small but thriving town is proving highly attractive to those fed up with the chronic crime and infrastructure issues of Johannesburg, and other major cities elsewhere in the country."
+                ],
+            },
+            {
+                TopicPara: "2. New ways of working",
+                Topiccontent: [
+                    "The term ‘new ways of working’ was pioneered through the work of British architectural practice DEGW, where I worked in the 1990s, and encapsulated in Frank Duffy’s seminal publication ‘The New Office’. <i>New ways of working</i> has come a long way since the early days of the open plan office, and the rise of remote working and digital nomads has accelerated a trend towards flexible workspace, occupying smaller footprints with more amenities.",
+                    "At the same time, the post-Covid workplace has given rise to new attitudes to work, including the ‘great resignation’ and ‘quiet quitting’. In an attempt to persuade employees to re-engage and return to the office, corporate employers are aiming to make work ‘meaningful’, or at least to make the workplace more fun. In response, our interior design business – dhki – has developed an approach to the workplace that mirrors the spaces of a village, aiming to bring the spaces of home to the place of work.",
+                    "Our current work for a major bank in Namibia encapsulates this, with modular workspaces arranged to create spatial diversity, including private space for focused work, gathering spaces for communal work, ‘mixed use’ social spaces to engage – all arranged around a central plaza, and connected by flexible ‘streets’ and ‘pathways’. This project extends our work for the Capitec Bank headquarters building in Stellenbosch completed in 2020. By optimising internal flow, the design fosters a company culture of creativity, innovation, collaboration and departmental interaction. Similarly, our interior design work for Retail Capital delivered an open and collaborative environment with workspaces arranged around a lounge and café.",
+                    "So this is the new, new way of working; one in which well-designed workspaces encourage incidental interactions and promote rejuvenation.",
+                ],
+            },
+            {
+                TopicPara: "3. Travel",
+                Topiccontent: [
+                    "At a previous URERU seminar in January we heard all about the great increase in passenger numbers into the Western Cape due to tourism. International air arrivals to Cape Town International Airport between January and February 2024 surpassed the 200 000 mark and exceeded the 2019 figure of 194 058 for the same period, breaking all previous records. This is not just a local trend, but a global phenomenon christened ‘revenge travel’ with tourist numbers exceeding pre-Covid levels as people aim to catch up on trips missed during the pandemic years.",
+                    "This trend, along with the rise of remote working and digital nomads, is translating into a shortage of hotel rooms, everywhere, especially in Cape Town. As a result, there’s an uptick in demand for new and refurbished hotels. dhk is involved in a number of projects to meet this demand, including refurbishment of the Cape Grace as a Fairmont Hotel (120 beds, reopening May 2024), development of a new Canopy by Hilton at Longkloof (155 beds, opening December 2024), refurbishment of the Cape Town Pullman by Accor, as well as other hotel developments delivering a further 350 beds in Cape Town CBD, and 150 beds in Paarl."
+                ],
+            },
+            {
+                TopicPara: "4. Mixed-use",
+                Topiccontent: [
+                    "What distinguishes many of the hotel projects mentioned above is that they are all located in mixed-use precincts. Mixed-use is not so much a new trend as an old trend returning – or a ‘new-old trend’.",
+                    "Cities were largely mixed-use until around 70 years ago when we started separating the different components of cities – industry, office, residential, etc. – through land use zoning. In South Africa, this also became a mechanism to institutionalise the separation of people based on skin colour, giving rise to apartheid spatial planning. In the last 20 years, there has been a major pushback globally against land use zoning and the separation of uses. This is equally applicable in SA, although despite best intentions, we have been much less successful at reversing apartheid spatial planning (I pick this theme up again under trend 6 below).",
+                    "An example of the return of mixed use is Rosebank in Johannesburg. The newly emerging mixed-use node of Rosebank takes its cue from Melrose Arch, a stone’s throw away down Corlett Drive. dhk designed Melrose Arch phase 2, which wraps a hotel, apartments, offices and retail in a series of perimeter blocks, pedestrian streets and an arcade around a new public space/piazza.",
+                    "Rosebank seems to be one area that is holding its own in a city in decline and is fast becoming one of the most desirable destinations in the city, incorporating a mix of uses and activities and pedestrian-friendly public spaces – upstaging car-dominated Sandton, just down the road. This is part of the reason we’ve just moved our Johannesburg office to Rosebank. We’ve also recently completed phase one of Oxford Parks for Intaprop – bringing together a hotel, offices and retail uses in an extension of the Rosebank mixed-use node. Residential apartments are included in future phases of Oxford Parks, as well as in adjacent developments such as One Rosebank, which we’re currently taking through construction for residential developer Tricolt – combining to create an integrated mixed-use, pedestrian friendly environment.",
+                    "In Cape Town we’re delivering a mixed-use precinct at Longkloof for Growthpoint, bringing together a hotel, offices and retail in a pedestrianised environment. In Thornton, near Pinelands, Conradie Park is a predominantly residential development which includes a hotel, offices, schools and a retail centre in the mix. The Rubik is another mixed-use building we’ve recently completed in the Cape Town CBD. This blends retail, residential and commercial uses in an elegant tower on a tight urban site.",
+                    "At dhk we know it’s difficult to mix uses within a single building but when you can do that and get it to work, it makes for a fabulous landmark intervention in the city!",
+                ],
+            },
+            {
+                TopicPara: "5. Densification",
+                Topiccontent: [
+                    "The three projects referred to above also illustrate another of the ‘new-old’ trends that is returning: densification. This trend is a pushback against late 20th century urban sprawl and its negative societal impacts, including high costs, failing infrastructure and increasing traffic. This is as true for the top end of the market, as evidenced by developments such as The Rubik in the CBD and 5 Dock Road in the V&A Waterfront, as it is at entry level, where projects such as Conradie Park enable more people to live closer to places of work, in decent environments.",
+                    "Living close to work, whether by short taxi ride, drive or walk, offers a massive advantage. These developments mark the acceleration of a major trend towards higher density apartment living across society, following global patterns seen over the last two decades."
+                ],
+            },
+            {
+                TopicPara: "6. Integration",
+                Topiccontent: [
+                    "This is one trend where South Africa is playing catch up. We live in an environment that has been completely artificially created through apartheid spatial planning, and to a certain extent needs to be artificially uncreated. Conradie Park, a public-private partnership that has guaranteed delivery of over 3000 housing units, is an example of a development that integrates mixed tenure housing with social, affordable and market housing in one seamless environment.",
+                    "Conradie Park is a massive experiment in social engineering where social housing for rent is being developed on the same site as subsidised housing for sale and open market housing with no subsidy. What is wonderful when visiting the estate is seeing what an integrated environment it is: socially and demographically, in all sorts of ways. It’s vital for the future of this country that this experiment works and works well enough that it becomes the norm rather than a talking point.",
+                    "Conradie Park is billed as a ‘game changer’ by its chief sponsor, the Western Cape Government, heralding a new approach for providing social and affordable housing. Policy is shifting in that direction, with inclusionary housing policies adopted by the City of Johannesburg, the Western Cape Government, and the Stellenbosch municipality. The City of Cape Town’s own policy is in development, and, while it remains in draft form, it is already impacting housing provision in the city."
+                ],
+            },
+            {
+                TopicPara: "7. Sustainability",
+                Topiccontent: [
+                    "The increasing awareness of environmental sustainability is a particularly positive trend. It’s a response to the local consequences of social trends outlined above, including overstretched infrastructure and increasing traffic, and to the national crises of load-shedding and insufficient water supply; as much as it is a response to the global crisis of climate change. It’s another not-so-new trend, but one that is increasing in priority and rapidly evolving. In 2015, dhk’s Portside was delivered as one of Africa’s most sustainable buildings, achieving a 5-Star Green Star rating from the Green Building Council of South Africa (GBCSA), and earning the mantle ‘tallest green star rated building in Africa’. While this was significant at the time, the emphasis is now on a 6-Star Green Star rating as standard, and increasingly a focus on buildings with net zero carbon emissions.",
+                    "In the mass residential market, dhk client Balwin is consistently achieving 6-Star Green Star ratings on their lifestyle centres. While they are not (yet) looking for green star ratings for the estates as a whole, they’re including solar PV panels, black water treatment plants, tree planting, and pocket parks, among other measures. This isn’t just environmentally conscious – it also makes business sense: their business leaders sit on the GBCSA board. Their approach allows them to secure green bonds for clients at 1% below the prime rate and is a big part of what’s making their estates in the Western Cape successful. It’s a differentiator for Balwin.",
+                    "dhk is currently working on a net-zero carbon scheme for a client in Century City. It’s all about creating buildings that are net-zero carbon in their construction and ultimately in their operation. That’s going to be the next big shift in the market from a sustainability point of view, over the next five to ten years."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage24,
+        Tag: "insights",
+        Title: "'how do we design with communities rather than simply for them?'",
+        MainPara: "This question was top of mind for dhk Candidate Architect Ismaeel Davids as he journeyed to Madrid in January 2024.",
+        Date: "April 12, 2024",
+        Data: [
+            {
+                TopicTitle: "'how do we design with communities rather than simply for them?'",
+                TopicPara: "This question was top of mind for dhk Candidate Architect Ismaeel Davids as he journeyed to Madrid in January 2024 to pursue a master’s degree programme at the Norman Foster Institute Programme on Sustainable Cities.",
+                Topiccontent: [
+                    "Three months have passed since Ismaeel left and he is gradually uncovering some answers to his question. The opening weeks of his programme highlighted the importance of data-driven conclusions and the importance of being inclusive when it comes to design.",
+                    "“An aspect of research that I have been exploring is how to marry qualitative research as a means to uncover the intricacies of people’s daily lives, their emotions, aspirations and struggles, which are often overlooked in traditional data-driven approaches,” says Ismaeel.",
+                    "During his time in Madrid, he has been working with the City of Bilbao to look at an inclusive approach, rather than working in isolation, when considering the lived experiences of residents. This way, solutions that are data-driven and rooted in the realities of those most affected by urban challenges can be co-created.",
+                    "As Ismaeel says: “We aim to shift our proposal towards a more inclusive and participatory approach to city building. By creating a platform for the voices of unrepresented areas to be heard, the project acknowledges the importance of community input in shaping the future of the city. The approach is being developed as an antithesis of master planning as we look to create a platform where city building becomes an activity of the collective. I believe that the lived experience of these groups of people offer powerful insight into the needs of the neighbourhoods.”",
+                    "As Ismaeel ponders on this question, he has also been drawing inspiration from other thought leaders. This includes Tim Stonor, an architect and urban planner, who suggests there are aspects of cities, the finer grain, that cannot be seen through quantitative data. He has also been inspired by the work of city regeneration expert Maria Vassilakou who was the first green vice mayor of Vienna and city councillor for urban development, traffic, climate protection, energy planning and citizen participation. Her view is that if you want to build an inclusive city, there must be a high level of diversity. His other source of inspiration is Alfredo Brillembourg, the co-founding partner of Urban-Think Tank, who believes that the aesthetic of the city should reflect the condition of its people, since people are the true clients for architects.",
+                ],
+                listData: [
+                    {
+                        listTitle: "Photo supplied by the Norman Foster Institute, Madrid.",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: ""
+                            }
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage25,
+        Tag: "projects",
+        Title: "disruption through urban design at oxford parks",
+        MainPara: "Pedestrians are heroes – or at least they should be",
+        Date: "March 27, 2024",
+        Data: [
+            {
+                TopicTitle: "disruption through urban design at oxford parks",
+                TopicPara: "In recent decades, Johannesburg’s central business district has declined as corporates relocated their operations to growing commercial centres such as Sandton, Rosebank and Waterfall City to the north.",
+                Topiccontent: [
+                    "Here, headquarters buildings adorned with corporate livery dominate the landscape, largely catering exclusively for the people working inside. Multi-storey car parks rise from ground level, building access is tightly controlled and retail amenities are hidden inside monumental shopping malls. Cars are the heroes and pedestrians are limited to strips of pavement between road and building line.",
+                    "While Rosebank’s traditional centre is more pedestrian-friendly, the same typology exists in some newer developments around the core.",
+                    "However, the new Oxford Parks precinct has been conceived to disrupt that typology.",
+                    "In 2015, the Dunkeld Design Manual was developed to harness the strengths of Rosebank’s more walkable urban realm. Designed to adhere to the manual’s urban design principles, the Oxford Parks precinct will create a seamless walkable link from Rosebank that extends the existing pedestrian corridor and creates connections with neighbouring business nodes.",
+                    "To date, seven buildings have been completed in and adjacent to the precinct. Future phases will add to the district over time. The architecture reflects the commitment to human-scale design, featuring mid-rise buildings, striking facades and active street frontages. The buildings have been designed with retail amenities at ground level and street-access to building entrances to facilitate pedestrian activity. Public walkways, green landscaping and outdoor furniture activate the spaces between buildings. Super basements under each city block reduce vehicle activity at street level, retaining the pedestrian-friendly quality of the development and bringing people to the heart of the urban centre."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage26,
+        Tag: "studio",
+        Title: "urban design is in our DNA",
+        MainPara: "The Urban Design Institute of South Africa (UDISA) counts only 150 practitioners formally registered in the country – of which two are part of the dhk team.",
+        Date: "March 25, 2024",
+        Data: [
+            {
+                TopicTitle: "urban design is in our DNA",
+                TopicPara: "Urban design is a relatively new design discipline in South Africa, but it’s been part of our practice DNA for more than 20 years. This has fundamentally shaped our design philosophy. The urban design team’s work is crucial: it informs how buildings and spaces interact and lays the foundation for how those spaces are used. It leads the design of a building, rather than being a belated add-on once the building concept has been defined.",
+                Topiccontent: [
+                    "The Urban Design Institute of South Africa (UDISA) counts only 150 practitioners formally registered in the country – of which two are part of the dhk team. Since he joined dhk in 2012, Guy Briggs has been reinforcing the urban design mindset within the practice and building a growing portfolio of projects that showcase how urban design principles can be successfully applied. In 2023, Tanya Busschau was appointed Head of Urban Design, as Guy’s role evolved into leading the strategic business development for the practice, while continuing to entrench urban design as a pivotal discipline. Tanya joined the practice in 2018. Together, Guy, Tanya and the team develop visionary masterplans and urban design strategies, formulated to meet the project’s specific contextual demands. They also provide valuable input into how urban design can be integrated into our architectural projects.",
+                    "The practice of urban design sets out the long-term plans for a development, adding not only commercial value to the buildings and the land, but also preserving the social good for all who work, visit and live in the environment. It is the subtle, almost subliminal elements that makes a space work. A bench under a tree, an artwork at a building’s entrance, a pathway through a park.",
+                    "More than that, urban design determines how a city is put together. It coordinates the multiple combinations in which streets, cars, people, public spaces and buildings interact with each other. An urban design framework encompasses the over-arching masterplan and considers how buildings integrate into their surrounding context, from street edges to mobility passages. It includes how spaces are created, defined and connected to the buildings and other areas within the environment.",
+                    "Our urban design offering provides clients with various opportunities to maximise the value of their projects. The process starts at the beginning of a project, in many cases even before the architects have conceptualised their scheme. We consider the feasibility of a project, assessing the most economically viable configuration on the land. We are also skilled at determining development capacity to assess functional productivity. This includes devising the strategic vision for the project in terms of usage, mix of tenures, pedestrian movement and vehicular passage, as well as the interplay between public and private spaces. These conversations apply at all scales, from smaller, tight urban precinct frameworks to large-scale institutional, urban regeneration proposals or city-scale masterplans.",
+                    "Ultimately, urban design thinking is all about laying the groundwork to build better: better cities, better neighbourhoods and better buildings."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage27,
+        Tag: "people",
+        Title: "meet tanya busschau, head of urban design",
+        MainPara: "'We’re trying to create vibrant and inclusive spaces, whether they’re public or privately owned, to make people’s lives better and improving life in any environment.'",
+        Date: "March 22, 2024",
+        Data: [
+            {
+                TopicTitle: "meet tanya busschau, head of urban design",
+                TopicPara: "As dhk’s Head of Urban Design, Tanya Busschau’s role encompasses two parts: first, leading the architects and urban designers who make up the urban design team; and second is actively considering the future of the team and urban design within dhk as a whole, together with the larger management team. She has extensive experience in designing, delivering and implementing urban design projects.",
+                Topiccontent: [
+                    "The team offers the full range of urban design services, from developing public realm strategies, urban design frameworks and development guidelines to conceptualising masterplans. But their work isn’t only theoretical: the team gets deeply involved in coordination and execution, aligning with client needs and meeting statutory standards that underpin the vision for the projects.",
+                    "Ensuring the team operates seamlessly is a vital component of the role. Tanya leads the daily administration and management, making sure the team is not only busy with a healthy pipeline of projects, but also well enough resourced to deliver for our clients. It’s all about guiding, leading and mentoring while managing money, time and strategic relationships.",
+                    "At the same time, Tanya’s leadership style is to motivate the team to push the boundaries of design, solving problems with creative innovation and exploring new technologies to align with the best of international urban design practices.",
+                    "'We’re trying to create vibrant and inclusive spaces, whether they’re public or privately owned, to make people’s lives better and improving life in any environment,” says Tanya. “We want to create synergy between buildings and their surroundings, fostering a sense of community and livability, adding intrinsic value to developments in a way that helps us leave places better than we found them; to contribute to a better quality of life for people who use the space.'",
+                    "Tanya is a Senior Associate at dhk. She’s a Professional Urban Designer and Architect, with over a decade of experience in public and private sector projects. As a registered professional with the South African Council for the Architecture Profession (SACAP) and the Urban Design Institute of South Africa (UDISA), she has been integrally involved in numerous architectural and urban design projects, drawing on her expertise across varying complexities and scales.",
+                    "Since joining dhk in 2018, she has been involved in several urban design and architectural projects in Cape Town, Johannesburg, Italy, Romania and Mauritius. Her past and current work includes urban design frameworks for Hatfield Town Centre in Pretoria, Conradie Park in Cape Town, a masterplan for Springfield Estate, among others. In 2021, she was appointed to UDISA’s steering committee, contributing to the advancement of industry standards and practices. She was promoted to Head of Urban Design in 2023.",
+                    "Tanya’s professional passion for creating beautiful, sustainable environments expands out into her passion for travelling through cities in her spare time. She loves to explore different places, walking through city streets, experiencing the urban fabric and observing how people move through and interact with urban spaces and buildings. When she’s not walking through a new city, she’s running on the trails around Cape Town. She also has a deep interest in the art and science of property development, fascinated by the numbers that make developments come together to get the project over the line."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage28,
+        Tag: "people",
+        Title: "meet wardah razak, head of implementation and training",
+        MainPara: "Working in a profession she loves, with people she loves to work with.",
+        Date: "March 22, 2024",
+        Data: [
+            {
+                TopicTitle: "meet wardah razak, head of implementation and training",
+                TopicPara: "Wardah Razak was promoted to Head of Training and Implementation in 2023. In this role, she gets to use her superpowers every day. Not only that, but working with dhk gives her a chance to work in a profession she loves.",
+                Topiccontent: [
+                    "We created this role to take advantage of Wardah’s deep interest in professional development and her equally deep expertise in technical implementation. The appointment reflects our commitment to building and nurturing the next generation of architects – a responsibility we take seriously, as leaders in our field. We’re also focused on boosting our team’s capability not only as skilled designers but also experts in design implementation, and this appointment enables us to do just that.",
+                    "Wardah joined dhk as an Architectural Technologist in 2006. With so much time under her belt, she’s one of very few people who have the depth of institutional knowledge to equip her for the training component of her new role. She’s familiar with most of our projects, giving her a broad and deep understanding how we do things in the practice.",
+                    "While we’re fully committed to finding new ways of doing things – innovating in our projects and systems – we also know how important it is to entrench the best of our working practices into the hearts and minds of everyone involved in design and implementation.",
+                    "“We’re doing the work to make our designs work,” says Wardah, “but we don’t need to reinvent the wheel each time.” In this, she refers to the focus on refining details in a way that makes our designs more robust, while sharing technical expertise to support progress on our projects and relationships between our clients. She consults with project teams, with a focus on building efficiency and transferring skills. “It means we can deliver a better product for our clients — better buildings developed with better systems,” she says.",
+                    "Wardah’s other superpower is inspiring and mentoring aspiring and new architects. She shepherds the interns and <a href='https://dhk-co.netlify.app/journal/meet%20kaneasha%20hanning%2C%20go-for-gold%20alumni' target='__blank'>Go-for-Gold students</a>, creating opportunities for them to learn about the craft of architecture from within the practice and through exposure to others outside of our doors. She does this by collaborating with other internal and external teams to create engaging programmes of learning that cover topics like model-making, graphic design and sketching, construction technology, and the history and appreciation of architecture. Crucially, Wardah also mentors the students, guiding them through their academic year and providing a support system in and out of the classroom, with empathy and love. “Everything is important,” she says, “I take it very personally, and am genuinely excited about their growth and progress within the business.”",
+                    "Wardah has been in that position herself, seeking guidance and exploration from the earliest days of her career. When she was looking for a study path, her first preference was for journalism, but when the course was full, she opted to do a foundation course that included multiple areas of design – graphic, industrial, interior, among others. She fell in love with each discipline, but it was the architectural discipline that hooked and fascinated her most.",
+                    "Wardah started her career doing a short stint as an intern at a smaller practice, but dhk is effectively her first “real” job. She attributes her success in the organisation to having good mentors who had the patience, and who gave her the space, to develop. As she says, “they encouraged and inspired me to think critically, develop my opinions and push stereotypical boundaries; to ‘sit on the fence’ and aspire to be an all-rounder.” As a result, Wardah has a broad focus on design resolution and refinement, with a corresponding ability to develop technical solutions and documentation packages.",
+                    "She has completed postgraduate courses in Construction Management and Human Resources. With a natural curiosity and a love for learning new things, Wardah also immerses herself in online short courses that very often have nothing to do with architecture."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage29,
+        Tag: "people",
+        Title: "meet lisa bridgeford, head of dhki",
+        MainPara: "From soap dishes to superpowers",
+        Date: "December 11, 2023",
+        Data: [
+            {
+                TopicTitle: "meet lisa bridgeford, head of dhki",
+                TopicPara: "Lisa Bridgeford’s journey to today, as Head of dhk Interior Design, takes a winding road from the campus of the University of Port Elizabeth in Gqberha, via Johannesburg, to the dhk office in Cape Town.",
+                Topiccontent: [
+                    "Her first introduction to architecture was, in her words, not what she expected: “I was more idealistic, not expecting how much waterproofing detailing was needed,” she says, with a wry smile. At the time, she was undertaking her practical year while pursuing her Bachelor of Architecture Studies (BAS). Faced with the underwhelming reality, she turned her attention to the discipline of interior design, starting out with a small studio that specialised in designing interiors for high-end residential clients.",
+                    "The experience there sparked a love for designing interiors to, as Lisa says: “see the results of our labour emerging more quickly. The product comes to life and can have a direct influence on how the users experience their environments.” Lisa also appreciates the opportunity to connect directly with the end users, understanding who they are and making decisions based on deeper insights that can shape their daily experience.",
+                    "However, delving deeply into the minutiae of designing interiors for individual residences can have its drawbacks, as Lisa describes. “I found myself having arguments about the soap dishes in the guest loo. It was another revelation that made me rethink my path. I thought ‘this cannot be the reason why I wake up every morning.’”",
+                    "She needed to recalibrate her journey once again, and jumped at an invitation to work with a team who were starting a furniture retail venture that incorporated an interior design service. The progression from luxury residential into hospitality and hotels opened another world for Lisa. She found her niche there, and over the next few years delivered interiors for nearly 30 hotels across Africa.",
+                    "The experience gave Lisa a chance to get her hands dirty, understanding the technical form and function of furniture, fixtures and equipment (FF&E). “There is a level of detail that I really appreciate,” she says. “You need to understand not only the aesthetics, but how products are made, to ensure you’re specifying what the clients need for their unique locations.” This detailing gave Lisa an intimate knowledge that has supported her throughout her career to date, whether designing fabrics, rugs or specifying fixtures and fittings. “Knowing the difference between a turned brass or a cast brass tap in a tropical climate could be the difference between those taps lasting for years, or the client having to replace them within a short space of time. That knowledge is crucial to designs that are durable and sustainable.”",
+                    "She moved to Cape Town and joined dhk Thinkspace in 2007, continuing to service clients in the hospitality sector, before stepping out into Peg Designs, her own venture, which soon grew into a team of 12. dhk engaged Peg as a consultant on interior design projects for their clients and in October 2022, as Lisa says, “we decided to put a ring on it,” and dhk and Peg merged to form dhk Interior Design.",
+                    "“I saw, and still see, immense potential for growth,” says Lisa, on her decision to join forces with the practice. Since launching, dhki has completed projects for the Myspace student accommodation at Stellenbosch University, and for the newly refurbished Grand Hotel at Grandwest in Cape Town, as well as an office suite for the Cape Grace hotel management. Other projects currently underway include the new Learning Centre at Bishops School, the interiors of the Cape Grace refurbishment, and other projects for retail, corporate, multi-residential and call centre clients.",
+                    "Having such a diverse portfolio is a deliberate choice, says Lisa: “The sectors balance each other, and the diversity means we can build a versatile team who are specialists in each area, without relying on a pipeline from one source only.” The knowledge gained within each sector is implemented in others, augmenting the team’s knowledge and supporting their offering across the board.",
+                    "Lisa and her team of eight are driven not by a single signature, but by the need to translate client needs into great designs, challenging the designers to exceed expectations and to stand proudly by the designs they create.",
+                    "When asked what her superpower is, Lisa answers quickly and unequivocally: “My leadership style is to recognise that my team members are all human, I try to give them the tools to help them give their best. But I can only do that when they are seen and heard.”",
+                    "For more information, contact <a href='mailto:hello@dhki.co.za'>hello@dhki.co.za</a>",
+                    "Visit their website at <a href='https://dhk-co.netlify.app/' target='__blank'>dhk-co.netlify.app</a>, or follow them on Instagram at <a href='https://www.instagram.com/dhkinteriordesign/' target='__blank'>@dhkinteriordesign</a>.",
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage30,
+        Tag: "studio",
+        Title: "dhk Architects appoints new partner to leadership team",
+        MainPara: "Experienced architect Martin Lardner-Burke has been appointed as a partner of dhk Architects, bolstering the leadership team as the practice continues to expand its project portfolio locally and abroad.",
+        Date: "April 25, 2023",
+        Data: [
+            {
+                TopicTitle: "dhk Architects appoints new partner to leadership team",
+                TopicPara: "Experienced architect Martin Lardner-Burke has been appointed as a partner of dhk Architects, bolstering the leadership team as the practice continues to expand its project portfolio locally and abroad.",
+                Topiccontent: [
+                    "Derick Henstra, dhk Founding Partner and Executive Chairman, says Lardner-Burke has been an asset since joining the practice, and the leadership team is pleased to welcome him as one of the partners.",
+                    "“Martin has a broad range of experience both in South Africa and abroad, which has created strong impacts on some of our most successful projects. He has vast knowledge in the field and his attention to detail combine to achieve well-conceived and executed architectural solutions. We’re proud to have him and his valuable insights on the senior leadership team,” says Henstra.",
+                    "Lardner-Burke joined the multidisciplinary, design-led studio in 2017 as a senior associate. Some of his notable projects in Cape Town include <a href='http://dhk-dev.webflow.io/journal/bringing-an-old-battery-to-life' target='__blank'>Battery Park</a>, a 12 000m² urban park situated at the V&amp;A Waterfront, and <a href='http://dhk-dev.webflow.io/projects/32-napier-street' target='__blank'>32 Napier Street</a> which comprises 19 high-end residential apartments. He was also integral in the development of the <a href='https://dhk-co.netlify.app/projects/old-cape-quarter' target='__blank'>Old Cape Quarter</a> in the vibrant neighbourhood of De Waterkant where dhk’s Cape Town office is situated.",
+                    "As the firm’s projects expanded, in 2020 Lardner-Burke relocated to the dhk Johannesburg office in Rosebank, leading the team alongside co-founder and partner Peter Fehrsen. His passion for and expertise in sustainable design and building information modelling (BIM) technology has been invaluable. He is working on current projects such as One Rosebank, a residential development located in one of Joburg’s most desirable commercial, cultural and residential hubs.",
+                    "Commenting on his appointment, Lardner-Burke says he is looking forward to embarking on a new challenge and offering his knowledge to ensure the firm continues to produce considered architectural, urban and interior design projects.",
+                    "He notes: “I’m very excited about the challenge ahead, but most of all I’m excited about the Johannesburg office and how we’re growing. I see us building a very solid platform. We’ve got a great team with good energy, and the office is growing from strength to strength.”",
+                    "Lardner-Burke is a member of the South African Council for the Architectural Profession (SACAP), the South African Institute of Architects (SAIA), the Gauteng Institute for Architecture (GIfA), the Architects Registration Board (ARB) and the Royal Institute of British Architects. Apart from practising as an architect, he has lectured at Cambridge University and the University of Cape Town.",
+                    "With Lardner-Burke’s appointment, dhk Architects now has nine partners who are supported by a strong board of directors and various senior associates and associates."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage31,
+        Tag: "projects",
+        Title: "the first phase of luxury apartment development, ellipse waterfall, is complete",
+        MainPara: "Once complete, the sizable 45,000m2 precinct will include 600 brand-new apartments and other amenities such as leisure and lap pools, verdant gardens, and ‘The Luna Club’.",
+        Date: "August 4, 2021",
+        Data: [
+            {
+                TopicTitle: "the first phase of luxury apartment development, ellipse waterfall, is complete",
+                TopicPara: "Construction of the first two towers, 10-storey ‘Newton’ and 11-storey ‘Kepler’, began in November 2019 and was completed in June 2021. This moves the development onto the second phase in which the flagship 16-storey ‘Cassini’ tower including ‘The Luna Club’ will be built. The ‘Galileo’ tower will be built in the third and final phase.",
+                Topiccontent: [
+                    "Once complete, the sizable 45,000m2 precinct will include 600 brand-new apartments and other amenities such as leisure and lap pools, verdant gardens, and ‘The Luna Club’. Designed by distinguished multidisciplinary design studio, dhk Architects, the elegant form of the Ellipse Waterfall towers will deliver a highly recognizable landmark in the heart of Waterfall City. The architecture is both bold and discreet, featuring a striking facade of glass and solid panels that allow the buildings to be presented as a singular, legible architectural form. The design moves away from simple all-glass towers and will be recognized as an enduring and site-responsive addition to Waterfall City. The carefully designed podium and ‘The Luna Club’ will engage residents and endorse the sense of community, providing further quality to this unique development.",
+                    "Waterfall City is a rapidly developing mixed-use suburb that encompasses a variety of lifestyle, residential and commercial functions. Prominent buildings within the district include the Mall of Africa, as well as several high-rise office blocks. The vision of Waterfall City is to establish a vibrant, modern destination that embraces urban living.",
+                    "Phase two of Ellipse Waterfall has officially launched. For enquiries, visit <a href='http://www.ellipsewaterfall.co.za/' target='__blank'>www.ellipsewaterfall.co.za/</a>, email <a href='mailto:sales@ellipsewaterfall.co.za'>sales@ellipsewaterfall.co.za</a> or call 086 1882 882.",
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage32,
+        Tag: "projects",
+        Title: "sable corner redefines key gateway into century city in cape town",
+        MainPara: "Once complete, the sizable 45,000m2 precinct will include 600 brand-new apartments and other amenities such as leisure and lap pools, verdant gardens, and ‘The Luna Club’.",
+        Date: "April 29, 2021",
+        Data: [
+            {
+                TopicTitle: "sable corner redefines key gateway into century city in cape town",
+                TopicPara: "Developed by <a href='https://www.rabie.co.za/' target='__blank'>Rabie Property Group</a> and designed by dhk, Sable Corner is a recently completed contemporary commercial development situated in thriving Bridgeways Precinct in Century City, Cape Town. The four-storey building is characterized by two merged forms, a distinctive curvilinear glazed facade articulated with vertical aluminium fins and a contrasting formal solid painted face brick box structure. Forming an edge to Sable Road, a major road into Century City, the building boasts enviable views of Cape Town’s CBD, Table Mountain and Lion’s Head, and forms a striking gateway into the suburb.",
+                Topiccontent: [
+                    "The client brief was to design a premium-grade four-storey commercial building with basement parking and potential ground-floor retail space that complemented the surrounding buildings, namely, Sable Park, Axis and Bridge Park – also designed by dhk. Located at a key entranceway into Century City and serving as the front face of both Bridgeways Precinct and the future Ratanga Precinct, the challenge was not only to design a landmark building and to take advantage of the desirable corner views but to maximize the potential rentable area of the island site’s unique shape. Functionally, the building needed to allow for flexible subdivisions for numerous potential tenants both within the building, as well as on the same floor.",
+                    "Derick Henstra, dhk executive chairman, says: “Responding to the opportunities and restraints of the site, the design required strong roadside frontage to the southwest and a more functional and accessible podium back edge to the northeast. As a result, our team conceived a dual-facing building with two merged forms – a striking front-facing curvilinear glazed element contrasted with a formal punctured box structure. The shape of the building was not only intentionally designed to highlight the site’s unique shape but to maximize the floorplates and potential rentable area”.",
+                    "Facing Sable Road, the building’s distinctive curved glazed facade wraps around its corner location into Bridgeways Precinct and the future Ratanga Precinct. Not only does the curvilinear curtain wall serve as the central design feature of the building but it provides transparency, allowing for outward views across the city and overlooking the mountains. Complementing and drawing parallels with its neighbour, Sable Park, the glazed facade is articulated with robust vertical aluminium fins which extend past the roofline. Adjacent to this, a more functional, textured and punctured face brick box structure delineates the remainder of the Sable Road edge, designed to enable the curvilinear element to stand out. Below, the entire ground floor along Sable Road and atop the podium has been fitted out with glazed frontage and has the potential to serve as future retail space.",
+                    "To the northeast of the site is a more functional and accessible podium back. Here, the entrance lobby opens up to the visitor’s parking and pedestrian walkways to the wider Bridgeways Precinct. The solid boxed form is highlighted with grey painted face brick panels contrasted with solid white Marmoran-finished brickwork elements. An architectural glazed circulation staircase and lift lobby links the convex-shaped section of the building to a rectangular appendix, allowing for economical floorplate usage while contributing to the overall design quality of the building.",
+                    "Internally, the finishes are primarily reliant on future tenants and the common areas, such as the bathrooms and lobbies, are finished in Cape slate tiles and highlighted with timber-clad feature walls which bring a definitive sense of warmth to the spaces. In the near future, views towards the northeast will include the redeveloped Ratanga Junction and will retain a strong focus on water and soft landscaping.",
+                    "Fittingly, Sable Corner has been designed according to the environmentally sustainable principles of the remainder of the green Bridgeways Precinct. The external envelope has been designed to maximize occupants’ comfort while taking advantage of electrical energy savings by maximizing the duration of daylight and keeping lights off. Fuel efficient parking bays have been provided should tenants decide to incorporate their own green transport strategies which are further enhanced by access to public transport and easily accessible local amenities. LED lighting has been installed throughout, saving energy and maintenance costs while external lighting has been designed to avoid light pollution. In the near future, green spaces will be provided to create better water management in the rainy season and to manage water runoff. These aspects are integral for the targeted 4-Star Design and As-Built Green-Star Office SA v1.1 certification via the Green Building Council of South Africa.",
+                    "“Enjoying the advantages of Bridgeway Precinct, Sable Corner is within walking distance of the exceptional Century City Conference Centre, Century City Hotel and Century Square where restaurants and coffee shops spill out onto an open landscaped area, with Virgin Active and various apartments a few steps away, completing the live-work-play vision of Century City.” says Colin Anderson, Rabie COO. “Linking the city with decentralized suburban areas, Century City has become the preferred home for many corporate headquarters and Sable Corner is ideally designed for this purpose – a great commercial choice.”"
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage33,
+        Tag: "projects",
+        Title: "dhk completes a dynamic glass tower with soaring wing-like facade",
+        MainPara: "35 Lower Long, an elegant 86-metre glass-clad office tower, has recently been completed which will invigorate Cape Town’s emerging financial and hospitality district.",
+        Date: "February 3, 2021",
+        Data: [
+            {
+                TopicTitle: "dhk completes a dynamic glass tower with soaring wing-like facade",
+                TopicPara: "35 Lower Long, an elegant 86-metre glass-clad office tower, has recently been completed which will invigorate Cape Town’s emerging financial and hospitality district. The building, developed by Abland Property Developers and designed by dhk Architects, is characterised by a singular sculpted massing which is transformed via dynamic glazed planes that extend seamlessly over the office and parking levels. The two main corners of the building are chamfered towards the roofline and soar upwards, forming a striking wing-like effect – resulting in a distinctive, non-orthogonal addition to Cape Town’s skyline.",
+                Topiccontent: [
+                    "The site is located in Roggebaai (Cape Town’s growing financial and hospitality precinct) and was previously occupied by an eight-storey 1980s office building which prior to that was part of the now-demolished Long Street Power Station site. While the peninsula site has three street frontages and the public domain experiences high levels of pedestrian traffic, it previously suffered from extremely limited street activation. This was compounded by the last remaining portion of the demolished power station (Site B), hostile frontages of both the 80-metre office building to the south and dilapidated office building to the east. A fundamental component of the design concept involved maximising the activation of the street edge with retail to improve the quality and safety of the public realm, as well as to take advantage of the high levels of pedestrian traffic passing the building.",
+                    "The initial brief to remodel and extend the existing 1980s building were discarded due to impractical core design, the limitations of adding floors, the need to replace an outdated façade and challenges with long-term viability. The revised brief, by the co-owners Ellerine Bros and Abland, was to offer a more positive medium- to long-term viability, as well as to enhance Cape Town’s skyline with a decidedly taller, inspirational tower building. However, the challenge was to maximise the quality multi-tenant commercial space while accommodating core components such as lifts and stairs along with structured basement parking – all within a relatively small floor plate.",
+                    "To maximise the floor plates, dhk proposed a simple singular orthogonal massing bar the articulation of the southeastern and southwestern corners. While fundamentally a solid building mass, the appearance of a dynamic, non-orthogonal sculpted mass was created via tapering or cranked façade planes which extend seamlessly over the office and parking levels. This was achieved by chamfering both the southeast and southwest corners of the building at the top of the orthogonal parking base and widening them towards the roof. The technique articulates the façade and defragments the solidity of the corners of the building as the wings shape the elevations and extend past the top office floor. By extending the wing-shaped façade screens beyond the roof level with parapet sloping, the appearance of soaring shards is created opposed to an abrupt utilitarian termination.",
+                    "In terms of materiality, a glazed façade was selected due to its flush and sculpted reflective form which is able to conceal both the parking levels and solid spandrels. Not only does glass facilitate an exciting play of light but it allows for an expressive articulation of the building mass in the screen and shard-like elements.The introduction of pixilation on the portions fronting the parking levels, ceiling voids, structure and internal desk height upstands allows the building to conceal both the parking levels and avoid overbearing horizontal bands.",
+                    "The entire length of the street frontage along Lower Long Street and Jetty Street is enlivened with new ground-floor retail and multiple entry points into the office building. At street level, a double-volume entrance connects to shuttle lifts connecting all parking levels and the ground floor to a spectacular arrival experience within the 10th-floor sky lobby. Thereafter, individuals are transported via a double-volume area and terrace to the office lifts which connects to all the floors above. This ensures mid-building activation and an experience for all users to enjoy as part of the arrival journey into the workspaces – encouraging interaction between different tenants.",
+                    "Internally, the building offers expansive 360-degree views over the city, ocean and mountains. The glazed façade allows for floor-to-ceiling unencumbered vistas enhanced by glazing with mullions at 2.4-metre-wide centres. The chamfered corners also offer oblique views which facilitate the appreciation of the architectural form both externally and internally – a desirable design aspect often not apparent in tall buildings. Furthermore, the multi-purpose roof area with terraces above both chamfered corners offers a spectacular city entertainment space and signifies high-level activation. From an external viewpoint, the perimeter desk height upstands provide ease of furnishing right against the perimeter with fire separation between the floors, therefore, the office furniture is concealed when viewed externally.",
+                    "The immediate neighbour to the north and sharing a common boundary is a nine-storey 1980s building which has the potential to be redeveloped in the future. Rather than merely providing an unsightly blank common boundary façade, dhk articulated both northern corners by returning the glazing around onto the common boundary. This is sacrificial in the sense that the neighbour could in future build higher against the common boundary. It also offers spectacular corner northern views towards Cape Town’s harbour. The solid wall concealing the stair core is pixelated with coloured plastered panels, echoing the glazed façade’s articulation.",
+                    "Fortunately, the client championed environmental sustainability. To achieve a 4-Star GBCSA Design rating, a detailed environmental performance modelling study was undertaken. This required a high-performance double-glazed specification with increased internal cill height raised to desk height – to reduce both solar gain and radiant heat which significantly lowered HVAC requirements. Other environmental considerations included building efficiency, choice of materials, energy-efficient lighting and services, lower parking ratio encouraging the use of public transport, as well as showers and bicycle parking facilities.",
+                    "Overall, 35 Lower Long is a much-needed contemporary addition to Cape Town’s skyline which positively contributes to its surrounding cityscape. Pierre Swanepoel, dhk partner and lead architect on the project, says “With its sleek, sculpted form and soaring-shaped facade, 35 Lower Long is an exemplar of how client requirements can be met without comprising on design standards. dhk is extremely proud of this building and views it as a catalyst for future developments to come in Cape Town’s CBD”."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage34,
+        Tag: "projects",
+        Title: "32 on kloof by dhk is a hybrid of heritage and contemporary architecture",
+        MainPara: "a heritage building situated along popular Kloof Street in Cape Town, has undergone a metamorphosis.",
+        Date: "August 4, 2020",
+        Data: [
+            {
+                TopicTitle: "32 on kloof by dhk is a hybrid of heritage and contemporary architecture",
+                TopicPara: "32 on Kloof, a heritage building situated along popular Kloof Street in Cape Town, has undergone a metamorphosis. Originally constructed in 1922 by prominent architecture firm Parker & Forsyth for the United Tobacco Companies Limited (UTC), the building once housed the company’s administration department. Transformed by multidisciplinary design studio, dhk Architects, 32 on Kloof’s rich history has been respected via a contemporary aesthetic that references, rather than replicates, its existing heritage.",
+                Topiccontent: [
+                    "UTC, a South African subsidiary of the United Kingdom’s Imperial Tobacco Company and the United States’ American Tobacco Company, was founded in 1904. Shortly thereafter, the company began to acquire portions of what had been the Nooitgedacht farm on the doorstep of the historic Company’s Gardens to establish premises for manufacturing cigarettes and tobacco products. Several buildings were erected in phases between 1900 and 1922, forming the UTC campus which comprised a warehouse, factory and staff facilities.",
+                    "The collection of historic red and white masonry buildings still occupy the 112-year-old precinct and have since been recognized by the Western Cape as heritage buildings to be protected and preserved. Developed by Growthpoint Properties and designed by dhk, the primarily landlocked site flanked by Kloof Street is undergoing development and represents a R550 million investment in the city. Once complete the revitalized precinct, now named ‘Longkloof’, will invigorate the area – providing new commercial and retail spaces, a 150-key Canopy by Hilton hotel, and secure pedestrian routes linking Kloof Street to Cape Town’s CBD.",
+                    "The client brief for Longkloof’s catalyst project, 32 on Kloof, was to establish additional premium rentable space by adding two floors to the existing building, maximising the floorplates and reinventing the windowless basement. Ultimately, the client’s vision was for 32 on Kloof to serve as the attractive ‘front face’ of the Longkloof precinct concealed from Kloof Street. dhk’s response was to respect the buildings’ heritage and intentionally contrast its existing order and rhythm with a new contemporary addition. This concept allows for an honest dialogue between heritage and contemporary elements, forming a hybrid of architecture that politely enhances the building’s street presence."
+                ],
+                listData: [
+                    {
+                        listTitle: "Two-storey orthogonal addition",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "To increase the building height and provide additional commercial space, the existing hipped red-tiled roof (originally added in the 1990s) was removed to allow for a two-storey orthogonal addition atop the heritage masonry building. Not only does the glazed façade showcase the property’s enviable Table Mountain and City Bowl views, but the two distinct levels provide a clear distinction between old and new – referencing, not replicating, the building’s heritage. Deep expressed aluminium-clad fins articulate the façade, contrasting the historic building’s order and rhythm while acting as a ‘stitching device’ integrating the heritage detail with the contemporary portion. To ensure a single articulated composition of contrast, building setbacks permitted by Heritage Western Cape were contested. Overall, the minimalist design refrains from competing with nor detracting from the building’s heritage, ensuring that the total building mass and scale are sympathetic to its surroundings. Occupied by Workshop17, a provider of co-working spaces, the building offers 30 private offices, nine meeting rooms, three boardrooms, a seminar room, event space and bar, six lounges and libraries, and a courtyard and café. Striking yet respectful, the contemporary addition modernizes Kloof Street’s streetscape and serves as an indicator to the upgrades occurring behind the building."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Sunken courtyard",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "The new sunken courtyard is another notable element of the design. Constructed at the rear of the building, the courtyard was reinstated by demolishing the two-storey 1990s annexe building and lowering the existing courtyard to align with the basement level. The existing retaining walls were broken out to create new glazed frontage facing the courtyard with external staircases on the northern and southern ends connecting the courtyard to Kloof Street and the remainder of Longkloof. A café occupies the courtyard and basement, engaging the local community and forming an exciting new hub of activity within the area."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Vertical circulation",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "The building’s vertical circulation, a contemporary glass-clad lift and stair core, was primarily relocated from inside the building to the sunken courtyard – outside the footprint of the heritage building. The significance of relocating the circulation is that it again acts as a ‘stitching device’, which provided the required floor space within the main building footprint and the opportunity for an open-plan layout with a potential split tenant. This maximised the usability and quality of the rentable office area without detracting value from the historic building."
+                            }
+                        ],
+                    },
+                ],
+            },
+            {
+                Topiccontent: [
+                    "Overall, the modernist and minimalist aesthetic of the new addition is juxtaposed against the ornate detailing of the original masonry building. This allows a new tectonic extension to celebrate rather than dominate the historic stereotomic building below. Pierre Swanepoel, a partner at dhk and lead architect on the project, says “32 on Kloof respectfully enhances the streetscape of Kloof Street, creates frontage for the Longkloof precinct behind it, and serves to protect, preserve and celebrate the heritage of the building. Marrying historical and contemporary influences, the building successfully pays homage to our past while looking to the future”."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage35,
+        Tag: "projects",
+        Title: "capitec bank’s new HQ features innovative interior architecture that drives productivity and operational efficiencies",
+        MainPara: "Capitec Bank, one of the largest and most progressive banks in Africa, has unveiled its innovative new headquarters, iKhaya, meaning ‘home’ in Xhosa.",
+        Date: "July 20, 2020",
+        Data: [
+            {
+                TopicTitle: "capitec bank’s new HQ features innovative interior architecture that drives productivity and operational efficiencies",
+                TopicPara: "Capitec Bank, one of the largest and most progressive banks in Africa, has unveiled its innovative new headquarters, iKhaya, meaning ‘home’ in Xhosa. Designed by multidisciplinary studio, dhk Architects, the three-storey curvilinear building is defined by its dynamic interior architecture, which embodies the company’s progressive outlook and embraces the concept of agile working. Striking and otherworldly, dhk’s holistic architectural approach considers both the exterior and interior to optimise corporate expenditure, internal flow and sustainability – demonstrating that commercial offices can be innovative and cost-effective while driving operational efficiencies.",
+                Topiccontent: [
+                    "Capitec’s success and growth over time meant that the company came to occupy numerous offices. These offices were geographically dispersed, resulting in departments becoming increasingly isolated from one another with the need to move between buildings to meet face-to-face. Consequently, Capitec opted to consolidate its staff and facilities into one operationally efficient headquarters. Located in the scenic Cape Winelands in South Africa, a key driver of the design concept involved capturing panoramic vistas and drawing the landscape within.",
+                    "The building form optimises the shape and size of the site while referencing the brand’s distinctive curved logo. The three-storey superstructure wraps around itself, which creates a unique ‘doughnut’ shape and forms a central triple-volume atrium – an internal ‘social spine’ at the heart of the building. Contributing to the contemporary appearance, white aluminium panels clad the building’s sinuous form which is further accentuated with continuous ribbons of fenestration.",
+                    "Internally, the design resonates with the company’s progressive outlook – ensuring guests and staff unequivocally feel the spirit of the brand throughout the building. Once at reception, visitors are greeted by a generous triple-volume space that immediately showcases the sophistication and simplicity of the interior architecture. Wide open-plan floorplates loop around the periphery of the atrium which are connected by a series of dramatic bridges and staircases. This was an intentional design element which inter-connects the various departments, creating opportunities for chance collaborative encounters and personal interactions.",
+                    "Reinforcing Capitec’s brand identity, the company logo is embossed into the ceiling above reception. Overhead, clerestory windows and large roof lights ensure plentiful natural light and further facilitate the connection to the outside world. Meanwhile, touches of timber have been added throughout the office to introduce a feeling of warmth.",
+                    "The new headquarters by dhk fosters a company culture of creativity, innovation and collaboration with a large emphasis placed on optimising internal flow and departmental interaction. The first and second floors, containing the office’s open-plan work areas, are largely void of hierarchal structure and closed-off cubicles. Embracing the concept of agile working, a raised access floor throughout the building facilitates maintenance and future upgrades to services. On each level, a total of four ‘cores’, containing centralized amenities such as kitchenettes, meeting rooms, breakout areas, lockers, bathrooms and fire escapes, serve to augment the floorplates into departmental zones.",
+                    "Throughout the building’s ‘social spine’ there are a variety of breakaway areas; from a large ground-floor lounge at reception for guests to await meetings and co-workers to engage, to pause areas on bridges, and an internal landscaped courtyard for staff to rest. These spaces fuel creativity and innovation by allowing employees to slip away from their resident desks to enjoy a moment of solitude, conduct a private meeting or brainstorm ideas in small groups. Not only do these breakout areas increase job satisfaction, but they boost staff productivity and efficiency. Furthermore, there is a full-service kitchen and canteen area with ample seating, a small satellite café, and a grand multifunctional stadium staircase/seating area for company presentations and talks. Other useful facilities include a recording studio, Capitec Bank branch and an ATM lab facility."
+                ],
+            },
+            {
+                TopicPara: "environmental sustainability",
+                Topiccontent: [
+                    "Capitec championed environmental sustainability and employee well-being throughout the building, particularly where it made sense and value could be demonstrated. Natural light is optimised via clerestory glazing, roof lights and internal courtyard windows, while artificial lighting is zoned and activated by sensors. Environmental performance modelling directly influenced the articulation of the façade. The process informed areas of fenestration, glazing specification, glare control measures and solar shading. Performance modelling also informed the primary ordering of the internal layouts. For example, a circulation zone was provided along the external perimeter of the building to distance resident desks from sources of radiant heat.",
+                    "Furthermore, the thermal mass of the concrete building superstructure is exposed in various areas and the basement is naturally ventilated. Other sustainability measures include ice storage to offset peak electrical demands, a greywater system, water-saving fittings, building management system for extensive metering and monitoring, double glazing throughout, use of good quality and low maintenance materials, locally sourced materials, water-efficient heat rejection, zero ODP (Ozone Depletion Potential) refrigerants, use of low VOC (Volatile Organic Compounds) finishes, borehole and rainwater harvesting for irrigation, water-wise planting and refuse management to encourage separation of waste and recyclables.",
+                    "To promote employee well-being, the building is purposefully limited to only two passenger lifts for its workforce of approximately 2,000. This is supplemented by a variety of generous feature stairs to encourage walking and limit the use of confined lift spaces. As such, the fire escape stairs were designed for dual functionality; where the quality of finishes were upgraded, they serve as ‘communication’ stairs. Further promoting employee well-being and to ensure that the needs of universal access were met, Capitec engaged with a disability consultant and an acoustic specialist early on in the design process. The recommendations of both specialists were incorporated into the building. For example, sound-absorbing materials and acoustic separation between meeting rooms were included throughout the building to achieve a specified performance in terms of decibel reduction. Additionally, and beyond the requirements of the regulations, consideration of car parking locations, emergency evacuation, ablutions and vertical circulation, are all examples of how the spirit of universal and inclusive access have been addressed.",
+                    "Furthermore, Capitec rehabilitated a neighbouring area of public open space to be used by staff and the broader community as a recreational area for activities such as walking and running. Fittingly, the building also provides cyclist facilities and purpose-designed showers.",
+                    "Looking to the future, the development incorporates a car parking structure on an adjacent site that follows iKhaya’s core principles, designed for future adaptation into an office should there be a modal shift towards public transportation and less reliance on private cars.",
+                    "Peter Stokes, a partner at dhk and lead architect on the iKhaya project says, “Capitec is a renowned South African brand that highlights values of simplicity, innovativeness and collaboration. dhk sought to create an extraordinary, world-class office that is progressive and relevant in the South African context – designed to be agile, drive productivity, increase operational efficiencies and ultimately reduce company operational expenditure”.",
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage35,
+        Tag: "projects",
+        Title: "conradie park, SA’s first, fully integrated, mixed-income housing development launches",
+        MainPara: "South Africa’s first, fully integrated, mixed-income, mixed-use development, aimed at reversing apartheid spatial planning and located near Cape Town’s CBD, has been launched for sale to the public ",
+        Date: "February 27, 2020",
+        Data: [
+            {
+                TopicTitle: "conradie park, SA’s first, fully integrated, mixed-income housing development launches",
+                TopicPara: "South Africa’s first, fully integrated, mixed-income, mixed-use development, aimed at reversing apartheid spatial planning and located near Cape Town’s CBD, has been launched for sale to the public – Conradie Park.",
+                Topiccontent: [
+                    "The revolutionary 22ha community comprises over 3 500 homes – some subsidised or grant-funded, the remainder for sale on the open market from about R950 000 including transfer costs.",
+                    "Phase one, comprising 99 units and called Kirstenbosch, has been launched with the public keen to be part of a “connected, multi-cultural community, marked by affordability, sustainability and security,” says founder of <a href='https://www.realtorofexcellence.co.za/' target='__blank'>Realtor</a> of Excellence, <a href='http://toni.co.za/' target='__blank'>Toni Enderli</a>. Occupation is set for early 2021 while phase two will launch soon.",
+                    "Conradie’s head of sales, Wayne Lawson, says the development is an incubator for growth and evolution: “It’s aspirational – by connecting various groups, those renting subsidised housing will be inspired to buy subsidised properties. Subsidised homeowners will, in turn, strive to buy their first house on the open market. The model provides social and financial support for this.”",
+                    "The historic project is a partnership between developers, <a href='https://www.concor.co.za/' target='__blank'>Concor</a>, and the <a href='https://www.westerncape.gov.za/betterlivingmodel/conradie-better-living-model-game-changer' target='__blank'>Western Cape Government</a> which describes it as one of seven provincial “game changers” aimed at providing affordable housing close to jobs while redressing apartheid-era spatial challenges.",
+                    "Concor project leader, Mark Schonrock, said the model showed how state-owned land could be unlocked to boost economic growth while providing mixed-income housing in one neighbourhood.",
+                    "Located near main arterial routes and the Mutual and Thornton railway stations, the project includes a long-term transport master plan, potential new MyCity routes and significant road upgrades.",
+                    "Schonrock said the R3-bn project will stimulate small business growth by providing 10 000m² of retail and, initially, 14 500m² of commercial space – all designed by architects dhk and Jakupa. Over 2 000 jobs will be created during the construction phase, added Schonrock.",
+                    "The campus includes two schools, various creches, a business hotel, an urban gym and extensive pet-friendly parks. Foot and cycling paths are part of an integrated non-motorised transport plan while green technology has been applied to energy, water and waste management.",
+                    "“We’re essentially building a new, affordable, sustainable, self-contained town for the future characterised by integration, connection and inspiration. It’s a first, and the public is embracing the vision and its potential to help address the country’s housing challenges,” added Schonrock.",
+                    "For sales info, visit <a href='http://www.conradiepark.co.za/' target='__blank'>www.conradiepark.co.za</a>, e-mail <a href='mailto:conradiepark@realgroup.co.za' target='__blank'>conradiepark@realgroup.co.za</a>.",
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage36,
+        Tag: "projects",
+        Title: "delaire graff estate’s luxurious villa and lodges offer utmost luxury in idyllic cape winelands setting",
+        MainPara: "Nestled in the Stellenbosch Valley, the contemporary Cape architecture blends effortlessly with lavish interiors.",
+        Date: "October 17, 2019",
+        Data: [
+            {
+                TopicTitle: "delaire graff estate’s luxurious villa and lodges offer utmost luxury in idyllic cape winelands setting",
+                TopicPara: "Delaire Graff Estate has launched its new accommodation offering, a four-bedroom Owner’s Villa and six Superior Lodges. Nestled in the Stellenbosch Valley, the contemporary Cape architecture blends effortlessly with lavish interiors. And, while seamlessly integrating with the estate’s natural surroundings, the accommodation provides an unrivalled Winelands experience.",
+                Topiccontent: [
+                    "Laurence Graff, a leader within the international diamond industry, opened the doors to Delaire Graff Estate in 2009. Today, the estate is a leading destination for wine, art and hospitality in South Africa. Consequently, it has become known as the ‘Jewel of the Cape Winelands’. Having designed the <a href='https://dhk-co.netlify.app/projects/delaire-graff-estate-villa-+-lodges' target='__blank'>existing winery, restaurant and tasting room</a>, dhk was the studio of choice to complete the new extension. The client brief was to establish a new standard of luxury accommodation on the estate while enabling the buildings to coalesce with the greater site through the use of common materials and architectural elements. London-based David Collins Studio decorated the interior spaces.",
+                    "Showcasing the finest contemporary Cape architecture, the villa and lodges feature a selection of natural and raw materials. This includes solid French oak trusses, stone-clad walls, thatched roofs and extended timber terraces. Refined and elegant, the villa and lodges are of exceptional quality with high-end finishes and careful detailing throughout. The buildings further coalesce with the encompassing mountain and vineyard landscape through the use of extensive landscaping."
+                ],
+                listData: [
+                    {
+                        listTitle: "Owner’s Villa",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "The four-bedroom villa covers 660m² over two floors and sleeps up to eight guests. Most notably, the impressive and welcoming arrival experience includes a thatched porte-cochere, stone-clad walls and water features. A large timber door with dark bronze ironmongery ushers guests into the entrance hall which reveals direct views of Table Mountain, as well as, vistas of Botmaskop and the estate’s vineyards."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "The luxuriousness extends into the expansive main living and dining area. The room is double volume in height and features a timber-clad ceiling with exposed 200-year-old solid French oak trusses. From here, guests have access to a large state-of-the-art kitchen, walk-in wine cellar, and private study-come-lounge. Large sliding doors spill out onto a generous terrace and entertainment area that includes a 14-metre rim-flow pool, jacuzzi and outdoor shower."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Two of the four bedrooms, including the master, can be accessed via the entrance hall while a grand staircase leads downstairs to a further two bedrooms and a gym. The bedrooms have been designed for maximum privacy each featuring a sitting area with a fireplace, dressing room, ensuite bathroom and private terrace. In order to provide complete accessibility, a hidden lift connects the two floors."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Internally, guests can expect modern, open interiors with bespoke African décor, high-end furnishings and exceptional artwork. Additionally, other areas include back of house spaces, staff quarters and a security guardhouse."
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "Superior Lodges",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "The six lodges are housed within three separate buildings, each containing two interconnecting one-bedroom units that can be opened or closed to create smaller or larger suites. In addition to a bedroom, the lodges also include a private living area, dressing room and ensuite bathroom. Overall, the design follows a similar aesthetic to the villa with natural materials, high-end finishes, luxurious décor and artwork. Moreover, large floor-to-ceiling foldaway doors lead onto a private outdoor pool deck and terrace."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Derick Henstra, executive chairman at dhk says, “It is a privilege to have worked with Delaire Graff Estate for over a decade. We are proud to be the design studio of choice for the renowned destination”. Renske Haller, managing director at dhk and lead architect, elaborates. “It is rare to work on a project that exudes this level of grandeur. We worked closely with all teams involved to ensure that the architecture and interior elements were of exceptional quality. Thus, setting a precedent for luxury accommodation in the Cape Winelands”."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "See more: <a href='https://www.delaire.co.za/' target='__blank'>www.delaire.co.za.</a>"
+                            },
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage37,
+        Tag: "press",
+        Title: "driven by design: a champion of social enablement and industry optimism",
+        MainPara: "written by Jonathan Dyble for Africa Outlook",
+        Date: "September 3, 2019",
+        Data: [
+            {
+                TopicTitle: "driven by design: a champion of social enablement and industry optimism",
+                TopicPara: "Built from the ground up, dhk Architects now stands as not only one of South Africa’s top design companies, but equally a champion of social enablement and industry optimism",
+                Topiccontent: [
+                    "<i>“Looking at the direction of South African architecture, I can honestly say that I am pleased. The quality of design in this nation has drastically improved compared to previous decades, and vast swathes of fantastic projects are underway both here and across the continent. It’s exciting – the world is beginning to notice us and for that I’m very proud of the entire industry.”</i> Derick Henstra is distinctly optimistic.",
+                    "Having been interested in architecture from the age of 13, he remains just as enthused about the industry today as he was four decades ago, now standing as the Founder and Executive Chairman of one of Africa’s preeminent architectural design firms. <i>“Last year dhk Architects celebrated its 20th year,”</i> Henstra continues, introducing the company. <i>“It was a time of reflection; a period where we could look back at the business and its achievements. It’s truly been a great success.”</i>",
+                    "Having incorporated derick henstra architects (dha) in 1983, a name that the organisation held until its merger with KCvR in 1998, Henstra has spent the vast majority of his career pursuing his passion thanks to the support of his wife, gradually building the firm brick by brick with his esteemed team over the past 36 years. Fast forward to the present day and dhk Architects is now considered to be one of the top design companies in South Africa, employing over 120 people across Cape Town and Johannesburg.",
+                    "<i>“I think the thing that makes us different, the reason that people enjoy working with us, is this passion that we have,”</i> Henstra affirms. <i>“Our team is incredibly curious, spirited and research orientated, always searching for new design solutions.”</i>"
+                ],
+                listData: [
+                    {
+                        listTitle: "A happy, harmonious studio‍",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Pointing to this acclaimed team of specialists throughout our conversation, Henstra also highlights that the company gives back to its employees through a variety of staff-centric initiatives that include weekly training sessions. <i>“We recognise how quickly the industry is moving, so training is a big thing for us,”</i> Henstra states. <i>“We know it’s something that staff look for – they want to learn – and so every Monday morning we host a different seminar.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "External resources are also leveraged, the firm providing each and every one of its specialists with an annual allowance to go outside of the office and find valuable, extra-curricular education in any subject of their choice. <i>“We invest in it because it’s simply a sound investment,” says Henstra. “What you end up with is a team of experts who don’t feel the urge to leave; who are grateful for the opportunity to learn new skillsets and further their careers.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "This forward-thinking, innovative ethos equally acts as a secondary tool in helping to achieve talent retention. Working with some of the most advanced architectural technologies such as Revit, a leading BIM (building information modelling) platform, its personnel have become adept in anything from delivering 3D models to navigating sophisticated cloud networks. These philosophies combined constitute what can only be described as an enviable workplace culture, something that Henstra himself is particularly proud of."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "<i>“No day is the same at dhk,” he states. “We’re a harmonious, happy studio, operating in an environment that ensures our best talent can thrive.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Project perfection‍",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "And thrive they do, no better evidenced than by the broad range of celebrated projects that the company has delivered over the past 20 years. One such project that has gained global traction, the recipient of the Gold A’ Design Award, Silver Loeries Award, Fulton Award and the SAPOA Award for Innovative Excellence is Norval Foundation, a Cape Town-based art museum completed by dhk in 2018. Another is Battery Park, a 12,000 square metre urban park situated at a key entranceway to popular tourist destination the V&A Waterfront, which received a Fulton Award, the SAPOA Overall Heritage Award and was named a finalist in the coveted international Architizer Awards."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Meanwhile, Henstra himself eludes to one of the firm’s older constructs, the 50,000-square-metre Laguna Palace Hotel Development located in Venice, Italy, highlighting it as being one that helped to elevate dhk’s global prestige, amongst other ongoing projects. <i>“Right now, we’re working on a residential development named Ellipse Waterfall in Waterfall City that will capture Gauteng’s awe-inspiring sunsets and landscape, as well as a mixed-use 27-storey tower called The Rubik that will form a contemporary addition to Cape Town’s skyline,”  he reveals. “If I’m being honest, it’s difficult for me to single out any specific project – each and every one of them is special and different. Yet at the same time, that’s one of the great things that has come to define dhk. We’re able to deliver a diverse range of buildings, be it mixed-use developments, public buildings, schools or hotels, because we have a diverse range of expertise.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "dhk thinkspace, a second, independent entity under the group’s ever-expanding umbrella, epitomises this outreach. Driven by a team of 30, dhk thinkspace excels in delivering interiors for offices and commercial workspaces, offering complementary services to dhk’s architectural design prowess. <i>“dhk also gets involved in interior design, but we focus primarily on residential and hospitality projects,”</i> Henstra explains. <i>“This ability to provide internal fit outs is something that has continued to uphold the brand, and we’re now able to operate across the full spectrum of design for the built environment.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "An admirable corporate citizen‍",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Projects aside, dhk outreach is another offering that has garnered an admirable reputation for the dhk brand, owed to it being the vehicle for the company’s corporate social responsibility efforts. Initiatives under this portfolio are varied, but the firm’s underlying focus is largely centred around helping the youth."
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Henstra affirms: <i>“We’re heavily involved in Go for Gold, an initiative that identifies and supports kids from disadvantaged backgrounds. If they show an interest in architecture, we encourage them by offering them the chance to spend their holidays gaining work experience with us. Equally, if there are budding students hoping to enter the industry but aren’t quite able to achieve the necessary grades, we take them under our wing and prepare them for college and/or university.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "This in-house education process has operated with great success. To date, the company has nine bursary college students that it is funding and has helped numerous students reach technical colleges by imparting knowledge and providing other resources. <i>“We also donate to educational and charitable organisations,”</i> Henstra continues, <i>“and partake in pro-bono work on an adhoc basis.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Pointing to these alternate initiatives, the Executive Chairman highlights a community sports centre that the firm is currently helping to design for physically handicapped children, as a well as its contributions towards a football education programme named AMANDLA that is run for street children. And all of this is run alongside dhk’s efforts to become a champion of broad based black economic empowerment, a field it is striving to become increasingly relevant in. <i>“Of course, we’re not the only ones partaking in CSR, and it’s great that so many companies are making their own efforts,”</i> Henstra adds. <i>“We’re just pleased that we can do our bit.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "Building a future",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Looking ahead, it is this responsible mantra that forms a large part of dhk’s overriding ambitions. From upholding communities to providing a fantastic workplace environment and creating relevant, meaningful, exciting architecture, Henstra is hopeful that the company can continue to make landmark contributions and generate mutual benefit for all parties moving forward. <i>“Like any company, we have financial targets that we forecast and try and reach, but I feel that our work is ultimately about much more than that,”</i>  he states as our conversation comes to a close. <i>I think if you have a positive outlook then that’s half the battle. There’s so much negativity about life, about the way it can go, but if you maintain the right attitude then it can certainly go a long way. For this reason, I am certainly optimistic for the future.”</i>"
+                            }
+                        ],
+                    },
+                    {
+                        listTitle: "",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "dive into the full feature <a href='https://www.africaoutlookmag.com/brochures/dhk-architects-brochure' target='__blank'>here</a>"
+                            }
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage38,
+        Tag: "people",
+        Title: "dhk expands leadership team and welcomes new partner, leigh bishop",
+        MainPara: "dhk has announced that it has appointed a new partner, Leigh Bishop. She will also be joining the board of directors, thus expanding the leadership team.",
+        Date: "August 29, 2019",
+        Data: [
+            {
+                TopicTitle: "dhk expands leadership team and welcomes new partner, leigh bishop",
+                TopicPara: "dhk has announced that it has appointed a new partner, Leigh Bishop. She will also be joining the board of directors, thus expanding the leadership team.",
+                Topiccontent: [
+                    "Leigh has over 16 years’ industry experience and has worked for several prominent firms throughout her career. Before joining dhk, she ran her practice Leigh Bishop Architects in Durban. From 2009 to 2018, she managed projects from inception to completion in the healthcare, high-end residential and commercial sectors. Leigh studied architecture at the University of Kwazulu-Natal and is a SACAP registered professional architect. Leigh has an immense enthusiasm for architecture, providing considered design solutions with speed and efficiency.",
+                    "Derick Henstra, executive chairman at dhk, says <i>“We are excited to welcome Leigh Bishop from Durban to dhk – as a partner and member of our board of directors. She brings along a whole new range of skills and will undoubtedly be a valuable asset to our team”</i>."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage39,
+        Tag: "press",
+        Title: "senior associate sarah patterson features as an architect ‘woman achiever’",
+        MainPara: "'With each project comes a myriad of factors to consider. I find my job is constantly about the challenge of balancing conceptual narratives with hard realities’",
+        Date: "July 19, 2019",
+        Data: [
+            {
+                TopicTitle: "senior associate sarah patterson features as an architect ‘woman achiever’",
+                TopicPara: "According to Sarah Patterson, senior associate at dhk Architects, Cape Town, there are many upsides to practicing architecture. ‘One of the most satisfying aspects of being involved in shaping the built environment is the engagement it necessitates with so many aspects of life. With each project comes a myriad of factors to consider. I find my job is constantly about the challenge of balancing conceptual narratives with hard realities,’ she shares.",
+                Topiccontent: [
+                    "Sarah graduated at both undergraduate and post graduate level from the University of Cape Town. She spent her first five working years at Vivid Architects, learning the rigours of commercial practice and gaining a solid foundation as an architect. Thereafter, her career took off. Sarah explains: ‘in 2011, I got an opportunity to practice urban design at Jakupa Architects and Urban Designers with a focus on public sector projects and participated in several conferences and workshops. From there I moved to dhk where I segued back into architecture. My career at dhk has also seen me rise in the leadership and assist with business development at the company.’ She confesses to be an active person who enjoys hiking, running, swimming and travel. ‘I paint, draw, and watch films in my spare time. I also love a lively evening of debate with friends and good music",
+                    "Education projects More recently, Sarah has been developing a focus on education projects. She tells To Build: ‘My current focus lies in the education sector; with both new builds and adaptive reuse of existing structures. ‘With the advent of technology in teaching aids as well as changing pedagogical approaches, we are seeing significant shifts in the various education models on offer in South Africa and abroad.  I think it’s imperative that architects investigate how learning environments might be adapted to accommodate these shifts whilst maintaining sound design principles. the challenge of the disparity of wealth and quality of teaching at our schools makes the challenge in South Africa especially great,’ she adds.",
+                    "On being female in a tough professional world ‘I think it’s unfortunate that we women seem to need to perform twice as hard as our male counterparts to gain an equal level of recognition.’ Women architects are sometimes overlooked on their technical knowledge and understanding of construction issues. It kind of feeds into “the fragility myth” that women aren’t cut out for construction site environments. I have found that all you need in order to be competent on site is exposure to the practicalities, common sense, and problem-solving abilities.",
+                    "‘Mentorship is also a big issue – so many young women in the industry are citing a lack of guidance and support,’ she says. Young women architects often lack role models. ‘I am interested in finding ways to daylight and normalise accomplished female architects doing extraordinary work so that it becomes just as commonplace to equate brilliance in our field with women as it is with men’, Sarah says",
+                    "Current career interests and projects? Sarah is currently involved with an initiative called the Ignite Collective which, together with the Cape Institute for Architecture, the initiative aims to launch a platform which seeks to mobilise the ideas and voices of various disparate projects in addressing transformation in the built environment disciplines, particularly when it comes to the position of marginalised women in the industry.",
+                    "source: <a href='https://issuu.com/mediaxpose/docs/to_build_issue_27_final_lores' target='__blank'>to build</a>"
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage40,
+        Tag: "projects",
+        Title: "off-white, sculpted monolithic apartment block by dhk features terracing crescendo",
+        MainPara: "dhk has completed an apartment block conceived as a monolith with indentations and cut-outs",
+        Date: "May 20, 2019",
+        Data: [
+            {
+                TopicTitle: "off-white, sculpted monolithic apartment block by dhk features terracing crescendo",
+                TopicPara: "dhk has completed an apartment block conceived as a monolith with indentations and cut-outs. The building includes 85 luxury apartments and penthouses supplemented with small-scale commercial and retail space at ground level. The development occupies a prominent corner position in Century City in Cape Town. Designed to capitalise on views of Table Mountain and the Atlantic Ocean, the building sets a precedent for urban conscious residential developments in the city.",
+                Topiccontent: [
+                    ""
+                ],
+                listData: [
+                    {
+                        listTitle: "Design",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "The building connects to the environment in a myriad of strategic ways. Its compact form wraps around itself and gradually rises, subsequently orientating most of the apartments towards views of the city. Visual gashes adorn the unique doughnut-shaped form – allowing the sheltered walkway spaces to catch glimpses of the city around it. And therefore, connect the inside circulation to the outside world. The rising form cuts away, creating dynamic terraces and activity at differing heights, culminating in generous penthouse units. Transporting every inhabitant on a scenic journey, a large panoramic lift runs the full height of the building. The exterior of the lift is completely clad in red aluminium and sits within a glass shaft facing Table Mountain."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: ""
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "Facade",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "dhk utilised 2500mm x 1250mm sheets of satin off-white aluminium composite panels (ACP) to wrap the facade. This clearly defines the monolithic appearance with the natural play of sunlight and deep shadows, creating the articulation. Thus, resulting in a definitive contemporary aesthetic. The cladded panels have been staggered within 1200mm grid centres. Whereas the building fenestration is equally staggered but on a wholly separate 1800mm grid. This creates the complex randomised fenestration appearance"
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Due to the negative space created by the building form wrapping on itself, at the heart of the building is a deep fissure. This deep 30m x 13m space acts as a light chasm. It catches the north light and delivers it down to the lowest floors. At the base is a courtyard which is made up of a white-painted face brick fenestration. As a result, it creates an alternate world inside the building. Furthermore, the rustic textured nature of this area intentionally complements the smooth, sleek external cladding."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Moreover, a highly reflective aluminium material wraps the bottom escape staircase inside the courtyard. It emulates a mirror and encourages residents to look up."
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "Greater Urban Strategy",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "The building, named Axis, complements the suburb’s greater urban strategy; it creates a series of public, semi-public and private spaces and urban courts. Therefore, the development of challenges ideas associated with apartment living. The forecourt and arrival space is a public urban plaza. It is fed by routes along the precinct’s pedestrian network and leads into the building’s courtyard. Therefore, forming a chasm of sort"
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "In conclusion, Axis is the latest development in the vibrant Bridgeways Precinct in Century City. Other developments in the area include commercial developments <a href='https://dhk-co.netlify.app/projects/sable-park' target='__blank'>Sable Park</a> and <a href='https://dhk-co.netlify.app/projects/bridge-park' target='__blank'>Bridge Park</a> – both also designed by dhk."
+                            },
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage41,
+        Tag: "projects",
+        Title: "inspired by shuffling forms dhk completes twin development in cape town that adapts to its surroundings",
+        MainPara: "Situated at the southern edge of the blossoming Bridgeways Precinct, it boasts unobstructed panoramic views of Table Mountain",
+        Date: "March 25, 2019",
+        Data: [
+            {
+                TopicTitle: "inspired by shuffling forms dhk completes twin development in cape town that adapts to its surroundings",
+                TopicPara: "Leading South African architecture and urban design studio, dhk, has completed Sable Park in Century City in Cape Town. The commercial development comprises two buildings – one of 8 000m² and another of 8 300m² – and sits at a prominent entry point into Century City forming an iconic front face for the suburb. Situated at the southern edge of the blossoming Bridgeways Precinct, it boasts unobstructed panoramic views of Table Mountain.",
+                Topiccontent: [
+                    "Originally dubbed the ‘macro-chip shuffle’, the buildings’ composition was inspired by shuffling forms that operate independently and adapt to their immediate surroundings. The development was intentionally designed to appear as a single large complex and simultaneously as four small independent volumes depending on where it is viewed from. The four volumes are further broken down into thirds – a double height layered mass and a single height crystalline cube. Each of these thirds shift and jump on the horizontal and vertical plain to achieve maximum views and optimal orientation. A large part of the buildings’ concept was manifested in its structure – creating distinct floating boxes that veer off and cantilever beyond one another.",
+                    "Both buildings have four-storeys with two levels of underground parking. The buildings comprise a concrete backbone and glass and aluminium façade cladding with a massive offset concrete cube that is both functional and attractive. dhk associate director and lead architect on the project Henry Abosi says, “On an abstract level, the spaces are duplicated, and the volumes are inverted. This simple application was the singular method to the complexity of the resultant macro-articulation which forms a setting for a series of tableaux with an iconic mountain backdrop. In effect, this complex was set out in scenes that take inspiration from aspects of cinematography and film”.",
+                    "In accordance with the shifting floor plates, two systems of glazed façade have been installed over the three levels of office. A deliberate, yet playful interchange of these systems contribute to the aesthetic complexity of the building.",
+                    "Internally, the buildings have two wings with a central core and full height atrium bringing light into the centre of the expansive floor plates. The wings are connected by a series of bridges spanning across the atrium at the edge of the main core. The core is a stand-alone element which is exposed on both sides of the building. From the rear, this concrete cube protrudes and is visible from over a kilometre away. It forms the proverbial ‘heart’ of the building, circulating people left to right, up and down and into different chambers in the building.",
+                    "Each building encloses a landscaped courtyard, bringing nature into the very fabric of the buildings and provides outdoor breakaway places for staff. On the upper levels, a wrap-around terrace takes advantage of the buildings’ prime position – providing additional outdoor spaces for the offices located on this level.",
+                    "Sable Park is the newest addition to Bridgeways Precinct, which is a new neighbourhood that merges lifestyle and commercial functions. Also located in the precinct is Bridge Park, a twin development with over 18 000 sqm of premium grade office space, and Axis, a mixed-use development which is nearing completion – both of which were also designed by dhk."
                 ],
             },
         ],
