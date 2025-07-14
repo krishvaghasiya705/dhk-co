@@ -12,7 +12,6 @@ export default function DefaultLayout() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
-    // Lock scroll when sidebar or dropdown is open
     useEffect(() => {
         if (sidebarOpen || dropdownOpen) {
             const originalOverflow = document.body.style.overflow;

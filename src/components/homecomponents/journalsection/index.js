@@ -2,12 +2,8 @@ import React, { useState } from 'react'
 import "./journalsection.scss"
 import Commonbutton from '../../commonbutton';
 import { NavLink } from 'react-router-dom';
-import journalimage1 from "../../../assets/images/journalimage1.webp"
-import journalimage2 from "../../../assets/images/journalimage2.jpg"
-import journalimage3 from "../../../assets/images/journalimage3.jpg"
-import journalimage4 from "../../../assets/images/journalimage4.jpg"
-import journalimage5 from "../../../assets/images/journalimage5.webp"
 import Cursorbutton from '../../cursorbutton';
+import Journaldata from '../../journalcomponents/journaldata/journaldata';
 
 export default function Journalsection() {
     const [cursorBtn, setCursorBtn] = useState({ visible: false, x: 0, y: 0 });
@@ -20,52 +16,8 @@ export default function Journalsection() {
         setCursorBtn((prev) => ({ ...prev, visible: false }));
     };
 
-    const featuredProjectsData = [
-        {
-            id: 1,
-            image: journalimage1,
-            buttontext: "events",
-            contenttitle: "dhk architects to participate in architecture.za",
-            contentdescription: "Presented since 2010, the AZA2025 urban festival returns to unite international and local architects, cultural producers, thought leaders, academics and students in the built environment to exchange and discover innovative, alternative and future approaches to design and development.",
-            link: "/"
-        },
-        {
-            id: 2,
-            image: journalimage2,
-            buttontext: "career",
-            contenttitle: "current vacancies at dhk",
-            contentdescription: "We have various roles open at dhk Architects. Architects, technologists, interior designers and urban designers. Apply today.",
-            link: "/"
-        },
-        {
-            id: 3,
-            image: journalimage3,
-            buttontext: "people",
-            contenttitle: "dhk welcomes Norman Foster Institute students and faculty members",
-            contentdescription: "dhk Architects welcomed seven students and three faculty members from the Norman Foster Institute to its Cape Town studio to engage and share insights into architecture and urban design.",
-            link: "/"
-        },
-        {
-            id: 4,
-            image: journalimage4,
-            buttontext: "career",
-            contenttitle: "meet christiaan van aswegen, one of our newly promoted associates ",
-            contentdescription: "Between January and April this year, dhk Architects announced ten promotions, strengthening the senior leadership team and reflecting our strategy of expansion within the studio. Professional Architect Christiaan Van Aswegen is one of the newly promoted team members.",
-            link: "/"
-        },
-        {
-            id: 5,
-            image: journalimage5,
-            buttontext: "studio",
-            contenttitle: "our BIM team: keeping the studio at the forefront of digital transformation",
-            contentdescription: "At the forefront of our digital transformation journey is our skilled building information modelling (BIM) team.",
-            link: "/"
-        },
-        {
-            id: 6,
-            isButton: true
-        }
-    ];
+    const displayArticles = Journaldata.slice(0, 5);
+
     return (
         <>
             <div className='journal-section-main'>
@@ -75,45 +27,35 @@ export default function Journalsection() {
                             <h4>journal</h4>
                         </div>
                         <div className='featured-projects-grd'>
-                            {featuredProjectsData.map((item, index) => {
-                                if (item.isButton) {
-                                    return (
-                                        <div className='featured-box-main' key={index}>
-                                            <div className='view-projects-box-main blend-mode'>
-                                                <Commonbutton ButtonLink="/" Buttontext="view more" />
-                                            </div>
-                                        </div>
-                                    );
-                                }
-
-                                if (item.isEmpty) {
-                                    return <div className='featured-box-main' key={index}></div>;
-                                }
-
+                            {displayArticles.map((item, index) => {
                                 const boxClass = index === 0 ? '' : 'featured-box-main';
-
                                 return (
                                     <div className={boxClass} key={index}>
                                         <NavLink
-                                            to={item.link}
+                                            to={`/journal/${encodeURIComponent(item.Title)}`}
                                             className='featured-box'
                                             onMouseMove={handleMouseMove}
                                             onMouseLeave={handleMouseLeave}
                                         >
                                             <div className='featured-box-img'>
-                                                <img src={item.image} alt={item.title} />
+                                                <img src={item.BannerImage} alt={item.Title} />
                                             </div>
                                             <div className='featured-box-content'>
-                                                <button type='button' className='featured-box-content-button'>{item.buttontext}</button>
+                                                <button type='button' className='featured-box-content-button'>{item.Tag}</button>
                                                 <div className='featured-box-content-right'>
-                                                    <p className='featured-box-content-title'>{item.contenttitle}</p>
-                                                    <p className='featured-box-content-description'>{item.contentdescription}</p>
+                                                    <p className='featured-box-content-title'>{item.Title}</p>
+                                                    <p className='featured-box-content-description'>{item.MainPara}</p>
                                                 </div>
                                             </div>
                                         </NavLink>
                                     </div>
                                 );
                             })}
+                            <div className='featured-box-main'>
+                                <div className='view-projects-box-main blend-mode'>
+                                    <Commonbutton ButtonLink="/journal" Buttontext="view more" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

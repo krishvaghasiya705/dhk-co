@@ -34,10 +34,8 @@ export default function Header() {
 
   const logoHoverEnabled = location.pathname === "/" ? scrolled : true;
 
-  // Project detail route check
   const isProjectDetail = /^\/projects\/[^/]+$/.test(location.pathname);
 
-  // Get project title from URL and find project data
   let projectData = null;
   let projectTitle = '';
   let projectLocation = '';

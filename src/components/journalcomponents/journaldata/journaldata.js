@@ -39,6 +39,21 @@ import articleimage38 from "../../../assets/images/articleimage38.webp"
 import articleimage39 from "../../../assets/images/articleimage39.webp"
 import articleimage40 from "../../../assets/images/articleimage40.webp"
 import articleimage41 from "../../../assets/images/articleimage41.webp"
+import articleimage42 from "../../../assets/images/articleimage42.webp"
+import articleimage43 from "../../../assets/images/articleimage43.webp"
+import articleimage44 from "../../../assets/images/articleimage44.webp"
+import articleimage45 from "../../../assets/images/articleimage45.webp"
+import articleimage46 from "../../../assets/images/articleimage46.webp"
+import articleimage47 from "../../../assets/images/articleimage47.webp"
+import articleimage48 from "../../../assets/images/articleimage48.webp"
+import articleimage49 from "../../../assets/images/articleimage49.webp"
+import articleimage50 from "../../../assets/images/articleimage50.webp"
+import articleimage51 from "../../../assets/images/articleimage51.webp"
+import articleimage52 from "../../../assets/images/articleimage52.webp"
+import articleimage53 from "../../../assets/images/articleimage53.webp"
+import articleimage54 from "../../../assets/images/articleimage54.webp"
+import articleimage55 from "../../../assets/images/articleimage55.webp"
+import articleimage56 from "../../../assets/images/articleimage56.webp"
 
 import friendimg1 from "../../../assets/images/friendimg1.webp"
 import friendimg2 from "../../../assets/images/friendimg2.webp"
@@ -2652,6 +2667,358 @@ const Journaldata = [
                     "Internally, the buildings have two wings with a central core and full height atrium bringing light into the centre of the expansive floor plates. The wings are connected by a series of bridges spanning across the atrium at the edge of the main core. The core is a stand-alone element which is exposed on both sides of the building. From the rear, this concrete cube protrudes and is visible from over a kilometre away. It forms the proverbial ‘heart’ of the building, circulating people left to right, up and down and into different chambers in the building.",
                     "Each building encloses a landscaped courtyard, bringing nature into the very fabric of the buildings and provides outdoor breakaway places for staff. On the upper levels, a wrap-around terrace takes advantage of the buildings’ prime position – providing additional outdoor spaces for the offices located on this level.",
                     "Sable Park is the newest addition to Bridgeways Precinct, which is a new neighbourhood that merges lifestyle and commercial functions. Also located in the precinct is Bridge Park, a twin development with over 18 000 sqm of premium grade office space, and Axis, a mixed-use development which is nearing completion – both of which were also designed by dhk."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage42,
+        Tag: "projects",
+        Title: "the design for norval foundation displays and protects art while maximising views of cape town’s natural landscape",
+        MainPara: "The Norval family who are the founders and initial funders of Norval Foundation envisioned a world-class art museum in an exceptional location that would be accessible to the general public. ",
+        Date: "March 25, 2019",
+        Data: [
+            {
+                TopicTitle: "the design for norval foundation displays and protects art while maximising views of cape town’s natural landscape",
+                TopicPara: "Norval Foundation is a modern pavilion for art set against a dramatic mountain and vineyard landscape, located on the slopes of the Constantiaberg Mountain in Cape Town, South Africa. The Norval family who are the founders and initial funders of Norval Foundation envisioned a world-class art museum in an exceptional location that would be accessible to the general public. This provided a unique opportunity for architecture studio dhk; to strike a balance between two motivations: protect the artwork within and maximise views of the natural landscape outside.",
+                Topiccontent: [
+                    "The building’s architectural design is a pure expression of form; a bold rectangular mass, delineating its heavy-walled enclosure and light over-sailing roof. It is constrained by a linear site, between a busy road and an existing wetland; turning its back to a neighbouring embassy compound. The linear circulation spine is positioned along this edge, with the galleries and public spaces facing the natural landscape, capturing framed views of the wetland, vineyards and mountains beyond.",
+                    "The building sits in an elevated position, and shields the wetland, creating a private space for the sculpture garden and forming an inhabited threshold between public and private zones. A triple-volume atrium establishes a deliberate visual connection between these zones; one urban, the other natural, and provides a physical transition between these contrasting environments.",
+                    "Norval Foundation is experienced in a linear sequence. A curved wall that extends into the entrance court, draws visitors past the double-volume restaurant, gallery shop and into the generous reception which calmly directs guests to the central atrium that introduces the main galleries. A terrace along the length of the building incorporates a timber deck serving the restaurant and connects to walkways on either side that lead to the sculpture garden. The grounds also include an amphitheatre, children’s playground, and picnic area.",
+                    "The galleries comprise a large environmentally-controlled special exhibitions space, and a series of eight gallery spaces, culminating in a dramatic triple-volume sculpture gallery, a dramatic setting for large-scale pieces with Table Mountain as a backdrop. All the galleries are column free, allowing maximum flexibility for display of all forms of art and they can be treated as separate experiences or a sequential journey as required.",
+                    "The very specific technical requirements for the gallery spaces in terms of environment control take into account careful control of light, temperature and humidity, acoustics, and fire prevention. To create the minimal spaces required for the display of art, all services are concealed in the wall and ceiling cavities to create a seamless appearance.",
+                    "The programme further dictates the building form, which is split vertically between the ground floor galleries and public spaces, and the first floor where the more private spaces are found; offices, library, bar, a further gallery space and artist’s residence. Art storage vaults are positioned below ground level, with the highest level of security as well as state of the art temperature and humidity control.",
+                    "The selected materials palette is raw and honest, comprising primarily precast concrete, natural timber, granite and glass, contrasting the natural landscape. Clerestory windows allow the roof to float above the heavy walls, like the lid of a box concealing treasures within and allowing soft indirect natural light to penetrate the interior spaces.",
+                    "The primary internal and external finish is a combination of polished concrete, smooth class one precast concrete panels and textured precast concrete panels. The precast panels went through a rigorous design process of testing and sampling to achieve the desired finish. A Teflon mould was developed to create a horizontal textured pattern on the precast panels, and should the panels become damaged, the mould can be used as a repair tool for any future maintenance. Externally, the precast concrete is finished with a chamfered tartan grid, which draws the eye upwards and lengthways, emphasising the scale of the building. Internally, timber panelling brings warmth to the spaces.",
+                    "The site incorporates an incredibly sensitive existing wetland ecosystem that had been historically neglected. The wetland was completely rehabilitated, with alien species removed and its surrounding buffer zones revived and replanted with locally indigenous fynbos, enhanced by other indigenous plants and naturalised species – attracting a multitude of insects and birds onto the site. The wetland is also one of the last known breeding sites of the Western Leopard Toad, an endangered species. In order to allow the toads’ safe passage, concrete culverts were constructed underneath the road, and the embankments and earth ramps were carefully designed to allow the toads to move easily across the site."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage43,
+        Tag: "projects",
+        Title: "revealing the residential design comprising four elliptical towers",
+        MainPara: "Architecture firm, dhk, has unveiled its design for a new residential development comprising four elliptical towers of differing heights",
+        Date: "March 25, 2019",
+        Data: [
+            {
+                TopicTitle: "revealing the residential design comprising four elliptical towers",
+                TopicPara: "Architecture firm, dhk, has unveiled its design for a new residential development comprising four elliptical towers of differing heights. Ellipse Waterfall is the first high-rise luxury apartment development in the heart of Waterfall City, Gauteng (South Africa). Covering 45 000m², the precinct features 590 brand-new apartments and other amenities including ‘The Luna Club’, an exclusive multi-concept lifestyle destination for Ellipse Waterfall’s residents.",
+                Topiccontent: [
+                    "Waterfall City is a rapidly developing mixed-use suburb that encompasses a variety of lifestyle, residential and commercial functions. Prominent buildings within the district include the Mall of Africa, as well as several high-rise office blocks. The vision of Waterfall City is to establish a vibrant, modern destination that embraces urban living.",
+                    "The brief from the clients, co-developers Attacq and Tricolt, was to create a unique residential complex, including executive 1-bedroom, 1-bedroom, 2-bedroom and 3-bedroom units as well as multiple penthouse suites.",
+                    "In response to the brief, dhk moved away from the traditional rectangular apartment block design and decided to take on a more unconventional form. To make best use of the property’s unobstructed views, dhk proposed four separate elliptical towers. The buildings’ shape takes inspiration from an ellipse (a mathematical term for a curved plane surrounding two focal points) which is highly efficient in terms of ratio of surface area to internal volume. The lack of corners reduces the visual profile of the buildings and was identified as the most suitable form when considering multiple towers in proximity to one another. Inspired by their mathematical origins, each tower is named after some of the world’s most celebrated scientists, namely, ‘Newton’, ‘Kepler’, ‘Cassini’ and ‘Galileo’. Each tower has an identical footprint; however, the height of each differs. ‘Newton’ has 10 storeys, ‘Kepler’ has 11 storeys, ‘Cassini’ has 13 storeys and ‘Galileo’ has 15 storeys.",
+                    "The curvilinear façade of the towers is complemented by a mix of moveable and fixed screens which serve to animate the elevations. This produces an ever-changing collage resulting from the movement of the sun and the moods of its occupants.",
+                    "The towers sit on a raised podium, creating an elevated ground floor with a parking garage and services infrastructure underneath. Extensively landscaped, the podium level includes a central piazza, running track, active and passive parks, lap and leisure pools, verdant gardens and ’The Luna Club’ to engage residents and encourage community activity. At street level, an elevated forecourt addresses the most prominent corner where retail spaces spill out onto the activated street edges to embrace other users from the broader Waterfall City community.",
+                    "The interiors of the buildings have a clean and contemporary aesthetic, complete with ultra-modern finishes, high ceilings and large windows that provide panoramic views of the Gauteng skyline. Designed with user experience in mind, everything has been considered to optimise internal functionality and flow. The interior design was completed by dhk’s sister company, dhk thinkspace.",
+                    "Aram Lello, senior associate at dhk and lead architect on the project says, “Our intention was to create spaces for dialogue and community involvement. We critically analysed the requirements of residents to design spaces responding to their needs – we wanted to create homes and a rich sense of community. The buildings embrace diversity through their unique design and the provision of great amenities”.",
+                    "Once complete, the development will not only encourage interaction amongst residents, but it will engage the entire community and add to the growing Waterfall City skyline.",
+                    "The project consists of two phases. During the first phase, ‘Newton’ and ‘Kepler’ will be built with ‘Cassini’ and ‘Galileo’ being built in the second phase."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage44,
+        Tag: "press",
+        Title: "renske haller, managing director at dhk, features on the heroine project",
+        MainPara: "in addition to steering the ship, Renske leads the company’s team that focuses on private residences, boutique hotels and galleries.",
+        Date: "March 25, 2019",
+        Data: [
+            {
+                TopicTitle: "renske haller, managing director at dhk, features on the heroine project",
+                TopicPara: "Renske Haller is the Managing Director of dhk Architects, where in addition to steering the ship, she leads the company’s team that focuses on private residences, boutique hotels and galleries.",
+                Topiccontent: [
+                    "Renske is an example of one who has known their life purpose from a young age – she tells us that she has wanted to be an architect since about the age of four, possibly influenced by the fact that she hails from a creative household and has an architect for an uncle, thus the profession has featured in her frame of reference from a young age. Her singular focus on architecture concerned her parents so much so that when she applied to the University of Cape Town’s School of Architecture, they asked her a few times whether she was sure and if she did not want to consider other professions or perhaps have a back-up plan.",
+                    "Her university vacations were spent working for her architect uncle and she also did internships in Cape Town and the Netherlands before heading to London after university, where she worked as an urban designer for Urban Initiatives. She credits this period working on urban design for changing how she viewed architecture. In 2006, Renske returned to Cape Town to join her uncle’s firm, dhk, and her first project as the lead architect was the stylish wine estate, <a href='projects/delaire-graff-estate-villa-+-lodges' target='__blank'>Delaire Graff</a>, in Stellenbosch. In 2009, she made partner and in 2014, she was promoted to Managing Director of the firm and currently also sits on the dhk design review board.",
+                    "Renske believes that a building should be rooted in its context and this is clearly visible in one of her more recent projects, <a href='https://dhk-co.netlify.app/projects/norval-foundation' target='__blank'>The Norval Foundation</a>, which has won a number of awards including: an A’ design award, a Fulton award and a South African Property Owners Association (SAPOA) award.",
+                    "We are inspired by Renske’s clearness of purpose at a young age and how she has harnessed that focus in becoming the accomplished and celebrated architect that she is today. In her spare time, Renske and her husband make wine, a hobby that they started in her parents’ garage, but that has grown over the years and now has its own label, Black Owl. The wine is however not commercially available as yet (watch this space)."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage45,
+        Tag: "projects",
+        Title: "battery park awarded finalist position in international architizer awards",
+        MainPara: "The position was awarded to the 12 000m² park located at a key gateway to the V&A Waterfront, Cape Town.",
+        Date: "July 16, 2018",
+        Data: [
+            {
+                TopicTitle: "battery park awarded finalist position in international architizer awards",
+                TopicPara: "Battery Park is a Finalist in the Architizer Awards’ Concepts – Plus-Architecture +Urban Transformation category. The position was awarded to the 12 000m² park located at a key gateway to the V&A Waterfront, Cape Town.",
+                Topiccontent: [
+                    "Battery Park forms part of the Canal District, facilitating the reconnection of the historical city centre and De Waterkant to the V&A. Overall, the aim was to create a public park which lies at the nexus of multiple new pedestrian routes. It, therefore, stitches the new district into the surrounding urban fabric and helps to invigorate the area.",
+                    "Additionally, dhk’s <a href='https://dhk-co.netlify.app/projects/sable-park' target='__blank'>Sable Park</a> earned a Special Mention in the Details – Plus-Architecture +Cantilever category.",
+                    "The Architizer A+Awards is the largest awards program focusing on promoting and celebrating the year’s best architecture and products. Its mission is to appreciate the world’s most meaningful architecture. While simultaneously, championing the practices that are integral to bringing great buildings to life.",
+                    "See the full list of winners <a href='https://winners.architizer.com/' target='__blank'>here</a>."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage46,
+        Tag: "events",
+        Title: "the book launch for 'architecture for art'",
+        MainPara: "Purchase the book from the giftshop The book details the concept, construction and curation of the project and includes a special foreword and introduction from dhk’s executive chairman Derick Henstra.",
+        Date: "June 18, 2018",
+        Data: [
+            {
+                TopicTitle: "the book launch for 'architecture for art'",
+                TopicPara: "We are thrilled to announce that dhk’s Norval Foundation Architecture for Art book has launched and is available for purchase exclusively from the Norval Foundation gift shop. The book details the concept, construction and curation of the project and includes a special foreword and introduction from dhk’s executive chairman Derick Henstra.",
+                Topiccontent: [
+                    "<i>“Cultural buildings are an incredibly important facet of architecture. They allow us the opportunity to create spaces to engage with the arts, convey messages, and set the stage for creative people to tell their stories.</i>",
+                    "<i>These cultural spaces are dear to our hearts, we identify with art very closely. Architects are the conductors of space, we need to be able to shape these spaces for art effectively in terms of light, space and form. These buildings are a rare moment to showcase intricate conceptual architecture; free from commercial strongholds and the reality of residential occupancy. It is a free, dynamic celebration of art and architecture. A project like this consumes us for years, and it is important to record the experience.</i>",
+                    "<i>This book is not just about the finished product, it is about the journey of design, the sculpting of space and form and the action of construction. It is like a work of art that captures a bit of history, telling the lovely story of how this building was conceived and built. After all, architecture is not only about design, it is also about how buildings are put together; and as people are fascinated by the construction process, we feel it is important to showcase that process, to understand how the building came to be. People often wonder and ask the questions; so here we are telling the story” – dhk executive chairman Derick Henstra.</i>"
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage47,
+        Tag: "studio",
+        Title: "international A’ design awards names dhk a design champion with gold, silver and bronze awards",
+        MainPara: "dhk scooped four awards in the international A’ Design Award & Competition",
+        Date: "May 7, 2018",
+        Data: [
+            {
+                TopicTitle: "international A’ design awards names dhk a design champion with gold, silver and bronze awards",
+                TopicPara: "dhk scooped four awards in the international A’ Design Award & Competition. Overall, the practice received a gold, silver and two bronze awards, and was named a Design Champion.",
+                Topiccontent: [
+                    "Art museum <a href='https://dhk-co.netlify.app/projects/norval-foundation' target='__blank'>Norval Foundation</a> won a Golden A’ Design Award in the architecture category. Apartment complex, Axis, and commercial development, <a href='https://dhk-co.netlify.app/projects/sable-park' target='__blank'>Sable Park</a>, both received a Bronze A’ Design Award in the same category. Moreover, <a href='https://dhk-co.netlify.app/journal/bringing%20an%20old%20battery%20to%20life' target='__blank'>Battery Park</a> received a Silver A’ Design Award in the Landscape Planning Category.",
+                    "The gala event and awards ceremony took place in Como, Italy, on Friday, 28 June 2019. Additionally, the winning designs were on display at the MOOD (Museum of Outstanding Design) in Como, Italy, from 10 June – 31 July 2019. Furthermore, the winners are in an annual Yearbook – available for purchase via the <a href='http://ww.competition.adesignaward.com/' target='__blank'>website</a>.",
+                    "A’ Design Award recognises excellent and original design work from across the globe. Not only is it the highest level of achievement in design, but it serves as a source of inspiration for award-winning designers, artists, architects, brands and design agencies."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage48,
+        Tag: "projects",
+        Title: "unveiling the contemporary apartment block inspired by the world’s largest urban forest",
+        MainPara: "Perched on top of a two-storey parking podium, the complex will overlook the city’s lush canopy.",
+        Date: "May 6, 2018",
+        Data: [
+            {
+                TopicTitle: "unveiling the contemporary apartment block inspired by the world’s largest urban forest",
+                TopicPara: "Tree Tops Hougton is a contemporary apartment block currently under construction between Houghton and Rosebank in Johannesburg. Perched on top of a two-storey parking podium, the complex will overlook the city’s lush canopy. Thus, providing an idyllic, leafy setting while remaining a mere 10-minute walk from public transport and the vibrancy of Rosebank.‍",
+                Topiccontent: [
+                    "The architecture references the world’s largest urban forest with the facade inspired by light filtered between branches and tree trunks. Additionally, this influenced the warm white walls enriched with dark accents and subtle textures – from stone cladding to metal screens. The apartments wrap around a central landscaped garden including a clubhouse and lap pool.",
+                    "Carefully crafted elements throughout create sophisticated and welcoming living spaces. The spacious apartments feature premium finishes, walk-in wardrobes, and private patios. Moreover, the interiors feature a timeless colour palette, clean lines and exceptional detailing. Additional amenities include an entertainment area, gym, and state-of-the-art security.",
+                    "The apartment sizes range from 55m² one-bedroom units to 236m² penthouse suites. The deluxe three-bedroom apartments and penthouses also boast a separate entertainment room, study, and wrap-around balcony.",
+                    "Aram Lello, senior associate and lead architect, describes the project. “Timeless design elements fuse with a distinctly modern suite of materials. This undoubtedly presents a facade that, while complementing the existing street fabric, brings the beauty of the streetscape within homes. Tree Tops encompasses a collection of 131 generously proportioned apartments. Each with free-flowing living spaces, spacious courtyards, and wide balconies along with secure parking and lift access”.",
+                    "Overall, <a href='https://dhk-co.netlify.app/projects/treetops-tops-houghton' target='__blank'>Tree Tops</a> is a sophisticated and contemporary addition to the area and is planned for completion in 2020."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage49,
+        Tag: "studio",
+        Title: "dhk listed as 109th largest architectural practice in the world and ‘ones to watch’",
+        MainPara: "The World Architecture 100 is BD’s compendium of the world’s biggest architectural studios.",
+        Date: "May 6, 2018",
+        Data: [
+            {
+                TopicTitle: "dhk listed as 109th largest architectural practice in the world and ‘ones to watch’",
+                TopicPara: "The World Architecture 100 is BD’s compendium of the world’s biggest architectural studios.",
+                Topiccontent: [
+                    "Every year, BD releases a survey to create a report that is one of the most respected in the industry.",
+                    "In 2019, dhk was listed as the 109th largest architectural practices in the world. Additionally, the studio was named ‘Ones to Watch’, landing on the cusp of <i>The Big List</i> (the top 100)."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage50,
+        Tag: "projects",
+        Title: "complete: the urban park in cape town that references historic amsterdam battery",
+        MainPara: "Developed as the nucleus of a larger urban vision for the district, the site includes a park and piazza that effectively conceal a 1 206-bay parking facility as well as new pedestrian routes to invigorate the precinct with activity. ",
+        Date: "March 25, 2018",
+        Data: [
+            {
+                TopicTitle: "complete: the urban park in cape town that references historic amsterdam battery",
+                TopicPara: "Battery Park is a new 12 000m² (1.2 hectre) urban park situated at a key entranceway to one of Africa’s most visited tourist destinations, the V&A Waterfront in Cape Town, South Africa. Developed as the nucleus of a larger urban vision for the district, the site includes a park and piazza that effectively conceal a 1 206-bay parking facility as well as new pedestrian routes to invigorate the precinct with activity.",
+                Topiccontent: [
+                    "The site is of archaeological importance as it contains the remnants of one of the city’s oldest structures, coastal fortification the Amsterdam Battery. This provided a unique opportunity for architecture and urban design firm dhk – to pay homage to the historic landmark whilst incorporating a parking facility and providing spaces for leisure and recreational activities.",
+                    "The project forms part of an urban design framework created by dhk for the V&A’s previously underutilised Canal District that facilitates the reconnection of the historical city centre and De Waterkant to the V&A. The aim was to create a publicly accessible park which lies at the nexus of a multitude of new pedestrian routes stitching the new district into the surrounding urban fabric and thereby helping to invigorate the area.",
+                    "The Amsterdam Battery was erected by the Dutch along Cape Town’s coastline in 1784 to defend the city from seaborne and land attacks. In the 1800s the building was used to house prisoners; and was later remodelled and strengthened by the British but eventually abandoned. In 1905 the battery was largely demolished to make way for railway connections to the port, leaving behind only a small portion of its rear curved walls. The historical remnants are now perched eight metres above the new canal running through the site at a lower level.",
+                    "During construction of Battery Park archaeological excavations revealed former datums which were used to inform the design. The raised park has been kept at the battery’s original inner courtyard level whilst planted edges above retail units on the piazza represent the estimated natural ground level that fronted the battery. Various architectural and landscaped elements reflect the structure’s original footprint, such as semi-circular curved pathways, concrete additions to the rear ramparts, splayed canal-facing walls and concrete-clad structures – giving visitors an authentic sense of the battery’s former size. An axial visual connection to Cape Town’s Noon Gun on Signal Hill has also been retained, thus preserving the site’s historic sightline.",
+                    "The requirement to respect the original inner courtyard datum and create a lower-level piazza resulted in an elevated park with views across the V&A and CBD but with the challenge of managing the transition between the two levels. Therefore, a large part of Battery Park’s design concept was manifested in breaking the barrier between the park and piazza and bringing them closer to one another. As a result, the park level has been designed to gradually lower towards the canal edge providing a closer connection to the piazza, and in turn, the piazza gradually steps down towards the canal. The vision was to create scale between the two levels and provide visual cues to visitors; offering a glimpse of the park while they meander along the canal edge. This was also achieved by means of various soft and hard landscaping elements such as a grand concrete staircase leading from the piazza to the park, sloping and folding walls, and plants to draw the eye to the park above.",
+                    "On the elevated park level, visitors can explore landscaped gardens with trees and stone-clad planters, meandering walkways with built-in benches, a concrete skatepark, basketball court and new pedestrian routes. Throughout the park and piazza cantilevered steel pergolas scale the design and provide much- needed shade.",
+                    "The lower piazza level contains 11 boutique retail units that line the splayed canal-facing walls and form an active eastern edge to the new canal pedestrian route. The intention behind the piazza was to activate the canal via a range of water sports and provide a link between the V&A and the CBD – encouraging a pedestrianised environment. Referencing the battery’s original façade, loosely packed stone-filled gabion walls shroud the parking facility and stone-clad planters contain fynbos and waterwise plants. All stone used throughout the park and piazza was excavated from the site during the construction process. These antiquated elements juxtapose contemporary insertions that reference the battery rather than replicate its heritage.",
+                    "The materials palette includes a selection of hardy materials that suit the robust nature of the park, namely, concrete, stone and steel. Concrete was chosen as a “material of our time” for new structures as it can be clearly distinguished from historic elements, ensuing little misinterpretation. A precast concrete panel structure dubbed the interpretation pavilion has been built to the estimated height of the battery’s original walls and links the park, piazza and parking facility via internal elevators. To resemble cannon embrasures, three small openings form part of the structure’s canal-facing wall. Historic cannons from Amsterdam Battery found scattered throughout the V&A by the Cannon Association of South Africa and preserved for the development of the park are now on display inside the interpretation pavilion. The artefacts sit on top of precast concrete plinths, made to resemble old timber cannon carriages, allowing them to protrude through the embrasures and overlook the canal.",
+                    "Partner at dhk and lead architect on the project Pierre Swanepoel says, “The intention was to facilitate a new hub of activity within the V&A district whilst being respectful to the heritage of the Amsterdam Battery, once a place of exclusion and incarceration, but now a public space designed to support and engage the greater Cape Town community”."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage51,
+        Tag: "projects",
+        Title: "drostdy hotel scoops eastern cape institute of architects regional award",
+        MainPara: "'We’re delighted that the Drostdy Hotel has been recognised by the Institute. It was a significant project in terms of its rich heritage and required sensitive restoration...'",
+        Date: "October 15, 2015",
+        Data: [
+            {
+                TopicTitle: "drostdy hotel scoops eastern cape institute of architects regional award",
+                TopicPara: "The redevelopment of the Drostdy Hotel in Graaff-Reinet by dhk was recognised with a Regional Award for Architecture from the Eastern Cape Institute of Architects at a ceremony held in Port Elizabeth last night.",
+                Topiccontent: [
+                    "“We’re delighted that the <a href='https://dhk-co.netlify.app/projects/drostdy-hotel' target='__blank'>Drostdy Hotel</a> has been recognised by the Institute. It was a significant project in terms of its rich heritage and required sensitive restoration alongside contemporary architectural design to create a seamless 5 star luxury hotel experience,” said Renske Haller, managing director of dhk, who led the project from the company’s Cape Town office.",
+                    "The awards programme recognises and promotes excellence in architecture, with the regional winners going on to compete nationally in the South African Institute of Architects awards next year."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage52,
+        Tag: "projects",
+        Title: "baywest mall opens to the public",
+        MainPara: "Situated on the urban edge of Port Elizabeth opened its doors to the public today. It is the largest retail development in the Eastern Cape with over 250 shops over two levels that will cater for an estimated 800 000 visitors a month.",
+        Date: "May 21, 2015",
+        Data: [
+            {
+                TopicTitle: "baywest mall opens to the public",
+                TopicPara: "Baywest Mall, the 90 000m² super regional mall situated on the urban edge of Port Elizabeth opened its doors to the public today. It is the largest retail development in the Eastern Cape with over 250 shops over two levels that will cater for an estimated 800 000 visitors a month.",
+                Topiccontent: [
+                    "Just 24 months after ground broke on the 90 000m² mall, Eastern Cape Premier Phumulo Masualle declared it officially open, saying it was and would be a major boost for the province’s economy.",
+                    "<a href='https://dhk-co.netlify.app/projects/baywest-mall' target='__blank'>The mall</a>, one of the largest private investments in the region, is the catalyst to the development of the greater Baywest City precinct – a R6 billion city within a city comprising of residential, commercial, lifestyle and community developments which will unfold over the next decade, starting with R500 million worth of development this year alone."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage53,
+        Tag: "projects",
+        Title: "newtown junction and drostdy hotel wins for dhk at SAPOA",
+        MainPara: "Two projects by dhk architects received Innovation Excellence Awards at the SAPOA Convention yesterday afternoon.",
+        Date: "May 20, 2015",
+        Data: [
+            {
+                TopicTitle: "newtown junction and drostdy hotel wins for dhk at SAPOA",
+                TopicPara: "Two projects by dhk architects received Innovation Excellence Awards at the SAPOA Convention yesterday afternoon. Newtown Junction in Johannesburg received the Mixed-Use Development, Overall Transformation Awards and Overall Winner Awards, while The Drostdy Hotel in Graaff-Reinet won the Overall Heritage Award.",
+                Topiccontent: [
+                    "The R1.3bn landmark <a href='https://dhk-co.netlify.app/projects/newtown-junction' target='__blank'>Newtown Junction</a> by Attacq and Atterbury Property Developments, in partnership with the City of Johannesburg and South African Heritage Resources Agency is a substantial mixed-use development in the west of Johannesburg’s CBD. The project is an important commercial catalyst for the area, providing new retail and office space and reinvigorating the existing arts and entertainment venues, and representing a substantial investment in inner city regeneration.",
+                    "“This complex project involved the design of a new retail mall, new offices for Nedbank targeting 4* Green Star SA rating, and the restoration of several heritage buildings on the site. The owners took a bold approach in keeping with the spirit of Newtown and we are proud to be associated with this project” said Peter Fehrsen, Director of dhk, from their Johannesburg office.",
+                    "dhk were the lead architects for the project, working with LP Architects on the retail elements and Mashabane Rose Associates on the heritage portions of the site.",
+                    "In Graaff-Reinet, the sensitive restoration of the <a href='https://dhk-co.netlify.app/projects/drostdy-hotel' target='__blank'>Drostdy Hotel</a> and several other historic buildings on the site, as well as the design of contemporary additions was also recognised by SAPOA with an award.",
+                    "“This was an incredibly significant restoration project, and we worked hard to create a seamless experience of the rich heritage of this site, while bringing the hotel provision up to the 5* luxury standard envisioned by the owners,” said Renske Haller, managing director of dhk, who led the project from the company’s Cape Town office.",
+                    "Two other projects by dhk were shortlisted in the awards programme, the Portside tower in Cape Town and the Eikestad Urban Renewal in Stellenbosch.",
+                    "The SAPOA Awards for Excellence recognise exceptional property development across a range of sectors, and focus not only on architectural design but on economic viability, client and user satisfaction and community benefit."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage54,
+        Tag: "projects",
+        Title: "bridge park awarded 5-star design rating",
+        MainPara: "The Bridge Park office development has been awarded a 5-Star Green Star SA Office v1 Design rating by the Green Building Council of South Africa",
+        Date: "April 2, 2015",
+        Data: [
+            {
+                TopicTitle: "bridge park awarded 5-star design rating",
+                TopicPara: "The Bridge Park office development has been awarded a 5-Star Green Star SA Office v1 Design rating by the Green Building Council of South Africa in the all-green Bridgeways precinct in Century City.",
+                Topiccontent: [
+                    "Executive Chairman of dhk Derick Henstra said, “Achieving the 5 Star rating for Bridge Park is hugely rewarding for the design team, as it confirms our commitment to sustainability and endorses what we believe is a world class office space, not just in terms of environmental factors but the overall user experience of the building.”",
+                    "Developed in a joint venture by Rabie Property Group and Growthpoint Properties, Bridge Park comprises two four storey buildings set over a shared basement and podium. Construction of the first building, Bridge Park East is due for completion in June this year with Bridge Park West, scheduled for completion in July.",
+                    "“The new green precinct in Century City will certainly set the bar for future sustainable office development in the country and we’re pleased to be involved in taking a leading role in this initiative at Bridge Park” said Henstra."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage55,
+        Tag: "projects",
+        Title: "portside achieves 5-star as-built rating",
+        MainPara: "confirming its position as the most sustainable tall building in South Africa. The project had already achieved a 5 Star GSSA Design rating, and this new certification confirms that all criteria were achieved on completion of the building.",
+        Date: "February 6, 2015",
+        Data: [
+            {
+                TopicTitle: "portside achieves 5-star as-built rating",
+                TopicPara: "Cape Town’s tallest building Portside has just been awarded a 5 Star Green Star SA As-Built rating, confirming its position as the most sustainable tall building in South Africa. The project had already achieved a 5 Star GSSA Design rating, and this new certification confirms that all criteria were achieved on completion of the building.",
+                Topiccontent: [
+                    "Portside was designed as a benchmark of integrated sustainability and its recognition by the Green Building Council of South Africa, which administers the Green Star SA system, is a testament to the joint clients FirstRand Bank and Old Mutual’s commitment to sustainable development.",
+                    "Portside focused on the environmental initiatives associated with GSSA projects, including energy reduction through an efficient air conditioning system; the capturing, storage and reuse of rainwater, as well as grey water for use in toilets, thus reducing potable water use; the use of low embodied energy materials such as recycled reinforcing steel and cement replacement with industrial waste products; and the maximisation of natural light through the provision of a high quality double glazed façade.",
+                    "One of the distinguishing features and innovations in Portside is the application of LED light fittings throughout the entire building. This significantly lowers the energy consumption and is a first for any office building in South Africa. Energy use for all areas is minimised through the provision of movement sensors.",
+                    "In addition, the façade has been designed for total disassembly with each component of the unitized facade panels having been marked in accordance with a disassembly plan, which identifies the sequence of removing each panel for later reuse on another building or recycling. This is also understood to be a first for a tall building in South Africa.",
+                    "Within the parking podium and basement, included in the parking provision are parking spaces dedicated solely for the use of hybrid or alternative fuel vehicles, with electric car charging points, as well as motorbike parking bays.",
+                    "Secure bicycle parking for building staff and visitors has been provided, with a clearly marked cycle route as well as shower and change facilities equipped with bicycle battery charge facilities. A number of community bicycle racks have also been provided on the pavement at street level aimed at encouraging alternative means of transport for business, people, personal use, tourist and couriers in the CBD, in support of the City’s non-motorised transport strategy and Ride Your City initiative."
+                ],
+            },
+        ],
+    },
+    {
+        BannerImage: articleimage56,
+        Tag: "press",
+        Title: "designing progressive schools",
+        MainPara: "Senior Associate, Sarah Patterson speaks to Architect + Builder about new trends, the impact of architecture and designing for local needs in education",
+        Date: "",
+        Data: [
+            {
+                TopicTitle: "designing progressive schools",
+                TopicPara: "",
+                Topiccontent: [
+                    ""
+                ],
+                listData: [
+                    {
+                        listTitle: "New Trends",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "Over the past several years, schools around the world including South Africa, have begun to embrace new modes of learning. This shift has emerged as a result of technological advancements, new ways of accessing and disseminating information, as well as a pedagogical shift towards blended learning. The latter is a method of collaborative, interdisciplinary exercises that involve multiple forms of interaction. With this, we have seen an increased focus on combining science, technology, engineering, mathematics, and more recently, art-based subjects into creative problem-solving activities, along with the emergence of robotics as a standard feature in the curriculum."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Additionally, there is now greater awareness of the need to extend the curriculum to include entrepreneurial- and vocational-based skills training as part of the basic curriculum. Along with technological agility and more flexibility, there exists an unprecedented opportunity for learning to become increasingly personalised."
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "Impact for architecture",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "So, what does this mean for the architectural design of schools? What are the ‘spatial instruments’ that facilitate such new modes of learning and how are they different from traditional learning environments? How do we create dynamic and stimulating learning environments to support a range of activities which could enable educators to curate classes?"
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "The answers to these questions are in clusters of differently sized, interconnected spaces often directly adjacent to or connected by circulation spaces which become recreational areas or extensions of the learning environment. The interconnected nature often requires a high level of visual and physical connection, for example large, glazed openings. However, this tends to present an acoustic challenge, and with this, comes with the obvious tension between the stimulation of interaction and the need to focus – spaces must balance a sense of containment with a feeling of connectedness."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "In our view, the task for the design team is to cost-effectively enable flexibility and multi-functionality but not to lose sight of the need to adhere to the basic tenants of good environmental design. Without natural daylight and fresh air, good acoustics and thermal comfort – not to mention a connection to the outdoors – the ability to engage meaningfully is compromised."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "These big leaps in flexibility and multi-functionality are made possible via the architecture, furniture and clever storage which play a significant support role in mode shifting. These include mobile furniture items that are quickly arranged in various ways; whether on wheels or are sufficiently light to manoeuvre. This could be storage that doubles up as seating or inviting nooks and perches to engage in a variety of different activities. Other examples are smart acoustic panels that house screens, Wi-Fi points or other technologies while doubling as colourful absorbers of sound. Increasingly, the need to move, sit, stand, and even lie down and learn, are being facilitated via bar counters, poofs, ottomans, large staircases, and cave-like nooks."
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "What about SA?",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "You might say that this all sounds somewhat indulgent and beyond the means of most schools in our country. Very few schools in SA can afford to extend their current facilities to cater to this expanded and evolving curriculum. We believe that the key is to take as many opportunities as possible from the design of new schools and emulate the principles of flexible, interconnected spaces to a greater degree as possible. This means that the same set of buildings must transform to become more multi-functional; to accommodate smaller segregated groups (particularly where there are significant age gaps) while also being able to host larger gatherings and activities. Combine this with a carefully considered masterplan, which has outside spaces being equally important to their adjoining internal clusters, and we believe that it can enable as many opportunities for educators to put into practice the activities associated with blended learning (regardless of the degree of technological capacity)."
+                            },
+                            {
+                                listingTitle: "",
+                                listingPara: "Investigations into how we might achieve this have tended towards a modular approach of primary and secondary structural elements. This allies well with another trend gaining further traction in the more cost-effective approach to the roll-out of schools which is the ‘Design for Manufacture and Assembly’ aspect. There are two components to this. Firstly, from a space-planning perspective, the modularity enables an adaptability which can be applied to multiple classroom instances. And secondly, the carefully considered modular method which uses standardised components making the ease of both production and assembly possible in a limited time frame."
+                            },
+                        ],
+                    },
+                    {
+                        listTitle: "Summary",
+                        listing: [
+                            {
+                                listingTitle: "",
+                                listingPara: "What defines our current era is a massive increase in the agility and agency of the individual to, with the help of technology, navigate their own learning experience. This theme of adaptability has seen the notion of what constitutes a school transformed into a variety of different learning environments. Schools of all sizes are popping up in various places with former office buildings and warehouses being kitted out as learning spaces. Recreational activities are being reconceived, too. Climbing, functional fitness, rooftop courts and club sports are alternatives to the traditional field-based sports. This is an exciting sector to watch evolve, potentially offering multiple routes to obtaining a well-rounded education."
+                            },
+                        ],
+                    },
                 ],
             },
         ],

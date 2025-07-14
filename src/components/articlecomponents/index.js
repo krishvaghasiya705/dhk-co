@@ -10,7 +10,6 @@ export default function ArticledetailSection({ article, articles, currentIndex }
     navigator.clipboard.writeText(window.location.href);
   };
 
-  // Determine next article (wrap around)
   let nextArticleLink = null;
   if (articles && typeof currentIndex === 'number' && articles.length > 1) {
     const nextIndex = (currentIndex + 1) % articles.length;

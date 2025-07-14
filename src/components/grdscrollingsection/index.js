@@ -26,7 +26,6 @@ export default function Grdscrollingsection() {
     const section = sectionRef.current;
     if (!section) return;
 
-    // Store triggers for cleanup
     let pinTrigger = null;
     let animTriggers = [];
 

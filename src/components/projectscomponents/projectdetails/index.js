@@ -21,7 +21,6 @@ export default function Projectdetail({ title }) {
         p => formatTitleForUrl(p.title) === title
     );
 
-    // Count total images
     const totalImages = project?.pagedata?.[0]?.sliderdata?.length || 0;
 
     useEffect(() => {
@@ -72,7 +71,6 @@ export default function Projectdetail({ title }) {
         setCursorBtn((prev) => ({ ...prev, visible: false }));
     };
 
-    // Find current and next project index
     const currentIndex = projects.findIndex(p => formatTitleForUrl(p.title) === title);
     const nextIndex = (currentIndex + 1) % projects.length;
     const nextProjectTitle = formatTitleForUrl(projects[nextIndex].title);
