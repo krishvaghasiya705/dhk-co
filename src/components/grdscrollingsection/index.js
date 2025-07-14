@@ -1,4 +1,4 @@
-import React, { useRef, useLayoutEffect } from 'react'
+import React, { useRef, useLayoutEffect, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import "./grdscrollingsection.scss"
@@ -8,7 +8,7 @@ import grdimage2 from "../../assets/images/grdimage2.webp"
 import grdimage3 from "../../assets/images/grdimage3.webp"
 import grdimage4 from "../../assets/images/grdimage4.webp"
 import grdimage5 from "../../assets/images/grdimage5.webp"
-
+import ImageSkeletonLoader from '../common/ImageSkeletonLoader'
 const imagePairs = [
   { image1: Dhklogo, alt1: "Dhklogo", image2: grdimage3, alt2: "grdimage3" },
   { image1: grdimage1, alt1: "grdimage1", image2: grdimage4, alt2: "grdimage4" },
@@ -21,6 +21,16 @@ export default function Grdscrollingsection() {
   const sectionRef = useRef(null);
   const boxRefs = useRef([]);
   const image1Refs = useRef([]);
+
+  const [loaded, setLoaded] = useState(Array(imagePairs.length * 2).fill(false));
+
+  const handleImageLoad = idx => {
+    setLoaded(prev => {
+      const updated = [...prev];
+      updated[idx] = true;
+      return updated;
+    });
+  };
 
   useLayoutEffect(() => {
     const section = sectionRef.current;
@@ -73,10 +83,24 @@ export default function Grdscrollingsection() {
             {imagePairs.map((pair, i) => (
               <div className='grid-scroll-box-main' ref={el => boxRefs.current[i] = el} key={i}>
                 <div className='grid-scroll-box-image1' ref={el => image1Refs.current[i] = el}>
-                  <img src={pair.image1} alt={pair.alt1} />
+                  {loaded[i * 2] && (
+                    <ImageSkeletonLoader />
+                  )}
+                  <img
+                    src={pair.image1}
+                    alt={pair.alt1}
+                    onLoad={() => handleImageLoad(i * 2)}
+                  />
                 </div>
                 <div className='grid-scroll-box-image2'>
-                  <img src={pair.image2} alt={pair.alt2} />
+                  {loaded[i * 2 + 1] && (
+                    <ImageSkeletonLoader />
+                  )}
+                  <img
+                    src={pair.image2}
+                    alt={pair.alt2}
+                    onLoad={() => handleImageLoad(i * 2 + 1)}
+                  />
                 </div>
               </div>
             ))}
