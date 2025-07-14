@@ -5,6 +5,7 @@
     .projects-details-slider {
       display: flex;
       gap: 2px;
+      padding-left: 1.1vw;
 
       a {
         &:hover {
@@ -38,7 +39,7 @@
           gap: 12px;
           padding: 18px 20px;
           background-color: var(--black);
-          
+
           span {
             font-size: 14px;
             line-height: 20px;
