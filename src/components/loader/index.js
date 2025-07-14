@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import "./loader.scss"
 import loaderimage1 from "../../assets/images/loaderimage1.webp"
 import loaderimage2 from "../../assets/images/loaderimage2.webp"
@@ -24,29 +24,23 @@ export default function Loader() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [hide, setHide] = useState(false);
     const [show, setShow] = useState(true);
+    const intervalRef = useRef(null);
 
     useEffect(() => {
         if (!show) return;
-        let interval;
-        if (currentIndex < images.length - 1) {
-            interval = setInterval(() => {
-                setCurrentIndex(prev => {
-                    if (prev < images.length - 1) {
-                        return prev + 1;
-                    } else {
-                        clearInterval(interval);
-                        return prev;
-                    }
-                });
-            }, 200);
-        } else if (currentIndex === images.length - 1) {
-            const hideTimer = setTimeout(() => {
-                setHide(true);
-            }, 700);
-            return () => clearTimeout(hideTimer);
-        }
-        return () => interval && clearInterval(interval);
-    }, [currentIndex, show]);
+        intervalRef.current = setInterval(() => {
+            setCurrentIndex(prev => {
+                if (prev < images.length - 1) {
+                    return prev + 1;
+                } else {
+                    clearInterval(intervalRef.current);
+                    setTimeout(() => setHide(true), 700);
+                    return prev;
+                }
+            });
+        }, 200);
+        return () => clearInterval(intervalRef.current);
+    }, [show]);
 
     useEffect(() => {
         if (hide) {
