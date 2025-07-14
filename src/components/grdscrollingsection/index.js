@@ -83,7 +83,7 @@ export default function Grdscrollingsection() {
             {imagePairs.map((pair, i) => (
               <div className='grid-scroll-box-main' ref={el => boxRefs.current[i] = el} key={i}>
                 <div className='grid-scroll-box-image1' ref={el => image1Refs.current[i] = el}>
-                  {loaded[i * 2] && (
+                  {!loaded[i * 2] && (
                     <ImageSkeletonLoader />
                   )}
                   <img
@@ -93,7 +93,7 @@ export default function Grdscrollingsection() {
                   />
                 </div>
                 <div className='grid-scroll-box-image2'>
-                  {loaded[i * 2 + 1] && (
+                  {!loaded[i * 2 + 1] && (
                     <ImageSkeletonLoader />
                   )}
                   <img
