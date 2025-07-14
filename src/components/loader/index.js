@@ -27,18 +27,27 @@ export default function Loader() {
 
     useEffect(() => {
         if (!show) return;
+        let interval;
         if (currentIndex < images.length - 1) {
-            const timer = setTimeout(() => {
-                setCurrentIndex(prev => prev + 1);
+            interval = setInterval(() => {
+                setCurrentIndex(prev => {
+                    if (prev < images.length - 1) {
+                        return prev + 1;
+                    } else {
+                        clearInterval(interval);
+                        return prev;
+                    }
+                });
             }, 200);
-            return () => clearTimeout(timer);
-        } else {
-            const timer = setTimeout(() => {
+        } else if (currentIndex === images.length - 1) {
+            const hideTimer = setTimeout(() => {
                 setHide(true);
             }, 700);
-            return () => clearTimeout(timer);
+            return () => clearTimeout(hideTimer);
         }
+        return () => interval && clearInterval(interval);
     }, [currentIndex, show]);
+
     useEffect(() => {
         if (hide) {
             const timer = setTimeout(() => {
