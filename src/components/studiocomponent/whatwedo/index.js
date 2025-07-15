@@ -111,7 +111,7 @@ export default function Whatwedo() {
                     <div className='whatwedo-list-flx'>
                         {whatWeDoData.map((item, idx) => (
                             <div
-                                className='whatwedo-list blend-mode'
+                                className='whatwedo-list cursor-default blend-mode'
                                 key={item.label}
                                 ref={el => listRefs.current[idx] = el}
                                 onMouseEnter={handleMouseEnter(idx)}

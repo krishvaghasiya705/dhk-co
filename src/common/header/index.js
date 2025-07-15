@@ -100,7 +100,7 @@ export default function Header() {
               <div>
                 {location.pathname === '/projects' &&
                   <div className='header-dropdown-main'>
-                    <div className={`header-dropdown${dropdownOpen ? ' active' : ''}`} onClick={toggleDropdown}>
+                    <div className={`header-dropdown cursor-pointer ${dropdownOpen ? 'cursor-pointer active' : ''}`} onClick={toggleDropdown}>
                       <Commonbutton ButtonLink="none" Buttonclass="butonspacefour" ButtonHover="none" Buttonicon={<Dropdownicon />} />
                       <p className='blend-mode'>{selectedItem}</p>
                     </div>
@@ -112,7 +112,7 @@ export default function Header() {
                             <p
                               key={index}
                               onClick={() => handleDropdownItemClick(item, displayText)}
-                              className={item === selectedItem ? 'selected' : ''}
+                              className={item === selectedItem ? 'selected' : 'cursor-pointer'}
                             >
                               {displayText}
                             </p>
@@ -140,12 +140,12 @@ export default function Header() {
             <div className='header-right-content'>
               <div className='header-theme-button-flx'>
                 {location.pathname === '/' && <>
-                  <span className={theme === "dark" ? 'active' : ''} onClick={() => toggleTheme('dark')}>dark</span>
-                  <span className={theme === "light" ? 'active' : ''}>/</span>
-                  <span className={theme === "light" ? 'active' : ''} onClick={() => toggleTheme('light')}>light</span>
+                  <span className={theme === "dark" ? 'active cursor-default' : 'cursor-pointer'} onClick={() => toggleTheme('dark')}>dark</span>
+                  <span className={theme === "light" ? 'active cursor-default' : 'cursor-pointer'}>/</span>
+                  <span className={theme === "light" ? 'active cursor-default' : 'cursor-pointer'} onClick={() => toggleTheme('light')}>light</span>
                 </>}
               </div>
-              <div className='menu-icon' onClick={() => {
+              <div className='menu-icon cursor-pointer' onClick={() => {
                 setSidebarOpen(true);
                 setProjectInfoOpen(false);
               }}>

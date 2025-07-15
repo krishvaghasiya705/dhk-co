@@ -58,11 +58,11 @@ export default function Footer() {
                     )}
                     <input type="email" placeholder='email address' value={email} onChange={e => setEmail(e.target.value)} />
                   </div>
-                  <button type='button' className='common-button-sc-main'>{`[ submit ]`}</button>
+                  <button type='button' className='common-button-sc-main cursor-pointer'>{`[ submit ]`}</button>
                 </form>
               </div>
               <div className='footer-contact-button'>
-                <Commonbutton ButtonLink="/" Buttonclass="butonspacefourty" Buttontext="contact us" />
+                <Commonbutton ButtonLink="/contact" Buttonclass="butonspacefourty" Buttontext="contact us" />
               </div>
             </div>
           </div>

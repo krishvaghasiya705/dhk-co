@@ -30,7 +30,7 @@ export default function Leadersmodal({ isOpen, onClose, leaderData }) {
   return (
     <div>
       <div
-        className={`leaders-modal-overlay${isOpen ? ' open' : ''}`}
+        className={`leaders-modal-overlay cursor-pointer ${isOpen ? ' open' : ''}`}
         onClick={onClose}
       ></div>
       <div className={`leaders-modal-close-button${isOpen ? ' open' : ''}`}>

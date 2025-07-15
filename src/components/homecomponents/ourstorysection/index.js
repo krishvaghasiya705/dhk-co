@@ -1,21 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./ourstorysection.scss"
 import ourstoryimage1 from "../../../assets/images/ourstoryimage1.webp"
 import ourstoryimage2 from "../../../assets/images/ourstoryimage2.webp"
 import Commonbutton from '../../commonbutton'
+import Skeletonloader from '../../skeletonloader/skeletonloader'
 
 export default function Ourstorysection() {
+    const [img1Loaded, setImg1Loaded] = useState(false);
+    const [img2Loaded, setImg2Loaded] = useState(false);
     return (
         <>
             <div className='our-story-section'>
                 <div className="container-full">
                     <div className="our-story-flx-col">
                         <div className='ourstoryimage1'>
-                            <img src={ourstoryimage1} alt="ourstoryimage1" />
+                            {!img1Loaded && <Skeletonloader />}
+                            <img
+                                src={ourstoryimage1}
+                                alt="ourstoryimage1"
+                                onLoad={() => setImg1Loaded(true)}
+                            />
                         </div>
                         <div className='our-story-flx'>
                             <div className='ourstoryimage2'>
-                                <img src={ourstoryimage2} alt="ourstoryimage2" />
+                                {!img2Loaded && <Skeletonloader />}
+                                <img
+                                    src={ourstoryimage2}
+                                    alt="ourstoryimage2"
+                                    onLoad={() => setImg2Loaded(true)}
+                                />
                             </div>
                             <div className='our-story-flx-content-right blend-mode'>
                                 <div className='our-story-flx-content-right-flx'>

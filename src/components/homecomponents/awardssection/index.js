@@ -62,7 +62,7 @@ export default function Awardssection() {
                                 <div className='awards-right-flx-col'>
                                     {awardsData.slice(0, visibleCount).map((award, idx) => (
                                         <div
-                                            className='awards-right-flx'
+                                            className='awards-right-flx cursor-pointer'
                                             key={idx}
                                             ref={el => containerRefs.current[idx] = el}
                                             onMouseMove={e => handleMouseMove(e, idx)}
@@ -75,8 +75,6 @@ export default function Awardssection() {
                                                 style={{
                                                     visibility: hoveredIndex === idx ? 'visible' : 'hidden',
                                                     top: hoveredIndex === idx ? imageY : 0,
-                                                    left: 0,
-                                                    position: 'absolute',
                                                     pointerEvents: 'none',
                                                     transition: 'top 0.1s',
                                                 }}

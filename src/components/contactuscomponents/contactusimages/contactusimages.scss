@@ -1,0 +1,32 @@
+.contact-us-images-section-main {
+    height: calc(100vh - 77px - 376px);
+
+    .contact-us-images-flx-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .contact-us-images-flx-box {
+            aspect-ratio: 1;
+            flex: 1;
+            width: auto;
+            position: relative;
+
+            &.active {
+                flex: 2 auto;
+            }
+
+            &.active {
+                flex-grow: 2;
+            }
+
+            .contact-us-image-main {
+                position: absolute;
+
+                .contact-us-image{
+                    position: relative;
+                }
+            }
+        }
+    }
+}

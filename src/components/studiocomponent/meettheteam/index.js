@@ -55,7 +55,7 @@ export default function Meettheteam() {
                     <div className='meet-the-team-sliding-section-main' ref={slidingRef}>
                         <div className='meet-the-team-sliding-section'>
                             {Theteamdata.map((i, index) => (
-                                <div className='meet-the-team-box-main' key={index}>
+                                <div className='meet-the-team-box-main cursor-pointer' key={index}>
                                     <div className='meet-the-team-box-img'>
                                         <img src={i.Theteamimage} alt={i.Theteamimage} onLoad={handleImageLoad} />
                                     </div>

@@ -28,7 +28,7 @@ export default function ArticledetailSection({ article, articles, currentIndex }
         <div className='article-detail-section-content-left-main blend-mode'>
           <div className='article-detail-section-content-left'>
             <button type='button' className='tag-button'>{article.Tag}</button>
-            <div className='share-article-button' onClick={handleShareClick}>
+            <div className='share-article-button cursor-pointer' onClick={handleShareClick}>
               <span className='blend-mode'>Share Article</span>
               <Arrowrighticon />
             </div>

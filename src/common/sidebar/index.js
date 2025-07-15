@@ -72,7 +72,7 @@ export default function Sidebar({ isOpen, onClose }) {
                         onClick={onClose}
                     >journal</NavLink>
                 </div>
-                <div className='sidebar-close-main' onClick={onClose} style={{ cursor: 'pointer' }}>
+                <div className='sidebar-close-main cursor-pointer' onClick={onClose} style={{ cursor: 'pointer' }}>
                     <span className='close-text'>close</span>
                     <span className='close-box'></span>
                 </div>
@@ -94,10 +94,10 @@ export default function Sidebar({ isOpen, onClose }) {
                         )}
                         <input type="email" placeholder='email address' value={email} onChange={e => setEmail(e.target.value)} />
                     </div>
-                    <button type='button' className='common-button-sc-main'>{`[ submit ]`}</button>
+                    <button type='button' className='common-button-sc-main cursor-pointer'>{`[ submit ]`}</button>
                 </form>
                 <div onClick={onClose}>
-                    <Commonbutton ButtonLink="/" Buttontext="contact us" />
+                    <Commonbutton ButtonLink="/contact" Buttontext="contact us" />
                 </div>
                 <div className='sidebar-mid-right'>
                     <a href='https://www.instagram.com/dhkarchitects/' target='__blank'>instagram</a>

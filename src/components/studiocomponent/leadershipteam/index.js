@@ -27,7 +27,7 @@ export default function Leadershipteam() {
                     </div>
                     <div className='leader-ship-team-list-flx'>
                         {Leadershipdata.map((i, index) => (
-                            <div className='leader-ship-team-list-grd' key={index} onClick={() => handleLeaderClick(i)}>
+                            <div className='leader-ship-team-list-grd cursor-pointer' key={index} onClick={() => handleLeaderClick(i)}>
                                 <div className='leader-ship-team-list-img'>
                                     <img src={i.Leaderimg} alt="leadershipimg1" />
                                 </div>

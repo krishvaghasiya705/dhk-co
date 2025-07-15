@@ -5,6 +5,7 @@ import Projects from "../module/projects";
 import Studio from "../module/studio";
 import Journal from "../module/journal";
 import Articledetail from "../module/articledetail";
+import Contact from "../module/contact";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: "/journal/:title",
                 element: <Articledetail />
+            },
+            {
+                path: "/contact",
+                element: <Contact />
             },
         ]
     }

@@ -86,7 +86,7 @@ export default function Projectscomponent() {
                         <div className={`projects-top-left blend-mode ${viewMode === 'list' ? ' active' : ''}`}>
                             <div className='projects-top-left-flx'>
                                 <span
-                                    className={viewMode === 'grid' ? 'active' : ''}
+                                    className={viewMode === 'grid' ? 'active cursor-default' : 'cursor-pointer'}
                                     onClick={() => setViewMode('grid')}
                                     data-cursor-hover
                                 >
@@ -94,7 +94,7 @@ export default function Projectscomponent() {
                                 </span>
                                 <span>/</span>
                                 <span
-                                    className={viewMode === 'list' ? 'active' : ''}
+                                    className={viewMode === 'list' ? 'active cursor-default' : 'cursor-pointer'}
                                     onClick={() => setViewMode('list')}
                                     data-cursor-hover
                                 >
@@ -149,7 +149,7 @@ export default function Projectscomponent() {
                             {filteredProjects.map((project, idx) => (
                                 <NavLink
                                     to={`/projects/${project.title.replace(/\s+/g, '-').toLowerCase()}`}
-                                    className='projects-bottom'
+                                    className='projects-bottom cursor-pointer'
                                     key={project.title}
                                     ref={el => projectsRef.current[idx] = el}
                                 >

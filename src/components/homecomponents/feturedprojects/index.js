@@ -8,8 +8,10 @@ import featuredimage4 from "../../../assets/images/featuredimage4.webp"
 import featuredimage5 from "../../../assets/images/featuredimage5.webp"
 import Cursorbutton from '../../cursorbutton'
 import Commonbutton from '../../commonbutton'
+import Skeletonloader from '../../skeletonloader/skeletonloader'
 
 export default function Featuredprojects() {
+    const [imgLoaded, setImgLoaded] = useState(false);
     const [cursorBtn, setCursorBtn] = useState({ visible: false, x: 0, y: 0 });
 
     const handleMouseMove = (e) => {
@@ -101,7 +103,8 @@ export default function Featuredprojects() {
                                         onMouseLeave={handleMouseLeave}
                                     >
                                         <div className='featured-box-img'>
-                                            <img src={item.image} alt={item.title} />
+                                            {!imgLoaded && <Skeletonloader />}
+                                            <img src={item.image} alt={item.title} onLoad={() => setImgLoaded(true)} />
                                         </div>
                                         <div className='featured-box-content'>
                                             <p>{item.title}</p>

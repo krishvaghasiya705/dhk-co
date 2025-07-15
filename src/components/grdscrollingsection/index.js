@@ -8,7 +8,7 @@ import grdimage2 from "../../assets/images/grdimage2.webp"
 import grdimage3 from "../../assets/images/grdimage3.webp"
 import grdimage4 from "../../assets/images/grdimage4.webp"
 import grdimage5 from "../../assets/images/grdimage5.webp"
-import ImageSkeletonLoader from '../common/ImageSkeletonLoader'
+import Skeletonloader from '../skeletonloader/skeletonloader'
 const imagePairs = [
   { image1: Dhklogo, alt1: "Dhklogo", image2: grdimage3, alt2: "grdimage3" },
   { image1: grdimage1, alt1: "grdimage1", image2: grdimage4, alt2: "grdimage4" },
@@ -84,7 +84,7 @@ export default function Grdscrollingsection() {
               <div className='grid-scroll-box-main' ref={el => boxRefs.current[i] = el} key={i}>
                 <div className='grid-scroll-box-image1' ref={el => image1Refs.current[i] = el}>
                   {!loaded[i * 2] && (
-                    <ImageSkeletonLoader />
+                    <Skeletonloader />
                   )}
                   <img
                     src={pair.image1}
@@ -94,7 +94,7 @@ export default function Grdscrollingsection() {
                 </div>
                 <div className='grid-scroll-box-image2'>
                   {!loaded[i * 2 + 1] && (
-                    <ImageSkeletonLoader />
+                    <Skeletonloader />
                   )}
                   <img
                     src={pair.image2}

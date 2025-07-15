@@ -97,7 +97,6 @@ header {
           display: flex;
           align-items: center;
           gap: 12px;
-          cursor: pointer;
 
           &.active {
             svg {
@@ -129,7 +128,6 @@ header {
             font-weight: 700;
             color: var(--white);
             font-family: var(--primary-font);
-            cursor: pointer;
           }
         }
       }
@@ -205,18 +203,15 @@ header {
           font-weight: 700;
           color: var(--grey);
           font-family: var(--primary-font);
-          cursor: pointer;
           transition: 0.2s ease-in-out;
 
           &.active {
-            cursor: default;
             color: var(--white);
           }
         }
       }
 
       .menu-icon {
-        cursor: pointer;
         span {
           font-size: 16px;
           line-height: 23px;
