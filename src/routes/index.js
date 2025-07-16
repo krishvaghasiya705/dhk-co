@@ -6,6 +6,7 @@ import Studio from "../module/studio";
 import Journal from "../module/journal";
 import Articledetail from "../module/articledetail";
 import Contact from "../module/contact";
+import ErrorPage from "../module/errorpage";
 
 const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
                 element: <Contact />
             },
         ]
+    },
+    {
+        path: "*",
+        element: <ErrorPage />
     }
 ])
 

@@ -7,11 +7,12 @@
   height: auto;
   mix-blend-mode: difference;
   overflow: hidden;
+  padding: 100px 0 0 0;
 
   svg {
     width: calc(100% + 30%);
-    margin-left: -15%;
     height: auto;
+    margin-left: -15%;
 
     path {
       stroke: #fff;
