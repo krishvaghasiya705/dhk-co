@@ -28,21 +28,21 @@ export default function Featuredprojects() {
             image: featuredimage1,
             title: "Longkloof Precinct",
             year: "2024",
-            link: "/"
+            link: "/projects/longkloof-precinct"
         },
         {
             id: 2,
             image: featuredimage2,
             title: "Olympus Sandton",
             year: "2027",
-            link: "/"
+            link: "/projects/olympus-sandton"
         },
         {
             id: 3,
             image: featuredimage3,
             title: "Al Marjan",
             year: "2028",
-            link: "/"
+            link: "/projects/al-marjan"
         },
         {
             id: 4,
@@ -57,14 +57,14 @@ export default function Featuredprojects() {
             image: featuredimage4,
             title: "Ahmed Baba Institute",
             year: "2009",
-            link: "/"
+            link: "/projects/ahmed-baba-institute"
         },
         {
             id: 7,
             image: featuredimage5,
             title: "The Signature",
             year: "2027",
-            link: "/"
+            link: "/projects/the-signature"
         }
     ];
 

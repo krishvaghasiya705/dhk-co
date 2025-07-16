@@ -1,0 +1,20 @@
+.svg-animate-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: difference;
+  overflow: hidden;
+
+  svg {
+    width: calc(100% + 30%);
+    margin-left: -15%;
+    height: auto;
+
+    path {
+      stroke: #fff;
+    }
+  }
+}
