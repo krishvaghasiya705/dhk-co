@@ -6,9 +6,11 @@ import LenisScroll from '../components/scroll/lenisscroll'
 import Cursor from '../components/cursor/cursor'
 import Loader from '../components/loader'
 import Grdscrollingsection from '../components/grdscrollingsection'
+import { useTheme } from '../contexts/ThemeContext';
 
 export default function DefaultLayout() {
     const location = useLocation();
+    const { theme } = useTheme();
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -34,9 +36,9 @@ export default function DefaultLayout() {
         if (location.pathname === "/journal" || location.pathname.startsWith("/journal/")) {
             document.body.style.backgroundColor = "#fff";
         } else {
-            document.body.style.backgroundColor = "#000";
+            document.body.style.backgroundColor = theme === "dark" ? "#000" : "#fff";
         }
-    }, [location.pathname]);
+    }, [location.pathname, theme]);
     return (
         <>
             <Loader />

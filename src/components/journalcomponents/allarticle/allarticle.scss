@@ -24,15 +24,16 @@
   .article {
     padding: 0 0 0 20px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     &:hover {
-      .article-content-main {
-        p {
-          display: block;
+      .article-left-content {
+        .article-content-main {
+          p {
+            display: block;
+          }
         }
       }
-
       .article-image {
         .article-layer {
           opacity: 0.2;
@@ -43,48 +44,46 @@
       }
     }
 
-    .article-tag-button {
-      grid-column: auto / span 1;
-      background-color: var(--black);
+    .article-left-content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
 
-      .tag-button {
-        padding: 0 6px;
-        background-color: var(--white);
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
-        font-family: var(--primary-font);
-        color: var(--black);
-        border: none;
-      }
-    }
-
-    .article-content-main {
-      grid-column: 4 / span 3;
-      background-color: var(--black);
-
-      h2 {
-        font-size: 18px;
-        line-height: 21px;
-        font-weight: 500;
-        font-family: var(--primary-font);
-        color: var(--white);
-        margin-bottom: 2px;
+      .article-tag-button {
+        .tag-button {
+          padding: 0 6px;
+          background-color: var(--white);
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 600;
+          font-family: var(--primary-font);
+          color: #000;
+          border: none;
+        }
       }
 
-      p {
-        font-size: 18px;
-        line-height: 21px;
-        font-weight: 500;
-        font-family: var(--primary-font);
-        color: var(--white);
-        opacity: 0.3;
-        display: none;
+      .article-content-main {
+        h2 {
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 500;
+          font-family: var(--primary-font);
+          color: var(--white);
+          margin-bottom: 2px;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 500;
+          font-family: var(--primary-font);
+          color: var(--white);
+          opacity: 0.3;
+          display: none;
+        }
       }
     }
 
     .article-image {
-      grid-column: auto / span 6;
       aspect-ratio: 6.97 / 3;
       position: relative;
 

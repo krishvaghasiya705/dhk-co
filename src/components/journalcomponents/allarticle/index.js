@@ -27,12 +27,14 @@ export default function Allarticle() {
                 <div className="container-full">
                     {displayedArticles.map((i, index) => (
                         <Link to={`/journal/${encodeURIComponent(i.Title)}`} className='article' key={index}>
-                            <div className='article-tag-button blend-mode'>
-                                <button type='button' className='tag-button'>{i.Tag}</button>
-                            </div>
-                            <div className='article-content-main blend-mode'>
-                                <h2>{i.Title}</h2>
-                                <p>{i.MainPara}</p>
+                            <div className='article-left-content blend-mode'>
+                                <div className='article-tag-button'>
+                                    <button type='button' className='tag-button'>{i.Tag}</button>
+                                </div>
+                                <div className='article-content-main'>
+                                    <h2>{i.Title}</h2>
+                                    <p>{i.MainPara}</p>
+                                </div>
                             </div>
                             <div className='article-image'>
                                 <img src={i.BannerImage} alt={i.BannerImage} />
@@ -47,9 +49,9 @@ export default function Allarticle() {
             </div>
             {hasMoreArticles && (
                 <div className='article-load-more'>
-                    <Commonbutton 
-                        ButtonLink="none" 
-                        Buttontext="load more" 
+                    <Commonbutton
+                        ButtonLink="none"
+                        Buttontext="load more"
                         Buttonclass="butonspacefourty"
                         onClick={handleLoadMore}
                     />
